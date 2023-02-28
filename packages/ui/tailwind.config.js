@@ -30,6 +30,10 @@ module.exports = {
                         500: "#FCFCFC",
                         600: "#F9FAFA",
                         700: "#1E2229", 
+                    },
+                    menuicon: {
+                        100: "#5F5F5F",
+                        200: "#00FFA3"
                     }
                 },
                 border:  {
