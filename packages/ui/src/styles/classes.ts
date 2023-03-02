@@ -15,7 +15,7 @@ export class Classes {
         Classes.start,
         Classes.animated,
         Classes.transform,
-        "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-black cursor-pointer disabled:pointer-events-none"
+        "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-component-btn-200 cursor-pointer disabled:pointer-events-none"
     )
 
     static baseButton = classnames(
@@ -47,7 +47,7 @@ export class Classes {
 
     static actionButton = classnames(
         Classes.iconButton,
-        "bg-white border border-gray-200 hover:border-black"
+        "bg-component-btn-200 bg-opacity-[8%] hover:bg-opacity-[20%]"
     )
 
     static logoutButton = classnames(
@@ -98,7 +98,7 @@ export class Classes {
     )
     static inputLabel = classnames("text-xs")
     static inputBordered = classnames(
-        "text-sm rounded-md border-1 border-gray-200 placeholder-gray-400 focus:ring-0"
+        "text-sm rounded-md placeholder-gray-400 focus:ring-0"
     )
     static input = classnames(
         "w-full text-xs px-4 rounded-md py-5 text-white border-[1px] border-component-input-border placeholder-component-input-placeholder focus:ring-0"

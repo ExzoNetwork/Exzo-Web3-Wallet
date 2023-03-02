@@ -51,7 +51,7 @@ const ToggleButton: FunctionComponent<{
                 !disabled && !readOnly && "cursor-pointer"
             )}
         >
-            {label && <div className="font-bold text-sm text-body-balances-300">{label}</div>}
+            {label && <div className="font-bold text-sm text-component-btn-200">{label}</div>}
             <div className="group relative">
                 <div
                     className={classnames(
@@ -61,7 +61,7 @@ const ToggleButton: FunctionComponent<{
                 ></div>
                 <div
                     className={classnames(
-                        "dot absolute left-0.5 top-0.5 bg-white w-5 h-5 rounded-full transition transform",
+                        "dot absolute left-0.5 top-0.5 bg-gray-900 w-5 h-5 rounded-full transition transform",
                         isChecked && "translate-x-full"
                     )}
                 ></div>

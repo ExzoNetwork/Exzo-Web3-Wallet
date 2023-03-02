@@ -357,18 +357,6 @@ const NetworkFormPage = ({
                     }
                 />
             }
-            footer={
-                editMode !== "disabled" && !editingSelectedNetwork ? (
-                    <PopupFooter>
-                        <ButtonWithLoading
-                            label="Save"
-                            type="submit"
-                            disabled={!canSubmitForm}
-                            onClick={onSave}
-                        />
-                    </PopupFooter>
-                ) : null
-            }
         >
             {!isNativelySupported && (
                 <CollapsableWarning
@@ -496,6 +484,7 @@ const NetworkFormPage = ({
                                 editMode === "disabled" ||
                                 editingSelectedNetwork
                             }
+                            className="bg-component-input-bg"
                         />
                     </div>
                     <TextInput
@@ -517,6 +506,7 @@ const NetworkFormPage = ({
                                 rpcValidation={rpcValidationStatus}
                             />
                         }
+                        className="bg-component-input-bg"
                     />
                     <TextInput
                         appearance="outline"
@@ -543,6 +533,7 @@ const NetworkFormPage = ({
                         }
                         defaultValue={network?.chainId}
                         readOnly={editMode !== "all"}
+                        className="bg-component-input-bg"
                     />
                     <TextInput
                         appearance="outline"
@@ -558,6 +549,7 @@ const NetworkFormPage = ({
                         autoFocus={true}
                         defaultValue={network?.symbol}
                         readOnly={editMode !== "all"}
+                        className="bg-component-input-bg"
                     />
                     <TextInput
                         appearance="outline"
@@ -570,6 +562,7 @@ const NetworkFormPage = ({
                         readOnly={
                             editMode === "disabled" || editingSelectedNetwork
                         }
+                        className="bg-component-input-bg"
                     />
                     <ToggleButton
                         label="Testnet"
@@ -600,6 +593,18 @@ const NetworkFormPage = ({
                     )}
                 </div>
             </div>
+            {
+                editMode !== "disabled" && !editingSelectedNetwork ? (
+                        <PopupFooter>
+                            <ButtonWithLoading
+                                label="Save"
+                                type="submit"
+                                disabled={!canSubmitForm}
+                                onClick={onSave}
+                            />
+                        </PopupFooter>
+                    ) : null
+            }
         </PopupLayout>
     )
 }

@@ -16,12 +16,12 @@ const EmptyState: React.FC<PropsWithChildren<EmptyStateProps>> = ({
     return (
         <div
             className={classnames(
-                "items-center flex flex-col space-y-1 text-center",
+                "items-center flex flex-col space-y-1 text-center text-txt-settings",
                 className || ""
             )}
         >
             <Icon size="xl" name={iconName || IconName.EMPTY_DRAWER} />
-            <Typography type={TypographyType.TITLE}>{title}</Typography>
+            <Typography className="text-white" type={TypographyType.TITLE}>{title}</Typography>
             {children}
         </div>
     )

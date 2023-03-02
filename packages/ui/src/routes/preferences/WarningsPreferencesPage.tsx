@@ -55,22 +55,9 @@ const WarningsPreferencesPage = () => {
     return (
         <PopupLayout
             header={<PopupHeader title="Warnings" close="/" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label="Save"
-                        disabled={deepEqual(
-                            warningsConfig,
-                            initialState.current
-                        )}
-                        onClick={onSave}
-                        isLoading={isLoading}
-                    />
-                </PopupFooter>
-            }
         >
-            <div className="flex flex-col p-6 space-y-6 w-full">
-                <span className="text-sm text-gray-500">
+            <div className="flex flex-col p-6 pb-0 space-y-6 w-full">
+                <span className="text-sm text-txt-settings">
                     Warn me when my selected account address is different from
                     transaction's address.
                 </span>
@@ -86,7 +73,7 @@ const WarningsPreferencesPage = () => {
                 />
 
                 <hr />
-                <span className="text-sm text-gray-500">
+                <span className="text-sm text-txt-settings">
                     Warn me when a dApp suggests fees much lower/higher than
                     recommended.
                 </span>
@@ -105,7 +92,7 @@ const WarningsPreferencesPage = () => {
                 />
 
                 <hr />
-                <span className="text-sm text-gray-500">
+                <span className="text-sm text-txt-settings">
                     Warn me when I haven't enough funds in the destination
                     network of a bridge
                 </span>
@@ -129,6 +116,17 @@ const WarningsPreferencesPage = () => {
                 message="Your changes have been succesfully saved!"
                 onDone={history.goBack}
             />
+            <PopupFooter>
+                <ButtonWithLoading
+                    label="Save"
+                    disabled={deepEqual(
+                        warningsConfig,
+                        initialState.current
+                    )}
+                    onClick={onSave}
+                    isLoading={isLoading}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

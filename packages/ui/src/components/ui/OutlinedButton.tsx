@@ -12,8 +12,8 @@ const OutlinedButton: FC<PropsWithChildren<OutlinedButtonProps>> = ({
     return (
         <button
             className={classnames(
-                "flex flex-row items-center bg-white border border-gray-200 hover:border-black justify-between",
-                "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-black w-full",
+                "flex flex-row items-center  justify-between",
+                "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-white w-full bg-component-btn-200 bg-opacity-[8%] hover:bg-opacity-20",
                 onClick && "cursor-pointer",
                 className
             )}

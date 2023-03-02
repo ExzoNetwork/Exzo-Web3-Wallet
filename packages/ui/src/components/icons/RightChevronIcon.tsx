@@ -3,7 +3,7 @@ import classnames from "classnames"
 const RightChevronIcon: React.FC<{ className?: string }> = ({ className }) => {
     return (
         <svg
-            className={classnames("w-3 h-3 stroke-black", className)}
+            className={classnames("w-3 h-3 stroke-component-btn-200", className)}
             viewBox="0 0 8 12"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

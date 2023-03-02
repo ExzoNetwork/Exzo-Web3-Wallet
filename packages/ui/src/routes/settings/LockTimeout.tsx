@@ -54,15 +54,6 @@ const LockTimeout = () => {
                 isEnabled: selectedTimeout !== currentTimeout,
             }}
             header={<PopupHeader title="Lock Timeout" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label="Save"
-                        disabled={selectedTimeout === currentTimeout}
-                        onClick={onSave}
-                    />
-                </PopupFooter>
-            }
         >
             <WaitingDialog
                 open={isOpen}
@@ -88,7 +79,7 @@ const LockTimeout = () => {
                 }}
             />
             <div className="flex flex-col p-6 space-y-6 w-full">
-                <span className="text-sm text-gray-500">
+                <span className="text-sm text-txt-settings">
                 ExzoWallet will automatically lock and require an
                     additional login after the selected period.
                 </span>
@@ -121,6 +112,13 @@ const LockTimeout = () => {
                     </div>
                 )}
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label="Save"
+                    disabled={selectedTimeout === currentTimeout}
+                    onClick={onSave}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

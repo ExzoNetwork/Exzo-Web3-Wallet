@@ -8,10 +8,11 @@ const ClickToReveal: FunctionComponent<{
     revealed: boolean
     onClick: () => void
     isReminder: boolean
-}> = ({ hiddenText, revealMessage, revealed, onClick, isReminder = false }) => {
+    isPrivate: boolean
+}> = ({ hiddenText, revealMessage, revealed, onClick, isReminder = false, isPrivate = false}) => {
     const phraseArray = hiddenText ? hiddenText.split(" ") : [];
     return (
-        <div className="relative px-8 py-12 overflow-hidden rounded-3xl bg-container-reveal bg-opacity-20">
+        <div className="relative px-4 py-12 overflow-hidden rounded-3xl bg-container-reveal bg-opacity-20">
             {/* {!revealed ? (
                 <button
                     type="button"
@@ -22,17 +23,21 @@ const ClickToReveal: FunctionComponent<{
                     <span className="font-bold text-white">{revealMessage}</span>
                 </button>
             ) : null} */}
-            <div className="grid grid-cols-3 gap-3">
-                {
-                    phraseArray.map((one, index) =>  {
-                        return (
-                            <div className={classnames("text-component-btn-200 text-left", isReminder ? "text-xs" : "text-base")}>
-                                {index+1}{". "}<span className="text-white">{one}</span>
-                            </div>
-                        )
-                    })
-                }
-            </div>
+            {
+                !isPrivate ? 
+                <div className="grid grid-cols-3 gap-3">
+                    {
+                        phraseArray.map((one, index) =>  {
+                            return (
+                                <div className={classnames("text-component-btn-200 text-left", isReminder ? "text-xs" : "text-base")}>
+                                    {index+1}{". "}<span className="text-white">{one}</span>
+                                </div>
+                            )
+                        })
+                    }
+                </div> : <div className="text-txt-settings">{phraseArray[0].slice(0,36)}...</div>
+            }
+            
             {/* <span
                 className="font-bold break-words allow-select text-body-balances-200"
                 style={revealed ? {} : {}}

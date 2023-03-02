@@ -5,7 +5,7 @@ const ThreeDotsIcon: React.FC<any> = ({ className }) => {
             width="16"
             height="4"
             viewBox="0 0 16 4"
-            className={classnames("fill-black", className)}
+            className={classnames("fill-component-btn-200", className)}
             xmlns="http://www.w3.org/2000/svg"
         >
             <path d="M8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4Z" />

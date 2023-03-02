@@ -53,25 +53,24 @@ const ConnectedSiteAccount: FunctionComponent<{
 
     return (
         <>
-            <div className="flex flex-col items-start">
+            <div className="flex flex-col items-start hover:bg-opacity-20 bg-body-assets-100 active:bg-opacity-20 p-2 rounded-lg">
                 <div className="flex flex-row items-center justify-between w-full">
                     <div className="flex flex-row items-center space-x-4">
                         <div className="flex flex-row items-center justify-center w-10 h-10 rounded-full">
                             <AccountIcon
-                                className="w-10 h-10"
                                 fill={getAccountColor(account.address)}
                             />
                         </div>
                         <div className="flex flex-col space-y-1 cursor-default">
                             <div className="flex flex-row space-x-1">
                                 <span
-                                    className="text-sm font-bold text-gray-800 cursor-text"
+                                    className="text-sm font-bold text-txt-settings cursor-text"
                                     title={account.name}
                                 >
                                     {formatName(account.name, 18)}{" "}
                                 </span>
                                 <span
-                                    className="font-bold text-black cursor-text"
+                                    className="font-bold text-white cursor-text"
                                     title={account.address}
                                 >
                                     {formatHashLastChars(account.address)}
@@ -241,7 +240,7 @@ const ConnectedSiteAccountsPage = () => {
                 ></PopupHeader>
             }
         >
-            <div className="flex flex-col p-6 space-y-8 text-sm text-gray-500">
+            <div className="flex flex-col p-6 space-y-8 text-sm text-txt-settings">
                 {!isSelectedAccountConnected && (
                     <div>
                         <WarningTip

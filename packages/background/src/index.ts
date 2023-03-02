@@ -102,10 +102,10 @@ const getDevTools = () => {
 const updateExtensionBadge = (label: string) => {
     if (isManifestV3()) {
         chrome.action.setBadgeText({ text: label });
-        chrome.action.setBadgeBackgroundColor({ color: '#1673FF' }); // BlockWallet primary color
+        chrome.action.setBadgeBackgroundColor({ color: '#00FFA3' }); // BlockWallet primary color
     } else {
         chrome.browserAction.setBadgeText({ text: label });
-        chrome.browserAction.setBadgeBackgroundColor({ color: '#1673FF' }); // BlockWallet primary color
+        chrome.browserAction.setBadgeBackgroundColor({ color: '#00FFA3' }); // BlockWallet primary color
     }
 };
 

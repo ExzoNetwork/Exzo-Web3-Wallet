@@ -510,7 +510,7 @@ const ApproveAsset: FunctionComponent<ApproveAssetProps> = ({
                         isCustomSelected ? "hidden" : "visible"
                     )}
                 >
-                    <MiniCheckmark fill="#1673FF" />
+                    <MiniCheckmark fill="#00FFA3" />
                 </div>
                 <p
                     className={classnames(
@@ -546,7 +546,7 @@ const ApproveAsset: FunctionComponent<ApproveAssetProps> = ({
                         isCustomSelected ? "visible" : "hidden"
                     )}
                 >
-                    <MiniCheckmark fill="#1673FF" />
+                    <MiniCheckmark fill="#00FFA3" />
                 </div>
                 <p
                     className={classnames(

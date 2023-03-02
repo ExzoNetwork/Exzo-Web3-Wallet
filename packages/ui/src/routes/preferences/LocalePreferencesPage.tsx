@@ -44,16 +44,6 @@ const LocalePreferencesPage = () => {
                 isEnabled: newCurrency !== nativeCurrency,
             }}
             header={<PopupHeader title="Locale Configuration" close="/" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label="Save"
-                        isLoading={isLoading}
-                        disabled={newCurrency === nativeCurrency}
-                        onClick={onSave}
-                    />
-                </PopupFooter>
-            }
         >
             <SuccessDialog
                 open={showSuccessDialog}
@@ -80,6 +70,14 @@ const LocalePreferencesPage = () => {
                     </Select>
                 ) : null}
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label="Save"
+                    isLoading={isLoading}
+                    disabled={newCurrency === nativeCurrency}
+                    onClick={onSave}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

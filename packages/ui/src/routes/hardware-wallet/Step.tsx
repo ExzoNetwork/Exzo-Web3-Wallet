@@ -19,7 +19,7 @@ const Step = ({
     return (
         <div className={classnames(textSize, "flex items-center space-x-4")}>
             <CenteredTextCircle size={size || "lg"} text={step.toString()} />
-            <span className="font-semibold">{text}</span>
+            <span className="font-semibold text-txt-settings">{text}</span>
         </div>
     )
 }

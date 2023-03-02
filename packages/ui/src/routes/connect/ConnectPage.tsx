@@ -158,19 +158,10 @@ const ConnectSteps = ({
                             />
                         </div>
                     )}
-                    <span className="ml-auto text-sm text-gray-600">
+                    <span className="ml-auto text-sm text-txt-settings">
                         {step} of 2
                     </span>
                 </PopupHeader>
-            }
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label={step === 1 ? "Next" : "Connect"}
-                        disabled={!nextEnabled}
-                        onClick={next}
-                    />
-                </PopupFooter>
             }
         >
             {isLoading && <LoadingOverlay />}
@@ -240,7 +231,7 @@ const ConnectSteps = ({
                         background={false}
                     />
                     <div className="w-max max-w-full group relative">
-                        <p className="text-center text-sm text-gray-800 whitespace-pre-wrap max-w-full truncate">
+                        <p className="text-center text-sm text-white whitespace-pre-wrap max-w-full truncate">
                             {site.origin}
                         </p>
                         <GenericTooltip
@@ -262,11 +253,10 @@ const ConnectSteps = ({
                         />
                     </div>
 
-                    <span className="text-xs text-gray-600">
+                    <span className="text-xs text-txt-settings">
                         Only connect with sites you trust.
                     </span>
                 </div>
-                <Divider />
                 {step === 1 ? (
                     <div className="flex flex-col p-6 space-y-5">
                         <AccountSearchBar
@@ -280,7 +270,7 @@ const ConnectSteps = ({
                         <div className="flex flex-row items-center justify-start w-full text-sm space-x-4 cursor-pointer">
                             <input
                                 type="checkbox"
-                                className={Classes.checkboxAlt}
+                                className={Classes.checkbox}
                                 checked={checkAll}
                                 onClick={() => {
                                     !checkAll
@@ -293,13 +283,13 @@ const ConnectSteps = ({
                                 id="selectAll"
                             />
                             <label
-                                className="text-gray-600 cursor-pointer"
+                                className="text-txt-settings cursor-pointer"
                                 htmlFor="selectAll"
                             >
                                 Please select accounts:
                             </label>
                         </div>
-                        <div className="flex flex-col space-y-3 text-sm text-gray-600">
+                        <div className="flex flex-col space-y-3 text-sm text-txt-settings">
                             <AccountMultipleSelect
                                 accounts={filteredAccounts}
                                 selectedAccount={account}
@@ -310,13 +300,13 @@ const ConnectSteps = ({
                     </div>
                 ) : (
                     <div className="flex flex-col p-6 space-y-6">
-                        <span className="text-sm text-gray-600">
+                        <span className="text-sm text-txt-settings">
                             Allow this site to:
                         </span>
-                        <div className="flex flex-row items-center space-x-4 text-sm text-gray-600 cursor-pointer">
+                        <div className="flex flex-row items-center space-x-4 text-sm text-txt-settings cursor-pointer">
                             <input
                                 type="checkbox"
-                                className={Classes.checkboxAlt}
+                                className={Classes.checkbox}
                                 checked={allowSite}
                                 onChange={() => setAllowSite(!allowSite)}
                                 id="allowCheck"
@@ -332,6 +322,13 @@ const ConnectSteps = ({
                     </div>
                 )}
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label={step === 1 ? "Next" : "Connect"}
+                    disabled={!nextEnabled}
+                    onClick={next}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

@@ -42,7 +42,7 @@ const HardwareWalletVendorsPage = () => {
                         type="button"
                         onClick={() => setSelectedVendor(Devices.LEDGER)}
                         className={classnames(
-                            "bg-white rounded-md p-4 w-1/2 flex flex-col items-center justify-center space-y-3 cursor-pointer border hover:border-primary-300",
+                            "bg-white rounded-md p-4 w-1/2 flex flex-col items-center justify-center space-y-3 cursor-pointer border-2 hover:border-primary-300",
                             selectedVendor === Devices.LEDGER
                                 ? "border-primary-300"
                                 : "border-primary-100"
@@ -74,7 +74,7 @@ const HardwareWalletVendorsPage = () => {
                     </button>
                 </div>
                 <Divider />
-                <div className="w-full flex flex-col p-8 space-y-5">
+                <div className="w-full flex flex-col p-8 space-y-5 text-white">
                     <ExternalLink
                         href="https://help.blockwallet.io/hc/en-us/articles/6670564432657-How-do-Hardware-Wallets-Work-"
                         title="How do Hardware Wallets work?"

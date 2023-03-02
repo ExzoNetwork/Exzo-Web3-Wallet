@@ -10,20 +10,20 @@ const ImportIcon: React.FC<{ className?: string }> = ({ className }) => {
         >
             <path
                 d="M1.66663 13.332V18.332H18.3333V13.332"
-                stroke="#0A121E"
+                stroke="#IMPORT"
                 strokeWidth="2"
                 strokeMiterlimit="10"
                 strokeLinecap="square"
             />
             <path
                 d="M10 1.66602V14.166"
-                stroke="#1673FF"
+                stroke="#00FFA3"
                 strokeWidth="2"
                 strokeMiterlimit="10"
             />
             <path
                 d="M15 9.16602L10 14.166L5 9.16602"
-                stroke="#1673FF"
+                stroke="#00FFA3"
                 strokeWidth="2"
                 strokeMiterlimit="10"
                 strokeLinecap="square"

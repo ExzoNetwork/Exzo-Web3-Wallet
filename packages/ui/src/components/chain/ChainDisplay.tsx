@@ -26,8 +26,8 @@ const ChainDisplay: FC<Props> = ({
         <div
             className={classnames(
                 "flex justify-between items-center flex-row relative px-3 rounded-md transition-all duration-300 active:scale-95",
-                onClick && "cursor-pointer hover:bg-primary-100",
-                selected && "bg-primary-200"
+                onClick && "cursor-pointer hover:bg-body-assets-100",
+                selected && "bg-body-assets-100"
             )}
             onClick={onClick}
         >
@@ -55,7 +55,7 @@ const ChainDisplay: FC<Props> = ({
                     />
                 </div>
                 <div className="flex flex-col space-y-1 justify-start h-full box-border ml-4">
-                    <span className="text-sm text-black font-semibold mr-1 truncate w-48">
+                    <span className="text-sm text-txt-settings font-semibold mr-1 truncate w-48">
                         {name}
                     </span>
                     <span className="text-gray-400 text-xs font-small text-overflow flex flex-row space-x-2 items-center">

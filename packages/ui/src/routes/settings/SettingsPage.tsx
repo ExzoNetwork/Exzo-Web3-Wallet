@@ -149,12 +149,12 @@ const SettingsPage = () => {
                             containerClassName="flex flex-col space-y-4"
                             display={(option, i) => {
                                 const className =
-                                    "flex flex-row space-x-3 items-center text-white"
+                                    "flex flex-row space-x-3 items-center text-txt-settings font-medium"
                                 const children = (
                                     <>
                                         <div
                                             className={classnames(
-                                                option.classes ?? "", "bg-white rounded-full p-1.5"
+                                                option.classes ?? "", "bg-component-btn-200 bg-opacity-[8%] rounded-full p-1.5"
                                             )}
                                         >
                                             <img
@@ -165,7 +165,7 @@ const SettingsPage = () => {
                                                 }
                                             />
                                         </div>
-                                        <span className="font-bold">
+                                        <span>
                                             {option.label}
                                         </span>
                                     </>

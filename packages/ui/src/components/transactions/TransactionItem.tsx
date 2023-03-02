@@ -41,6 +41,7 @@ import {
     getBridgePendingMessage,
 } from "../../util/bridgeUtils"
 import TransactionDetails from "./TransactionDetails"
+import TransactionArrowIcon from "../icons/TransactionArrowIcon"
 
 const transactionMessages = {
     [TransactionCategories.BLANK_DEPOSIT]: "Privacy Pool Deposit",
@@ -500,7 +501,7 @@ const TransactionItem: React.FC<{
         ].includes(transactionCategory)
             ? BridgeDetails
             : TransactionDetails
-
+        console.log("transaction---------", transaction)
     return (
         <>
             <OperationDetails
@@ -510,7 +511,7 @@ const TransactionItem: React.FC<{
             />
 
             <div
-                className={`flex flex-col px-6 py-5 -ml-6 transition duration-300 hover:bg-primary-100 hover:bg-opacity-50 active:bg-primary-200 active:bg-opacity-50 ${
+                className={`flex flex-col px-6 py-5 -ml-6 transition duration-300 rounded-lg hover:bg-container-100 active:bg-container-100 active:bg-opacity-50 ${
                     !(txHash && transaction.transactionParams.from) &&
                     "cursor-default"
                 }`}
@@ -525,13 +526,17 @@ const TransactionItem: React.FC<{
             >
                 {/* Type */}
                 <div className="flex flex-row items-center w-full justify-between">
-                    <TransactionIcon
+                    {/* <TransactionIcon
                         transaction={{
                             transactionCategory,
                             transactionStatus: status,
                         }}
                         transactionIcon={transfer.logo}
-                    />
+                    /> */}
+                    <div className="rounded-md bg-body-balances-100 py-4 px-3 flex items-center justify-center mr-4">
+                        <TransactionArrowIcon direction={transactionCategory === TransactionCategories.INCOMING ? "left" : 
+                        transactionCategory === TransactionCategories.SENT_ETHER ? "right" : "down"}/>
+                    </div>
                     <div
                         className="flex flex-col ml-2"
                         style={{ width: "calc(100% - 1rem)" }}
@@ -541,7 +546,7 @@ const TransactionItem: React.FC<{
                             style={typeCss}
                         >
                             <span
-                                className="text-sm font-bold truncate"
+                                className="text-sm font-bold truncate text-txt-settings"
                                 title={label}
                             >
                                 {formattedLabel}
@@ -655,7 +660,7 @@ const TransactionItem: React.FC<{
                             >
                                 <span
                                     className={classNames(
-                                        "text-sm font-bold text-right mr-1 truncate max-w-[130px]"
+                                        "text-sm font-bold text-white text-right mr-1 truncate max-w-[130px]"
                                     )}
                                 >
                                     {`${valueLabel} ${transfer.currency.toUpperCase()}`}
@@ -663,7 +668,7 @@ const TransactionItem: React.FC<{
                             </div>
                             <div className="w-full flex justify-end">
                                 <span
-                                    className="text-xs text-gray-600 truncate"
+                                    className="text-xs text-txt-settings truncate"
                                     title={transferCurrencyAmount}
                                 >
                                     {transferCurrencyAmount}
@@ -677,7 +682,7 @@ const TransactionItem: React.FC<{
                 bridgeParams &&
                 BRIDGE_PENDING_STATUS.includes(bridgeParams!.status! || "") ? (
                     <div className="ml-11 mt-2">
-                        <i className="text-gray-500">
+                        <i className="text-txt-settings">
                             <>
                                 {
                                     getBridgePendingMessage(

@@ -3,10 +3,11 @@ import HardwareWalletSetupLayout from "./SetupLayout"
 import classnames from "classnames"
 import Step from "./Step"
 import LoadingOverlay from "../../components/loading/LoadingOverlay"
-import { useHistory } from "react-router-dom"
+import { Link, useHistory } from "react-router-dom"
 import { Classes } from "../../styles"
 import { ConnectionSeptInfo } from "../../util/connectionStepUtils"
 import Tooltip from "../../components/label/Tooltip"
+import BackIcon from "../../assets/exzo-images/images/back_icon.png"
 import { AiFillInfoCircle } from "react-icons/ai"
 
 interface ConnectDeviceProps {
@@ -31,18 +32,27 @@ const ConnectDeviceStepsLayout: React.FC<ConnectDeviceProps> = ({
         <HardwareWalletSetupLayout
             title={title}
             subtitle={subtitle}
+            backClick={<Link
+                to={{
+                    pathname: "/hardware-wallet"
+                }}
+                className="absolute left-4 top-4 px-6 py-2 flex justify-center items-center hover:border-border-300 hover:border-2 rounded-sm"
+                draggable={false}
+            >
+                <img className="w-6 h-4" src={BackIcon} />
+            </Link>}
             buttons={
-                <>
-                    <ButtonWithLoading
-                        label="Cancel"
-                        buttonClass={classnames(Classes.liteButton, "h-14")}
-                        disabled={isLoading}
-                        onClick={
-                            onCancel
-                                ? onCancel
-                                : () => history.push("/hardware-wallet")
-                        }
-                    />
+                // <>
+                //     <ButtonWithLoading
+                //         label="Cancel"
+                //         buttonClass={classnames(Classes.backButton, "h-14")}
+                //         disabled={isLoading}
+                //         onClick={
+                //             onCancel
+                //                 ? onCancel
+                //                 : () => history.push("/hardware-wallet")
+                //         }
+                //     />
 
                     <ButtonWithLoading
                         label="Continue"
@@ -50,7 +60,7 @@ const ConnectDeviceStepsLayout: React.FC<ConnectDeviceProps> = ({
                         isLoading={isLoading}
                         onClick={onConnect}
                     />
-                </>
+                // </>
             }
         >
             {isLoading && <LoadingOverlay />}

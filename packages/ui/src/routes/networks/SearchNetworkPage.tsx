@@ -107,23 +107,8 @@ const SearchNetworkPage = () => {
     return (
         <PopupLayout
             header={<PopupHeader title="Search Networks" close="/" />}
-            footer={
-                pickedChain ? (
-                    <PopupFooter>
-                        <ButtonWithLoading
-                            type="button"
-                            label={
-                                pickedChain.isEnabled
-                                    ? "Edit Network"
-                                    : "Add Network"
-                            }
-                            onClick={addOrEditNetwork}
-                        />
-                    </PopupFooter>
-                ) : null
-            }
         >
-            <div className="w-76 w-full p-6 pb-4 bg-white fixed z-20 flex flex-col">
+            <div className="w-76 w-full p-6 pb-4 fixed z-20 flex flex-col">
                 <div className="flex flex-row space-x-2">
                     <div className="flex-1">
                         <SearchInput
@@ -141,7 +126,7 @@ const SearchNetworkPage = () => {
                     />
                 </div>
                 {isSuccess && (
-                    <span className="text-xs mt-2">
+                    <span className="text-xs mt-2 text-txt-settings">
                         Network not found?{" "}
                         <ClickableText onClick={manuallyAddNetwork}>
                             Add it manually.
@@ -159,9 +144,9 @@ const SearchNetworkPage = () => {
                                     alt="search"
                                     className="w-7 h-7 absolute z-10"
                                 />
-                                <div className="w-20 h-20 bg-primary-100 rounded-full relative z-0"></div>
+                                <div className="w-20 h-20 bg-component-btn-200 bg-opacity-[8%] rounded-full relative z-0"></div>
                             </div>
-                            <span className="text-sm text-gray-600 text-center">
+                            <span className="text-sm text-txt-settings text-center">
                                 Search the networks you want to add by name or
                                 chain identification. Or add{" "}
                                 <ClickableText onClick={manuallyAddNetwork}>
@@ -177,7 +162,7 @@ const SearchNetworkPage = () => {
                     )}
                     {isSuccess && (
                         <div className="flex flex-col space-y-1 pb-4 h-full">
-                            <div className="text-xs text-gray-500 pt-2 pb-1">
+                            <div className="text-xs text-txt-settings pt-2 pb-1">
                                 SEARCH NETWORKS
                             </div>
                             <div className="flex flex-col overflow-y-auto h-50">
@@ -230,6 +215,21 @@ const SearchNetworkPage = () => {
                     )}
                 </div>
             </div>
+            {
+                pickedChain ? (
+                    <div className="flex flex-row w-full items-center fixed bottom-12 space-x-4 py-5 pt-0 px-6" style={{background: "#191919"}}>
+                        <ButtonWithLoading
+                            type="button"
+                            label={
+                                pickedChain.isEnabled
+                                    ? "Edit Network"
+                                    : "Add Network"
+                            }
+                            onClick={addOrEditNetwork}
+                        />
+                    </div>
+                ) : null
+            }
         </PopupLayout>
     )
 }

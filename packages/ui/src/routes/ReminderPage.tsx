@@ -129,6 +129,7 @@ const ReminderPage = () => {
                                 revealed={revealed}
                                 onClick={() => setRevealed(true)}
                                 isReminder={true}
+                                isPrivate={false}
                             />
                         </div>
                         <div className="px-18 absolute bottom-0 left-0 w-[300px]">

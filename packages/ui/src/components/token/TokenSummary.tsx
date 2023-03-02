@@ -94,7 +94,7 @@ const TokenName: FC<{
     children: React.ReactNode
 }> = ({ children, title }) => {
     return (
-        <span className="text-xs text-gray-600" title={title}>
+        <span className="text-xs text-component-btn-200" title={title}>
             {children}
         </span>
     )

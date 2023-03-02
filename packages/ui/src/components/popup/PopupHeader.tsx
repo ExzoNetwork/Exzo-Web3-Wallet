@@ -272,7 +272,9 @@ const PopupHeader: FunctionComponent<PopupHeaderProps> = ({
                                 <ArrowIcon direction={"left"}/>
                                 <span
                                         title={title}
-                                        className={classnames("text-base font-bold ml-1.5", icon && "w-56")}
+                                        className={classnames("text-base font-bold ml-1.5", 
+                                        // icon && "w-56"
+                                        )}
                                     >
                                         {/* {title} */}
                                         Back
@@ -314,7 +316,9 @@ const PopupHeader: FunctionComponent<PopupHeaderProps> = ({
                 lockStatus && 
                     <span
                             title={title}
-                            className={classnames("text-base font-bold ml-1.5 text-white", icon && "w-56")}
+                            className={classnames("text-base font-bold ml-1.5 text-white",
+                            //  icon && "w-56"
+                             )}
                         >
                             {title}
                     </span>
@@ -327,7 +331,7 @@ const PopupHeader: FunctionComponent<PopupHeaderProps> = ({
             {
                 backButton && (
                     <>
-                        <div className="ml-auto flex space-x-1">
+                        <div className="ml-auto flex space-x-1 mr-2.5">
                             {actions && (
                                 <Dropdown>
                                     <Dropdown.Menu id="popup-actions">
@@ -379,8 +383,7 @@ const PopupHeader: FunctionComponent<PopupHeaderProps> = ({
                         <div className="flex flex-row items-center space-x-3">
                             <div className="relative flex flex-col items-start group">
                                 <Link
-                                    // to="/accounts"
-                                    to="#/"
+                                    to="/accounts"
                                     className="transition duration-300"
                                     draggable={false}
                                     data-testid="navigate-account-link"
@@ -390,7 +393,7 @@ const PopupHeader: FunctionComponent<PopupHeaderProps> = ({
                                         fill={getAccountColor(checksumAddress)}
                                     />
                                 </Link>
-                                <Tooltip
+                                {/* <Tooltip
                                     className="pointer-events-none absolute bottom-0 -mb-2 transform !translate-x-0 !translate-y-full p-2 rounded-md text-xs font-bold bg-gray-900 text-white"
                                     content={
                                         <>
@@ -398,7 +401,7 @@ const PopupHeader: FunctionComponent<PopupHeaderProps> = ({
                                             <span>My Accounts</span>
                                         </>
                                     }
-                                />
+                                /> */}
                             </div>
                             <div className="flex flex-row items-center space-x-1">
                                 <AccountDisplay />

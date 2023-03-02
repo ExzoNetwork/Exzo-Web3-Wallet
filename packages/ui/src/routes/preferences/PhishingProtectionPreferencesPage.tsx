@@ -60,16 +60,6 @@ const PhishingProtectionPreferencesPage = () => {
     return (
         <PopupLayout
             header={<PopupHeader title="Phishing Protection" close="/" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label="Save"
-                        disabled={!isDirty}
-                        onClick={onSave}
-                        isLoading={isLoading}
-                    />
-                </PopupFooter>
-            }
         >
             <SuccessDialog
                 open={showSuccessDialog}
@@ -78,8 +68,8 @@ const PhishingProtectionPreferencesPage = () => {
                 message="Your changes have been succesfully saved!"
                 onDone={history.goBack}
             />
-            <div className="flex flex-col p-6 space-y-6 w-full">
-                <span className="text-sm text-gray-500">
+            <div className="flex flex-col px-6 pt-2 pb-0 space-y-6 w-full">
+                <span className="text-sm text-txt-settings">
                     The following image is uniquely created for you to prevent
                     phishing attempts. Ensure this graphic is on every
                     login/seed phrase page.
@@ -104,6 +94,14 @@ const PhishingProtectionPreferencesPage = () => {
                     </>
                 )}
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label="Save"
+                    disabled={!isDirty}
+                    onClick={onSave}
+                    isLoading={isLoading}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

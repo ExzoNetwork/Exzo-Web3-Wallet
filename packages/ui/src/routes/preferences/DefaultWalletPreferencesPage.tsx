@@ -47,17 +47,9 @@ const DefaultWalletPreferencesPage: FC<DefaultWalletPreferencesProps> = ({
 
     return (
         <PopupLayout
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label={isWelcome ? "Next" : "Save"}
-                        disabled={isWelcome ? false : !isDirty}
-                        onClick={isWelcome ? onNext : onSave}
-                    />
-                </PopupFooter>
-            }
+            header={<PopupHeader title="Default Wallet" close="/" />}
         >
-            <div className="flex flex-col p-6 pt-28 space-y-6 w-full">
+            <div className="flex flex-col p-6 space-y-6 w-full">
                 <div className="text-sm text-white">
                     {wasDefaultBrowserWallet ? (
                         <span>
@@ -89,7 +81,7 @@ const DefaultWalletPreferencesPage: FC<DefaultWalletPreferencesProps> = ({
                     onToggle={setDefaultBrowserWallet}
                 />
 
-                <div className="text-sm text-white">
+                <div className="text-sm text-txt-settings">
                     {wasDefaultBrowserWallet ? (
                         <span>
                             Turning this off will make ExzoWallet unable to
@@ -116,6 +108,13 @@ const DefaultWalletPreferencesPage: FC<DefaultWalletPreferencesProps> = ({
                     </span>
                 </div>
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label={isWelcome ? "Next" : "Save"}
+                    disabled={isWelcome ? false : !isDirty}
+                    onClick={isWelcome ? onNext : onSave}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

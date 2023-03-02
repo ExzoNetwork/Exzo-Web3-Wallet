@@ -23,26 +23,30 @@ const ConnectedSite: FunctionComponent<{
     return (
         <div className="flex flex-row items-center justify-between w-full ">
             <div
-                className="flex flex-row items-center space-x-4 w-11/12 hover:bg-primary-200 rounded-md p-1 cursor-pointer "
+                className="flex flex-row items-center justify-between space-x-4 w-full bg-body-assets-100 hover:bg-opacity-20 rounded-md p-4 cursor-pointer "
                 onClick={() => onSiteClick(origin)}
             >
-                <div className="flex flex-row items-center justify-center w-10 h-10 p-2 rounded-full bg-primary-100">
-                    {site.iconURL ? (
-                        <AppIcon iconURL={site.iconURL} size={10} />
-                    ) : (
-                        <FaGlobe size={24} />
-                    )}
+                <div className="flex flex-row">
+                    <div className="flex flex-row items-center justify-center w-10 h-10 rounded-full ">
+                        {site.iconURL ? (
+                            <AppIcon iconURL={site.iconURL} size={10} />
+                        ) : (
+                            <FaGlobe size={24} />
+                        )}
+                    </div>
+                    <div className="text-sm font-bold text-txt-settings ml-4 flex items-center">
+                        {new URL(origin).hostname}
+                    </div>
                 </div>
-                <span className="text-sm font-bold text-gray-800">
-                    {new URL(origin).hostname}
-                </span>
+                <div>
+                    <button
+                        onClick={() => setConfirmOpen(true)}
+                        className="hover:bg-component-btn-200 hover:bg-opacity-[8%] p-2 rounded-full"
+                    >
+                        <Icon name={IconName.TRASH_BIN} />
+                    </button>
+                </div>
             </div>
-            <button
-                onClick={() => setConfirmOpen(true)}
-                className="hover:bg-primary-200 p-2 rounded-full"
-            >
-                <Icon name={IconName.TRASH_BIN} />
-            </button>
             <ConfirmDialog
                 title="Remove Site Connection"
                 message={`Do you want to remove ${
@@ -99,12 +103,12 @@ const ConnectedSitesPage = () => {
             }
         >
             <div className="flex flex-col p-6 space-y-6">
-                <span className="text-sm text-gray-500">
-                    <span className="font-bold text-black" title={account.name}>
+                <span className="text-sm text-txt-settings">
+                    <span className="font-bold text-white" title={account.name}>
                         {formatName(account.name, 30)}
                     </span>
                     <span
-                        className="font-bold text-black"
+                        className="font-bold text-white"
                         title={account.address}
                     >
                         {" "}

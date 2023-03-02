@@ -55,7 +55,7 @@ const AccountSearchBar: FunctionComponent<{
             </div>
             <OutlinedButton
                 className={classnames(
-                    "transition-width",
+                    "transition-width bg-component-btn-200 bg-opacity-[8%] hover:bg-opacity-[20%]",
                     searchBarVisible
                         ? "w-full delay-150 duration-500"
                         : "w-auto duration-100 cursor-pointer"

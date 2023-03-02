@@ -649,7 +649,7 @@ const ApprovePage: FunctionComponent<{}> = () => {
                         isCustomSelected ? "hidden" : "visible"
                     )}
                 >
-                    <MiniCheckmark fill="#1673FF" />
+                    <MiniCheckmark fill="#00FFA3" />
                 </div>
                 <p
                     className={classnames(
@@ -683,7 +683,7 @@ const ApprovePage: FunctionComponent<{}> = () => {
                         isCustomSelected ? "visible" : "hidden"
                     )}
                 >
-                    <MiniCheckmark fill="#1673FF" />
+                    <MiniCheckmark fill="#00FFA3" />
                 </div>
                 <p
                     className={classnames(

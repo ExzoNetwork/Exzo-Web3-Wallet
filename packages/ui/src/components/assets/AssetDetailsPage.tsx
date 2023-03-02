@@ -29,6 +29,10 @@ import SuccessDialog from "../dialog/SuccessDialog"
 import { formatName } from "../../util/formatAccount"
 import Icon, { IconName } from "../ui/Icon"
 import DoubleArrowHoverAnimation from "../icons/DoubleArrowHoverAnimation"
+import SwapIcon from "../icons/SwapIcon"
+import SwapIconHover from "../icons/SwapIconHover"
+import BuyIcon from "../icons/BuyIcon"
+import ArrowIcon from "../icons/ArrowIcon"
 
 const AssetDetailsPage = () => {
     const state = useBlankState()!
@@ -183,16 +187,16 @@ const AssetDetailsPage = () => {
                                 {`${roundedTokenBalance} ${token.symbol}`}
                             </span>
                         </TokenSummary.TokenBalance>
-                        <TokenSummary.ExchangeRateBalance>
+                        {/* <TokenSummary.ExchangeRateBalance>
                             {currencyFormatter.format(
                                 balance,
                                 token.symbol,
                                 token.decimals,
                                 isNative
                             )}
-                        </TokenSummary.ExchangeRateBalance>
+                        </TokenSummary.ExchangeRateBalance> */}
                     </TokenSummary.Balances>
-                    <TokenSummary.Actions className="mb-4">
+                    <TokenSummary.Actions >
                         <Link
                             to={{
                                 pathname: "/send",
@@ -204,12 +208,35 @@ const AssetDetailsPage = () => {
                                 !isSendEnabled && "pointer-events-none"
                             )}
                         >
-                            <RoundedIconButton
-                                Icon={ArrowHoverAnimation}
-                                disabled={!isSendEnabled}
+                            <div
+                                className={classnames(
+                                    "overflow-hidden flex items-center justify-center flex-1 w-full px-4 py-1.5 transition duration-300 rounded-lg group-hover:opacity-75",
+                                    !isSendEnabled ||
+                                        !state.isUserNetworkOnline
+                                        ? "bg-gray-300"
+                                        : "bg-body-balances-100"
+                                )}
                             >
-                                Send
-                            </RoundedIconButton>
+                                {/* {isLoading ? (
+                                    <div className="flex flex-row items-center justify-center w-full h-full">
+                                        <AnimatedIcon
+                                            icon={
+                                                AnimatedIconName.BlueCircleLoadingSkeleton
+                                            }
+                                            className="w-4 h-4 pointer-events-none"
+                                        />
+                                    </div>
+                                ) : (
+                                    <AnimatedIcon
+                                        icon={AnimatedIconName.Bridge}
+                                        className="cursor-pointer"
+                                    />
+                                )} */}
+                                <ArrowIcon direction={"up"}/>
+                                <span className="text-xs font-medium text-body-balances-200">
+                                    Send
+                                </span>
+                            </div>
                         </Link>
                         {isSwapEnabled && (
                             <Link
@@ -230,21 +257,32 @@ const AssetDetailsPage = () => {
                                         "pointer-events-none"
                                 )}
                             >
-                                <div
+                             <div
                                     className={classnames(
-                                        "w-8 h-8 overflow-hidden transition duration-300 rounded-full group-hover:opacity-75",
-                                        !isSendEnabled ||
-                                            !state.isUserNetworkOnline
+                                        "overflow-hidden flex flex-1 w-full justify-center items-center px-[18px] py-2.5 transition duration-300 rounded-lg group-hover:opacity-75",
+                                        !isSendEnabled
                                             ? "bg-gray-300"
-                                            : "bg-primary-300"
+                                            : "bg-body-balances-100"
                                     )}
-                                    style={{ transform: "scaleY(-1)" }}
                                 >
-                                    <DoubleArrowHoverAnimation />
+                                    {/* {isLoading ? (
+                                        <div className="flex flex-row items-center justify-center w-full h-full">
+                                            <AnimatedIcon
+                                                icon={
+                                                    AnimatedIconName.BlueCircleLoadingSkeleton
+                                                }
+                                                className="w-4 h-4 pointer-events-none"
+                                            />
+                                        </div>
+                                    ) : (
+                                        <ArrowHoverAnimation />
+                                    )} */}
+                                    {/* <ArrowIcon direction={"down"}/> */}
+                                    <SwapIconHover />
+                                    <span className="text-xs font-medium text-body-balances-200 ml-[5px]">
+                                        Swap
+                                    </span>
                                 </div>
-                                <span className="text-xs font-medium">
-                                    Swap
-                                </span>
                             </Link>
                         )}
                         {isBridgeEnabled && (
@@ -265,24 +303,25 @@ const AssetDetailsPage = () => {
                                         "pointer-events-none"
                                 )}
                             >
-                                <div
-                                    className={classnames(
-                                        "w-8 h-8 overflow-hidden transition duration-300 rounded-full group-hover:opacity-75",
-                                        !isSendEnabled ||
-                                            !state.isUserNetworkOnline
-                                            ? "bg-gray-300"
-                                            : "bg-primary-300"
-                                    )}
-                                    style={{ transform: "scaleY(-1)" }}
-                                >
-                                    <AnimatedIcon
+                               
+                                    <div
+                                        className={classnames(
+                                            "overflow-hidden flex items-center justify-center flex-1 px-2.5 py-1.5 transition duration-300 rounded-lg group-hover:opacity-75",
+                                            !isSendEnabled ||
+                                                !state.isUserNetworkOnline
+                                                ? "bg-gray-300"
+                                                : "bg-body-balances-100"
+                                        )}
+                                    >
+                                    {/* <AnimatedIcon
                                         icon={AnimatedIconName.Bridge}
                                         className="cursor-pointer"
-                                    />
+                                    /> */}
+                                    <BuyIcon />
+                                    <span className="text-xs font-medium text-body-balances-200">
+                                        Bridge
+                                    </span>
                                 </div>
-                                <span className="text-xs font-medium">
-                                    Bridge
-                                </span>
                             </Link>
                         )}
                     </TokenSummary.Actions>

@@ -29,19 +29,9 @@ const ReleaseNotesPreferencesPage = () => {
     return (
         <PopupLayout
             header={<PopupHeader title="Release Notes" close="/" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label="Save"
-                        disabled={!isDirty}
-                        onClick={onSave}
-                        isLoading={isLoading}
-                    />
-                </PopupFooter>
-            }
         >
             <div className="flex flex-col p-6 space-y-6 w-full">
-                <span className="text-sm text-gray-500">
+                <span className="text-sm text-txt-settings">
                     Be up-to-date with latest ExzoWallet news.
                 </span>
                 <SuccessDialog
@@ -57,6 +47,14 @@ const ReleaseNotesPreferencesPage = () => {
                     onToggle={setSubscribedToReleaseNotes}
                 />
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label="Save"
+                    disabled={!isDirty}
+                    onClick={onSave}
+                    isLoading={isLoading}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

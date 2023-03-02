@@ -195,6 +195,7 @@ const ImportAccountPage = () => {
                                 error={errors.accountName?.message}
                                 autoFocus={true}
                                 maxLength={40}
+                                className="bg-component-input-bg"
                             />
                         </div>
                         <div className="flex flex-col space-y-1 mb-5">
@@ -220,6 +221,7 @@ const ImportAccountPage = () => {
                                 {...register("privateKey")}
                                 error={errors.privateKey?.message}
                                 maxLength={66}
+                                className="bg-component-input-bg"
                             />
                         </div>
                         {state.settings.useAntiPhishingProtection && (
@@ -231,7 +233,6 @@ const ImportAccountPage = () => {
                             </div>
                         )}
                     </div>
-                    <hr className="border-0.5 border-gray-200 w-full" />
                     <PopupFooter>
                         <ButtonWithLoading
                             type="submit"

@@ -6,7 +6,7 @@ const GroupIcon: React.FC<{ className: string }> = ({ className }) => {
             width="16"
             height="14"
             viewBox="0 0 16 14"
-            className={classnames("fill-black", className)}
+            className={classnames("fill-component-btn-200", className)}
             xmlns="http://www.w3.org/2000/svg"
         >
             <path d="M9 14H7C6.448 14 6 13.552 6 13C6 12.448 6.448 12 7 12H9C9.552 12 10 12.448 10 13C10 13.552 9.552 14 9 14Z" />

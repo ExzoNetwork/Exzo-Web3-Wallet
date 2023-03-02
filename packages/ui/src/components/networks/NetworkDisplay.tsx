@@ -146,8 +146,8 @@ const NetworkDisplay = ({
             className={classnames(
                 "rounded-md",
                 dropAnimation &&
-                    "bg-blue-100 transition-colors animate-[pulse_0.8s]",
-                cardHoverStyle && "hover:bg-primary-100"
+                    "transition-colors animate-[pulse_0.8s]",
+                cardHoverStyle && "hover:bg-body-assets-100"
             )}
             ref={dropRef}
             style={{ opacity }}
@@ -210,7 +210,7 @@ const NetworkDisplay = ({
                                 }}
                             />
                         </div>
-                        <span className="text-sm font-bold text-ellipsis overflow-hidden whitespace-nowrap">
+                        <span className="text-sm font-bold text-ellipsis overflow-hidden whitespace-nowrap text-txt-settings">
                             {networkInfo.desc}
                         </span>
                     </div>
@@ -228,7 +228,7 @@ const NetworkDisplay = ({
                         ) : (
                             <div
                                 {...getIsHoveringProps()}
-                                className="p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300"
+                                className="p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-20 hover:text-primary-300"
                                 title="Switch network"
                                 onClick={() => setConfirmSwitchNetwork(true)}
                             >
@@ -237,7 +237,7 @@ const NetworkDisplay = ({
                         )}
                         <div
                             {...getIsHoveringProps()}
-                            className="p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300"
+                            className="p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-20 text-component-btn-200 hover:text-primary-300"
                             title="Edit network"
                             onClick={onClick}
                         >

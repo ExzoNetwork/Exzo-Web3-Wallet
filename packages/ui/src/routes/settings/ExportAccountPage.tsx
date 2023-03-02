@@ -152,19 +152,6 @@ const ExportAccountPage = () => {
                             }}
                         />
                     }
-                    footer={
-                        <PopupFooter>
-                            <ButtonWithLoading
-                                label="Export"
-                                type="submit"
-                                isLoading={isVerificationInProgress}
-                                onClick={onSubmit}
-                                disabled={HARDWARE_TYPES.includes(
-                                    account.accountType
-                                )}
-                            />
-                        </PopupFooter>
-                    }
                 >
                     <div className="flex flex-col p-6 space-y-4">
                         <div className="flex flex-col space-y-1">
@@ -267,6 +254,15 @@ const ExportAccountPage = () => {
                                 />
                             </div>
                         )}
+                        <ButtonWithLoading
+                            label="Export"
+                            type="submit"
+                            isLoading={isVerificationInProgress}
+                            onClick={onSubmit}
+                            disabled={HARDWARE_TYPES.includes(
+                                account.accountType
+                            )}
+                        />
                     </div>
                 </PopupLayout>
             </div>

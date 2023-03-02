@@ -11,7 +11,7 @@ import { useOnMountHistory } from "../../context/hooks/useOnMount"
 import ClickToReveal from "../../components/label/ClickToReveal"
 import ReactJson from "react-json-view"
 import DownloadIcon from "../../assets/images/icons/download.svg"
-
+import CopyImg from "../../assets/exzo-images/images/copy.png"
 const ExportDonePage = () => {
     const history: any = useOnMountHistory()
     const { exportData, exportType } = history.location.state
@@ -24,48 +24,62 @@ const ExportDonePage = () => {
         await new Promise((resolve) => setTimeout(resolve, 1000))
         setCopied(false)
     }
-
+    console.log("exportType------", exportType);
     return (
         <PopupLayout
             header={
                 <PopupHeader
                     title="Export Account Data"
                     close="/"
-                    backButton={false}
+                    backButton={true}
                 />
             }
-            footer={
-                <PopupFooter>
-                    <LinkButton location="/" text="Done" classes="w-full" />
-                </PopupFooter>
-            }
         >
-            <div className="flex flex-col p-6 space-y-6">
+            <div className="flex flex-col p-6 pt-12">
                 {exportType !== "json" ? (
-                    <div className="flex flex-col space-y-4">
-                        <ClickToReveal
-                            hiddenText={exportData}
-                            revealMessage={`Click here to reveal ${exportType}`}
-                            revealed={revealed}
-                            onClick={() => setRevealed(true)}
-                        />
-                        <button
-                            type="button"
-                            className="relative flex flex-row items-stretch justify-between w-full rounded group bg-primary-100 hover:bg-primary-200"
-                            onClick={copyToClipboard}
-                        >
-                            <span className="flex-grow px-4 py-4 text-sm ">
-                                Copy {exportType} to clipboard
-                            </span>
-                            <span className="flex items-center justify-center px-4 transition duration-300 outline-none cursor-pointer border-1">
-                                <img
-                                    src={copy}
-                                    alt="copy"
-                                    className="w-4 h-4 mr-1"
-                                />
-                            </span>
-                            <CopyTooltip copied={copied}></CopyTooltip>
-                        </button>
+                    // <div className="flex flex-col space-y-4">
+                    //     <ClickToReveal
+                    //         hiddenText={exportData}
+                    //         revealMessage={`Click here to reveal ${exportType}`}
+                    //         revealed={revealed}
+                    //         onClick={() => setRevealed(true)}
+                    //         isReminder={true}
+                    //     />
+                    //     <button
+                    //         type="button"
+                    //         className="relative flex flex-row items-stretch justify-between w-full rounded group bg-primary-100 hover:bg-primary-200"
+                    //         onClick={copyToClipboard}
+                    //     >
+                    //         <span className="flex-grow px-4 py-4 text-sm ">
+                    //             Copy {exportType} to clipboard
+                    //         </span>
+                    //         <span className="flex items-center justify-center px-4 transition duration-300 outline-none cursor-pointer border-1">
+                    //             <img
+                    //                 src={copy}
+                    //                 alt="copy"
+                    //                 className="w-4 h-4 mr-1"
+                    //             />
+                    //         </span>
+                    //         <CopyTooltip copied={copied}></CopyTooltip>
+                    //     </button>
+                    // </div>
+                    <div className="flex flex-col w-full relative">
+                        <div className="flex flex-col space-y-6">
+                            <ClickToReveal
+                                hiddenText={exportData}
+                                revealMessage={"Click here to reveal secret words"}
+                                revealed={revealed}
+                                onClick={() => setRevealed(true)}
+                                isReminder={true}
+                                isPrivate={exportType === 'key'}
+                            />
+                        </div>
+                        <div className="px-12 w-full absolute -bottom-6 left-0">
+                            <div className="relative">
+                                <div className="bg-component-btn-500 py-4 rounded-full text-sm font-bold hover:opacity-60 flex justify-center hover:cursor-pointer" onClick={copyToClipboard}><img src={CopyImg} className="mr-2 w-5 h-5"/><span>Copy to clipboard</span></div>
+                                {copied && <div className="absolute text-white text-xxs rounded-2xl right-0 -top-2 bg-black px-4 py-1">Copied!</div>}
+                            </div>
+                        </div>
                     </div>
                 ) : (
                     <div className="flex flex-col space-y-4 overflow-x-hidden">
@@ -100,12 +114,15 @@ const ExportDonePage = () => {
                         </a>
                     </div>
                 )}
-                <div className="w-full px-4 py-4 text-sm text-center text-red-500 bg-red-100 rounded">
+                <div className="w-full px-4 py-4 text-sm text-center text-red-500 bg-red-100 rounded mt-16">
                     <strong className="font-bold">Warning: </strong>
                     <span>
                         Never disclose this information. Anyone with your
                         private keys can steal any assets held in your account.
                     </span>
+                </div>
+                <div className="mt-[72px]">
+                    <LinkButton location="/" text="Done" classes="w-full" />
                 </div>
             </div>
         </PopupLayout>

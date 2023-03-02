@@ -102,7 +102,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "* {\r\n    -webkit-user-select: none;\r\n            user-select: none;\r\n}\r\n\r\n.allow-select {\r\n    -webkit-user-select: text !important;\r\n            user-select: text !important;\r\n}\r\n\r\n.allow-select-all {\r\n    -webkit-user-select: all !important;\r\n            user-select: all !important;\r\n}\r\n\r\nhtml.popup,\r\nhtml.popup body,\r\nhtml body.popup {\r\n    width: 357px;\r\n    min-height: 600px;\r\n    /*height: 600px;*/\r\n    /*max-height: 600px;*/\r\n    overflow-y: scroll;\r\n}\r\n.popup-layout {\r\n    max-width: 357px;\r\n}\r\n/* Storybook classes */\r\n\r\nbody.popup.sb-show-main {\r\n    width: 100%;\r\n    min-height: 100%;\r\n    max-width: 380px;\r\n    max-height: 640px;\r\n    overflow-y: scroll;\r\n}\r\n\r\n.storybook-content::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n/* End Storybook classes */\r\n\r\nhtml,\r\nbody {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\nhtml::-webkit-scrollbar,\r\nbody::-webkit-scrollbar,\r\n/* Class to implement in those views where we want to be able to scroll but without showing the scrollbar */\r\n.hide-scroll::-webkit-scrollbar {\r\n    display: none;\r\n    -ms-overflow-style: none; /* Internet Explorer 10+ */\r\n    scrollbar-width: none; /* Firefox */\r\n}\r\n\r\n#root {\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.main-content::-webkit-scrollbar {\r\n    display: none; /* Safari and Chrome */\r\n}\r\n\r\n.main-content {\r\n    max-width: 357px;\r\n}\r\n\r\n/* Scroll bar */\r\n\r\n::-webkit-scrollbar {\r\n    width: 2px;\r\n}\r\n\r\n::-webkit-scrollbar-track {\r\n    box-shadow: inset 0 0 5px transparent;\r\n    border-radius: 0;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n    background: rgba(0, 0, 0, 0.5);\r\n    border-radius: 4px;\r\n}\r\n\r\n.transform {\r\n    will-change: transform;\r\n}\r\n\r\n/* Disable outlines */\r\n\r\na:focus,\r\nbutton:focus,\r\ninput:focus,\r\ntextarea:focus {\r\n    outline: none;\r\n    box-shadow: none !important;\r\n}\r\n\r\n/* Loading placeholder */\r\n\r\n.placeholder::after {\r\n    content: \" \";\r\n    box-shadow: 0 0 50px 9px rgba(0, 0, 0, 0.25);\r\n    position: absolute;\r\n    top: 0;\r\n    left: -100%;\r\n    height: 100%;\r\n    animation: load 1s infinite alternate-reverse;\r\n}\r\n\r\n@keyframes load {\r\n    0% {\r\n        left: -100%;\r\n    }\r\n    100% {\r\n        left: 150%;\r\n    }\r\n}\r\n\r\n.select-menu {\r\n    overflow-y: scroll;\r\n    overflow-x: hidden;\r\n    overflow: overlay;\r\n}\r\n\r\n.select-menu::-webkit-scrollbar {\r\n    width: 1px;\r\n}\r\n\r\n.react-json-view {\r\n    word-break: break-all;\r\n}\r\n\r\n.dropdown-menu > li:first-child {\r\n    border-top-right-radius: 6px;\r\n    border-top-left-radius: 6px;\r\n}\r\n.dropdown-menu > li:last-child {\r\n    border-bottom-right-radius: 6px;\r\n    border-bottom-left-radius: 6px;\r\n}\r\n\r\n::-ms-reveal {\r\n    display: none;\r\n}\r\n\r\n.fullscreen-x-scrollbar {\r\n    overflow-x: scroll;\r\n}\r\n\r\n.fullscreen-x-scrollbar::-webkit-scrollbar {\r\n    height: 1.5px;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/styles/index.css"],"names":[],"mappings":"AAAA;IACI,yBAAiB;YAAjB,iBAAiB;AACrB;;AAEA;IACI,oCAA4B;YAA5B,4BAA4B;AAChC;;AAEA;IACI,mCAA2B;YAA3B,2BAA2B;AAC/B;;AAEA;;;IAGI,YAAY;IACZ,iBAAiB;IACjB,iBAAiB;IACjB,qBAAqB;IACrB,kBAAkB;AACtB;AACA;IACI,gBAAgB;AACpB;AACA,sBAAsB;;AAEtB;IACI,WAAW;IACX,gBAAgB;IAChB,gBAAgB;IAChB,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,aAAa;AACjB;;AAEA,0BAA0B;;AAE1B;;IAEI,WAAW;IACX,YAAY;AAChB;;AAEA;;;;IAII,aAAa;IACb,wBAAwB,EAAE,0BAA0B;IACpD,qBAAqB,EAAE,YAAY;AACvC;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,aAAa,EAAE,sBAAsB;AACzC;;AAEA;IACI,gBAAgB;AACpB;;AAEA,eAAe;;AAEf;IACI,UAAU;AACd;;AAEA;IACI,qCAAqC;IACrC,gBAAgB;AACpB;;AAEA;IACI,8BAA8B;IAC9B,kBAAkB;AACtB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA,qBAAqB;;AAErB;;;;IAII,aAAa;IACb,2BAA2B;AAC/B;;AAEA,wBAAwB;;AAExB;IACI,YAAY;IACZ,4CAA4C;IAC5C,kBAAkB;IAClB,MAAM;IACN,WAAW;IACX,YAAY;IACZ,6CAA6C;AACjD;;AAEA;IACI;QACI,WAAW;IACf;IACA;QACI,UAAU;IACd;AACJ;;AAEA;IACI,kBAAkB;IAClB,kBAAkB;IAClB,iBAAiB;AACrB;;AAEA;IACI,UAAU;AACd;;AAEA;IACI,qBAAqB;AACzB;;AAEA;IACI,4BAA4B;IAC5B,2BAA2B;AAC/B;AACA;IACI,+BAA+B;IAC/B,8BAA8B;AAClC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;AACjB","sourcesContent":["* {\r\n    user-select: none;\r\n}\r\n\r\n.allow-select {\r\n    user-select: text !important;\r\n}\r\n\r\n.allow-select-all {\r\n    user-select: all !important;\r\n}\r\n\r\nhtml.popup,\r\nhtml.popup body,\r\nhtml body.popup {\r\n    width: 357px;\r\n    min-height: 600px;\r\n    /*height: 600px;*/\r\n    /*max-height: 600px;*/\r\n    overflow-y: scroll;\r\n}\r\n.popup-layout {\r\n    max-width: 357px;\r\n}\r\n/* Storybook classes */\r\n\r\nbody.popup.sb-show-main {\r\n    width: 100%;\r\n    min-height: 100%;\r\n    max-width: 380px;\r\n    max-height: 640px;\r\n    overflow-y: scroll;\r\n}\r\n\r\n.storybook-content::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n/* End Storybook classes */\r\n\r\nhtml,\r\nbody {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\nhtml::-webkit-scrollbar,\r\nbody::-webkit-scrollbar,\r\n/* Class to implement in those views where we want to be able to scroll but without showing the scrollbar */\r\n.hide-scroll::-webkit-scrollbar {\r\n    display: none;\r\n    -ms-overflow-style: none; /* Internet Explorer 10+ */\r\n    scrollbar-width: none; /* Firefox */\r\n}\r\n\r\n#root {\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.main-content::-webkit-scrollbar {\r\n    display: none; /* Safari and Chrome */\r\n}\r\n\r\n.main-content {\r\n    max-width: 357px;\r\n}\r\n\r\n/* Scroll bar */\r\n\r\n::-webkit-scrollbar {\r\n    width: 2px;\r\n}\r\n\r\n::-webkit-scrollbar-track {\r\n    box-shadow: inset 0 0 5px transparent;\r\n    border-radius: 0;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n    background: rgba(0, 0, 0, 0.5);\r\n    border-radius: 4px;\r\n}\r\n\r\n.transform {\r\n    will-change: transform;\r\n}\r\n\r\n/* Disable outlines */\r\n\r\na:focus,\r\nbutton:focus,\r\ninput:focus,\r\ntextarea:focus {\r\n    outline: none;\r\n    box-shadow: none !important;\r\n}\r\n\r\n/* Loading placeholder */\r\n\r\n.placeholder::after {\r\n    content: \" \";\r\n    box-shadow: 0 0 50px 9px rgba(0, 0, 0, 0.25);\r\n    position: absolute;\r\n    top: 0;\r\n    left: -100%;\r\n    height: 100%;\r\n    animation: load 1s infinite alternate-reverse;\r\n}\r\n\r\n@keyframes load {\r\n    0% {\r\n        left: -100%;\r\n    }\r\n    100% {\r\n        left: 150%;\r\n    }\r\n}\r\n\r\n.select-menu {\r\n    overflow-y: scroll;\r\n    overflow-x: hidden;\r\n    overflow: overlay;\r\n}\r\n\r\n.select-menu::-webkit-scrollbar {\r\n    width: 1px;\r\n}\r\n\r\n.react-json-view {\r\n    word-break: break-all;\r\n}\r\n\r\n.dropdown-menu > li:first-child {\r\n    border-top-right-radius: 6px;\r\n    border-top-left-radius: 6px;\r\n}\r\n.dropdown-menu > li:last-child {\r\n    border-bottom-right-radius: 6px;\r\n    border-bottom-left-radius: 6px;\r\n}\r\n\r\n::-ms-reveal {\r\n    display: none;\r\n}\r\n\r\n.fullscreen-x-scrollbar {\r\n    overflow-x: scroll;\r\n}\r\n\r\n.fullscreen-x-scrollbar::-webkit-scrollbar {\r\n    height: 1.5px;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "* {\r\n    -webkit-user-select: none;\r\n            user-select: none;\r\n}\r\n\r\n.allow-select {\r\n    -webkit-user-select: text !important;\r\n            user-select: text !important;\r\n}\r\n\r\n.allow-select-all {\r\n    -webkit-user-select: all !important;\r\n            user-select: all !important;\r\n}\r\n\r\nhtml.popup,\r\nhtml.popup body,\r\nhtml body.popup {\r\n    width: 357px;\r\n    min-height: 600px;\r\n    /*height: 600px;*/\r\n    /*max-height: 600px;*/\r\n    overflow-y: scroll;\r\n}\r\n.popup-layout {\r\n    max-width: 357px;\r\n}\r\n/* Storybook classes */\r\n\r\nbody.popup.sb-show-main {\r\n    width: 100%;\r\n    min-height: 100%;\r\n    max-width: 380px;\r\n    max-height: 640px;\r\n    overflow-y: scroll;\r\n}\r\n\r\n.storybook-content::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n/* End Storybook classes */\r\n\r\nhtml,\r\nbody {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\nhtml::-webkit-scrollbar,\r\nbody::-webkit-scrollbar,\r\n/* Class to implement in those views where we want to be able to scroll but without showing the scrollbar */\r\n.hide-scroll::-webkit-scrollbar {\r\n    display: none;\r\n    -ms-overflow-style: none; /* Internet Explorer 10+ */\r\n    scrollbar-width: none; /* Firefox */\r\n}\r\n\r\n#root {\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.main-content::-webkit-scrollbar {\r\n    display: none; /* Safari and Chrome */\r\n}\r\n\r\n.main-content {\r\n    max-width: 357px;\r\n}\r\n\r\n/* Scroll bar */\r\n\r\n::-webkit-scrollbar {\r\n    width: 2px;\r\n}\r\n\r\n::-webkit-scrollbar-track {\r\n    box-shadow: inset 0 0 5px transparent;\r\n    border-radius: 0;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n    background: rgba(0, 0, 0, 0.5);\r\n    border-radius: 4px;\r\n}\r\n\r\n.transform {\r\n    will-change: transform;\r\n}\r\n\r\n/* Disable outlines */\r\n\r\na:focus,\r\nbutton:focus,\r\ninput:focus,\r\ntextarea:focus {\r\n    outline: none;\r\n    box-shadow: none !important;\r\n}\r\n\r\n/* Loading placeholder */\r\n\r\n.placeholder::after {\r\n    content: \" \";\r\n    box-shadow: 0 0 50px 9px rgba(0, 0, 0, 0.25);\r\n    position: absolute;\r\n    top: 0;\r\n    left: -100%;\r\n    height: 100%;\r\n    animation: load 1s infinite alternate-reverse;\r\n}\r\n\r\n@keyframes load {\r\n    0% {\r\n        left: -100%;\r\n    }\r\n    100% {\r\n        left: 150%;\r\n    }\r\n}\r\n\r\n.select-menu {\r\n    overflow-y: scroll;\r\n    overflow-x: hidden;\r\n    overflow: overlay;\r\n}\r\n\r\n.select-menu::-webkit-scrollbar {\r\n    width: 1px;\r\n}\r\n\r\n.react-json-view {\r\n    word-break: break-all;\r\n    background: white !important; \r\n    padding: 8px !important; \r\n    border-radius: 8px !important;\r\n}\r\n\r\n.dropdown-menu > li:first-child {\r\n    border-top-right-radius: 6px;\r\n    border-top-left-radius: 6px;\r\n}\r\n.dropdown-menu > li:last-child {\r\n    border-bottom-right-radius: 6px;\r\n    border-bottom-left-radius: 6px;\r\n}\r\n\r\n::-ms-reveal {\r\n    display: none;\r\n}\r\n\r\n.fullscreen-x-scrollbar {\r\n    overflow-x: scroll;\r\n}\r\n\r\n.fullscreen-x-scrollbar::-webkit-scrollbar {\r\n    height: 1.5px;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/styles/index.css"],"names":[],"mappings":"AAAA;IACI,yBAAiB;YAAjB,iBAAiB;AACrB;;AAEA;IACI,oCAA4B;YAA5B,4BAA4B;AAChC;;AAEA;IACI,mCAA2B;YAA3B,2BAA2B;AAC/B;;AAEA;;;IAGI,YAAY;IACZ,iBAAiB;IACjB,iBAAiB;IACjB,qBAAqB;IACrB,kBAAkB;AACtB;AACA;IACI,gBAAgB;AACpB;AACA,sBAAsB;;AAEtB;IACI,WAAW;IACX,gBAAgB;IAChB,gBAAgB;IAChB,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,aAAa;AACjB;;AAEA,0BAA0B;;AAE1B;;IAEI,WAAW;IACX,YAAY;AAChB;;AAEA;;;;IAII,aAAa;IACb,wBAAwB,EAAE,0BAA0B;IACpD,qBAAqB,EAAE,YAAY;AACvC;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,aAAa,EAAE,sBAAsB;AACzC;;AAEA;IACI,gBAAgB;AACpB;;AAEA,eAAe;;AAEf;IACI,UAAU;AACd;;AAEA;IACI,qCAAqC;IACrC,gBAAgB;AACpB;;AAEA;IACI,8BAA8B;IAC9B,kBAAkB;AACtB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA,qBAAqB;;AAErB;;;;IAII,aAAa;IACb,2BAA2B;AAC/B;;AAEA,wBAAwB;;AAExB;IACI,YAAY;IACZ,4CAA4C;IAC5C,kBAAkB;IAClB,MAAM;IACN,WAAW;IACX,YAAY;IACZ,6CAA6C;AACjD;;AAEA;IACI;QACI,WAAW;IACf;IACA;QACI,UAAU;IACd;AACJ;;AAEA;IACI,kBAAkB;IAClB,kBAAkB;IAClB,iBAAiB;AACrB;;AAEA;IACI,UAAU;AACd;;AAEA;IACI,qBAAqB;IACrB,4BAA4B;IAC5B,uBAAuB;IACvB,6BAA6B;AACjC;;AAEA;IACI,4BAA4B;IAC5B,2BAA2B;AAC/B;AACA;IACI,+BAA+B;IAC/B,8BAA8B;AAClC;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,aAAa;AACjB","sourcesContent":["* {\r\n    user-select: none;\r\n}\r\n\r\n.allow-select {\r\n    user-select: text !important;\r\n}\r\n\r\n.allow-select-all {\r\n    user-select: all !important;\r\n}\r\n\r\nhtml.popup,\r\nhtml.popup body,\r\nhtml body.popup {\r\n    width: 357px;\r\n    min-height: 600px;\r\n    /*height: 600px;*/\r\n    /*max-height: 600px;*/\r\n    overflow-y: scroll;\r\n}\r\n.popup-layout {\r\n    max-width: 357px;\r\n}\r\n/* Storybook classes */\r\n\r\nbody.popup.sb-show-main {\r\n    width: 100%;\r\n    min-height: 100%;\r\n    max-width: 380px;\r\n    max-height: 640px;\r\n    overflow-y: scroll;\r\n}\r\n\r\n.storybook-content::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n/* End Storybook classes */\r\n\r\nhtml,\r\nbody {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\nhtml::-webkit-scrollbar,\r\nbody::-webkit-scrollbar,\r\n/* Class to implement in those views where we want to be able to scroll but without showing the scrollbar */\r\n.hide-scroll::-webkit-scrollbar {\r\n    display: none;\r\n    -ms-overflow-style: none; /* Internet Explorer 10+ */\r\n    scrollbar-width: none; /* Firefox */\r\n}\r\n\r\n#root {\r\n    width: 100%;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.main-content::-webkit-scrollbar {\r\n    display: none; /* Safari and Chrome */\r\n}\r\n\r\n.main-content {\r\n    max-width: 357px;\r\n}\r\n\r\n/* Scroll bar */\r\n\r\n::-webkit-scrollbar {\r\n    width: 2px;\r\n}\r\n\r\n::-webkit-scrollbar-track {\r\n    box-shadow: inset 0 0 5px transparent;\r\n    border-radius: 0;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n    background: rgba(0, 0, 0, 0.5);\r\n    border-radius: 4px;\r\n}\r\n\r\n.transform {\r\n    will-change: transform;\r\n}\r\n\r\n/* Disable outlines */\r\n\r\na:focus,\r\nbutton:focus,\r\ninput:focus,\r\ntextarea:focus {\r\n    outline: none;\r\n    box-shadow: none !important;\r\n}\r\n\r\n/* Loading placeholder */\r\n\r\n.placeholder::after {\r\n    content: \" \";\r\n    box-shadow: 0 0 50px 9px rgba(0, 0, 0, 0.25);\r\n    position: absolute;\r\n    top: 0;\r\n    left: -100%;\r\n    height: 100%;\r\n    animation: load 1s infinite alternate-reverse;\r\n}\r\n\r\n@keyframes load {\r\n    0% {\r\n        left: -100%;\r\n    }\r\n    100% {\r\n        left: 150%;\r\n    }\r\n}\r\n\r\n.select-menu {\r\n    overflow-y: scroll;\r\n    overflow-x: hidden;\r\n    overflow: overlay;\r\n}\r\n\r\n.select-menu::-webkit-scrollbar {\r\n    width: 1px;\r\n}\r\n\r\n.react-json-view {\r\n    word-break: break-all;\r\n    background: white !important; \r\n    padding: 8px !important; \r\n    border-radius: 8px !important;\r\n}\r\n\r\n.dropdown-menu > li:first-child {\r\n    border-top-right-radius: 6px;\r\n    border-top-left-radius: 6px;\r\n}\r\n.dropdown-menu > li:last-child {\r\n    border-bottom-right-radius: 6px;\r\n    border-bottom-left-radius: 6px;\r\n}\r\n\r\n::-ms-reveal {\r\n    display: none;\r\n}\r\n\r\n.fullscreen-x-scrollbar {\r\n    overflow-x: scroll;\r\n}\r\n\r\n.fullscreen-x-scrollbar::-webkit-scrollbar {\r\n    height: 1.5px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -124,7 +124,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "/*\n! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com\n*/\n\n/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n  /* 1 */\n  border-width: 0;\n  /* 2 */\n  border-style: solid;\n  /* 2 */\n  border-color: #e5e7eb;\n  /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n  /* 3 */\n  tab-size: 4;\n  /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0;\n  /* 1 */\n  line-height: inherit;\n  /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  border-top-width: 1px;\n  /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0;\n  /* 1 */\n  border-color: inherit;\n  /* 2 */\n  border-collapse: collapse;\n  /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  font-weight: inherit;\n  /* 1 */\n  line-height: inherit;\n  /* 1 */\n  color: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n  padding: 0;\n  /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button;\n  /* 1 */\n  background-color: transparent;\n  /* 2 */\n  background-image: none;\n  /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block;\n  /* 1 */\n  vertical-align: middle;\n  /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  -webkit-print-color-adjust: unset;\n          print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  appearance: none;\n  padding: 0;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px solid ButtonText;\n  outline: 1px auto -webkit-focus-ring-color;\n}\n\na:focus, \r\n    button:focus, \r\n    input:focus, \r\n    textarea:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\na {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n.container {\n  width: 100%;\n}\n\n@media (min-width: 640px) {\n  .container {\n    max-width: 640px;\n  }\n}\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 768px;\n  }\n}\n\n@media (min-width: 1024px) {\n  .container {\n    max-width: 1024px;\n  }\n}\n\n@media (min-width: 1280px) {\n  .container {\n    max-width: 1280px;\n  }\n}\n\n@media (min-width: 1536px) {\n  .container {\n    max-width: 1536px;\n  }\n}\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.pointer-events-none {\n  pointer-events: none;\n}\n\n.visible {\n  visibility: visible;\n}\n\n.invisible {\n  visibility: hidden;\n}\n\n.static {\n  position: static;\n}\n\n.fixed {\n  position: fixed;\n}\n\n.absolute {\n  position: absolute;\n}\n\n.relative {\n  position: relative;\n}\n\n.sticky {\n  position: sticky;\n}\n\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n\n.left-0 {\n  left: 0px;\n}\n\n.top-0 {\n  top: 0px;\n}\n\n.bottom-0 {\n  bottom: 0px;\n}\n\n.left-2 {\n  left: 0.5rem;\n}\n\n.top-4 {\n  top: 1rem;\n}\n\n.left-\\[300px\\] {\n  left: 300px;\n}\n\n.left-4 {\n  left: 1rem;\n}\n\n.left-1\\/2 {\n  left: 50%;\n}\n\n.top-1\\/2 {\n  top: 50%;\n}\n\n.left-\\[72px\\] {\n  left: 72px;\n}\n\n.-top-\\[26px\\] {\n  top: -26px;\n}\n\n.left-\\[166px\\] {\n  left: 166px;\n}\n\n.-top-\\[35px\\] {\n  top: -35px;\n}\n\n.right-0 {\n  right: 0px;\n}\n\n.left-0\\.5 {\n  left: 0.125rem;\n}\n\n.top-0\\.5 {\n  top: 0.125rem;\n}\n\n.top-full {\n  top: 100%;\n}\n\n.bottom-full {\n  bottom: 100%;\n}\n\n.right-2 {\n  right: 0.5rem;\n}\n\n.right-6 {\n  right: 1.5rem;\n}\n\n.-bottom-2 {\n  bottom: -0.5rem;\n}\n\n.-left-2 {\n  left: -0.5rem;\n}\n\n.left-full {\n  left: 100%;\n}\n\n.right-full {\n  right: 100%;\n}\n\n.right-3 {\n  right: 0.75rem;\n}\n\n.left-\\[1px\\] {\n  left: 1px;\n}\n\n.top-\\[5px\\] {\n  top: 5px;\n}\n\n.left-1 {\n  left: 0.25rem;\n}\n\n.-top-2 {\n  top: -0.5rem;\n}\n\n.-right-2 {\n  right: -0.5rem;\n}\n\n.top-6 {\n  top: 1.5rem;\n}\n\n.bottom-20 {\n  bottom: 5rem;\n}\n\n.z-10 {\n  z-index: 10;\n}\n\n.z-50 {\n  z-index: 50;\n}\n\n.\\!z-50 {\n  z-index: 50 !important;\n}\n\n.z-20 {\n  z-index: 20;\n}\n\n.z-30 {\n  z-index: 30;\n}\n\n.z-0 {\n  z-index: 0;\n}\n\n.z-\\[20000\\] {\n  z-index: 20000;\n}\n\n.z-40 {\n  z-index: 40;\n}\n\n.float-right {\n  float: right;\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.-m-4 {\n  margin: -1rem;\n}\n\n.\\!m-0 {\n  margin: 0px !important;\n}\n\n.m-0 {\n  margin: 0px;\n}\n\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.my-4 {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n}\n\n.my-6 {\n  margin-top: 1.5rem;\n  margin-bottom: 1.5rem;\n}\n\n.-mx-3 {\n  margin-left: -0.75rem;\n  margin-right: -0.75rem;\n}\n\n.-mx-6 {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n}\n\n.mx-4 {\n  margin-left: 1rem;\n  margin-right: 1rem;\n}\n\n.my-2 {\n  margin-top: 0.5rem;\n  margin-bottom: 0.5rem;\n}\n\n.my-0\\.5 {\n  margin-top: 0.125rem;\n  margin-bottom: 0.125rem;\n}\n\n.my-0 {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n.-mx-5 {\n  margin-left: -1.25rem;\n  margin-right: -1.25rem;\n}\n\n.my-12 {\n  margin-top: 3rem;\n  margin-bottom: 3rem;\n}\n\n.my-8 {\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n\n.mr-3 {\n  margin-right: 0.75rem;\n}\n\n.mt-1 {\n  margin-top: 0.25rem;\n}\n\n.mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.-ml-6 {\n  margin-left: -1.5rem;\n}\n\n.mr-1\\.5 {\n  margin-right: 0.375rem;\n}\n\n.mr-1 {\n  margin-right: 0.25rem;\n}\n\n.mt-8 {\n  margin-top: 2rem;\n}\n\n.mr-4 {\n  margin-right: 1rem;\n}\n\n.ml-2 {\n  margin-left: 0.5rem;\n}\n\n.mt-2\\.5 {\n  margin-top: 0.625rem;\n}\n\n.mt-2 {\n  margin-top: 0.5rem;\n}\n\n.mt-4 {\n  margin-top: 1rem;\n}\n\n.mb-3 {\n  margin-bottom: 0.75rem;\n}\n\n.mt-3 {\n  margin-top: 0.75rem;\n}\n\n.mt-px {\n  margin-top: 1px;\n}\n\n.-mb-2 {\n  margin-bottom: -0.5rem;\n}\n\n.-mt-2\\.5 {\n  margin-top: -0.625rem;\n}\n\n.-mt-2 {\n  margin-top: -0.5rem;\n}\n\n.-mr-1 {\n  margin-right: -0.25rem;\n}\n\n.mt-6 {\n  margin-top: 1.5rem;\n}\n\n.mr-2 {\n  margin-right: 0.5rem;\n}\n\n.ml-1 {\n  margin-left: 0.25rem;\n}\n\n.mb-4 {\n  margin-bottom: 1rem;\n}\n\n.mr-\\[14px\\] {\n  margin-right: 14px;\n}\n\n.ml-auto {\n  margin-left: auto;\n}\n\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n\n.-ml-3 {\n  margin-left: -0.75rem;\n}\n\n.mr-6 {\n  margin-right: 1.5rem;\n}\n\n.ml-4 {\n  margin-left: 1rem;\n}\n\n.mt-auto {\n  margin-top: auto;\n}\n\n.mb-auto {\n  margin-bottom: auto;\n}\n\n.-mr-3 {\n  margin-right: -0.75rem;\n}\n\n.mb-6 {\n  margin-bottom: 1.5rem;\n}\n\n.mb-2 {\n  margin-bottom: 0.5rem;\n}\n\n.ml-6 {\n  margin-left: 1.5rem;\n}\n\n.ml-1\\.5 {\n  margin-left: 0.375rem;\n}\n\n.mb-5 {\n  margin-bottom: 1.25rem;\n}\n\n.mt-16 {\n  margin-top: 4rem;\n}\n\n.-mt-5 {\n  margin-top: -1.25rem;\n}\n\n.ml-3 {\n  margin-left: 0.75rem;\n}\n\n.ml-0 {\n  margin-left: 0px;\n}\n\n.mt-0 {\n  margin-top: 0px;\n}\n\n.-mb-4 {\n  margin-bottom: -1rem;\n}\n\n.mb-1\\.5 {\n  margin-bottom: 0.375rem;\n}\n\n.mt-1\\.5 {\n  margin-top: 0.375rem;\n}\n\n.-ml-2 {\n  margin-left: -0.5rem;\n}\n\n.mr-0 {\n  margin-right: 0px;\n}\n\n.mt-20 {\n  margin-top: 5rem;\n}\n\n.-mt-8 {\n  margin-top: -2rem;\n}\n\n.mt-0\\.5 {\n  margin-top: 0.125rem;\n}\n\n.ml-11 {\n  margin-left: 2.75rem;\n}\n\n.mb-\\[22px\\] {\n  margin-bottom: 22px;\n}\n\n.mt-12 {\n  margin-top: 3rem;\n}\n\n.ml-2\\.5 {\n  margin-left: 0.625rem;\n}\n\n.ml-8 {\n  margin-left: 2rem;\n}\n\n.-ml-48 {\n  margin-left: -12rem;\n}\n\n.mb-8 {\n  margin-bottom: 2rem;\n}\n\n.mr-2\\.5 {\n  margin-right: 0.625rem;\n}\n\n.mb-14 {\n  margin-bottom: 3.5rem;\n}\n\n.mt-5 {\n  margin-top: 1.25rem;\n}\n\n.ml-14 {\n  margin-left: 3.5rem;\n}\n\n.mb-12 {\n  margin-bottom: 3rem;\n}\n\n.-mt-0\\.5 {\n  margin-top: -0.125rem;\n}\n\n.-mt-0 {\n  margin-top: -0px;\n}\n\n.-mt-6 {\n  margin-top: -1.5rem;\n}\n\n.box-border {\n  box-sizing: border-box;\n}\n\n.block {\n  display: block;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.inline {\n  display: inline;\n}\n\n.flex {\n  display: flex;\n}\n\n.inline-flex {\n  display: inline-flex;\n}\n\n.grid {\n  display: grid;\n}\n\n.hidden {\n  display: none;\n}\n\n.h-12 {\n  height: 3rem;\n}\n\n.h-5 {\n  height: 1.25rem;\n}\n\n.h-6 {\n  height: 1.5rem;\n}\n\n.h-9 {\n  height: 2.25rem;\n}\n\n.h-full {\n  height: 100%;\n}\n\n.h-3 {\n  height: 0.75rem;\n}\n\n.h-\\[38px\\] {\n  height: 38px;\n}\n\n.h-2 {\n  height: 0.5rem;\n}\n\n.h-16 {\n  height: 4rem;\n}\n\n.h-4 {\n  height: 1rem;\n}\n\n.h-64 {\n  height: 16rem;\n}\n\n.h-8 {\n  height: 2rem;\n}\n\n.h-10 {\n  height: 2.5rem;\n}\n\n.h-24 {\n  height: 6rem;\n}\n\n.h-32 {\n  height: 8rem;\n}\n\n.\\!h-6 {\n  height: 1.5rem !important;\n}\n\n.h-0 {\n  height: 0px;\n}\n\n.h-\\[17rem\\] {\n  height: 17rem;\n}\n\n.h-screen {\n  height: 100vh;\n}\n\n.h-20 {\n  height: 5rem;\n}\n\n.h-7 {\n  height: 1.75rem;\n}\n\n.h-\\[4\\.5rem\\] {\n  height: 4.5rem;\n}\n\n.h-auto {\n  height: auto;\n}\n\n.h-fit {\n  height: -moz-fit-content;\n  height: fit-content;\n}\n\n.h-2\\.5 {\n  height: 0.625rem;\n}\n\n.h-\\[224px\\] {\n  height: 224px;\n}\n\n.h-4\\/5 {\n  height: 80%;\n}\n\n.\\!h-3 {\n  height: 0.75rem !important;\n}\n\n.\\!h-4 {\n  height: 1rem !important;\n}\n\n.\\!h-5 {\n  height: 1.25rem !important;\n}\n\n.\\!h-20 {\n  height: 5rem !important;\n}\n\n.h-14 {\n  height: 3.5rem;\n}\n\n.\\!h-12 {\n  height: 3rem !important;\n}\n\n.h-\\[180px\\] {\n  height: 180px;\n}\n\n.h-\\[112px\\] {\n  height: 112px;\n}\n\n.max-h-screen {\n  max-height: 100vh;\n}\n\n.max-h-72 {\n  max-height: 18rem;\n}\n\n.max-h-96 {\n  max-height: 24rem;\n}\n\n.max-h-52 {\n  max-height: 13rem;\n}\n\n.max-h-\\[476px\\] {\n  max-height: 476px;\n}\n\n.max-h-56 {\n  max-height: 14rem;\n}\n\n.max-h-10 {\n  max-height: 2.5rem;\n}\n\n.min-h-full {\n  min-height: 100%;\n}\n\n.min-h-\\[476px\\] {\n  min-height: 476px;\n}\n\n.w-5 {\n  width: 1.25rem;\n}\n\n.w-full {\n  width: 100%;\n}\n\n.w-6 {\n  width: 1.5rem;\n}\n\n.w-9 {\n  width: 2.25rem;\n}\n\n.\\!w-60 {\n  width: 15rem !important;\n}\n\n.w-3 {\n  width: 0.75rem;\n}\n\n.w-\\[34px\\] {\n  width: 34px;\n}\n\n.w-2 {\n  width: 0.5rem;\n}\n\n.w-4 {\n  width: 1rem;\n}\n\n.w-32 {\n  width: 8rem;\n}\n\n.w-40 {\n  width: 10rem;\n}\n\n.w-\\[100px\\] {\n  width: 100px;\n}\n\n.w-52 {\n  width: 13rem;\n}\n\n.w-64 {\n  width: 16rem;\n}\n\n.w-\\[300px\\] {\n  width: 300px;\n}\n\n.\\!w-52 {\n  width: 13rem !important;\n}\n\n.w-8 {\n  width: 2rem;\n}\n\n.w-auto {\n  width: auto;\n}\n\n.w-10 {\n  width: 2.5rem;\n}\n\n.w-24 {\n  width: 6rem;\n}\n\n.w-16 {\n  width: 4rem;\n}\n\n.w-44 {\n  width: 11rem;\n}\n\n.w-28 {\n  width: 7rem;\n}\n\n.w-0 {\n  width: 0px;\n}\n\n.w-10\\/12 {\n  width: 83.333333%;\n}\n\n.\\!w-0 {\n  width: 0px !important;\n}\n\n.w-1\\/12 {\n  width: 8.333333%;\n}\n\n.\\!w-6 {\n  width: 1.5rem !important;\n}\n\n.w-11 {\n  width: 2.75rem;\n}\n\n.w-48 {\n  width: 12rem;\n}\n\n.\\!w-40 {\n  width: 10rem !important;\n}\n\n.\\!w-56 {\n  width: 14rem !important;\n}\n\n.w-5\\/6 {\n  width: 83.333333%;\n}\n\n.w-20 {\n  width: 5rem;\n}\n\n.w-3\\/6 {\n  width: 50%;\n}\n\n.w-12 {\n  width: 3rem;\n}\n\n.w-\\[17\\%\\] {\n  width: 17%;\n}\n\n.w-2\\.5 {\n  width: 0.625rem;\n}\n\n.w-36 {\n  width: 9rem;\n}\n\n.w-fit {\n  width: -moz-fit-content;\n  width: fit-content;\n}\n\n.w-56 {\n  width: 14rem;\n}\n\n.w-\\[30px\\] {\n  width: 30px;\n}\n\n.w-7 {\n  width: 1.75rem;\n}\n\n.w-min {\n  width: min-content;\n}\n\n.w-11\\/12 {\n  width: 91.666667%;\n}\n\n.w-2\\/5 {\n  width: 40%;\n}\n\n.w-3\\/5 {\n  width: 60%;\n}\n\n.w-4\\/5 {\n  width: 80%;\n}\n\n.w-1\\/2 {\n  width: 50%;\n}\n\n.\\!w-3 {\n  width: 0.75rem !important;\n}\n\n.\\!w-4 {\n  width: 1rem !important;\n}\n\n.\\!w-5 {\n  width: 1.25rem !important;\n}\n\n.\\!w-20 {\n  width: 5rem !important;\n}\n\n.w-\\[309px\\] {\n  width: 309px;\n}\n\n.w-2\\/3 {\n  width: 66.666667%;\n}\n\n.w-max {\n  width: max-content;\n}\n\n.w-7\\/12 {\n  width: 58.333333%;\n}\n\n.w-4\\/12 {\n  width: 33.333333%;\n}\n\n.w-5\\/12 {\n  width: 41.666667%;\n}\n\n.w-8\\/12 {\n  width: 66.666667%;\n}\n\n.w-60 {\n  width: 15rem;\n}\n\n.w-1\\/5 {\n  width: 20%;\n}\n\n.w-2\\/12 {\n  width: 16.666667%;\n}\n\n.w-1\\/3 {\n  width: 33.333333%;\n}\n\n.w-\\[18\\%\\] {\n  width: 18%;\n}\n\n.w-3\\/4 {\n  width: 75%;\n}\n\n.w-1\\/4 {\n  width: 25%;\n}\n\n.min-w-max {\n  min-width: max-content;\n}\n\n.min-w-\\[50\\%\\] {\n  min-width: 50%;\n}\n\n.max-w-2xl {\n  max-width: 42rem;\n}\n\n.max-w-xs {\n  max-width: 20rem;\n}\n\n.max-w-lg {\n  max-width: 32rem;\n}\n\n.max-w-\\[200px\\] {\n  max-width: 200px;\n}\n\n.max-w-md {\n  max-width: 28rem;\n}\n\n.max-w-full {\n  max-width: 100%;\n}\n\n.max-w-\\[130px\\] {\n  max-width: 130px;\n}\n\n.max-w-\\[310px\\] {\n  max-width: 310px;\n}\n\n.flex-1 {\n  flex: 1 1;\n}\n\n.flex-none {\n  flex: none;\n}\n\n.flex-grow {\n  flex-grow: 1;\n}\n\n.grow {\n  flex-grow: 1;\n}\n\n.\\!translate-x-0 {\n  --tw-translate-x: 0px !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-y-full {\n  --tw-translate-y: 100% !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/2 {\n  --tw-translate-x: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-1\\/2 {\n  --tw-translate-y: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-full {\n  --tw-translate-x: 100%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-5 {\n  --tw-translate-y: 1.25rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3 {\n  --tw-translate-x: 0.75rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-3\\/4 {\n  --tw-translate-x: -75% !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-full {\n  --tw-translate-x: -100% !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-48 {\n  --tw-translate-x: -12rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-6 {\n  --tw-translate-y: -1.5rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.translate-x-1 {\n  --tw-translate-x: 0.25rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-10 {\n  --tw-translate-y: -2.5rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!translate-x-1 {\n  --tw-translate-x: 0.25rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/3 {\n  --tw-translate-x: -33.333333%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-3\\/4 {\n  --tw-translate-y: 75%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-full {\n  --tw-translate-y: 100%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-20 {\n  --tw-translate-y: -5rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-1\\/4 {\n  --tw-translate-x: 25%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-40 {\n  --tw-translate-y: -10rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3\\/4 {\n  --tw-translate-x: 75%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-2\\/4 {\n  --tw-translate-y: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-16 {\n  --tw-translate-x: -4rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-20 {\n  --tw-translate-x: -5rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-24 {\n  --tw-translate-x: -6rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-6 {\n  --tw-translate-x: 1.5rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-8 {\n  --tw-translate-y: -2rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-3 {\n  --tw-translate-x: 0.75rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-rotate-45 {\n  --tw-rotate: -45deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-180 {\n  --tw-rotate: 180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-180 {\n  --tw-rotate: -180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-90 {\n  --tw-rotate: 90deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-90 {\n  --tw-rotate: -90deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.transform {\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-pulse {\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.animate-spin {\n  animation: spin 1s linear infinite;\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-\\[pulse_0\\.8s\\] {\n  animation: pulse 0.8s;\n}\n\n@keyframes spinner-rotate {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.animate-spinner-rotate {\n  animation: spinner-rotate 2s linear infinite;\n}\n\n@keyframes spinner-dash {\n  0% {\n    stroke-dasharray: 1, 150;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -35;\n  }\n\n  100% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -124;\n  }\n}\n\n.animate-spinner-dash {\n  animation: spinner-dash 1.5s ease-in-out infinite;\n}\n\n@keyframes bounce {\n  0%, 100% {\n    transform: translateY(-25%);\n    animation-timing-function: cubic-bezier(0.8,0,1,1);\n  }\n\n  50% {\n    transform: none;\n    animation-timing-function: cubic-bezier(0,0,0.2,1);\n  }\n}\n\n.animate-\\[bounce_1\\.5s\\] {\n  animation: bounce 1.5s;\n}\n\n.cursor-pointer {\n  cursor: pointer;\n}\n\n.cursor-not-allowed {\n  cursor: not-allowed;\n}\n\n.\\!cursor-default {\n  cursor: default !important;\n}\n\n.cursor-default {\n  cursor: default;\n}\n\n.\\!cursor-pointer {\n  cursor: pointer !important;\n}\n\n.cursor-move {\n  cursor: move;\n}\n\n.\\!cursor-not-allowed {\n  cursor: not-allowed !important;\n}\n\n.cursor-text {\n  cursor: text;\n}\n\n.select-none {\n  -webkit-user-select: none;\n          user-select: none;\n}\n\n.list-none {\n  list-style-type: none;\n}\n\n.grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n\n.flex-row {\n  flex-direction: row;\n}\n\n.flex-col {\n  flex-direction: column;\n}\n\n.flex-wrap {\n  flex-wrap: wrap;\n}\n\n.items-start {\n  align-items: flex-start;\n}\n\n.items-end {\n  align-items: flex-end;\n}\n\n.items-center {\n  align-items: center;\n}\n\n.items-stretch {\n  align-items: stretch;\n}\n\n.justify-start {\n  justify-content: flex-start;\n}\n\n.justify-end {\n  justify-content: flex-end;\n}\n\n.justify-center {\n  justify-content: center;\n}\n\n.justify-between {\n  justify-content: space-between;\n}\n\n.justify-around {\n  justify-content: space-around;\n}\n\n.justify-evenly {\n  justify-content: space-evenly;\n}\n\n.gap-2 {\n  grid-gap: 0.5rem;\n  gap: 0.5rem;\n}\n\n.gap-4 {\n  grid-gap: 1rem;\n  gap: 1rem;\n}\n\n.gap-3 {\n  grid-gap: 0.75rem;\n  gap: 0.75rem;\n}\n\n.gap-x-2 {\n  -webkit-column-gap: 0.5rem;\n          grid-column-gap: 0.5rem;\n          column-gap: 0.5rem;\n}\n\n.gap-x-\\[10px\\] {\n  -webkit-column-gap: 10px;\n          grid-column-gap: 10px;\n          column-gap: 10px;\n}\n\n.gap-y-\\[10px\\] {\n  grid-row-gap: 10px;\n  row-gap: 10px;\n}\n\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0px * var(--tw-space-y-reverse));\n}\n\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-6 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2rem * var(--tw-space-y-reverse));\n}\n\n.space-x-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(2rem * var(--tw-space-x-reverse));\n  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\n\n.space-y-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0\\.5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));\n}\n\n.space-x-7 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0px * var(--tw-space-x-reverse));\n  margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.self-start {\n  align-self: flex-start;\n}\n\n.justify-self-start {\n  justify-self: start;\n}\n\n.justify-self-end {\n  justify-self: end;\n}\n\n.overflow-auto {\n  overflow: auto;\n}\n\n.overflow-hidden {\n  overflow: hidden;\n}\n\n.overflow-x-auto {\n  overflow-x: auto;\n}\n\n.overflow-y-auto {\n  overflow-y: auto;\n}\n\n.overflow-x-hidden {\n  overflow-x: hidden;\n}\n\n.overflow-y-scroll {\n  overflow-y: scroll;\n}\n\n.scroll-smooth {\n  scroll-behavior: smooth;\n}\n\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.text-ellipsis {\n  text-overflow: ellipsis;\n}\n\n.\\!whitespace-normal {\n  white-space: normal !important;\n}\n\n.whitespace-normal {\n  white-space: normal;\n}\n\n.whitespace-nowrap {\n  white-space: nowrap;\n}\n\n.whitespace-pre-line {\n  white-space: pre-line;\n}\n\n.whitespace-pre-wrap {\n  white-space: pre-wrap;\n}\n\n.break-words {\n  overflow-wrap: break-word;\n}\n\n.break-all {\n  word-break: break-all;\n}\n\n.rounded-md {\n  border-radius: 0.375rem;\n}\n\n.rounded-2xl {\n  border-radius: 1rem;\n}\n\n.rounded-full {\n  border-radius: 9999px;\n}\n\n.rounded {\n  border-radius: 0.25rem;\n}\n\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n\n.rounded-sm {\n  border-radius: 4px;\n}\n\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n\n.rounded-\\[13px\\] {\n  border-radius: 13px;\n}\n\n.rounded-none {\n  border-radius: 0px;\n}\n\n.rounded-\\[10px\\] {\n  border-radius: 10px;\n}\n\n.rounded-t-md {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.rounded-b-\\[8px\\] {\n  border-bottom-right-radius: 8px;\n  border-bottom-left-radius: 8px;\n}\n\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n\n.border-2 {\n  border-width: 2px;\n}\n\n.border {\n  border-width: 1px;\n}\n\n.border-\\[1px\\] {\n  border-width: 1px;\n}\n\n.border-0 {\n  border-width: 0px;\n}\n\n.\\!border {\n  border-width: 1px !important;\n}\n\n.border-b-2 {\n  border-bottom-width: 2px;\n}\n\n.border-b {\n  border-bottom-width: 1px;\n}\n\n.border-t-4 {\n  border-top-width: 4px;\n}\n\n.border-r-4 {\n  border-right-width: 4px;\n}\n\n.border-b-\\[1px\\] {\n  border-bottom-width: 1px;\n}\n\n.border-t {\n  border-top-width: 1px;\n}\n\n.border-r-2 {\n  border-right-width: 2px;\n}\n\n.border-none {\n  border-style: none;\n}\n\n.border-body-balances-300 {\n  border-color: #00ffa355;\n}\n\n.border-gray-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-red-600 {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.border-blue-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(191 219 254 / var(--tw-border-opacity));\n}\n\n.border-gray-900 {\n  --tw-border-opacity: 1;\n  border-color: rgb(10 18 30 / var(--tw-border-opacity));\n}\n\n.border-border-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(103 103 103 / var(--tw-border-opacity));\n}\n\n.border-gray-700 {\n  --tw-border-opacity: 1;\n  border-color: rgb(55 65 81 / var(--tw-border-opacity));\n}\n\n.border-component-input-border {\n  --tw-border-opacity: 1;\n  border-color: rgb(47 47 47 / var(--tw-border-opacity));\n}\n\n.border-transparent {\n  border-color: transparent;\n}\n\n.border-primary-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(217 233 250 / var(--tw-border-opacity));\n}\n\n.border-primary-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(22 115 255 / var(--tw-border-opacity));\n}\n\n.border-body-activity-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(54 54 54 / var(--tw-border-opacity));\n}\n\n.border-white {\n  --tw-border-opacity: 1;\n  border-color: rgb(255 255 255 / var(--tw-border-opacity));\n}\n\n.border-border-100 {\n  border-color: #ffffff26;\n}\n\n.border-border-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.border-gray-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(107 114 128 / var(--tw-border-opacity));\n}\n\n.\\!border-gray-200 {\n  --tw-border-opacity: 1 !important;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity)) !important;\n}\n\n.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}\n\n.border-red-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.border-body-networkSelect-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(49 47 47 / var(--tw-border-opacity));\n}\n\n.border-green-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.border-yellow-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.border-current {\n  border-color: currentColor;\n}\n\n.border-gray-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(209 213 219 / var(--tw-border-opacity));\n}\n\n.border-green-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.border-primary-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(231 241 251 / var(--tw-border-opacity));\n}\n\n.border-red-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(252 165 165 / var(--tw-border-opacity));\n}\n\n.border-t-gray-200 {\n  --tw-border-opacity: 1;\n  border-top-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-b-gray-200 {\n  --tw-border-opacity: 1;\n  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-opacity-0 {\n  --tw-border-opacity: 0;\n}\n\n.bg-body-balances-100 {\n  background-color: #00ffa314;\n}\n\n.bg-primary-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n\n.bg-red-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 226 226 / var(--tw-bg-opacity));\n}\n\n.bg-red-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 242 242 / var(--tw-bg-opacity));\n}\n\n.bg-red-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 38 38 / var(--tw-bg-opacity));\n}\n\n.bg-blue-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(191 219 254 / var(--tw-bg-opacity));\n}\n\n.bg-gray-900 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-100 {\n  background-color: #00ffa314;\n}\n\n.bg-component-btn-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-gray-700 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 250 / var(--tw-bg-opacity));\n}\n\n.bg-transparent {\n  background-color: transparent;\n}\n\n.bg-body-assets-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}\n\n.bg-container-100 {\n  background-color: #ffffff0d;\n}\n\n.bg-header-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-header-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(26 26 28 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(51 51 51 / var(--tw-bg-opacity));\n}\n\n.bg-gray-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity));\n}\n\n.bg-body-collectibles-100 {\n  background-color: #1414145c;\n}\n\n.bg-green-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 252 231 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.bg-green-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(74 222 128 / var(--tw-bg-opacity));\n}\n\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 252 252 / var(--tw-bg-opacity));\n}\n\n.bg-primary-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(22 115 255 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 204 21 / var(--tw-bg-opacity));\n}\n\n.bg-orange-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(251 146 60 / var(--tw-bg-opacity));\n}\n\n.bg-red-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 113 113 / var(--tw-bg-opacity));\n}\n\n.bg-gray-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(156 163 175 / var(--tw-bg-opacity));\n}\n\n.bg-primary-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.bg-component-input-bg {\n  --tw-bg-opacity: 1;\n  background-color: rgb(21 21 21 / var(--tw-bg-opacity));\n}\n\n.\\!bg-gray-200 {\n  --tw-bg-opacity: 1 !important;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;\n}\n\n.bg-container-reveal {\n  --tw-bg-opacity: 1;\n  background-color: rgb(121 121 128 / var(--tw-bg-opacity));\n}\n\n.bg-blue-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(219 234 254 / var(--tw-bg-opacity));\n}\n\n.bg-red-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 165 165 / var(--tw-bg-opacity));\n}\n\n.bg-blue-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.bg-gray-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(75 85 99 / var(--tw-bg-opacity));\n}\n\n.bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 240 138 / var(--tw-bg-opacity));\n}\n\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n\n.bg-body-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-body-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(33 33 33 / var(--tw-bg-opacity));\n}\n\n.\\!bg-primary-100 {\n  --tw-bg-opacity: 1 !important;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity)) !important;\n}\n\n.bg-opacity-50 {\n  --tw-bg-opacity: 0.5;\n}\n\n.bg-opacity-60 {\n  --tw-bg-opacity: 0.6;\n}\n\n.bg-opacity-75 {\n  --tw-bg-opacity: 0.75;\n}\n\n.bg-opacity-20 {\n  --tw-bg-opacity: 0.2;\n}\n\n.fill-black {\n  fill: #000;\n}\n\n.fill-green-600 {\n  fill: #16a34a;\n}\n\n.\\!fill-selected {\n  fill: #1673FF !important;\n}\n\n.\\!fill-danger {\n  fill: red !important;\n}\n\n.\\!fill-gray {\n  fill: #8093AB !important;\n}\n\n.fill-component-menuicon-100 {\n  fill: #5F5F5F;\n}\n\n.stroke-black {\n  stroke: #0A121E;\n}\n\n.stroke-current {\n  stroke: currentColor;\n}\n\n.stroke-primary-300 {\n  stroke: #1673FF;\n}\n\n.\\!stroke-gray {\n  stroke: #8093AB !important;\n}\n\n.stroke-component-menuicon-100 {\n  stroke: #5F5F5F;\n}\n\n.stroke-component-menuicon-200 {\n  stroke: #00FFA3;\n}\n\n.p-4 {\n  padding: 1rem;\n}\n\n.p-1 {\n  padding: 0.25rem;\n}\n\n.p-0 {\n  padding: 0px;\n}\n\n.p-1\\.5 {\n  padding: 0.375rem;\n}\n\n.p-3 {\n  padding: 0.75rem;\n}\n\n.p-6 {\n  padding: 1.5rem;\n}\n\n.p-2 {\n  padding: 0.5rem;\n}\n\n.p-5 {\n  padding: 1.25rem;\n}\n\n.p-\\[14px\\] {\n  padding: 14px;\n}\n\n.p-0\\.5 {\n  padding: 0.125rem;\n}\n\n.p-8 {\n  padding: 2rem;\n}\n\n.p-10 {\n  padding: 2.5rem;\n}\n\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.py-5 {\n  padding-top: 1.25rem;\n  padding-bottom: 1.25rem;\n}\n\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n\n.px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.px-\\[10\\.5px\\] {\n  padding-left: 10.5px;\n  padding-right: 10.5px;\n}\n\n.px-\\[14px\\] {\n  padding-left: 14px;\n  padding-right: 14px;\n}\n\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.px-7 {\n  padding-left: 1.75rem;\n  padding-right: 1.75rem;\n}\n\n.py-2\\.5 {\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n}\n\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n\n.px-2\\.5 {\n  padding-left: 0.625rem;\n  padding-right: 0.625rem;\n}\n\n.py-1\\.5 {\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n}\n\n.px-1\\.5 {\n  padding-left: 0.375rem;\n  padding-right: 0.375rem;\n}\n\n.py-6 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\n\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n\n.px-12 {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n\n.px-24 {\n  padding-left: 6rem;\n  padding-right: 6rem;\n}\n\n.py-0\\.5 {\n  padding-top: 0.125rem;\n  padding-bottom: 0.125rem;\n}\n\n.py-0 {\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n\n.py-14 {\n  padding-top: 3.5rem;\n  padding-bottom: 3.5rem;\n}\n\n.px-10 {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.px-9 {\n  padding-left: 2.25rem;\n  padding-right: 2.25rem;\n}\n\n.px-48 {\n  padding-left: 12rem;\n  padding-right: 12rem;\n}\n\n.py-8 {\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n\n.py-\\[9px\\] {\n  padding-top: 9px;\n  padding-bottom: 9px;\n}\n\n.pt-6 {\n  padding-top: 1.5rem;\n}\n\n.pt-3 {\n  padding-top: 0.75rem;\n}\n\n.pt-2 {\n  padding-top: 0.5rem;\n}\n\n.pt-0\\.5 {\n  padding-top: 0.125rem;\n}\n\n.pt-0 {\n  padding-top: 0px;\n}\n\n.pb-1\\.5 {\n  padding-bottom: 0.375rem;\n}\n\n.pb-1 {\n  padding-bottom: 0.25rem;\n}\n\n.pr-1 {\n  padding-right: 0.25rem;\n}\n\n.pt-1 {\n  padding-top: 0.25rem;\n}\n\n.pb-2 {\n  padding-bottom: 0.5rem;\n}\n\n.pr-\\[49px\\] {\n  padding-right: 49px;\n}\n\n.pb-\\[20px\\] {\n  padding-bottom: 20px;\n}\n\n.pl-2 {\n  padding-left: 0.5rem;\n}\n\n.pb-0 {\n  padding-bottom: 0px;\n}\n\n.pr-3 {\n  padding-right: 0.75rem;\n}\n\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n\n.pr-6 {\n  padding-right: 1.5rem;\n}\n\n.pl-4 {\n  padding-left: 1rem;\n}\n\n.pl-1 {\n  padding-left: 0.25rem;\n}\n\n.pt-4 {\n  padding-top: 1rem;\n}\n\n.pb-6 {\n  padding-bottom: 1.5rem;\n}\n\n.pr-0 {\n  padding-right: 0px;\n}\n\n.pt-5 {\n  padding-top: 1.25rem;\n}\n\n.pr-2 {\n  padding-right: 0.5rem;\n}\n\n.pl-9 {\n  padding-left: 2.25rem;\n}\n\n.pl-0 {\n  padding-left: 0px;\n}\n\n.pt-20 {\n  padding-top: 5rem;\n}\n\n.pt-\\[30px\\] {\n  padding-top: 30px;\n}\n\n.pb-\\[22px\\] {\n  padding-bottom: 22px;\n}\n\n.pb-4 {\n  padding-bottom: 1rem;\n}\n\n.pl-0\\.5 {\n  padding-left: 0.125rem;\n}\n\n.pl-6 {\n  padding-left: 1.5rem;\n}\n\n.pt-8 {\n  padding-top: 2rem;\n}\n\n.pt-28 {\n  padding-top: 7rem;\n}\n\n.pt-10 {\n  padding-top: 2.5rem;\n}\n\n.pt-24 {\n  padding-top: 6rem;\n}\n\n.pr-1\\.5 {\n  padding-right: 0.375rem;\n}\n\n.pl-1\\.5 {\n  padding-left: 0.375rem;\n}\n\n.pb-8 {\n  padding-bottom: 2rem;\n}\n\n.text-left {\n  text-align: left;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.text-right {\n  text-align: right;\n}\n\n.align-middle {\n  vertical-align: middle;\n}\n\n.font-\\[CarbonText-Regular\\] {\n  font-family: CarbonText-Regular;\n}\n\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[10px\\] {\n  font-size: 10px;\n}\n\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n\n.text-xxs {\n  font-size: .625rem;\n}\n\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[32px\\] {\n  font-size: 32px;\n}\n\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n\n.font-bold {\n  font-weight: 700;\n}\n\n.font-normal {\n  font-weight: 400;\n}\n\n.font-semibold {\n  font-weight: 600;\n}\n\n.font-medium {\n  font-weight: 500;\n}\n\n.font-\\[400\\] {\n  font-weight: 400;\n}\n\n.font-black {\n  font-weight: 900;\n}\n\n.font-thin {\n  font-weight: 100;\n}\n\n.uppercase {\n  text-transform: uppercase;\n}\n\n.lowercase {\n  text-transform: lowercase;\n}\n\n.capitalize {\n  text-transform: capitalize;\n}\n\n.leading-10 {\n  line-height: 2.5rem;\n}\n\n.leading-6 {\n  line-height: 1.5rem;\n}\n\n.leading-loose {\n  line-height: 2;\n}\n\n.leading-5 {\n  line-height: 1.25rem;\n}\n\n.leading-relaxed {\n  line-height: 1.625;\n}\n\n.text-body-balances-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.text-red-500 {\n  --tw-text-opacity: 1;\n  color: rgb(239 68 68 / var(--tw-text-opacity));\n}\n\n.text-red-300 {\n  --tw-text-opacity: 1;\n  color: rgb(252 165 165 / var(--tw-text-opacity));\n}\n\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.text-component-btn-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-component-btn-400 {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(10 18 30 / var(--tw-text-opacity));\n}\n\n.text-component-btn-700 {\n  --tw-text-opacity: 1;\n  color: rgb(30 34 41 / var(--tw-text-opacity));\n}\n\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n\n.text-sky-600 {\n  --tw-text-opacity: 1;\n  color: rgb(2 132 199 / var(--tw-text-opacity));\n}\n\n.text-primary-300 {\n  --tw-text-opacity: 1;\n  color: rgb(22 115 255 / var(--tw-text-opacity));\n}\n\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n\n.text-body-activity-100 {\n  color: #c9c9c9fc;\n}\n\n.text-body-activity-200 {\n  color: #e9e9e999;\n}\n\n.text-body-assets-200 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-primary-200 {\n  --tw-text-opacity: 1;\n  color: rgb(217 233 250 / var(--tw-text-opacity));\n}\n\n.text-yellow-600 {\n  --tw-text-opacity: 1;\n  color: rgb(202 138 4 / var(--tw-text-opacity));\n}\n\n.text-green-600 {\n  --tw-text-opacity: 1;\n  color: rgb(22 163 74 / var(--tw-text-opacity));\n}\n\n.text-txt-logo {\n  --tw-text-opacity: 1;\n  color: rgb(239 239 239 / var(--tw-text-opacity));\n}\n\n.text-green-500 {\n  --tw-text-opacity: 1;\n  color: rgb(34 197 94 / var(--tw-text-opacity));\n}\n\n.text-yellow-500 {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.text-body-700 {\n  --tw-text-opacity: 1;\n  color: rgb(132 132 132 / var(--tw-text-opacity));\n}\n\n.text-body-600 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n\n.text-red-600 {\n  --tw-text-opacity: 1;\n  color: rgb(220 38 38 / var(--tw-text-opacity));\n}\n\n.text-blue-200 {\n  --tw-text-opacity: 1;\n  color: rgb(191 219 254 / var(--tw-text-opacity));\n}\n\n.text-blue-600 {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.text-body-balances-300 {\n  color: #00ffa355;\n}\n\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n\n.text-yellow-400 {\n  --tw-text-opacity: 1;\n  color: rgb(250 204 21 / var(--tw-text-opacity));\n}\n\n.text-red-400 {\n  --tw-text-opacity: 1;\n  color: rgb(248 113 113 / var(--tw-text-opacity));\n}\n\n.text-slate-600 {\n  --tw-text-opacity: 1;\n  color: rgb(71 85 105 / var(--tw-text-opacity));\n}\n\n.text-gray-300 {\n  --tw-text-opacity: 1;\n  color: rgb(209 213 219 / var(--tw-text-opacity));\n}\n\n.text-primary-100 {\n  --tw-text-opacity: 1;\n  color: rgb(231 241 251 / var(--tw-text-opacity));\n}\n\n.text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.\\!text-primary-300 {\n  --tw-text-opacity: 1 !important;\n  color: rgb(22 115 255 / var(--tw-text-opacity)) !important;\n}\n\n.text-red-900 {\n  --tw-text-opacity: 1;\n  color: rgb(127 29 29 / var(--tw-text-opacity));\n}\n\n.text-blue-900 {\n  --tw-text-opacity: 1;\n  color: rgb(30 58 138 / var(--tw-text-opacity));\n}\n\n.text-yellow-900 {\n  --tw-text-opacity: 1;\n  color: rgb(113 63 18 / var(--tw-text-opacity));\n}\n\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.text-gray-200 {\n  --tw-text-opacity: 1;\n  color: rgb(229 231 235 / var(--tw-text-opacity));\n}\n\n.text-green-400 {\n  --tw-text-opacity: 1;\n  color: rgb(74 222 128 / var(--tw-text-opacity));\n}\n\n.text-txt-check {\n  --tw-text-opacity: 1;\n  color: rgb(207 208 211 / var(--tw-text-opacity));\n}\n\n.text-txt-warn {\n  --tw-text-opacity: 1;\n  color: rgb(255 156 84 / var(--tw-text-opacity));\n}\n\n.text-txt-subtitle {\n  --tw-text-opacity: 1;\n  color: rgb(138 138 138 / var(--tw-text-opacity));\n}\n\n.text-body-900 {\n  --tw-text-opacity: 1;\n  color: rgb(138 146 154 / var(--tw-text-opacity));\n}\n\n.underline {\n  text-decoration-line: underline;\n}\n\n.underline-offset-1 {\n  text-underline-offset: 1px;\n}\n\n.placeholder-gray-400::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.opacity-50 {\n  opacity: 0.5;\n}\n\n.\\!opacity-100 {\n  opacity: 1 !important;\n}\n\n.opacity-5 {\n  opacity: 0.05;\n}\n\n.opacity-80 {\n  opacity: 0.8;\n}\n\n.opacity-100 {\n  opacity: 1;\n}\n\n.opacity-0 {\n  opacity: 0;\n}\n\n.opacity-90 {\n  opacity: 0.9;\n}\n\n.opacity-75 {\n  opacity: 0.75;\n}\n\n.opacity-30 {\n  opacity: 0.3;\n}\n\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.outline-none {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n.outline {\n  outline-style: solid;\n}\n\n.blur {\n  --tw-blur: blur(8px);\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.filter {\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.backdrop-blur-md {\n  --tw-backdrop-blur: blur(12px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.backdrop-blur-\\[30px\\] {\n  --tw-backdrop-blur: blur(30px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-transform {\n  transition-property: transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-opacity {\n  transition-property: opacity;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-width {\n  transition-property: width;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-colors {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.delay-300 {\n  transition-delay: 300ms;\n}\n\n.delay-150 {\n  transition-delay: 150ms;\n}\n\n.delay-500 {\n  transition-delay: 500ms;\n}\n\n.delay-100 {\n  transition-delay: 100ms;\n}\n\n.duration-300 {\n  transition-duration: 300ms;\n}\n\n.duration-200 {\n  transition-duration: 200ms;\n}\n\n.duration-75 {\n  transition-duration: 75ms;\n}\n\n.duration-500 {\n  transition-duration: 500ms;\n}\n\n.duration-100 {\n  transition-duration: 100ms;\n}\n\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n\n.ease-in-out {\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n\n.checked\\:bg-component-btn-200:checked {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.checked\\:text-component-btn-200:checked {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:rotate-180:hover {\n  --tw-rotate: 180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.hover\\:cursor-pointer:hover {\n  cursor: pointer;\n}\n\n.hover\\:rounded-t-md:hover {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.hover\\:border-\\[1px\\]:hover {\n  border-width: 1px;\n}\n\n.hover\\:border-2:hover {\n  border-width: 2px;\n}\n\n.hover\\:border-black:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-400:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-700:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(185 28 28 / var(--tw-border-opacity));\n}\n\n.hover\\:border-gray-800:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(31 41 55 / var(--tw-border-opacity));\n}\n\n.hover\\:border-primary-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(22 115 255 / var(--tw-border-opacity));\n}\n\n.hover\\:border-border-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.hover\\:border-green-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.hover\\:border-yellow-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(253 224 71 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(37 99 235 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(147 197 253 / var(--tw-border-opacity));\n}\n\n.hover\\:border-opacity-100:hover {\n  --tw-border-opacity: 1;\n}\n\n.hover\\:border-opacity-50:hover {\n  --tw-border-opacity: 0.5;\n}\n\n.hover\\:bg-body-balances-300:hover {\n  background-color: #00ffa355;\n}\n\n.hover\\:bg-primary-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-red-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(185 28 28 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-800:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-900:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-primary-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-component-btn-100:hover {\n  background-color: #00ffa314;\n}\n\n.hover\\:hover\\:bg-gray-700:hover:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-body-assets-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(201 201 201 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-yellow-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(37 99 235 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-300:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-opacity-20:hover {\n  --tw-bg-opacity: 0.2;\n}\n\n.hover\\:bg-opacity-50:hover {\n  --tw-bg-opacity: 0.5;\n}\n\n.hover\\:fill-component-menuicon-200:hover {\n  fill: #00FFA3;\n}\n\n.hover\\:stroke-component-menuicon-200:hover {\n  stroke: #00FFA3;\n}\n\n.hover\\:font-medium:hover {\n  font-weight: 500;\n}\n\n.hover\\:text-white:hover {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.hover\\:text-primary-300:hover {\n  --tw-text-opacity: 1;\n  color: rgb(22 115 255 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-600:hover {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.hover\\:text-body-balances-300:hover {\n  color: #00ffa355;\n}\n\n.hover\\:text-blue-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.hover\\:text-black:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(30 64 175 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(161 98 7 / var(--tw-text-opacity));\n}\n\n.hover\\:text-gray-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.hover\\:underline:hover {\n  text-decoration-line: underline;\n}\n\n.hover\\:opacity-60:hover {\n  opacity: 0.6;\n}\n\n.hover\\:opacity-80:hover {\n  opacity: 0.8;\n}\n\n.focus\\:border-red-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.focus\\:border-green-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(202 138 4 / var(--tw-border-opacity));\n}\n\n.focus\\:border-red-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.focus\\:ring-0:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n\n.active\\:scale-95:active {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.active\\:bg-primary-200:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.active\\:bg-opacity-20:active {\n  --tw-bg-opacity: 0.2;\n}\n\n.active\\:bg-opacity-50:active {\n  --tw-bg-opacity: 0.5;\n}\n\n.active\\:fill-component-menuicon-200:active {\n  fill: #00FFA3;\n}\n\n.active\\:stroke-component-menuicon-200:active {\n  stroke: #00FFA3;\n}\n\n.disabled\\:pointer-events-none:disabled {\n  pointer-events: none;\n}\n\n.disabled\\:cursor-default:disabled {\n  cursor: default;\n}\n\n.disabled\\:border-gray-200:disabled {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.disabled\\:bg-component-btn-300:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.disabled\\:bg-gray-100:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.disabled\\:text-component-btn-400:disabled {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.disabled\\:opacity-60:disabled {\n  opacity: 0.6;\n}\n\n.disabled\\:hover\\:bg-gray-900:hover:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.group:hover .group-hover\\:visible {\n  visibility: visible;\n}\n\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n\n.group:hover .group-hover\\:opacity-100 {\n  opacity: 1;\n}\n\n.group:hover .group-hover\\:opacity-95 {\n  opacity: 0.95;\n}\n\n@media (min-width: 768px) {\n  .md\\:ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .md\\:w-full {\n    width: 100%;\n  }\n\n  .md\\:w-64 {\n    width: 16rem;\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:space-y-6 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n  }\n\n  .md\\:space-x-4 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(1rem * var(--tw-space-x-reverse));\n    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:px-0 {\n    padding-left: 0px;\n    padding-right: 0px;\n  }\n}\r\n", "",{"version":3,"sources":["webpack://src/styles/tailwind.generated.css"],"names":[],"mappings":"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","sourcesContent":["/*\n! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com\n*/\n\n/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n  /* 1 */\n  border-width: 0;\n  /* 2 */\n  border-style: solid;\n  /* 2 */\n  border-color: #e5e7eb;\n  /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n  /* 3 */\n  tab-size: 4;\n  /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0;\n  /* 1 */\n  line-height: inherit;\n  /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  border-top-width: 1px;\n  /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0;\n  /* 1 */\n  border-color: inherit;\n  /* 2 */\n  border-collapse: collapse;\n  /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  font-weight: inherit;\n  /* 1 */\n  line-height: inherit;\n  /* 1 */\n  color: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n  padding: 0;\n  /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button;\n  /* 1 */\n  background-color: transparent;\n  /* 2 */\n  background-image: none;\n  /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-webkit-input-placeholder, textarea::-webkit-input-placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block;\n  /* 1 */\n  vertical-align: middle;\n  /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  -webkit-appearance: none;\n          appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::-webkit-input-placeholder, textarea::-webkit-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  -webkit-print-color-adjust: unset;\n          print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  -webkit-appearance: none;\n          appearance: none;\n  padding: 0;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px solid ButtonText;\n  outline: 1px auto -webkit-focus-ring-color;\n}\n\na:focus, \r\n    button:focus, \r\n    input:focus, \r\n    textarea:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\na {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n.container {\n  width: 100%;\n}\n\n@media (min-width: 640px) {\n  .container {\n    max-width: 640px;\n  }\n}\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 768px;\n  }\n}\n\n@media (min-width: 1024px) {\n  .container {\n    max-width: 1024px;\n  }\n}\n\n@media (min-width: 1280px) {\n  .container {\n    max-width: 1280px;\n  }\n}\n\n@media (min-width: 1536px) {\n  .container {\n    max-width: 1536px;\n  }\n}\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.pointer-events-none {\n  pointer-events: none;\n}\n\n.visible {\n  visibility: visible;\n}\n\n.invisible {\n  visibility: hidden;\n}\n\n.static {\n  position: static;\n}\n\n.fixed {\n  position: fixed;\n}\n\n.absolute {\n  position: absolute;\n}\n\n.relative {\n  position: relative;\n}\n\n.sticky {\n  position: -webkit-sticky;\n  position: sticky;\n}\n\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n\n.left-0 {\n  left: 0px;\n}\n\n.top-0 {\n  top: 0px;\n}\n\n.bottom-0 {\n  bottom: 0px;\n}\n\n.left-2 {\n  left: 0.5rem;\n}\n\n.top-4 {\n  top: 1rem;\n}\n\n.left-\\[300px\\] {\n  left: 300px;\n}\n\n.left-4 {\n  left: 1rem;\n}\n\n.left-1\\/2 {\n  left: 50%;\n}\n\n.top-1\\/2 {\n  top: 50%;\n}\n\n.left-\\[72px\\] {\n  left: 72px;\n}\n\n.-top-\\[26px\\] {\n  top: -26px;\n}\n\n.left-\\[166px\\] {\n  left: 166px;\n}\n\n.-top-\\[35px\\] {\n  top: -35px;\n}\n\n.right-0 {\n  right: 0px;\n}\n\n.left-0\\.5 {\n  left: 0.125rem;\n}\n\n.top-0\\.5 {\n  top: 0.125rem;\n}\n\n.top-full {\n  top: 100%;\n}\n\n.bottom-full {\n  bottom: 100%;\n}\n\n.right-2 {\n  right: 0.5rem;\n}\n\n.right-6 {\n  right: 1.5rem;\n}\n\n.-bottom-2 {\n  bottom: -0.5rem;\n}\n\n.-left-2 {\n  left: -0.5rem;\n}\n\n.left-full {\n  left: 100%;\n}\n\n.right-full {\n  right: 100%;\n}\n\n.right-3 {\n  right: 0.75rem;\n}\n\n.left-\\[1px\\] {\n  left: 1px;\n}\n\n.top-\\[5px\\] {\n  top: 5px;\n}\n\n.left-1 {\n  left: 0.25rem;\n}\n\n.-top-2 {\n  top: -0.5rem;\n}\n\n.-right-2 {\n  right: -0.5rem;\n}\n\n.top-6 {\n  top: 1.5rem;\n}\n\n.bottom-20 {\n  bottom: 5rem;\n}\n\n.z-10 {\n  z-index: 10;\n}\n\n.z-50 {\n  z-index: 50;\n}\n\n.\\!z-50 {\n  z-index: 50 !important;\n}\n\n.z-20 {\n  z-index: 20;\n}\n\n.z-30 {\n  z-index: 30;\n}\n\n.z-0 {\n  z-index: 0;\n}\n\n.z-\\[20000\\] {\n  z-index: 20000;\n}\n\n.z-40 {\n  z-index: 40;\n}\n\n.float-right {\n  float: right;\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.-m-4 {\n  margin: -1rem;\n}\n\n.\\!m-0 {\n  margin: 0px !important;\n}\n\n.m-0 {\n  margin: 0px;\n}\n\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.my-4 {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n}\n\n.my-6 {\n  margin-top: 1.5rem;\n  margin-bottom: 1.5rem;\n}\n\n.-mx-3 {\n  margin-left: -0.75rem;\n  margin-right: -0.75rem;\n}\n\n.-mx-6 {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n}\n\n.mx-4 {\n  margin-left: 1rem;\n  margin-right: 1rem;\n}\n\n.my-2 {\n  margin-top: 0.5rem;\n  margin-bottom: 0.5rem;\n}\n\n.my-0\\.5 {\n  margin-top: 0.125rem;\n  margin-bottom: 0.125rem;\n}\n\n.my-0 {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n.-mx-5 {\n  margin-left: -1.25rem;\n  margin-right: -1.25rem;\n}\n\n.my-12 {\n  margin-top: 3rem;\n  margin-bottom: 3rem;\n}\n\n.my-8 {\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n\n.mr-3 {\n  margin-right: 0.75rem;\n}\n\n.mt-1 {\n  margin-top: 0.25rem;\n}\n\n.mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.-ml-6 {\n  margin-left: -1.5rem;\n}\n\n.mr-1\\.5 {\n  margin-right: 0.375rem;\n}\n\n.mr-1 {\n  margin-right: 0.25rem;\n}\n\n.mt-8 {\n  margin-top: 2rem;\n}\n\n.mr-4 {\n  margin-right: 1rem;\n}\n\n.ml-2 {\n  margin-left: 0.5rem;\n}\n\n.mt-2\\.5 {\n  margin-top: 0.625rem;\n}\n\n.mt-2 {\n  margin-top: 0.5rem;\n}\n\n.mt-4 {\n  margin-top: 1rem;\n}\n\n.mb-3 {\n  margin-bottom: 0.75rem;\n}\n\n.mt-3 {\n  margin-top: 0.75rem;\n}\n\n.mt-px {\n  margin-top: 1px;\n}\n\n.-mb-2 {\n  margin-bottom: -0.5rem;\n}\n\n.-mt-2\\.5 {\n  margin-top: -0.625rem;\n}\n\n.-mt-2 {\n  margin-top: -0.5rem;\n}\n\n.-mr-1 {\n  margin-right: -0.25rem;\n}\n\n.mt-6 {\n  margin-top: 1.5rem;\n}\n\n.mr-2 {\n  margin-right: 0.5rem;\n}\n\n.ml-1 {\n  margin-left: 0.25rem;\n}\n\n.mb-4 {\n  margin-bottom: 1rem;\n}\n\n.mr-\\[14px\\] {\n  margin-right: 14px;\n}\n\n.ml-auto {\n  margin-left: auto;\n}\n\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n\n.-ml-3 {\n  margin-left: -0.75rem;\n}\n\n.mr-6 {\n  margin-right: 1.5rem;\n}\n\n.ml-4 {\n  margin-left: 1rem;\n}\n\n.mt-auto {\n  margin-top: auto;\n}\n\n.mb-auto {\n  margin-bottom: auto;\n}\n\n.-mr-3 {\n  margin-right: -0.75rem;\n}\n\n.mb-6 {\n  margin-bottom: 1.5rem;\n}\n\n.mb-2 {\n  margin-bottom: 0.5rem;\n}\n\n.ml-6 {\n  margin-left: 1.5rem;\n}\n\n.ml-1\\.5 {\n  margin-left: 0.375rem;\n}\n\n.mb-5 {\n  margin-bottom: 1.25rem;\n}\n\n.mt-16 {\n  margin-top: 4rem;\n}\n\n.-mt-5 {\n  margin-top: -1.25rem;\n}\n\n.ml-3 {\n  margin-left: 0.75rem;\n}\n\n.ml-0 {\n  margin-left: 0px;\n}\n\n.mt-0 {\n  margin-top: 0px;\n}\n\n.-mb-4 {\n  margin-bottom: -1rem;\n}\n\n.mb-1\\.5 {\n  margin-bottom: 0.375rem;\n}\n\n.mt-1\\.5 {\n  margin-top: 0.375rem;\n}\n\n.-ml-2 {\n  margin-left: -0.5rem;\n}\n\n.mr-0 {\n  margin-right: 0px;\n}\n\n.mt-20 {\n  margin-top: 5rem;\n}\n\n.-mt-8 {\n  margin-top: -2rem;\n}\n\n.mt-0\\.5 {\n  margin-top: 0.125rem;\n}\n\n.ml-11 {\n  margin-left: 2.75rem;\n}\n\n.mb-\\[22px\\] {\n  margin-bottom: 22px;\n}\n\n.mt-12 {\n  margin-top: 3rem;\n}\n\n.ml-2\\.5 {\n  margin-left: 0.625rem;\n}\n\n.ml-8 {\n  margin-left: 2rem;\n}\n\n.-ml-48 {\n  margin-left: -12rem;\n}\n\n.mb-8 {\n  margin-bottom: 2rem;\n}\n\n.mr-2\\.5 {\n  margin-right: 0.625rem;\n}\n\n.mb-14 {\n  margin-bottom: 3.5rem;\n}\n\n.mt-5 {\n  margin-top: 1.25rem;\n}\n\n.ml-14 {\n  margin-left: 3.5rem;\n}\n\n.mb-12 {\n  margin-bottom: 3rem;\n}\n\n.-mt-0\\.5 {\n  margin-top: -0.125rem;\n}\n\n.-mt-0 {\n  margin-top: -0px;\n}\n\n.-mt-6 {\n  margin-top: -1.5rem;\n}\n\n.box-border {\n  box-sizing: border-box;\n}\n\n.block {\n  display: block;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.inline {\n  display: inline;\n}\n\n.flex {\n  display: flex;\n}\n\n.inline-flex {\n  display: inline-flex;\n}\n\n.grid {\n  display: grid;\n}\n\n.hidden {\n  display: none;\n}\n\n.h-12 {\n  height: 3rem;\n}\n\n.h-5 {\n  height: 1.25rem;\n}\n\n.h-6 {\n  height: 1.5rem;\n}\n\n.h-9 {\n  height: 2.25rem;\n}\n\n.h-full {\n  height: 100%;\n}\n\n.h-3 {\n  height: 0.75rem;\n}\n\n.h-\\[38px\\] {\n  height: 38px;\n}\n\n.h-2 {\n  height: 0.5rem;\n}\n\n.h-16 {\n  height: 4rem;\n}\n\n.h-4 {\n  height: 1rem;\n}\n\n.h-64 {\n  height: 16rem;\n}\n\n.h-8 {\n  height: 2rem;\n}\n\n.h-10 {\n  height: 2.5rem;\n}\n\n.h-24 {\n  height: 6rem;\n}\n\n.h-32 {\n  height: 8rem;\n}\n\n.\\!h-6 {\n  height: 1.5rem !important;\n}\n\n.h-0 {\n  height: 0px;\n}\n\n.h-\\[17rem\\] {\n  height: 17rem;\n}\n\n.h-screen {\n  height: 100vh;\n}\n\n.h-20 {\n  height: 5rem;\n}\n\n.h-7 {\n  height: 1.75rem;\n}\n\n.h-\\[4\\.5rem\\] {\n  height: 4.5rem;\n}\n\n.h-auto {\n  height: auto;\n}\n\n.h-fit {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n\n.h-2\\.5 {\n  height: 0.625rem;\n}\n\n.h-\\[224px\\] {\n  height: 224px;\n}\n\n.h-4\\/5 {\n  height: 80%;\n}\n\n.\\!h-3 {\n  height: 0.75rem !important;\n}\n\n.\\!h-4 {\n  height: 1rem !important;\n}\n\n.\\!h-5 {\n  height: 1.25rem !important;\n}\n\n.\\!h-20 {\n  height: 5rem !important;\n}\n\n.h-14 {\n  height: 3.5rem;\n}\n\n.\\!h-12 {\n  height: 3rem !important;\n}\n\n.h-\\[180px\\] {\n  height: 180px;\n}\n\n.h-\\[112px\\] {\n  height: 112px;\n}\n\n.max-h-screen {\n  max-height: 100vh;\n}\n\n.max-h-72 {\n  max-height: 18rem;\n}\n\n.max-h-96 {\n  max-height: 24rem;\n}\n\n.max-h-52 {\n  max-height: 13rem;\n}\n\n.max-h-\\[476px\\] {\n  max-height: 476px;\n}\n\n.max-h-56 {\n  max-height: 14rem;\n}\n\n.max-h-10 {\n  max-height: 2.5rem;\n}\n\n.min-h-full {\n  min-height: 100%;\n}\n\n.min-h-\\[476px\\] {\n  min-height: 476px;\n}\n\n.w-5 {\n  width: 1.25rem;\n}\n\n.w-full {\n  width: 100%;\n}\n\n.w-6 {\n  width: 1.5rem;\n}\n\n.w-9 {\n  width: 2.25rem;\n}\n\n.\\!w-60 {\n  width: 15rem !important;\n}\n\n.w-3 {\n  width: 0.75rem;\n}\n\n.w-\\[34px\\] {\n  width: 34px;\n}\n\n.w-2 {\n  width: 0.5rem;\n}\n\n.w-4 {\n  width: 1rem;\n}\n\n.w-32 {\n  width: 8rem;\n}\n\n.w-40 {\n  width: 10rem;\n}\n\n.w-\\[100px\\] {\n  width: 100px;\n}\n\n.w-52 {\n  width: 13rem;\n}\n\n.w-64 {\n  width: 16rem;\n}\n\n.w-\\[300px\\] {\n  width: 300px;\n}\n\n.\\!w-52 {\n  width: 13rem !important;\n}\n\n.w-8 {\n  width: 2rem;\n}\n\n.w-auto {\n  width: auto;\n}\n\n.w-10 {\n  width: 2.5rem;\n}\n\n.w-24 {\n  width: 6rem;\n}\n\n.w-16 {\n  width: 4rem;\n}\n\n.w-44 {\n  width: 11rem;\n}\n\n.w-28 {\n  width: 7rem;\n}\n\n.w-0 {\n  width: 0px;\n}\n\n.w-10\\/12 {\n  width: 83.333333%;\n}\n\n.\\!w-0 {\n  width: 0px !important;\n}\n\n.w-1\\/12 {\n  width: 8.333333%;\n}\n\n.\\!w-6 {\n  width: 1.5rem !important;\n}\n\n.w-11 {\n  width: 2.75rem;\n}\n\n.w-48 {\n  width: 12rem;\n}\n\n.\\!w-40 {\n  width: 10rem !important;\n}\n\n.\\!w-56 {\n  width: 14rem !important;\n}\n\n.w-5\\/6 {\n  width: 83.333333%;\n}\n\n.w-20 {\n  width: 5rem;\n}\n\n.w-3\\/6 {\n  width: 50%;\n}\n\n.w-12 {\n  width: 3rem;\n}\n\n.w-\\[17\\%\\] {\n  width: 17%;\n}\n\n.w-2\\.5 {\n  width: 0.625rem;\n}\n\n.w-36 {\n  width: 9rem;\n}\n\n.w-fit {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n}\n\n.w-56 {\n  width: 14rem;\n}\n\n.w-\\[30px\\] {\n  width: 30px;\n}\n\n.w-7 {\n  width: 1.75rem;\n}\n\n.w-min {\n  width: -webkit-min-content;\n  width: min-content;\n}\n\n.w-11\\/12 {\n  width: 91.666667%;\n}\n\n.w-2\\/5 {\n  width: 40%;\n}\n\n.w-3\\/5 {\n  width: 60%;\n}\n\n.w-4\\/5 {\n  width: 80%;\n}\n\n.w-1\\/2 {\n  width: 50%;\n}\n\n.\\!w-3 {\n  width: 0.75rem !important;\n}\n\n.\\!w-4 {\n  width: 1rem !important;\n}\n\n.\\!w-5 {\n  width: 1.25rem !important;\n}\n\n.\\!w-20 {\n  width: 5rem !important;\n}\n\n.w-\\[309px\\] {\n  width: 309px;\n}\n\n.w-2\\/3 {\n  width: 66.666667%;\n}\n\n.w-max {\n  width: -webkit-max-content;\n  width: max-content;\n}\n\n.w-7\\/12 {\n  width: 58.333333%;\n}\n\n.w-4\\/12 {\n  width: 33.333333%;\n}\n\n.w-5\\/12 {\n  width: 41.666667%;\n}\n\n.w-8\\/12 {\n  width: 66.666667%;\n}\n\n.w-60 {\n  width: 15rem;\n}\n\n.w-1\\/5 {\n  width: 20%;\n}\n\n.w-2\\/12 {\n  width: 16.666667%;\n}\n\n.w-1\\/3 {\n  width: 33.333333%;\n}\n\n.w-\\[18\\%\\] {\n  width: 18%;\n}\n\n.w-3\\/4 {\n  width: 75%;\n}\n\n.w-1\\/4 {\n  width: 25%;\n}\n\n.min-w-max {\n  min-width: -webkit-max-content;\n  min-width: max-content;\n}\n\n.min-w-\\[50\\%\\] {\n  min-width: 50%;\n}\n\n.max-w-2xl {\n  max-width: 42rem;\n}\n\n.max-w-xs {\n  max-width: 20rem;\n}\n\n.max-w-lg {\n  max-width: 32rem;\n}\n\n.max-w-\\[200px\\] {\n  max-width: 200px;\n}\n\n.max-w-md {\n  max-width: 28rem;\n}\n\n.max-w-full {\n  max-width: 100%;\n}\n\n.max-w-\\[130px\\] {\n  max-width: 130px;\n}\n\n.max-w-\\[310px\\] {\n  max-width: 310px;\n}\n\n.flex-1 {\n  flex: 1 1 0%;\n}\n\n.flex-none {\n  flex: none;\n}\n\n.flex-grow {\n  flex-grow: 1;\n}\n\n.grow {\n  flex-grow: 1;\n}\n\n.\\!translate-x-0 {\n  --tw-translate-x: 0px !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-y-full {\n  --tw-translate-y: 100% !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/2 {\n  --tw-translate-x: -50%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-1\\/2 {\n  --tw-translate-y: -50%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-full {\n  --tw-translate-x: 100%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-5 {\n  --tw-translate-y: 1.25rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3 {\n  --tw-translate-x: 0.75rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-3\\/4 {\n  --tw-translate-x: -75% !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-full {\n  --tw-translate-x: -100% !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-48 {\n  --tw-translate-x: -12rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-6 {\n  --tw-translate-y: -1.5rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.translate-x-1 {\n  --tw-translate-x: 0.25rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-10 {\n  --tw-translate-y: -2.5rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!translate-x-1 {\n  --tw-translate-x: 0.25rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/3 {\n  --tw-translate-x: -33.333333%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-3\\/4 {\n  --tw-translate-y: 75%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-full {\n  --tw-translate-y: 100%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-20 {\n  --tw-translate-y: -5rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-1\\/4 {\n  --tw-translate-x: 25%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-40 {\n  --tw-translate-y: -10rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3\\/4 {\n  --tw-translate-x: 75%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-2\\/4 {\n  --tw-translate-y: -50%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-16 {\n  --tw-translate-x: -4rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-20 {\n  --tw-translate-x: -5rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-24 {\n  --tw-translate-x: -6rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-6 {\n  --tw-translate-x: 1.5rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-8 {\n  --tw-translate-y: -2rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-3 {\n  --tw-translate-x: 0.75rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-rotate-45 {\n  --tw-rotate: -45deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-180 {\n  --tw-rotate: 180deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-180 {\n  --tw-rotate: -180deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-90 {\n  --tw-rotate: 90deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-90 {\n  --tw-rotate: -90deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.transform {\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n@-webkit-keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-pulse {\n  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n@-webkit-keyframes spin {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes spin {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n.animate-spin {\n  -webkit-animation: spin 1s linear infinite;\n          animation: spin 1s linear infinite;\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-\\[pulse_0\\.8s\\] {\n  -webkit-animation: pulse 0.8s;\n          animation: pulse 0.8s;\n}\n\n@-webkit-keyframes spinner-rotate {\n  100% {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-rotate {\n  100% {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n.animate-spinner-rotate {\n  -webkit-animation: spinner-rotate 2s linear infinite;\n          animation: spinner-rotate 2s linear infinite;\n}\n\n@-webkit-keyframes spinner-dash {\n  0% {\n    stroke-dasharray: 1, 150;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -35;\n  }\n\n  100% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -124;\n  }\n}\n\n@keyframes spinner-dash {\n  0% {\n    stroke-dasharray: 1, 150;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -35;\n  }\n\n  100% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -124;\n  }\n}\n\n.animate-spinner-dash {\n  -webkit-animation: spinner-dash 1.5s ease-in-out infinite;\n          animation: spinner-dash 1.5s ease-in-out infinite;\n}\n\n@-webkit-keyframes bounce {\n  0%, 100% {\n    -webkit-transform: translateY(-25%);\n            transform: translateY(-25%);\n    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);\n            animation-timing-function: cubic-bezier(0.8,0,1,1);\n  }\n\n  50% {\n    -webkit-transform: none;\n            transform: none;\n    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);\n            animation-timing-function: cubic-bezier(0,0,0.2,1);\n  }\n}\n\n@keyframes bounce {\n  0%, 100% {\n    -webkit-transform: translateY(-25%);\n            transform: translateY(-25%);\n    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);\n            animation-timing-function: cubic-bezier(0.8,0,1,1);\n  }\n\n  50% {\n    -webkit-transform: none;\n            transform: none;\n    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);\n            animation-timing-function: cubic-bezier(0,0,0.2,1);\n  }\n}\n\n.animate-\\[bounce_1\\.5s\\] {\n  -webkit-animation: bounce 1.5s;\n          animation: bounce 1.5s;\n}\n\n.cursor-pointer {\n  cursor: pointer;\n}\n\n.cursor-not-allowed {\n  cursor: not-allowed;\n}\n\n.\\!cursor-default {\n  cursor: default !important;\n}\n\n.cursor-default {\n  cursor: default;\n}\n\n.\\!cursor-pointer {\n  cursor: pointer !important;\n}\n\n.cursor-move {\n  cursor: move;\n}\n\n.\\!cursor-not-allowed {\n  cursor: not-allowed !important;\n}\n\n.cursor-text {\n  cursor: text;\n}\n\n.select-none {\n  -webkit-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.list-none {\n  list-style-type: none;\n}\n\n.grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n\n.flex-row {\n  flex-direction: row;\n}\n\n.flex-col {\n  flex-direction: column;\n}\n\n.flex-wrap {\n  flex-wrap: wrap;\n}\n\n.items-start {\n  align-items: flex-start;\n}\n\n.items-end {\n  align-items: flex-end;\n}\n\n.items-center {\n  align-items: center;\n}\n\n.items-stretch {\n  align-items: stretch;\n}\n\n.justify-start {\n  justify-content: flex-start;\n}\n\n.justify-end {\n  justify-content: flex-end;\n}\n\n.justify-center {\n  justify-content: center;\n}\n\n.justify-between {\n  justify-content: space-between;\n}\n\n.justify-around {\n  justify-content: space-around;\n}\n\n.justify-evenly {\n  justify-content: space-evenly;\n}\n\n.gap-2 {\n  gap: 0.5rem;\n}\n\n.gap-4 {\n  gap: 1rem;\n}\n\n.gap-3 {\n  gap: 0.75rem;\n}\n\n.gap-x-2 {\n  -webkit-column-gap: 0.5rem;\n          column-gap: 0.5rem;\n}\n\n.gap-x-\\[10px\\] {\n  -webkit-column-gap: 10px;\n          column-gap: 10px;\n}\n\n.gap-y-\\[10px\\] {\n  row-gap: 10px;\n}\n\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0px * var(--tw-space-y-reverse));\n}\n\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-6 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2rem * var(--tw-space-y-reverse));\n}\n\n.space-x-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(2rem * var(--tw-space-x-reverse));\n  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\n\n.space-y-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0\\.5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));\n}\n\n.space-x-7 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0px * var(--tw-space-x-reverse));\n  margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.self-start {\n  align-self: flex-start;\n}\n\n.justify-self-start {\n  justify-self: start;\n}\n\n.justify-self-end {\n  justify-self: end;\n}\n\n.overflow-auto {\n  overflow: auto;\n}\n\n.overflow-hidden {\n  overflow: hidden;\n}\n\n.overflow-x-auto {\n  overflow-x: auto;\n}\n\n.overflow-y-auto {\n  overflow-y: auto;\n}\n\n.overflow-x-hidden {\n  overflow-x: hidden;\n}\n\n.overflow-y-scroll {\n  overflow-y: scroll;\n}\n\n.scroll-smooth {\n  scroll-behavior: smooth;\n}\n\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.text-ellipsis {\n  text-overflow: ellipsis;\n}\n\n.\\!whitespace-normal {\n  white-space: normal !important;\n}\n\n.whitespace-normal {\n  white-space: normal;\n}\n\n.whitespace-nowrap {\n  white-space: nowrap;\n}\n\n.whitespace-pre-line {\n  white-space: pre-line;\n}\n\n.whitespace-pre-wrap {\n  white-space: pre-wrap;\n}\n\n.break-words {\n  overflow-wrap: break-word;\n}\n\n.break-all {\n  word-break: break-all;\n}\n\n.rounded-md {\n  border-radius: 0.375rem;\n}\n\n.rounded-2xl {\n  border-radius: 1rem;\n}\n\n.rounded-full {\n  border-radius: 9999px;\n}\n\n.rounded {\n  border-radius: 0.25rem;\n}\n\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n\n.rounded-sm {\n  border-radius: 4px;\n}\n\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n\n.rounded-\\[13px\\] {\n  border-radius: 13px;\n}\n\n.rounded-none {\n  border-radius: 0px;\n}\n\n.rounded-\\[10px\\] {\n  border-radius: 10px;\n}\n\n.rounded-t-md {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.rounded-b-\\[8px\\] {\n  border-bottom-right-radius: 8px;\n  border-bottom-left-radius: 8px;\n}\n\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n\n.border-2 {\n  border-width: 2px;\n}\n\n.border {\n  border-width: 1px;\n}\n\n.border-\\[1px\\] {\n  border-width: 1px;\n}\n\n.border-0 {\n  border-width: 0px;\n}\n\n.\\!border {\n  border-width: 1px !important;\n}\n\n.border-b-2 {\n  border-bottom-width: 2px;\n}\n\n.border-b {\n  border-bottom-width: 1px;\n}\n\n.border-t-4 {\n  border-top-width: 4px;\n}\n\n.border-r-4 {\n  border-right-width: 4px;\n}\n\n.border-b-\\[1px\\] {\n  border-bottom-width: 1px;\n}\n\n.border-t {\n  border-top-width: 1px;\n}\n\n.border-r-2 {\n  border-right-width: 2px;\n}\n\n.border-none {\n  border-style: none;\n}\n\n.border-body-balances-300 {\n  border-color: #00ffa355;\n}\n\n.border-gray-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-red-600 {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.border-blue-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(191 219 254 / var(--tw-border-opacity));\n}\n\n.border-gray-900 {\n  --tw-border-opacity: 1;\n  border-color: rgb(10 18 30 / var(--tw-border-opacity));\n}\n\n.border-border-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(103 103 103 / var(--tw-border-opacity));\n}\n\n.border-gray-700 {\n  --tw-border-opacity: 1;\n  border-color: rgb(55 65 81 / var(--tw-border-opacity));\n}\n\n.border-component-input-border {\n  --tw-border-opacity: 1;\n  border-color: rgb(47 47 47 / var(--tw-border-opacity));\n}\n\n.border-transparent {\n  border-color: transparent;\n}\n\n.border-primary-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(217 233 250 / var(--tw-border-opacity));\n}\n\n.border-primary-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(22 115 255 / var(--tw-border-opacity));\n}\n\n.border-body-activity-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(54 54 54 / var(--tw-border-opacity));\n}\n\n.border-white {\n  --tw-border-opacity: 1;\n  border-color: rgb(255 255 255 / var(--tw-border-opacity));\n}\n\n.border-border-100 {\n  border-color: #ffffff26;\n}\n\n.border-border-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.border-gray-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(107 114 128 / var(--tw-border-opacity));\n}\n\n.\\!border-gray-200 {\n  --tw-border-opacity: 1 !important;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity)) !important;\n}\n\n.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}\n\n.border-red-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.border-body-networkSelect-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(49 47 47 / var(--tw-border-opacity));\n}\n\n.border-green-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.border-yellow-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.border-current {\n  border-color: currentColor;\n}\n\n.border-gray-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(209 213 219 / var(--tw-border-opacity));\n}\n\n.border-green-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.border-primary-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(231 241 251 / var(--tw-border-opacity));\n}\n\n.border-red-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(252 165 165 / var(--tw-border-opacity));\n}\n\n.border-t-gray-200 {\n  --tw-border-opacity: 1;\n  border-top-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-b-gray-200 {\n  --tw-border-opacity: 1;\n  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-opacity-0 {\n  --tw-border-opacity: 0;\n}\n\n.bg-body-balances-100 {\n  background-color: #00ffa314;\n}\n\n.bg-primary-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n\n.bg-red-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 226 226 / var(--tw-bg-opacity));\n}\n\n.bg-red-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 242 242 / var(--tw-bg-opacity));\n}\n\n.bg-red-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 38 38 / var(--tw-bg-opacity));\n}\n\n.bg-blue-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(191 219 254 / var(--tw-bg-opacity));\n}\n\n.bg-gray-900 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-100 {\n  background-color: #00ffa314;\n}\n\n.bg-component-btn-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-gray-700 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 250 / var(--tw-bg-opacity));\n}\n\n.bg-transparent {\n  background-color: transparent;\n}\n\n.bg-body-assets-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}\n\n.bg-container-100 {\n  background-color: #ffffff0d;\n}\n\n.bg-header-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-header-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(26 26 28 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(51 51 51 / var(--tw-bg-opacity));\n}\n\n.bg-gray-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity));\n}\n\n.bg-body-collectibles-100 {\n  background-color: #1414145c;\n}\n\n.bg-green-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 252 231 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.bg-green-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(74 222 128 / var(--tw-bg-opacity));\n}\n\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 252 252 / var(--tw-bg-opacity));\n}\n\n.bg-primary-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(22 115 255 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 204 21 / var(--tw-bg-opacity));\n}\n\n.bg-orange-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(251 146 60 / var(--tw-bg-opacity));\n}\n\n.bg-red-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 113 113 / var(--tw-bg-opacity));\n}\n\n.bg-gray-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(156 163 175 / var(--tw-bg-opacity));\n}\n\n.bg-primary-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.bg-component-input-bg {\n  --tw-bg-opacity: 1;\n  background-color: rgb(21 21 21 / var(--tw-bg-opacity));\n}\n\n.\\!bg-gray-200 {\n  --tw-bg-opacity: 1 !important;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;\n}\n\n.bg-container-reveal {\n  --tw-bg-opacity: 1;\n  background-color: rgb(121 121 128 / var(--tw-bg-opacity));\n}\n\n.bg-blue-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(219 234 254 / var(--tw-bg-opacity));\n}\n\n.bg-red-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 165 165 / var(--tw-bg-opacity));\n}\n\n.bg-blue-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.bg-gray-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(75 85 99 / var(--tw-bg-opacity));\n}\n\n.bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 240 138 / var(--tw-bg-opacity));\n}\n\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n\n.bg-body-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-body-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(33 33 33 / var(--tw-bg-opacity));\n}\n\n.\\!bg-primary-100 {\n  --tw-bg-opacity: 1 !important;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity)) !important;\n}\n\n.bg-opacity-50 {\n  --tw-bg-opacity: 0.5;\n}\n\n.bg-opacity-60 {\n  --tw-bg-opacity: 0.6;\n}\n\n.bg-opacity-75 {\n  --tw-bg-opacity: 0.75;\n}\n\n.bg-opacity-20 {\n  --tw-bg-opacity: 0.2;\n}\n\n.fill-black {\n  fill: #000;\n}\n\n.fill-green-600 {\n  fill: #16a34a;\n}\n\n.\\!fill-selected {\n  fill: #1673FF !important;\n}\n\n.\\!fill-danger {\n  fill: red !important;\n}\n\n.\\!fill-gray {\n  fill: #8093AB !important;\n}\n\n.fill-component-menuicon-100 {\n  fill: #5F5F5F;\n}\n\n.stroke-black {\n  stroke: #0A121E;\n}\n\n.stroke-current {\n  stroke: currentColor;\n}\n\n.stroke-primary-300 {\n  stroke: #1673FF;\n}\n\n.\\!stroke-gray {\n  stroke: #8093AB !important;\n}\n\n.stroke-component-menuicon-100 {\n  stroke: #5F5F5F;\n}\n\n.stroke-component-menuicon-200 {\n  stroke: #00FFA3;\n}\n\n.p-4 {\n  padding: 1rem;\n}\n\n.p-1 {\n  padding: 0.25rem;\n}\n\n.p-0 {\n  padding: 0px;\n}\n\n.p-1\\.5 {\n  padding: 0.375rem;\n}\n\n.p-3 {\n  padding: 0.75rem;\n}\n\n.p-6 {\n  padding: 1.5rem;\n}\n\n.p-2 {\n  padding: 0.5rem;\n}\n\n.p-5 {\n  padding: 1.25rem;\n}\n\n.p-\\[14px\\] {\n  padding: 14px;\n}\n\n.p-0\\.5 {\n  padding: 0.125rem;\n}\n\n.p-8 {\n  padding: 2rem;\n}\n\n.p-10 {\n  padding: 2.5rem;\n}\n\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.py-5 {\n  padding-top: 1.25rem;\n  padding-bottom: 1.25rem;\n}\n\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n\n.px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.px-\\[10\\.5px\\] {\n  padding-left: 10.5px;\n  padding-right: 10.5px;\n}\n\n.px-\\[14px\\] {\n  padding-left: 14px;\n  padding-right: 14px;\n}\n\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.px-7 {\n  padding-left: 1.75rem;\n  padding-right: 1.75rem;\n}\n\n.py-2\\.5 {\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n}\n\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n\n.px-2\\.5 {\n  padding-left: 0.625rem;\n  padding-right: 0.625rem;\n}\n\n.py-1\\.5 {\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n}\n\n.px-1\\.5 {\n  padding-left: 0.375rem;\n  padding-right: 0.375rem;\n}\n\n.py-6 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\n\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n\n.px-12 {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n\n.px-24 {\n  padding-left: 6rem;\n  padding-right: 6rem;\n}\n\n.py-0\\.5 {\n  padding-top: 0.125rem;\n  padding-bottom: 0.125rem;\n}\n\n.py-0 {\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n\n.py-14 {\n  padding-top: 3.5rem;\n  padding-bottom: 3.5rem;\n}\n\n.px-10 {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.px-9 {\n  padding-left: 2.25rem;\n  padding-right: 2.25rem;\n}\n\n.px-48 {\n  padding-left: 12rem;\n  padding-right: 12rem;\n}\n\n.py-8 {\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n\n.py-\\[9px\\] {\n  padding-top: 9px;\n  padding-bottom: 9px;\n}\n\n.pt-6 {\n  padding-top: 1.5rem;\n}\n\n.pt-3 {\n  padding-top: 0.75rem;\n}\n\n.pt-2 {\n  padding-top: 0.5rem;\n}\n\n.pt-0\\.5 {\n  padding-top: 0.125rem;\n}\n\n.pt-0 {\n  padding-top: 0px;\n}\n\n.pb-1\\.5 {\n  padding-bottom: 0.375rem;\n}\n\n.pb-1 {\n  padding-bottom: 0.25rem;\n}\n\n.pr-1 {\n  padding-right: 0.25rem;\n}\n\n.pt-1 {\n  padding-top: 0.25rem;\n}\n\n.pb-2 {\n  padding-bottom: 0.5rem;\n}\n\n.pr-\\[49px\\] {\n  padding-right: 49px;\n}\n\n.pb-\\[20px\\] {\n  padding-bottom: 20px;\n}\n\n.pl-2 {\n  padding-left: 0.5rem;\n}\n\n.pb-0 {\n  padding-bottom: 0px;\n}\n\n.pr-3 {\n  padding-right: 0.75rem;\n}\n\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n\n.pr-6 {\n  padding-right: 1.5rem;\n}\n\n.pl-4 {\n  padding-left: 1rem;\n}\n\n.pl-1 {\n  padding-left: 0.25rem;\n}\n\n.pt-4 {\n  padding-top: 1rem;\n}\n\n.pb-6 {\n  padding-bottom: 1.5rem;\n}\n\n.pr-0 {\n  padding-right: 0px;\n}\n\n.pt-5 {\n  padding-top: 1.25rem;\n}\n\n.pr-2 {\n  padding-right: 0.5rem;\n}\n\n.pl-9 {\n  padding-left: 2.25rem;\n}\n\n.pl-0 {\n  padding-left: 0px;\n}\n\n.pt-20 {\n  padding-top: 5rem;\n}\n\n.pt-\\[30px\\] {\n  padding-top: 30px;\n}\n\n.pb-\\[22px\\] {\n  padding-bottom: 22px;\n}\n\n.pb-4 {\n  padding-bottom: 1rem;\n}\n\n.pl-0\\.5 {\n  padding-left: 0.125rem;\n}\n\n.pl-6 {\n  padding-left: 1.5rem;\n}\n\n.pt-8 {\n  padding-top: 2rem;\n}\n\n.pt-28 {\n  padding-top: 7rem;\n}\n\n.pt-10 {\n  padding-top: 2.5rem;\n}\n\n.pt-24 {\n  padding-top: 6rem;\n}\n\n.pr-1\\.5 {\n  padding-right: 0.375rem;\n}\n\n.pl-1\\.5 {\n  padding-left: 0.375rem;\n}\n\n.pb-8 {\n  padding-bottom: 2rem;\n}\n\n.text-left {\n  text-align: left;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.text-right {\n  text-align: right;\n}\n\n.align-middle {\n  vertical-align: middle;\n}\n\n.font-\\[CarbonText-Regular\\] {\n  font-family: CarbonText-Regular;\n}\n\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[10px\\] {\n  font-size: 10px;\n}\n\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n\n.text-xxs {\n  font-size: .625rem;\n}\n\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[32px\\] {\n  font-size: 32px;\n}\n\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n\n.font-bold {\n  font-weight: 700;\n}\n\n.font-normal {\n  font-weight: 400;\n}\n\n.font-semibold {\n  font-weight: 600;\n}\n\n.font-medium {\n  font-weight: 500;\n}\n\n.font-\\[400\\] {\n  font-weight: 400;\n}\n\n.font-black {\n  font-weight: 900;\n}\n\n.font-thin {\n  font-weight: 100;\n}\n\n.uppercase {\n  text-transform: uppercase;\n}\n\n.lowercase {\n  text-transform: lowercase;\n}\n\n.capitalize {\n  text-transform: capitalize;\n}\n\n.leading-10 {\n  line-height: 2.5rem;\n}\n\n.leading-6 {\n  line-height: 1.5rem;\n}\n\n.leading-loose {\n  line-height: 2;\n}\n\n.leading-5 {\n  line-height: 1.25rem;\n}\n\n.leading-relaxed {\n  line-height: 1.625;\n}\n\n.text-body-balances-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.text-red-500 {\n  --tw-text-opacity: 1;\n  color: rgb(239 68 68 / var(--tw-text-opacity));\n}\n\n.text-red-300 {\n  --tw-text-opacity: 1;\n  color: rgb(252 165 165 / var(--tw-text-opacity));\n}\n\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.text-component-btn-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-component-btn-400 {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(10 18 30 / var(--tw-text-opacity));\n}\n\n.text-component-btn-700 {\n  --tw-text-opacity: 1;\n  color: rgb(30 34 41 / var(--tw-text-opacity));\n}\n\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n\n.text-sky-600 {\n  --tw-text-opacity: 1;\n  color: rgb(2 132 199 / var(--tw-text-opacity));\n}\n\n.text-primary-300 {\n  --tw-text-opacity: 1;\n  color: rgb(22 115 255 / var(--tw-text-opacity));\n}\n\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n\n.text-body-activity-100 {\n  color: #c9c9c9fc;\n}\n\n.text-body-activity-200 {\n  color: #e9e9e999;\n}\n\n.text-body-assets-200 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-primary-200 {\n  --tw-text-opacity: 1;\n  color: rgb(217 233 250 / var(--tw-text-opacity));\n}\n\n.text-yellow-600 {\n  --tw-text-opacity: 1;\n  color: rgb(202 138 4 / var(--tw-text-opacity));\n}\n\n.text-green-600 {\n  --tw-text-opacity: 1;\n  color: rgb(22 163 74 / var(--tw-text-opacity));\n}\n\n.text-txt-logo {\n  --tw-text-opacity: 1;\n  color: rgb(239 239 239 / var(--tw-text-opacity));\n}\n\n.text-green-500 {\n  --tw-text-opacity: 1;\n  color: rgb(34 197 94 / var(--tw-text-opacity));\n}\n\n.text-yellow-500 {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.text-body-700 {\n  --tw-text-opacity: 1;\n  color: rgb(132 132 132 / var(--tw-text-opacity));\n}\n\n.text-body-600 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n\n.text-red-600 {\n  --tw-text-opacity: 1;\n  color: rgb(220 38 38 / var(--tw-text-opacity));\n}\n\n.text-blue-200 {\n  --tw-text-opacity: 1;\n  color: rgb(191 219 254 / var(--tw-text-opacity));\n}\n\n.text-blue-600 {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.text-body-balances-300 {\n  color: #00ffa355;\n}\n\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n\n.text-yellow-400 {\n  --tw-text-opacity: 1;\n  color: rgb(250 204 21 / var(--tw-text-opacity));\n}\n\n.text-red-400 {\n  --tw-text-opacity: 1;\n  color: rgb(248 113 113 / var(--tw-text-opacity));\n}\n\n.text-slate-600 {\n  --tw-text-opacity: 1;\n  color: rgb(71 85 105 / var(--tw-text-opacity));\n}\n\n.text-gray-300 {\n  --tw-text-opacity: 1;\n  color: rgb(209 213 219 / var(--tw-text-opacity));\n}\n\n.text-primary-100 {\n  --tw-text-opacity: 1;\n  color: rgb(231 241 251 / var(--tw-text-opacity));\n}\n\n.text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.\\!text-primary-300 {\n  --tw-text-opacity: 1 !important;\n  color: rgb(22 115 255 / var(--tw-text-opacity)) !important;\n}\n\n.text-red-900 {\n  --tw-text-opacity: 1;\n  color: rgb(127 29 29 / var(--tw-text-opacity));\n}\n\n.text-blue-900 {\n  --tw-text-opacity: 1;\n  color: rgb(30 58 138 / var(--tw-text-opacity));\n}\n\n.text-yellow-900 {\n  --tw-text-opacity: 1;\n  color: rgb(113 63 18 / var(--tw-text-opacity));\n}\n\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.text-gray-200 {\n  --tw-text-opacity: 1;\n  color: rgb(229 231 235 / var(--tw-text-opacity));\n}\n\n.text-green-400 {\n  --tw-text-opacity: 1;\n  color: rgb(74 222 128 / var(--tw-text-opacity));\n}\n\n.text-txt-check {\n  --tw-text-opacity: 1;\n  color: rgb(207 208 211 / var(--tw-text-opacity));\n}\n\n.text-txt-warn {\n  --tw-text-opacity: 1;\n  color: rgb(255 156 84 / var(--tw-text-opacity));\n}\n\n.text-txt-subtitle {\n  --tw-text-opacity: 1;\n  color: rgb(138 138 138 / var(--tw-text-opacity));\n}\n\n.text-body-900 {\n  --tw-text-opacity: 1;\n  color: rgb(138 146 154 / var(--tw-text-opacity));\n}\n\n.underline {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n\n.underline-offset-1 {\n  text-underline-offset: 1px;\n}\n\n.placeholder-gray-400::-webkit-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-gray-400:-ms-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-gray-400::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder::-webkit-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder:-ms-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.opacity-50 {\n  opacity: 0.5;\n}\n\n.\\!opacity-100 {\n  opacity: 1 !important;\n}\n\n.opacity-5 {\n  opacity: 0.05;\n}\n\n.opacity-80 {\n  opacity: 0.8;\n}\n\n.opacity-100 {\n  opacity: 1;\n}\n\n.opacity-0 {\n  opacity: 0;\n}\n\n.opacity-90 {\n  opacity: 0.9;\n}\n\n.opacity-75 {\n  opacity: 0.75;\n}\n\n.opacity-30 {\n  opacity: 0.3;\n}\n\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.outline-none {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n.outline {\n  outline-style: solid;\n}\n\n.blur {\n  --tw-blur: blur(8px);\n  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.filter {\n  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.backdrop-blur-md {\n  --tw-backdrop-blur: blur(12px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.backdrop-blur-\\[30px\\] {\n  --tw-backdrop-blur: blur(30px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition {\n  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-transform {\n  transition-property: -webkit-transform;\n  transition-property: transform;\n  transition-property: transform, -webkit-transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-opacity {\n  transition-property: opacity;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-width {\n  transition-property: width;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-colors {\n  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.delay-300 {\n  transition-delay: 300ms;\n}\n\n.delay-150 {\n  transition-delay: 150ms;\n}\n\n.delay-500 {\n  transition-delay: 500ms;\n}\n\n.delay-100 {\n  transition-delay: 100ms;\n}\n\n.duration-300 {\n  transition-duration: 300ms;\n}\n\n.duration-200 {\n  transition-duration: 200ms;\n}\n\n.duration-75 {\n  transition-duration: 75ms;\n}\n\n.duration-500 {\n  transition-duration: 500ms;\n}\n\n.duration-100 {\n  transition-duration: 100ms;\n}\n\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n\n.ease-in-out {\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n\n.checked\\:bg-component-btn-200:checked {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.checked\\:text-component-btn-200:checked {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:rotate-180:hover {\n  --tw-rotate: 180deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.hover\\:cursor-pointer:hover {\n  cursor: pointer;\n}\n\n.hover\\:rounded-t-md:hover {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.hover\\:border-\\[1px\\]:hover {\n  border-width: 1px;\n}\n\n.hover\\:border-2:hover {\n  border-width: 2px;\n}\n\n.hover\\:border-black:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-400:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-700:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(185 28 28 / var(--tw-border-opacity));\n}\n\n.hover\\:border-gray-800:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(31 41 55 / var(--tw-border-opacity));\n}\n\n.hover\\:border-primary-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(22 115 255 / var(--tw-border-opacity));\n}\n\n.hover\\:border-border-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.hover\\:border-green-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.hover\\:border-yellow-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(253 224 71 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(37 99 235 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(147 197 253 / var(--tw-border-opacity));\n}\n\n.hover\\:border-opacity-100:hover {\n  --tw-border-opacity: 1;\n}\n\n.hover\\:border-opacity-50:hover {\n  --tw-border-opacity: 0.5;\n}\n\n.hover\\:bg-body-balances-300:hover {\n  background-color: #00ffa355;\n}\n\n.hover\\:bg-primary-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-red-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(185 28 28 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-800:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-900:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-primary-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-component-btn-100:hover {\n  background-color: #00ffa314;\n}\n\n.hover\\:hover\\:bg-gray-700:hover:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-body-assets-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(201 201 201 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-yellow-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(37 99 235 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-300:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-opacity-20:hover {\n  --tw-bg-opacity: 0.2;\n}\n\n.hover\\:bg-opacity-50:hover {\n  --tw-bg-opacity: 0.5;\n}\n\n.hover\\:fill-component-menuicon-200:hover {\n  fill: #00FFA3;\n}\n\n.hover\\:stroke-component-menuicon-200:hover {\n  stroke: #00FFA3;\n}\n\n.hover\\:font-medium:hover {\n  font-weight: 500;\n}\n\n.hover\\:text-white:hover {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.hover\\:text-primary-300:hover {\n  --tw-text-opacity: 1;\n  color: rgb(22 115 255 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-600:hover {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.hover\\:text-body-balances-300:hover {\n  color: #00ffa355;\n}\n\n.hover\\:text-blue-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.hover\\:text-black:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(30 64 175 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(161 98 7 / var(--tw-text-opacity));\n}\n\n.hover\\:text-gray-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.hover\\:underline:hover {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n\n.hover\\:opacity-60:hover {\n  opacity: 0.6;\n}\n\n.hover\\:opacity-80:hover {\n  opacity: 0.8;\n}\n\n.focus\\:border-red-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.focus\\:border-green-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(202 138 4 / var(--tw-border-opacity));\n}\n\n.focus\\:border-red-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.focus\\:ring-0:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n\n.active\\:scale-95:active {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.active\\:bg-primary-200:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.active\\:bg-opacity-20:active {\n  --tw-bg-opacity: 0.2;\n}\n\n.active\\:bg-opacity-50:active {\n  --tw-bg-opacity: 0.5;\n}\n\n.active\\:fill-component-menuicon-200:active {\n  fill: #00FFA3;\n}\n\n.active\\:stroke-component-menuicon-200:active {\n  stroke: #00FFA3;\n}\n\n.disabled\\:pointer-events-none:disabled {\n  pointer-events: none;\n}\n\n.disabled\\:cursor-default:disabled {\n  cursor: default;\n}\n\n.disabled\\:border-gray-200:disabled {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.disabled\\:bg-component-btn-300:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.disabled\\:bg-gray-100:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.disabled\\:text-component-btn-400:disabled {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.disabled\\:opacity-60:disabled {\n  opacity: 0.6;\n}\n\n.disabled\\:hover\\:bg-gray-900:hover:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.group:hover .group-hover\\:visible {\n  visibility: visible;\n}\n\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n\n.group:hover .group-hover\\:opacity-100 {\n  opacity: 1;\n}\n\n.group:hover .group-hover\\:opacity-95 {\n  opacity: 0.95;\n}\n\n@media (min-width: 768px) {\n  .md\\:ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .md\\:w-full {\n    width: 100%;\n  }\n\n  .md\\:w-64 {\n    width: 16rem;\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:space-y-6 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n  }\n\n  .md\\:space-x-4 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(1rem * var(--tw-space-x-reverse));\n    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:px-0 {\n    padding-left: 0px;\n    padding-right: 0px;\n  }\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*\n! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com\n*/\n\n/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n  /* 1 */\n  border-width: 0;\n  /* 2 */\n  border-style: solid;\n  /* 2 */\n  border-color: #e5e7eb;\n  /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n  /* 3 */\n  tab-size: 4;\n  /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0;\n  /* 1 */\n  line-height: inherit;\n  /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  border-top-width: 1px;\n  /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0;\n  /* 1 */\n  border-color: inherit;\n  /* 2 */\n  border-collapse: collapse;\n  /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  font-weight: inherit;\n  /* 1 */\n  line-height: inherit;\n  /* 1 */\n  color: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n  padding: 0;\n  /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button;\n  /* 1 */\n  background-color: transparent;\n  /* 2 */\n  background-image: none;\n  /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block;\n  /* 1 */\n  vertical-align: middle;\n  /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  -webkit-print-color-adjust: unset;\n          print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  appearance: none;\n  padding: 0;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px solid ButtonText;\n  outline: 1px auto -webkit-focus-ring-color;\n}\n\na:focus, \r\n    button:focus, \r\n    input:focus, \r\n    textarea:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\na {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n.container {\n  width: 100%;\n}\n\n@media (min-width: 640px) {\n  .container {\n    max-width: 640px;\n  }\n}\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 768px;\n  }\n}\n\n@media (min-width: 1024px) {\n  .container {\n    max-width: 1024px;\n  }\n}\n\n@media (min-width: 1280px) {\n  .container {\n    max-width: 1280px;\n  }\n}\n\n@media (min-width: 1536px) {\n  .container {\n    max-width: 1536px;\n  }\n}\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.pointer-events-none {\n  pointer-events: none;\n}\n\n.visible {\n  visibility: visible;\n}\n\n.invisible {\n  visibility: hidden;\n}\n\n.static {\n  position: static;\n}\n\n.fixed {\n  position: fixed;\n}\n\n.absolute {\n  position: absolute;\n}\n\n.relative {\n  position: relative;\n}\n\n.sticky {\n  position: sticky;\n}\n\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n\n.left-0 {\n  left: 0px;\n}\n\n.top-0 {\n  top: 0px;\n}\n\n.bottom-0 {\n  bottom: 0px;\n}\n\n.left-2 {\n  left: 0.5rem;\n}\n\n.top-4 {\n  top: 1rem;\n}\n\n.left-\\[300px\\] {\n  left: 300px;\n}\n\n.left-4 {\n  left: 1rem;\n}\n\n.left-1\\/2 {\n  left: 50%;\n}\n\n.top-1\\/2 {\n  top: 50%;\n}\n\n.left-\\[72px\\] {\n  left: 72px;\n}\n\n.-top-\\[26px\\] {\n  top: -26px;\n}\n\n.left-\\[166px\\] {\n  left: 166px;\n}\n\n.-top-\\[35px\\] {\n  top: -35px;\n}\n\n.right-0 {\n  right: 0px;\n}\n\n.left-0\\.5 {\n  left: 0.125rem;\n}\n\n.top-0\\.5 {\n  top: 0.125rem;\n}\n\n.top-full {\n  top: 100%;\n}\n\n.bottom-full {\n  bottom: 100%;\n}\n\n.right-2 {\n  right: 0.5rem;\n}\n\n.right-6 {\n  right: 1.5rem;\n}\n\n.-bottom-2 {\n  bottom: -0.5rem;\n}\n\n.-left-2 {\n  left: -0.5rem;\n}\n\n.left-full {\n  left: 100%;\n}\n\n.right-full {\n  right: 100%;\n}\n\n.right-3 {\n  right: 0.75rem;\n}\n\n.left-\\[1px\\] {\n  left: 1px;\n}\n\n.top-\\[5px\\] {\n  top: 5px;\n}\n\n.left-1 {\n  left: 0.25rem;\n}\n\n.-top-2 {\n  top: -0.5rem;\n}\n\n.-right-2 {\n  right: -0.5rem;\n}\n\n.top-6 {\n  top: 1.5rem;\n}\n\n.bottom-12 {\n  bottom: 3rem;\n}\n\n.bottom-20 {\n  bottom: 5rem;\n}\n\n.-bottom-6 {\n  bottom: -1.5rem;\n}\n\n.z-10 {\n  z-index: 10;\n}\n\n.z-50 {\n  z-index: 50;\n}\n\n.\\!z-50 {\n  z-index: 50 !important;\n}\n\n.z-20 {\n  z-index: 20;\n}\n\n.z-30 {\n  z-index: 30;\n}\n\n.z-0 {\n  z-index: 0;\n}\n\n.z-\\[20000\\] {\n  z-index: 20000;\n}\n\n.z-40 {\n  z-index: 40;\n}\n\n.float-right {\n  float: right;\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.-m-4 {\n  margin: -1rem;\n}\n\n.\\!m-0 {\n  margin: 0px !important;\n}\n\n.m-0 {\n  margin: 0px;\n}\n\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.my-4 {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n}\n\n.my-6 {\n  margin-top: 1.5rem;\n  margin-bottom: 1.5rem;\n}\n\n.-mx-3 {\n  margin-left: -0.75rem;\n  margin-right: -0.75rem;\n}\n\n.-mx-6 {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n}\n\n.mx-4 {\n  margin-left: 1rem;\n  margin-right: 1rem;\n}\n\n.my-2 {\n  margin-top: 0.5rem;\n  margin-bottom: 0.5rem;\n}\n\n.my-0\\.5 {\n  margin-top: 0.125rem;\n  margin-bottom: 0.125rem;\n}\n\n.my-0 {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n.-mx-5 {\n  margin-left: -1.25rem;\n  margin-right: -1.25rem;\n}\n\n.my-12 {\n  margin-top: 3rem;\n  margin-bottom: 3rem;\n}\n\n.my-8 {\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n\n.mr-3 {\n  margin-right: 0.75rem;\n}\n\n.mt-1 {\n  margin-top: 0.25rem;\n}\n\n.mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.-ml-6 {\n  margin-left: -1.5rem;\n}\n\n.mr-1\\.5 {\n  margin-right: 0.375rem;\n}\n\n.mr-1 {\n  margin-right: 0.25rem;\n}\n\n.mt-8 {\n  margin-top: 2rem;\n}\n\n.mr-4 {\n  margin-right: 1rem;\n}\n\n.ml-2 {\n  margin-left: 0.5rem;\n}\n\n.mt-2\\.5 {\n  margin-top: 0.625rem;\n}\n\n.mt-2 {\n  margin-top: 0.5rem;\n}\n\n.mt-4 {\n  margin-top: 1rem;\n}\n\n.mb-3 {\n  margin-bottom: 0.75rem;\n}\n\n.mt-3 {\n  margin-top: 0.75rem;\n}\n\n.mt-px {\n  margin-top: 1px;\n}\n\n.-mb-2 {\n  margin-bottom: -0.5rem;\n}\n\n.-mt-2\\.5 {\n  margin-top: -0.625rem;\n}\n\n.-mt-2 {\n  margin-top: -0.5rem;\n}\n\n.-mr-1 {\n  margin-right: -0.25rem;\n}\n\n.mt-6 {\n  margin-top: 1.5rem;\n}\n\n.mr-2 {\n  margin-right: 0.5rem;\n}\n\n.ml-1 {\n  margin-left: 0.25rem;\n}\n\n.mb-4 {\n  margin-bottom: 1rem;\n}\n\n.mr-\\[14px\\] {\n  margin-right: 14px;\n}\n\n.ml-auto {\n  margin-left: auto;\n}\n\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n\n.-ml-3 {\n  margin-left: -0.75rem;\n}\n\n.mr-6 {\n  margin-right: 1.5rem;\n}\n\n.ml-4 {\n  margin-left: 1rem;\n}\n\n.mt-auto {\n  margin-top: auto;\n}\n\n.mb-auto {\n  margin-bottom: auto;\n}\n\n.-mr-3 {\n  margin-right: -0.75rem;\n}\n\n.mb-6 {\n  margin-bottom: 1.5rem;\n}\n\n.mb-2 {\n  margin-bottom: 0.5rem;\n}\n\n.ml-6 {\n  margin-left: 1.5rem;\n}\n\n.ml-1\\.5 {\n  margin-left: 0.375rem;\n}\n\n.mb-5 {\n  margin-bottom: 1.25rem;\n}\n\n.mt-16 {\n  margin-top: 4rem;\n}\n\n.-mt-5 {\n  margin-top: -1.25rem;\n}\n\n.ml-3 {\n  margin-left: 0.75rem;\n}\n\n.ml-0 {\n  margin-left: 0px;\n}\n\n.mt-0 {\n  margin-top: 0px;\n}\n\n.mb-\\[2px\\] {\n  margin-bottom: 2px;\n}\n\n.-mb-4 {\n  margin-bottom: -1rem;\n}\n\n.mb-1\\.5 {\n  margin-bottom: 0.375rem;\n}\n\n.mt-1\\.5 {\n  margin-top: 0.375rem;\n}\n\n.-ml-2 {\n  margin-left: -0.5rem;\n}\n\n.mr-0 {\n  margin-right: 0px;\n}\n\n.mt-20 {\n  margin-top: 5rem;\n}\n\n.-mt-8 {\n  margin-top: -2rem;\n}\n\n.mt-0\\.5 {\n  margin-top: 0.125rem;\n}\n\n.ml-11 {\n  margin-left: 2.75rem;\n}\n\n.mb-\\[22px\\] {\n  margin-bottom: 22px;\n}\n\n.mt-12 {\n  margin-top: 3rem;\n}\n\n.ml-2\\.5 {\n  margin-left: 0.625rem;\n}\n\n.ml-8 {\n  margin-left: 2rem;\n}\n\n.-ml-48 {\n  margin-left: -12rem;\n}\n\n.mb-8 {\n  margin-bottom: 2rem;\n}\n\n.mr-2\\.5 {\n  margin-right: 0.625rem;\n}\n\n.mb-14 {\n  margin-bottom: 3.5rem;\n}\n\n.mt-5 {\n  margin-top: 1.25rem;\n}\n\n.ml-14 {\n  margin-left: 3.5rem;\n}\n\n.mt-\\[72px\\] {\n  margin-top: 72px;\n}\n\n.mb-12 {\n  margin-bottom: 3rem;\n}\n\n.-mt-0\\.5 {\n  margin-top: -0.125rem;\n}\n\n.-mt-0 {\n  margin-top: -0px;\n}\n\n.-mt-6 {\n  margin-top: -1.5rem;\n}\n\n.ml-\\[5px\\] {\n  margin-left: 5px;\n}\n\n.box-border {\n  box-sizing: border-box;\n}\n\n.block {\n  display: block;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.inline {\n  display: inline;\n}\n\n.flex {\n  display: flex;\n}\n\n.inline-flex {\n  display: inline-flex;\n}\n\n.grid {\n  display: grid;\n}\n\n.hidden {\n  display: none;\n}\n\n.h-12 {\n  height: 3rem;\n}\n\n.h-5 {\n  height: 1.25rem;\n}\n\n.h-6 {\n  height: 1.5rem;\n}\n\n.h-9 {\n  height: 2.25rem;\n}\n\n.h-full {\n  height: 100%;\n}\n\n.h-3 {\n  height: 0.75rem;\n}\n\n.h-\\[38px\\] {\n  height: 38px;\n}\n\n.h-2 {\n  height: 0.5rem;\n}\n\n.h-16 {\n  height: 4rem;\n}\n\n.h-4 {\n  height: 1rem;\n}\n\n.h-64 {\n  height: 16rem;\n}\n\n.h-8 {\n  height: 2rem;\n}\n\n.h-10 {\n  height: 2.5rem;\n}\n\n.h-24 {\n  height: 6rem;\n}\n\n.h-32 {\n  height: 8rem;\n}\n\n.\\!h-6 {\n  height: 1.5rem !important;\n}\n\n.h-0 {\n  height: 0px;\n}\n\n.h-\\[17rem\\] {\n  height: 17rem;\n}\n\n.h-screen {\n  height: 100vh;\n}\n\n.h-20 {\n  height: 5rem;\n}\n\n.h-7 {\n  height: 1.75rem;\n}\n\n.h-\\[4\\.5rem\\] {\n  height: 4.5rem;\n}\n\n.h-auto {\n  height: auto;\n}\n\n.h-fit {\n  height: -moz-fit-content;\n  height: fit-content;\n}\n\n.h-2\\.5 {\n  height: 0.625rem;\n}\n\n.h-\\[224px\\] {\n  height: 224px;\n}\n\n.h-4\\/5 {\n  height: 80%;\n}\n\n.\\!h-3 {\n  height: 0.75rem !important;\n}\n\n.\\!h-4 {\n  height: 1rem !important;\n}\n\n.\\!h-5 {\n  height: 1.25rem !important;\n}\n\n.\\!h-20 {\n  height: 5rem !important;\n}\n\n.h-14 {\n  height: 3.5rem;\n}\n\n.\\!h-12 {\n  height: 3rem !important;\n}\n\n.h-\\[180px\\] {\n  height: 180px;\n}\n\n.h-\\[112px\\] {\n  height: 112px;\n}\n\n.max-h-screen {\n  max-height: 100vh;\n}\n\n.max-h-72 {\n  max-height: 18rem;\n}\n\n.max-h-96 {\n  max-height: 24rem;\n}\n\n.max-h-52 {\n  max-height: 13rem;\n}\n\n.max-h-\\[476px\\] {\n  max-height: 476px;\n}\n\n.max-h-56 {\n  max-height: 14rem;\n}\n\n.max-h-10 {\n  max-height: 2.5rem;\n}\n\n.min-h-full {\n  min-height: 100%;\n}\n\n.min-h-\\[476px\\] {\n  min-height: 476px;\n}\n\n.w-5 {\n  width: 1.25rem;\n}\n\n.w-full {\n  width: 100%;\n}\n\n.w-6 {\n  width: 1.5rem;\n}\n\n.w-9 {\n  width: 2.25rem;\n}\n\n.\\!w-60 {\n  width: 15rem !important;\n}\n\n.w-3 {\n  width: 0.75rem;\n}\n\n.w-\\[34px\\] {\n  width: 34px;\n}\n\n.w-2 {\n  width: 0.5rem;\n}\n\n.w-4 {\n  width: 1rem;\n}\n\n.w-32 {\n  width: 8rem;\n}\n\n.w-40 {\n  width: 10rem;\n}\n\n.w-\\[100px\\] {\n  width: 100px;\n}\n\n.w-52 {\n  width: 13rem;\n}\n\n.w-64 {\n  width: 16rem;\n}\n\n.w-\\[300px\\] {\n  width: 300px;\n}\n\n.\\!w-52 {\n  width: 13rem !important;\n}\n\n.w-8 {\n  width: 2rem;\n}\n\n.w-auto {\n  width: auto;\n}\n\n.w-10 {\n  width: 2.5rem;\n}\n\n.w-24 {\n  width: 6rem;\n}\n\n.w-16 {\n  width: 4rem;\n}\n\n.w-44 {\n  width: 11rem;\n}\n\n.w-28 {\n  width: 7rem;\n}\n\n.w-0 {\n  width: 0px;\n}\n\n.w-10\\/12 {\n  width: 83.333333%;\n}\n\n.\\!w-0 {\n  width: 0px !important;\n}\n\n.w-1\\/12 {\n  width: 8.333333%;\n}\n\n.\\!w-6 {\n  width: 1.5rem !important;\n}\n\n.w-11 {\n  width: 2.75rem;\n}\n\n.w-48 {\n  width: 12rem;\n}\n\n.\\!w-40 {\n  width: 10rem !important;\n}\n\n.\\!w-56 {\n  width: 14rem !important;\n}\n\n.w-5\\/6 {\n  width: 83.333333%;\n}\n\n.w-20 {\n  width: 5rem;\n}\n\n.w-3\\/6 {\n  width: 50%;\n}\n\n.w-12 {\n  width: 3rem;\n}\n\n.w-\\[17\\%\\] {\n  width: 17%;\n}\n\n.w-2\\.5 {\n  width: 0.625rem;\n}\n\n.w-36 {\n  width: 9rem;\n}\n\n.w-fit {\n  width: -moz-fit-content;\n  width: fit-content;\n}\n\n.w-56 {\n  width: 14rem;\n}\n\n.w-\\[30px\\] {\n  width: 30px;\n}\n\n.w-7 {\n  width: 1.75rem;\n}\n\n.w-min {\n  width: min-content;\n}\n\n.w-11\\/12 {\n  width: 91.666667%;\n}\n\n.w-2\\/5 {\n  width: 40%;\n}\n\n.w-3\\/5 {\n  width: 60%;\n}\n\n.w-4\\/5 {\n  width: 80%;\n}\n\n.w-1\\/2 {\n  width: 50%;\n}\n\n.\\!w-3 {\n  width: 0.75rem !important;\n}\n\n.\\!w-4 {\n  width: 1rem !important;\n}\n\n.\\!w-5 {\n  width: 1.25rem !important;\n}\n\n.\\!w-20 {\n  width: 5rem !important;\n}\n\n.w-\\[309px\\] {\n  width: 309px;\n}\n\n.w-2\\/3 {\n  width: 66.666667%;\n}\n\n.w-max {\n  width: max-content;\n}\n\n.w-7\\/12 {\n  width: 58.333333%;\n}\n\n.w-4\\/12 {\n  width: 33.333333%;\n}\n\n.w-5\\/12 {\n  width: 41.666667%;\n}\n\n.w-8\\/12 {\n  width: 66.666667%;\n}\n\n.w-60 {\n  width: 15rem;\n}\n\n.w-1\\/5 {\n  width: 20%;\n}\n\n.w-2\\/12 {\n  width: 16.666667%;\n}\n\n.w-1\\/3 {\n  width: 33.333333%;\n}\n\n.w-\\[18\\%\\] {\n  width: 18%;\n}\n\n.w-3\\/4 {\n  width: 75%;\n}\n\n.w-1\\/4 {\n  width: 25%;\n}\n\n.min-w-max {\n  min-width: max-content;\n}\n\n.min-w-\\[50\\%\\] {\n  min-width: 50%;\n}\n\n.max-w-2xl {\n  max-width: 42rem;\n}\n\n.max-w-xs {\n  max-width: 20rem;\n}\n\n.max-w-lg {\n  max-width: 32rem;\n}\n\n.max-w-\\[200px\\] {\n  max-width: 200px;\n}\n\n.max-w-md {\n  max-width: 28rem;\n}\n\n.max-w-full {\n  max-width: 100%;\n}\n\n.max-w-\\[130px\\] {\n  max-width: 130px;\n}\n\n.max-w-\\[310px\\] {\n  max-width: 310px;\n}\n\n.flex-1 {\n  flex: 1 1;\n}\n\n.flex-none {\n  flex: none;\n}\n\n.flex-grow {\n  flex-grow: 1;\n}\n\n.grow {\n  flex-grow: 1;\n}\n\n.\\!translate-x-0 {\n  --tw-translate-x: 0px !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-y-full {\n  --tw-translate-y: 100% !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/2 {\n  --tw-translate-x: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-1\\/2 {\n  --tw-translate-y: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-full {\n  --tw-translate-x: 100%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-5 {\n  --tw-translate-y: 1.25rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3 {\n  --tw-translate-x: 0.75rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-3\\/4 {\n  --tw-translate-x: -75% !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-full {\n  --tw-translate-x: -100% !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-48 {\n  --tw-translate-x: -12rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-6 {\n  --tw-translate-y: -1.5rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.translate-x-1 {\n  --tw-translate-x: 0.25rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-10 {\n  --tw-translate-y: -2.5rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!translate-x-1 {\n  --tw-translate-x: 0.25rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/3 {\n  --tw-translate-x: -33.333333%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-3\\/4 {\n  --tw-translate-y: 75%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-full {\n  --tw-translate-y: 100%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-20 {\n  --tw-translate-y: -5rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-1\\/4 {\n  --tw-translate-x: 25%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-40 {\n  --tw-translate-y: -10rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3\\/4 {\n  --tw-translate-x: 75%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-2\\/4 {\n  --tw-translate-y: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-16 {\n  --tw-translate-x: -4rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-20 {\n  --tw-translate-x: -5rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-24 {\n  --tw-translate-x: -6rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-6 {\n  --tw-translate-x: 1.5rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-8 {\n  --tw-translate-y: -2rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-3 {\n  --tw-translate-x: 0.75rem !important;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-rotate-45 {\n  --tw-rotate: -45deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-180 {\n  --tw-rotate: 180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-180 {\n  --tw-rotate: -180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-90 {\n  --tw-rotate: 90deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-90 {\n  --tw-rotate: -90deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.transform {\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-pulse {\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.animate-spin {\n  animation: spin 1s linear infinite;\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-\\[pulse_0\\.8s\\] {\n  animation: pulse 0.8s;\n}\n\n@keyframes spinner-rotate {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.animate-spinner-rotate {\n  animation: spinner-rotate 2s linear infinite;\n}\n\n@keyframes spinner-dash {\n  0% {\n    stroke-dasharray: 1, 150;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -35;\n  }\n\n  100% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -124;\n  }\n}\n\n.animate-spinner-dash {\n  animation: spinner-dash 1.5s ease-in-out infinite;\n}\n\n@keyframes bounce {\n  0%, 100% {\n    transform: translateY(-25%);\n    animation-timing-function: cubic-bezier(0.8,0,1,1);\n  }\n\n  50% {\n    transform: none;\n    animation-timing-function: cubic-bezier(0,0,0.2,1);\n  }\n}\n\n.animate-\\[bounce_1\\.5s\\] {\n  animation: bounce 1.5s;\n}\n\n.cursor-pointer {\n  cursor: pointer;\n}\n\n.cursor-not-allowed {\n  cursor: not-allowed;\n}\n\n.\\!cursor-default {\n  cursor: default !important;\n}\n\n.cursor-default {\n  cursor: default;\n}\n\n.\\!cursor-pointer {\n  cursor: pointer !important;\n}\n\n.cursor-move {\n  cursor: move;\n}\n\n.\\!cursor-not-allowed {\n  cursor: not-allowed !important;\n}\n\n.cursor-text {\n  cursor: text;\n}\n\n.select-none {\n  -webkit-user-select: none;\n          user-select: none;\n}\n\n.list-none {\n  list-style-type: none;\n}\n\n.grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n\n.flex-row {\n  flex-direction: row;\n}\n\n.flex-col {\n  flex-direction: column;\n}\n\n.flex-wrap {\n  flex-wrap: wrap;\n}\n\n.items-start {\n  align-items: flex-start;\n}\n\n.items-end {\n  align-items: flex-end;\n}\n\n.items-center {\n  align-items: center;\n}\n\n.items-stretch {\n  align-items: stretch;\n}\n\n.justify-start {\n  justify-content: flex-start;\n}\n\n.justify-end {\n  justify-content: flex-end;\n}\n\n.justify-center {\n  justify-content: center;\n}\n\n.justify-between {\n  justify-content: space-between;\n}\n\n.justify-around {\n  justify-content: space-around;\n}\n\n.justify-evenly {\n  justify-content: space-evenly;\n}\n\n.gap-2 {\n  grid-gap: 0.5rem;\n  gap: 0.5rem;\n}\n\n.gap-4 {\n  grid-gap: 1rem;\n  gap: 1rem;\n}\n\n.gap-3 {\n  grid-gap: 0.75rem;\n  gap: 0.75rem;\n}\n\n.gap-x-2 {\n  -webkit-column-gap: 0.5rem;\n          grid-column-gap: 0.5rem;\n          column-gap: 0.5rem;\n}\n\n.gap-x-\\[10px\\] {\n  -webkit-column-gap: 10px;\n          grid-column-gap: 10px;\n          column-gap: 10px;\n}\n\n.gap-y-\\[10px\\] {\n  grid-row-gap: 10px;\n  row-gap: 10px;\n}\n\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0px * var(--tw-space-y-reverse));\n}\n\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-6 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2rem * var(--tw-space-y-reverse));\n}\n\n.space-x-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(2rem * var(--tw-space-x-reverse));\n  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\n\n.space-y-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0\\.5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));\n}\n\n.space-x-7 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0px * var(--tw-space-x-reverse));\n  margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.self-start {\n  align-self: flex-start;\n}\n\n.justify-self-start {\n  justify-self: start;\n}\n\n.justify-self-end {\n  justify-self: end;\n}\n\n.overflow-auto {\n  overflow: auto;\n}\n\n.overflow-hidden {\n  overflow: hidden;\n}\n\n.overflow-x-auto {\n  overflow-x: auto;\n}\n\n.overflow-y-auto {\n  overflow-y: auto;\n}\n\n.overflow-x-hidden {\n  overflow-x: hidden;\n}\n\n.overflow-y-scroll {\n  overflow-y: scroll;\n}\n\n.scroll-smooth {\n  scroll-behavior: smooth;\n}\n\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.text-ellipsis {\n  text-overflow: ellipsis;\n}\n\n.\\!whitespace-normal {\n  white-space: normal !important;\n}\n\n.whitespace-normal {\n  white-space: normal;\n}\n\n.whitespace-nowrap {\n  white-space: nowrap;\n}\n\n.whitespace-pre-line {\n  white-space: pre-line;\n}\n\n.whitespace-pre-wrap {\n  white-space: pre-wrap;\n}\n\n.break-words {\n  overflow-wrap: break-word;\n}\n\n.break-all {\n  word-break: break-all;\n}\n\n.rounded-md {\n  border-radius: 0.375rem;\n}\n\n.rounded-2xl {\n  border-radius: 1rem;\n}\n\n.rounded-full {\n  border-radius: 9999px;\n}\n\n.rounded {\n  border-radius: 0.25rem;\n}\n\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n\n.rounded-sm {\n  border-radius: 4px;\n}\n\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n\n.rounded-\\[13px\\] {\n  border-radius: 13px;\n}\n\n.rounded-none {\n  border-radius: 0px;\n}\n\n.rounded-\\[10px\\] {\n  border-radius: 10px;\n}\n\n.rounded-t-md {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.rounded-b-\\[8px\\] {\n  border-bottom-right-radius: 8px;\n  border-bottom-left-radius: 8px;\n}\n\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n\n.border-2 {\n  border-width: 2px;\n}\n\n.border {\n  border-width: 1px;\n}\n\n.border-\\[1px\\] {\n  border-width: 1px;\n}\n\n.border-0 {\n  border-width: 0px;\n}\n\n.\\!border {\n  border-width: 1px !important;\n}\n\n.border-b-2 {\n  border-bottom-width: 2px;\n}\n\n.border-b {\n  border-bottom-width: 1px;\n}\n\n.border-t-4 {\n  border-top-width: 4px;\n}\n\n.border-r-4 {\n  border-right-width: 4px;\n}\n\n.border-b-\\[1px\\] {\n  border-bottom-width: 1px;\n}\n\n.border-t {\n  border-top-width: 1px;\n}\n\n.border-r-2 {\n  border-right-width: 2px;\n}\n\n.border-none {\n  border-style: none;\n}\n\n.border-body-balances-300 {\n  border-color: #00ffa355;\n}\n\n.border-red-600 {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.border-blue-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(191 219 254 / var(--tw-border-opacity));\n}\n\n.border-gray-900 {\n  --tw-border-opacity: 1;\n  border-color: rgb(10 18 30 / var(--tw-border-opacity));\n}\n\n.border-border-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(103 103 103 / var(--tw-border-opacity));\n}\n\n.border-gray-700 {\n  --tw-border-opacity: 1;\n  border-color: rgb(55 65 81 / var(--tw-border-opacity));\n}\n\n.border-gray-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-component-input-border {\n  --tw-border-opacity: 1;\n  border-color: rgb(47 47 47 / var(--tw-border-opacity));\n}\n\n.border-transparent {\n  border-color: transparent;\n}\n\n.border-primary-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(217 233 250 / var(--tw-border-opacity));\n}\n\n.border-primary-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 255 163 / var(--tw-border-opacity));\n}\n\n.border-body-activity-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(54 54 54 / var(--tw-border-opacity));\n}\n\n.border-white {\n  --tw-border-opacity: 1;\n  border-color: rgb(255 255 255 / var(--tw-border-opacity));\n}\n\n.border-border-100 {\n  border-color: #ffffff26;\n}\n\n.border-border-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.border-gray-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(107 114 128 / var(--tw-border-opacity));\n}\n\n.\\!border-gray-200 {\n  --tw-border-opacity: 1 !important;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity)) !important;\n}\n\n.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}\n\n.border-red-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.border-body-networkSelect-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(49 47 47 / var(--tw-border-opacity));\n}\n\n.border-green-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.border-yellow-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.border-current {\n  border-color: currentColor;\n}\n\n.border-gray-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(209 213 219 / var(--tw-border-opacity));\n}\n\n.border-green-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.border-primary-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(231 241 251 / var(--tw-border-opacity));\n}\n\n.border-red-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(252 165 165 / var(--tw-border-opacity));\n}\n\n.border-body-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(66 66 66 / var(--tw-border-opacity));\n}\n\n.border-component-btn-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 255 163 / var(--tw-border-opacity));\n}\n\n.border-t-gray-200 {\n  --tw-border-opacity: 1;\n  border-top-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-b-gray-200 {\n  --tw-border-opacity: 1;\n  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-opacity-0 {\n  --tw-border-opacity: 0;\n}\n\n.bg-body-balances-100 {\n  background-color: #00ffa314;\n}\n\n.bg-primary-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-red-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 226 226 / var(--tw-bg-opacity));\n}\n\n.bg-red-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 242 242 / var(--tw-bg-opacity));\n}\n\n.bg-red-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 38 38 / var(--tw-bg-opacity));\n}\n\n.bg-blue-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(191 219 254 / var(--tw-bg-opacity));\n}\n\n.bg-gray-900 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-100 {\n  background-color: #00ffa314;\n}\n\n.bg-component-btn-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-gray-700 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 250 / var(--tw-bg-opacity));\n}\n\n.bg-transparent {\n  background-color: transparent;\n}\n\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n\n.bg-body-assets-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}\n\n.bg-container-100 {\n  background-color: #ffffff0d;\n}\n\n.bg-header-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-header-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(26 26 28 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(51 51 51 / var(--tw-bg-opacity));\n}\n\n.bg-gray-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity));\n}\n\n.bg-body-collectibles-100 {\n  background-color: #1414145c;\n}\n\n.bg-green-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 252 231 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.bg-green-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(74 222 128 / var(--tw-bg-opacity));\n}\n\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 252 252 / var(--tw-bg-opacity));\n}\n\n.bg-primary-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 204 21 / var(--tw-bg-opacity));\n}\n\n.bg-orange-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(251 146 60 / var(--tw-bg-opacity));\n}\n\n.bg-red-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 113 113 / var(--tw-bg-opacity));\n}\n\n.bg-gray-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(156 163 175 / var(--tw-bg-opacity));\n}\n\n.bg-primary-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.bg-component-input-bg {\n  --tw-bg-opacity: 1;\n  background-color: rgb(21 21 21 / var(--tw-bg-opacity));\n}\n\n.\\!bg-gray-200 {\n  --tw-bg-opacity: 1 !important;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;\n}\n\n.bg-container-reveal {\n  --tw-bg-opacity: 1;\n  background-color: rgb(121 121 128 / var(--tw-bg-opacity));\n}\n\n.bg-red-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 165 165 / var(--tw-bg-opacity));\n}\n\n.bg-blue-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.bg-gray-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(75 85 99 / var(--tw-bg-opacity));\n}\n\n.bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 240 138 / var(--tw-bg-opacity));\n}\n\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n\n.bg-body-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-body-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(33 33 33 / var(--tw-bg-opacity));\n}\n\n.bg-opacity-\\[8\\%\\] {\n  --tw-bg-opacity: 8%;\n}\n\n.bg-opacity-50 {\n  --tw-bg-opacity: 0.5;\n}\n\n.bg-opacity-60 {\n  --tw-bg-opacity: 0.6;\n}\n\n.bg-opacity-75 {\n  --tw-bg-opacity: 0.75;\n}\n\n.bg-opacity-20 {\n  --tw-bg-opacity: 0.2;\n}\n\n.fill-black {\n  fill: #000;\n}\n\n.fill-component-btn-200 {\n  fill: #00FFA3;\n}\n\n.fill-green-600 {\n  fill: #16a34a;\n}\n\n.\\!fill-selected {\n  fill: #00FFA3 !important;\n}\n\n.\\!fill-danger {\n  fill: red !important;\n}\n\n.\\!fill-gray {\n  fill: #8093AB !important;\n}\n\n.stroke-component-btn-200 {\n  stroke: #00FFA3;\n}\n\n.stroke-current {\n  stroke: currentColor;\n}\n\n.stroke-primary-300 {\n  stroke: #00FFA3;\n}\n\n.\\!stroke-gray {\n  stroke: #8093AB !important;\n}\n\n.p-4 {\n  padding: 1rem;\n}\n\n.p-1 {\n  padding: 0.25rem;\n}\n\n.p-0 {\n  padding: 0px;\n}\n\n.p-1\\.5 {\n  padding: 0.375rem;\n}\n\n.p-3 {\n  padding: 0.75rem;\n}\n\n.p-6 {\n  padding: 1.5rem;\n}\n\n.p-2 {\n  padding: 0.5rem;\n}\n\n.p-5 {\n  padding: 1.25rem;\n}\n\n.p-\\[14px\\] {\n  padding: 14px;\n}\n\n.p-0\\.5 {\n  padding: 0.125rem;\n}\n\n.p-8 {\n  padding: 2rem;\n}\n\n.p-10 {\n  padding: 2.5rem;\n}\n\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.py-5 {\n  padding-top: 1.25rem;\n  padding-bottom: 1.25rem;\n}\n\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n\n.px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.px-\\[10\\.5px\\] {\n  padding-left: 10.5px;\n  padding-right: 10.5px;\n}\n\n.px-\\[14px\\] {\n  padding-left: 14px;\n  padding-right: 14px;\n}\n\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.px-7 {\n  padding-left: 1.75rem;\n  padding-right: 1.75rem;\n}\n\n.py-2\\.5 {\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n}\n\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n\n.px-2\\.5 {\n  padding-left: 0.625rem;\n  padding-right: 0.625rem;\n}\n\n.py-1\\.5 {\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n}\n\n.px-1\\.5 {\n  padding-left: 0.375rem;\n  padding-right: 0.375rem;\n}\n\n.py-6 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\n\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n\n.px-12 {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n\n.px-24 {\n  padding-left: 6rem;\n  padding-right: 6rem;\n}\n\n.py-0\\.5 {\n  padding-top: 0.125rem;\n  padding-bottom: 0.125rem;\n}\n\n.py-0 {\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n\n.py-14 {\n  padding-top: 3.5rem;\n  padding-bottom: 3.5rem;\n}\n\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n\n.px-10 {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.px-9 {\n  padding-left: 2.25rem;\n  padding-right: 2.25rem;\n}\n\n.px-48 {\n  padding-left: 12rem;\n  padding-right: 12rem;\n}\n\n.py-8 {\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n\n.py-\\[9px\\] {\n  padding-top: 9px;\n  padding-bottom: 9px;\n}\n\n.px-\\[18px\\] {\n  padding-left: 18px;\n  padding-right: 18px;\n}\n\n.pt-6 {\n  padding-top: 1.5rem;\n}\n\n.pt-3 {\n  padding-top: 0.75rem;\n}\n\n.pt-2 {\n  padding-top: 0.5rem;\n}\n\n.pt-0\\.5 {\n  padding-top: 0.125rem;\n}\n\n.pt-0 {\n  padding-top: 0px;\n}\n\n.pb-1\\.5 {\n  padding-bottom: 0.375rem;\n}\n\n.pb-1 {\n  padding-bottom: 0.25rem;\n}\n\n.pr-1 {\n  padding-right: 0.25rem;\n}\n\n.pt-1 {\n  padding-top: 0.25rem;\n}\n\n.pb-2 {\n  padding-bottom: 0.5rem;\n}\n\n.pr-\\[49px\\] {\n  padding-right: 49px;\n}\n\n.pb-\\[20px\\] {\n  padding-bottom: 20px;\n}\n\n.pl-2 {\n  padding-left: 0.5rem;\n}\n\n.pb-0 {\n  padding-bottom: 0px;\n}\n\n.pr-3 {\n  padding-right: 0.75rem;\n}\n\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n\n.pr-6 {\n  padding-right: 1.5rem;\n}\n\n.pl-4 {\n  padding-left: 1rem;\n}\n\n.pl-1 {\n  padding-left: 0.25rem;\n}\n\n.pt-4 {\n  padding-top: 1rem;\n}\n\n.pb-6 {\n  padding-bottom: 1.5rem;\n}\n\n.pr-0 {\n  padding-right: 0px;\n}\n\n.pt-5 {\n  padding-top: 1.25rem;\n}\n\n.pr-2 {\n  padding-right: 0.5rem;\n}\n\n.pl-9 {\n  padding-left: 2.25rem;\n}\n\n.pl-0 {\n  padding-left: 0px;\n}\n\n.pt-20 {\n  padding-top: 5rem;\n}\n\n.pt-\\[30px\\] {\n  padding-top: 30px;\n}\n\n.pb-\\[22px\\] {\n  padding-bottom: 22px;\n}\n\n.pb-4 {\n  padding-bottom: 1rem;\n}\n\n.pl-0\\.5 {\n  padding-left: 0.125rem;\n}\n\n.pl-6 {\n  padding-left: 1.5rem;\n}\n\n.pt-8 {\n  padding-top: 2rem;\n}\n\n.pt-28 {\n  padding-top: 7rem;\n}\n\n.pt-12 {\n  padding-top: 3rem;\n}\n\n.pt-10 {\n  padding-top: 2.5rem;\n}\n\n.pt-24 {\n  padding-top: 6rem;\n}\n\n.pr-1\\.5 {\n  padding-right: 0.375rem;\n}\n\n.pl-1\\.5 {\n  padding-left: 0.375rem;\n}\n\n.pb-8 {\n  padding-bottom: 2rem;\n}\n\n.text-left {\n  text-align: left;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.text-right {\n  text-align: right;\n}\n\n.align-middle {\n  vertical-align: middle;\n}\n\n.font-\\[CarbonText-Regular\\] {\n  font-family: CarbonText-Regular;\n}\n\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[10px\\] {\n  font-size: 10px;\n}\n\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n\n.text-xxs {\n  font-size: .625rem;\n}\n\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[32px\\] {\n  font-size: 32px;\n}\n\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n\n.font-bold {\n  font-weight: 700;\n}\n\n.font-normal {\n  font-weight: 400;\n}\n\n.font-semibold {\n  font-weight: 600;\n}\n\n.font-medium {\n  font-weight: 500;\n}\n\n.font-\\[400\\] {\n  font-weight: 400;\n}\n\n.font-black {\n  font-weight: 900;\n}\n\n.font-thin {\n  font-weight: 100;\n}\n\n.uppercase {\n  text-transform: uppercase;\n}\n\n.lowercase {\n  text-transform: lowercase;\n}\n\n.capitalize {\n  text-transform: capitalize;\n}\n\n.leading-10 {\n  line-height: 2.5rem;\n}\n\n.leading-6 {\n  line-height: 1.5rem;\n}\n\n.leading-loose {\n  line-height: 2;\n}\n\n.leading-5 {\n  line-height: 1.25rem;\n}\n\n.leading-relaxed {\n  line-height: 1.625;\n}\n\n.text-body-balances-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-component-btn-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-red-500 {\n  --tw-text-opacity: 1;\n  color: rgb(239 68 68 / var(--tw-text-opacity));\n}\n\n.text-red-300 {\n  --tw-text-opacity: 1;\n  color: rgb(252 165 165 / var(--tw-text-opacity));\n}\n\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.text-component-btn-400 {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(10 18 30 / var(--tw-text-opacity));\n}\n\n.text-component-btn-700 {\n  --tw-text-opacity: 1;\n  color: rgb(30 34 41 / var(--tw-text-opacity));\n}\n\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n\n.text-sky-600 {\n  --tw-text-opacity: 1;\n  color: rgb(2 132 199 / var(--tw-text-opacity));\n}\n\n.text-primary-300 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n\n.text-body-activity-100 {\n  color: #c9c9c9fc;\n}\n\n.text-body-activity-200 {\n  color: #e9e9e999;\n}\n\n.text-body-assets-200 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-primary-200 {\n  --tw-text-opacity: 1;\n  color: rgb(217 233 250 / var(--tw-text-opacity));\n}\n\n.text-txt-settings {\n  --tw-text-opacity: 1;\n  color: rgb(204 218 231 / var(--tw-text-opacity));\n}\n\n.text-yellow-600 {\n  --tw-text-opacity: 1;\n  color: rgb(202 138 4 / var(--tw-text-opacity));\n}\n\n.text-green-600 {\n  --tw-text-opacity: 1;\n  color: rgb(22 163 74 / var(--tw-text-opacity));\n}\n\n.text-txt-logo {\n  --tw-text-opacity: 1;\n  color: rgb(239 239 239 / var(--tw-text-opacity));\n}\n\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.text-green-500 {\n  --tw-text-opacity: 1;\n  color: rgb(34 197 94 / var(--tw-text-opacity));\n}\n\n.text-yellow-500 {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.text-body-700 {\n  --tw-text-opacity: 1;\n  color: rgb(132 132 132 / var(--tw-text-opacity));\n}\n\n.text-body-600 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n\n.text-red-600 {\n  --tw-text-opacity: 1;\n  color: rgb(220 38 38 / var(--tw-text-opacity));\n}\n\n.text-blue-200 {\n  --tw-text-opacity: 1;\n  color: rgb(191 219 254 / var(--tw-text-opacity));\n}\n\n.text-blue-600 {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n\n.text-yellow-400 {\n  --tw-text-opacity: 1;\n  color: rgb(250 204 21 / var(--tw-text-opacity));\n}\n\n.text-red-400 {\n  --tw-text-opacity: 1;\n  color: rgb(248 113 113 / var(--tw-text-opacity));\n}\n\n.text-slate-600 {\n  --tw-text-opacity: 1;\n  color: rgb(71 85 105 / var(--tw-text-opacity));\n}\n\n.text-gray-300 {\n  --tw-text-opacity: 1;\n  color: rgb(209 213 219 / var(--tw-text-opacity));\n}\n\n.text-primary-100 {\n  --tw-text-opacity: 1;\n  color: rgb(231 241 251 / var(--tw-text-opacity));\n}\n\n.text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.\\!text-primary-300 {\n  --tw-text-opacity: 1 !important;\n  color: rgb(0 255 163 / var(--tw-text-opacity)) !important;\n}\n\n.text-red-900 {\n  --tw-text-opacity: 1;\n  color: rgb(127 29 29 / var(--tw-text-opacity));\n}\n\n.text-blue-900 {\n  --tw-text-opacity: 1;\n  color: rgb(30 58 138 / var(--tw-text-opacity));\n}\n\n.text-yellow-900 {\n  --tw-text-opacity: 1;\n  color: rgb(113 63 18 / var(--tw-text-opacity));\n}\n\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.text-gray-200 {\n  --tw-text-opacity: 1;\n  color: rgb(229 231 235 / var(--tw-text-opacity));\n}\n\n.text-green-400 {\n  --tw-text-opacity: 1;\n  color: rgb(74 222 128 / var(--tw-text-opacity));\n}\n\n.text-txt-check {\n  --tw-text-opacity: 1;\n  color: rgb(207 208 211 / var(--tw-text-opacity));\n}\n\n.text-txt-warn {\n  --tw-text-opacity: 1;\n  color: rgb(255 156 84 / var(--tw-text-opacity));\n}\n\n.text-txt-subtitle {\n  --tw-text-opacity: 1;\n  color: rgb(138 138 138 / var(--tw-text-opacity));\n}\n\n.text-body-900 {\n  --tw-text-opacity: 1;\n  color: rgb(138 146 154 / var(--tw-text-opacity));\n}\n\n.underline {\n  text-decoration-line: underline;\n}\n\n.underline-offset-1 {\n  text-underline-offset: 1px;\n}\n\n.placeholder-gray-400::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.opacity-50 {\n  opacity: 0.5;\n}\n\n.\\!opacity-100 {\n  opacity: 1 !important;\n}\n\n.opacity-5 {\n  opacity: 0.05;\n}\n\n.opacity-80 {\n  opacity: 0.8;\n}\n\n.opacity-100 {\n  opacity: 1;\n}\n\n.opacity-0 {\n  opacity: 0;\n}\n\n.opacity-90 {\n  opacity: 0.9;\n}\n\n.opacity-75 {\n  opacity: 0.75;\n}\n\n.opacity-30 {\n  opacity: 0.3;\n}\n\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.outline-none {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n.outline {\n  outline-style: solid;\n}\n\n.blur {\n  --tw-blur: blur(8px);\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.filter {\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.backdrop-blur-md {\n  --tw-backdrop-blur: blur(12px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.backdrop-blur-\\[30px\\] {\n  --tw-backdrop-blur: blur(30px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-transform {\n  transition-property: transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-opacity {\n  transition-property: opacity;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-width {\n  transition-property: width;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-colors {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.delay-300 {\n  transition-delay: 300ms;\n}\n\n.delay-150 {\n  transition-delay: 150ms;\n}\n\n.delay-500 {\n  transition-delay: 500ms;\n}\n\n.delay-100 {\n  transition-delay: 100ms;\n}\n\n.duration-300 {\n  transition-duration: 300ms;\n}\n\n.duration-200 {\n  transition-duration: 200ms;\n}\n\n.duration-75 {\n  transition-duration: 75ms;\n}\n\n.duration-500 {\n  transition-duration: 500ms;\n}\n\n.duration-100 {\n  transition-duration: 100ms;\n}\n\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n\n.ease-in-out {\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n\n.checked\\:bg-component-btn-200:checked {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.checked\\:text-component-btn-200:checked {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:rotate-180:hover {\n  --tw-rotate: 180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.hover\\:cursor-pointer:hover {\n  cursor: pointer;\n}\n\n.hover\\:rounded-t-md:hover {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.hover\\:border-\\[1px\\]:hover {\n  border-width: 1px;\n}\n\n.hover\\:border-2:hover {\n  border-width: 2px;\n}\n\n.hover\\:border-red-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-400:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-700:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(185 28 28 / var(--tw-border-opacity));\n}\n\n.hover\\:border-gray-800:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(31 41 55 / var(--tw-border-opacity));\n}\n\n.hover\\:border-primary-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 255 163 / var(--tw-border-opacity));\n}\n\n.hover\\:border-border-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.hover\\:border-green-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.hover\\:border-yellow-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(253 224 71 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(37 99 235 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(147 197 253 / var(--tw-border-opacity));\n}\n\n.hover\\:border-opacity-100:hover {\n  --tw-border-opacity: 1;\n}\n\n.hover\\:border-opacity-50:hover {\n  --tw-border-opacity: 0.5;\n}\n\n.hover\\:bg-body-balances-300:hover {\n  background-color: #00ffa355;\n}\n\n.hover\\:bg-primary-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-red-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(185 28 28 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-800:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-900:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-primary-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-component-btn-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-body-assets-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-component-btn-100:hover {\n  background-color: #00ffa314;\n}\n\n.hover\\:hover\\:bg-gray-700:hover:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-body-assets-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(201 201 201 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-yellow-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(37 99 235 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-300:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-container-100:hover {\n  background-color: #ffffff0d;\n}\n\n.hover\\:bg-opacity-\\[20\\%\\]:hover {\n  --tw-bg-opacity: 20%;\n}\n\n.hover\\:bg-opacity-20:hover {\n  --tw-bg-opacity: 0.2;\n}\n\n.hover\\:bg-opacity-\\[8\\%\\]:hover {\n  --tw-bg-opacity: 8%;\n}\n\n.hover\\:bg-opacity-50:hover {\n  --tw-bg-opacity: 0.5;\n}\n\n.hover\\:font-medium:hover {\n  font-weight: 500;\n}\n\n.hover\\:text-white:hover {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.hover\\:text-primary-300:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:text-component-btn-200:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-600:hover {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.hover\\:text-body-balances-300:hover {\n  color: #00ffa355;\n}\n\n.hover\\:text-blue-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.hover\\:text-black:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(30 64 175 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(161 98 7 / var(--tw-text-opacity));\n}\n\n.hover\\:text-gray-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.hover\\:underline:hover {\n  text-decoration-line: underline;\n}\n\n.hover\\:opacity-60:hover {\n  opacity: 0.6;\n}\n\n.hover\\:opacity-80:hover {\n  opacity: 0.8;\n}\n\n.focus\\:border-red-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.focus\\:border-green-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(202 138 4 / var(--tw-border-opacity));\n}\n\n.focus\\:border-red-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.focus\\:ring-0:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n\n.active\\:scale-95:active {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.active\\:bg-primary-200:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.active\\:bg-container-100:active {\n  background-color: #ffffff0d;\n}\n\n.active\\:bg-opacity-20:active {\n  --tw-bg-opacity: 0.2;\n}\n\n.active\\:bg-opacity-50:active {\n  --tw-bg-opacity: 0.5;\n}\n\n.disabled\\:pointer-events-none:disabled {\n  pointer-events: none;\n}\n\n.disabled\\:cursor-default:disabled {\n  cursor: default;\n}\n\n.disabled\\:border-gray-200:disabled {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.disabled\\:bg-component-btn-300:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.disabled\\:bg-gray-100:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.disabled\\:text-component-btn-400:disabled {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.disabled\\:opacity-60:disabled {\n  opacity: 0.6;\n}\n\n.disabled\\:hover\\:bg-gray-900:hover:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.group:hover .group-hover\\:visible {\n  visibility: visible;\n}\n\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n\n.group:hover .group-hover\\:opacity-100 {\n  opacity: 1;\n}\n\n.group:hover .group-hover\\:opacity-95 {\n  opacity: 0.95;\n}\n\n@media (min-width: 768px) {\n  .md\\:ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .md\\:w-full {\n    width: 100%;\n  }\n\n  .md\\:w-64 {\n    width: 16rem;\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:space-y-6 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n  }\n\n  .md\\:space-x-4 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(1rem * var(--tw-space-x-reverse));\n    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:px-0 {\n    padding-left: 0px;\n    padding-right: 0px;\n  }\n}\r\n", "",{"version":3,"sources":["webpack://src/styles/tailwind.generated.css"],"names":[],"mappings":"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","sourcesContent":["/*\n! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com\n*/\n\n/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box;\n  /* 1 */\n  border-width: 0;\n  /* 2 */\n  border-style: solid;\n  /* 2 */\n  border-color: #e5e7eb;\n  /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n  /* 3 */\n  tab-size: 4;\n  /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0;\n  /* 1 */\n  line-height: inherit;\n  /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  border-top-width: 1px;\n  /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0;\n  /* 1 */\n  border-color: inherit;\n  /* 2 */\n  border-collapse: collapse;\n  /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  font-weight: inherit;\n  /* 1 */\n  line-height: inherit;\n  /* 1 */\n  color: inherit;\n  /* 1 */\n  margin: 0;\n  /* 2 */\n  padding: 0;\n  /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button;\n  /* 1 */\n  background-color: transparent;\n  /* 2 */\n  background-image: none;\n  /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-webkit-input-placeholder, textarea::-webkit-input-placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1;\n  /* 1 */\n  color: #9ca3af;\n  /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block;\n  /* 1 */\n  vertical-align: middle;\n  /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  -webkit-appearance: none;\n          appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::-webkit-input-placeholder, textarea::-webkit-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  -webkit-print-color-adjust: unset;\n          print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  -webkit-appearance: none;\n          appearance: none;\n  padding: 0;\n  -webkit-print-color-adjust: exact;\n          print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px solid ButtonText;\n  outline: 1px auto -webkit-focus-ring-color;\n}\n\na:focus, \r\n    button:focus, \r\n    input:focus, \r\n    textarea:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\na {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n.container {\n  width: 100%;\n}\n\n@media (min-width: 640px) {\n  .container {\n    max-width: 640px;\n  }\n}\n\n@media (min-width: 768px) {\n  .container {\n    max-width: 768px;\n  }\n}\n\n@media (min-width: 1024px) {\n  .container {\n    max-width: 1024px;\n  }\n}\n\n@media (min-width: 1280px) {\n  .container {\n    max-width: 1280px;\n  }\n}\n\n@media (min-width: 1536px) {\n  .container {\n    max-width: 1536px;\n  }\n}\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n\n.pointer-events-none {\n  pointer-events: none;\n}\n\n.visible {\n  visibility: visible;\n}\n\n.invisible {\n  visibility: hidden;\n}\n\n.static {\n  position: static;\n}\n\n.fixed {\n  position: fixed;\n}\n\n.absolute {\n  position: absolute;\n}\n\n.relative {\n  position: relative;\n}\n\n.sticky {\n  position: -webkit-sticky;\n  position: sticky;\n}\n\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n\n.left-0 {\n  left: 0px;\n}\n\n.top-0 {\n  top: 0px;\n}\n\n.bottom-0 {\n  bottom: 0px;\n}\n\n.left-2 {\n  left: 0.5rem;\n}\n\n.top-4 {\n  top: 1rem;\n}\n\n.left-\\[300px\\] {\n  left: 300px;\n}\n\n.left-4 {\n  left: 1rem;\n}\n\n.left-1\\/2 {\n  left: 50%;\n}\n\n.top-1\\/2 {\n  top: 50%;\n}\n\n.left-\\[72px\\] {\n  left: 72px;\n}\n\n.-top-\\[26px\\] {\n  top: -26px;\n}\n\n.left-\\[166px\\] {\n  left: 166px;\n}\n\n.-top-\\[35px\\] {\n  top: -35px;\n}\n\n.right-0 {\n  right: 0px;\n}\n\n.left-0\\.5 {\n  left: 0.125rem;\n}\n\n.top-0\\.5 {\n  top: 0.125rem;\n}\n\n.top-full {\n  top: 100%;\n}\n\n.bottom-full {\n  bottom: 100%;\n}\n\n.right-2 {\n  right: 0.5rem;\n}\n\n.right-6 {\n  right: 1.5rem;\n}\n\n.-bottom-2 {\n  bottom: -0.5rem;\n}\n\n.-left-2 {\n  left: -0.5rem;\n}\n\n.left-full {\n  left: 100%;\n}\n\n.right-full {\n  right: 100%;\n}\n\n.right-3 {\n  right: 0.75rem;\n}\n\n.left-\\[1px\\] {\n  left: 1px;\n}\n\n.top-\\[5px\\] {\n  top: 5px;\n}\n\n.left-1 {\n  left: 0.25rem;\n}\n\n.-top-2 {\n  top: -0.5rem;\n}\n\n.-right-2 {\n  right: -0.5rem;\n}\n\n.top-6 {\n  top: 1.5rem;\n}\n\n.bottom-12 {\n  bottom: 3rem;\n}\n\n.bottom-20 {\n  bottom: 5rem;\n}\n\n.-bottom-6 {\n  bottom: -1.5rem;\n}\n\n.z-10 {\n  z-index: 10;\n}\n\n.z-50 {\n  z-index: 50;\n}\n\n.\\!z-50 {\n  z-index: 50 !important;\n}\n\n.z-20 {\n  z-index: 20;\n}\n\n.z-30 {\n  z-index: 30;\n}\n\n.z-0 {\n  z-index: 0;\n}\n\n.z-\\[20000\\] {\n  z-index: 20000;\n}\n\n.z-40 {\n  z-index: 40;\n}\n\n.float-right {\n  float: right;\n}\n\n.m-auto {\n  margin: auto;\n}\n\n.-m-4 {\n  margin: -1rem;\n}\n\n.\\!m-0 {\n  margin: 0px !important;\n}\n\n.m-0 {\n  margin: 0px;\n}\n\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.my-4 {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n}\n\n.my-6 {\n  margin-top: 1.5rem;\n  margin-bottom: 1.5rem;\n}\n\n.-mx-3 {\n  margin-left: -0.75rem;\n  margin-right: -0.75rem;\n}\n\n.-mx-6 {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n}\n\n.mx-4 {\n  margin-left: 1rem;\n  margin-right: 1rem;\n}\n\n.my-2 {\n  margin-top: 0.5rem;\n  margin-bottom: 0.5rem;\n}\n\n.my-0\\.5 {\n  margin-top: 0.125rem;\n  margin-bottom: 0.125rem;\n}\n\n.my-0 {\n  margin-top: 0px;\n  margin-bottom: 0px;\n}\n\n.-mx-5 {\n  margin-left: -1.25rem;\n  margin-right: -1.25rem;\n}\n\n.my-12 {\n  margin-top: 3rem;\n  margin-bottom: 3rem;\n}\n\n.my-8 {\n  margin-top: 2rem;\n  margin-bottom: 2rem;\n}\n\n.my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n\n.mr-3 {\n  margin-right: 0.75rem;\n}\n\n.mt-1 {\n  margin-top: 0.25rem;\n}\n\n.mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.-ml-6 {\n  margin-left: -1.5rem;\n}\n\n.mr-1\\.5 {\n  margin-right: 0.375rem;\n}\n\n.mr-1 {\n  margin-right: 0.25rem;\n}\n\n.mt-8 {\n  margin-top: 2rem;\n}\n\n.mr-4 {\n  margin-right: 1rem;\n}\n\n.ml-2 {\n  margin-left: 0.5rem;\n}\n\n.mt-2\\.5 {\n  margin-top: 0.625rem;\n}\n\n.mt-2 {\n  margin-top: 0.5rem;\n}\n\n.mt-4 {\n  margin-top: 1rem;\n}\n\n.mb-3 {\n  margin-bottom: 0.75rem;\n}\n\n.mt-3 {\n  margin-top: 0.75rem;\n}\n\n.mt-px {\n  margin-top: 1px;\n}\n\n.-mb-2 {\n  margin-bottom: -0.5rem;\n}\n\n.-mt-2\\.5 {\n  margin-top: -0.625rem;\n}\n\n.-mt-2 {\n  margin-top: -0.5rem;\n}\n\n.-mr-1 {\n  margin-right: -0.25rem;\n}\n\n.mt-6 {\n  margin-top: 1.5rem;\n}\n\n.mr-2 {\n  margin-right: 0.5rem;\n}\n\n.ml-1 {\n  margin-left: 0.25rem;\n}\n\n.mb-4 {\n  margin-bottom: 1rem;\n}\n\n.mr-\\[14px\\] {\n  margin-right: 14px;\n}\n\n.ml-auto {\n  margin-left: auto;\n}\n\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n\n.-ml-3 {\n  margin-left: -0.75rem;\n}\n\n.mr-6 {\n  margin-right: 1.5rem;\n}\n\n.ml-4 {\n  margin-left: 1rem;\n}\n\n.mt-auto {\n  margin-top: auto;\n}\n\n.mb-auto {\n  margin-bottom: auto;\n}\n\n.-mr-3 {\n  margin-right: -0.75rem;\n}\n\n.mb-6 {\n  margin-bottom: 1.5rem;\n}\n\n.mb-2 {\n  margin-bottom: 0.5rem;\n}\n\n.ml-6 {\n  margin-left: 1.5rem;\n}\n\n.ml-1\\.5 {\n  margin-left: 0.375rem;\n}\n\n.mb-5 {\n  margin-bottom: 1.25rem;\n}\n\n.mt-16 {\n  margin-top: 4rem;\n}\n\n.-mt-5 {\n  margin-top: -1.25rem;\n}\n\n.ml-3 {\n  margin-left: 0.75rem;\n}\n\n.ml-0 {\n  margin-left: 0px;\n}\n\n.mt-0 {\n  margin-top: 0px;\n}\n\n.mb-\\[2px\\] {\n  margin-bottom: 2px;\n}\n\n.-mb-4 {\n  margin-bottom: -1rem;\n}\n\n.mb-1\\.5 {\n  margin-bottom: 0.375rem;\n}\n\n.mt-1\\.5 {\n  margin-top: 0.375rem;\n}\n\n.-ml-2 {\n  margin-left: -0.5rem;\n}\n\n.mr-0 {\n  margin-right: 0px;\n}\n\n.mt-20 {\n  margin-top: 5rem;\n}\n\n.-mt-8 {\n  margin-top: -2rem;\n}\n\n.mt-0\\.5 {\n  margin-top: 0.125rem;\n}\n\n.ml-11 {\n  margin-left: 2.75rem;\n}\n\n.mb-\\[22px\\] {\n  margin-bottom: 22px;\n}\n\n.mt-12 {\n  margin-top: 3rem;\n}\n\n.ml-2\\.5 {\n  margin-left: 0.625rem;\n}\n\n.ml-8 {\n  margin-left: 2rem;\n}\n\n.-ml-48 {\n  margin-left: -12rem;\n}\n\n.mb-8 {\n  margin-bottom: 2rem;\n}\n\n.mr-2\\.5 {\n  margin-right: 0.625rem;\n}\n\n.mb-14 {\n  margin-bottom: 3.5rem;\n}\n\n.mt-5 {\n  margin-top: 1.25rem;\n}\n\n.ml-14 {\n  margin-left: 3.5rem;\n}\n\n.mt-\\[72px\\] {\n  margin-top: 72px;\n}\n\n.mb-12 {\n  margin-bottom: 3rem;\n}\n\n.-mt-0\\.5 {\n  margin-top: -0.125rem;\n}\n\n.-mt-0 {\n  margin-top: -0px;\n}\n\n.-mt-6 {\n  margin-top: -1.5rem;\n}\n\n.ml-\\[5px\\] {\n  margin-left: 5px;\n}\n\n.box-border {\n  box-sizing: border-box;\n}\n\n.block {\n  display: block;\n}\n\n.inline-block {\n  display: inline-block;\n}\n\n.inline {\n  display: inline;\n}\n\n.flex {\n  display: flex;\n}\n\n.inline-flex {\n  display: inline-flex;\n}\n\n.grid {\n  display: grid;\n}\n\n.hidden {\n  display: none;\n}\n\n.h-12 {\n  height: 3rem;\n}\n\n.h-5 {\n  height: 1.25rem;\n}\n\n.h-6 {\n  height: 1.5rem;\n}\n\n.h-9 {\n  height: 2.25rem;\n}\n\n.h-full {\n  height: 100%;\n}\n\n.h-3 {\n  height: 0.75rem;\n}\n\n.h-\\[38px\\] {\n  height: 38px;\n}\n\n.h-2 {\n  height: 0.5rem;\n}\n\n.h-16 {\n  height: 4rem;\n}\n\n.h-4 {\n  height: 1rem;\n}\n\n.h-64 {\n  height: 16rem;\n}\n\n.h-8 {\n  height: 2rem;\n}\n\n.h-10 {\n  height: 2.5rem;\n}\n\n.h-24 {\n  height: 6rem;\n}\n\n.h-32 {\n  height: 8rem;\n}\n\n.\\!h-6 {\n  height: 1.5rem !important;\n}\n\n.h-0 {\n  height: 0px;\n}\n\n.h-\\[17rem\\] {\n  height: 17rem;\n}\n\n.h-screen {\n  height: 100vh;\n}\n\n.h-20 {\n  height: 5rem;\n}\n\n.h-7 {\n  height: 1.75rem;\n}\n\n.h-\\[4\\.5rem\\] {\n  height: 4.5rem;\n}\n\n.h-auto {\n  height: auto;\n}\n\n.h-fit {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n\n.h-2\\.5 {\n  height: 0.625rem;\n}\n\n.h-\\[224px\\] {\n  height: 224px;\n}\n\n.h-4\\/5 {\n  height: 80%;\n}\n\n.\\!h-3 {\n  height: 0.75rem !important;\n}\n\n.\\!h-4 {\n  height: 1rem !important;\n}\n\n.\\!h-5 {\n  height: 1.25rem !important;\n}\n\n.\\!h-20 {\n  height: 5rem !important;\n}\n\n.h-14 {\n  height: 3.5rem;\n}\n\n.\\!h-12 {\n  height: 3rem !important;\n}\n\n.h-\\[180px\\] {\n  height: 180px;\n}\n\n.h-\\[112px\\] {\n  height: 112px;\n}\n\n.max-h-screen {\n  max-height: 100vh;\n}\n\n.max-h-72 {\n  max-height: 18rem;\n}\n\n.max-h-96 {\n  max-height: 24rem;\n}\n\n.max-h-52 {\n  max-height: 13rem;\n}\n\n.max-h-\\[476px\\] {\n  max-height: 476px;\n}\n\n.max-h-56 {\n  max-height: 14rem;\n}\n\n.max-h-10 {\n  max-height: 2.5rem;\n}\n\n.min-h-full {\n  min-height: 100%;\n}\n\n.min-h-\\[476px\\] {\n  min-height: 476px;\n}\n\n.w-5 {\n  width: 1.25rem;\n}\n\n.w-full {\n  width: 100%;\n}\n\n.w-6 {\n  width: 1.5rem;\n}\n\n.w-9 {\n  width: 2.25rem;\n}\n\n.\\!w-60 {\n  width: 15rem !important;\n}\n\n.w-3 {\n  width: 0.75rem;\n}\n\n.w-\\[34px\\] {\n  width: 34px;\n}\n\n.w-2 {\n  width: 0.5rem;\n}\n\n.w-4 {\n  width: 1rem;\n}\n\n.w-32 {\n  width: 8rem;\n}\n\n.w-40 {\n  width: 10rem;\n}\n\n.w-\\[100px\\] {\n  width: 100px;\n}\n\n.w-52 {\n  width: 13rem;\n}\n\n.w-64 {\n  width: 16rem;\n}\n\n.w-\\[300px\\] {\n  width: 300px;\n}\n\n.\\!w-52 {\n  width: 13rem !important;\n}\n\n.w-8 {\n  width: 2rem;\n}\n\n.w-auto {\n  width: auto;\n}\n\n.w-10 {\n  width: 2.5rem;\n}\n\n.w-24 {\n  width: 6rem;\n}\n\n.w-16 {\n  width: 4rem;\n}\n\n.w-44 {\n  width: 11rem;\n}\n\n.w-28 {\n  width: 7rem;\n}\n\n.w-0 {\n  width: 0px;\n}\n\n.w-10\\/12 {\n  width: 83.333333%;\n}\n\n.\\!w-0 {\n  width: 0px !important;\n}\n\n.w-1\\/12 {\n  width: 8.333333%;\n}\n\n.\\!w-6 {\n  width: 1.5rem !important;\n}\n\n.w-11 {\n  width: 2.75rem;\n}\n\n.w-48 {\n  width: 12rem;\n}\n\n.\\!w-40 {\n  width: 10rem !important;\n}\n\n.\\!w-56 {\n  width: 14rem !important;\n}\n\n.w-5\\/6 {\n  width: 83.333333%;\n}\n\n.w-20 {\n  width: 5rem;\n}\n\n.w-3\\/6 {\n  width: 50%;\n}\n\n.w-12 {\n  width: 3rem;\n}\n\n.w-\\[17\\%\\] {\n  width: 17%;\n}\n\n.w-2\\.5 {\n  width: 0.625rem;\n}\n\n.w-36 {\n  width: 9rem;\n}\n\n.w-fit {\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n}\n\n.w-56 {\n  width: 14rem;\n}\n\n.w-\\[30px\\] {\n  width: 30px;\n}\n\n.w-7 {\n  width: 1.75rem;\n}\n\n.w-min {\n  width: -webkit-min-content;\n  width: min-content;\n}\n\n.w-11\\/12 {\n  width: 91.666667%;\n}\n\n.w-2\\/5 {\n  width: 40%;\n}\n\n.w-3\\/5 {\n  width: 60%;\n}\n\n.w-4\\/5 {\n  width: 80%;\n}\n\n.w-1\\/2 {\n  width: 50%;\n}\n\n.\\!w-3 {\n  width: 0.75rem !important;\n}\n\n.\\!w-4 {\n  width: 1rem !important;\n}\n\n.\\!w-5 {\n  width: 1.25rem !important;\n}\n\n.\\!w-20 {\n  width: 5rem !important;\n}\n\n.w-\\[309px\\] {\n  width: 309px;\n}\n\n.w-2\\/3 {\n  width: 66.666667%;\n}\n\n.w-max {\n  width: -webkit-max-content;\n  width: max-content;\n}\n\n.w-7\\/12 {\n  width: 58.333333%;\n}\n\n.w-4\\/12 {\n  width: 33.333333%;\n}\n\n.w-5\\/12 {\n  width: 41.666667%;\n}\n\n.w-8\\/12 {\n  width: 66.666667%;\n}\n\n.w-60 {\n  width: 15rem;\n}\n\n.w-1\\/5 {\n  width: 20%;\n}\n\n.w-2\\/12 {\n  width: 16.666667%;\n}\n\n.w-1\\/3 {\n  width: 33.333333%;\n}\n\n.w-\\[18\\%\\] {\n  width: 18%;\n}\n\n.w-3\\/4 {\n  width: 75%;\n}\n\n.w-1\\/4 {\n  width: 25%;\n}\n\n.min-w-max {\n  min-width: -webkit-max-content;\n  min-width: max-content;\n}\n\n.min-w-\\[50\\%\\] {\n  min-width: 50%;\n}\n\n.max-w-2xl {\n  max-width: 42rem;\n}\n\n.max-w-xs {\n  max-width: 20rem;\n}\n\n.max-w-lg {\n  max-width: 32rem;\n}\n\n.max-w-\\[200px\\] {\n  max-width: 200px;\n}\n\n.max-w-md {\n  max-width: 28rem;\n}\n\n.max-w-full {\n  max-width: 100%;\n}\n\n.max-w-\\[130px\\] {\n  max-width: 130px;\n}\n\n.max-w-\\[310px\\] {\n  max-width: 310px;\n}\n\n.flex-1 {\n  flex: 1 1 0%;\n}\n\n.flex-none {\n  flex: none;\n}\n\n.flex-grow {\n  flex-grow: 1;\n}\n\n.grow {\n  flex-grow: 1;\n}\n\n.\\!translate-x-0 {\n  --tw-translate-x: 0px !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-y-full {\n  --tw-translate-y: 100% !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/2 {\n  --tw-translate-x: -50%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-1\\/2 {\n  --tw-translate-y: -50%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-full {\n  --tw-translate-x: 100%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-5 {\n  --tw-translate-y: 1.25rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3 {\n  --tw-translate-x: 0.75rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-3\\/4 {\n  --tw-translate-x: -75% !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-full {\n  --tw-translate-x: -100% !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-48 {\n  --tw-translate-x: -12rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-6 {\n  --tw-translate-y: -1.5rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.translate-x-1 {\n  --tw-translate-x: 0.25rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-10 {\n  --tw-translate-y: -2.5rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!translate-x-1 {\n  --tw-translate-x: 0.25rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-translate-x-1\\/3 {\n  --tw-translate-x: -33.333333%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-3\\/4 {\n  --tw-translate-y: 75%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-y-full {\n  --tw-translate-y: 100%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-20 {\n  --tw-translate-y: -5rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-1\\/4 {\n  --tw-translate-x: 25%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-40 {\n  --tw-translate-y: -10rem;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.translate-x-3\\/4 {\n  --tw-translate-x: 75%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-translate-y-2\\/4 {\n  --tw-translate-y: -50%;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.\\!-translate-x-16 {\n  --tw-translate-x: -4rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-20 {\n  --tw-translate-x: -5rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-x-24 {\n  --tw-translate-x: -6rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-6 {\n  --tw-translate-x: 1.5rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!-translate-y-8 {\n  --tw-translate-y: -2rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.\\!translate-x-3 {\n  --tw-translate-x: 0.75rem !important;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;\n}\n\n.-rotate-45 {\n  --tw-rotate: -45deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-180 {\n  --tw-rotate: 180deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-180 {\n  --tw-rotate: -180deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.rotate-90 {\n  --tw-rotate: 90deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.-rotate-90 {\n  --tw-rotate: -90deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.transform {\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n@-webkit-keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-pulse {\n  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n@-webkit-keyframes spin {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes spin {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n.animate-spin {\n  -webkit-animation: spin 1s linear infinite;\n          animation: spin 1s linear infinite;\n}\n\n@keyframes pulse {\n  50% {\n    opacity: .5;\n  }\n}\n\n.animate-\\[pulse_0\\.8s\\] {\n  -webkit-animation: pulse 0.8s;\n          animation: pulse 0.8s;\n}\n\n@-webkit-keyframes spinner-rotate {\n  100% {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-rotate {\n  100% {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n.animate-spinner-rotate {\n  -webkit-animation: spinner-rotate 2s linear infinite;\n          animation: spinner-rotate 2s linear infinite;\n}\n\n@-webkit-keyframes spinner-dash {\n  0% {\n    stroke-dasharray: 1, 150;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -35;\n  }\n\n  100% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -124;\n  }\n}\n\n@keyframes spinner-dash {\n  0% {\n    stroke-dasharray: 1, 150;\n    stroke-dashoffset: 0;\n  }\n\n  50% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -35;\n  }\n\n  100% {\n    stroke-dasharray: 90, 150;\n    stroke-dashoffset: -124;\n  }\n}\n\n.animate-spinner-dash {\n  -webkit-animation: spinner-dash 1.5s ease-in-out infinite;\n          animation: spinner-dash 1.5s ease-in-out infinite;\n}\n\n@-webkit-keyframes bounce {\n  0%, 100% {\n    -webkit-transform: translateY(-25%);\n            transform: translateY(-25%);\n    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);\n            animation-timing-function: cubic-bezier(0.8,0,1,1);\n  }\n\n  50% {\n    -webkit-transform: none;\n            transform: none;\n    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);\n            animation-timing-function: cubic-bezier(0,0,0.2,1);\n  }\n}\n\n@keyframes bounce {\n  0%, 100% {\n    -webkit-transform: translateY(-25%);\n            transform: translateY(-25%);\n    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);\n            animation-timing-function: cubic-bezier(0.8,0,1,1);\n  }\n\n  50% {\n    -webkit-transform: none;\n            transform: none;\n    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);\n            animation-timing-function: cubic-bezier(0,0,0.2,1);\n  }\n}\n\n.animate-\\[bounce_1\\.5s\\] {\n  -webkit-animation: bounce 1.5s;\n          animation: bounce 1.5s;\n}\n\n.cursor-pointer {\n  cursor: pointer;\n}\n\n.cursor-not-allowed {\n  cursor: not-allowed;\n}\n\n.\\!cursor-default {\n  cursor: default !important;\n}\n\n.cursor-default {\n  cursor: default;\n}\n\n.\\!cursor-pointer {\n  cursor: pointer !important;\n}\n\n.cursor-move {\n  cursor: move;\n}\n\n.\\!cursor-not-allowed {\n  cursor: not-allowed !important;\n}\n\n.cursor-text {\n  cursor: text;\n}\n\n.select-none {\n  -webkit-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n}\n\n.list-none {\n  list-style-type: none;\n}\n\n.grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n\n.flex-row {\n  flex-direction: row;\n}\n\n.flex-col {\n  flex-direction: column;\n}\n\n.flex-wrap {\n  flex-wrap: wrap;\n}\n\n.items-start {\n  align-items: flex-start;\n}\n\n.items-end {\n  align-items: flex-end;\n}\n\n.items-center {\n  align-items: center;\n}\n\n.items-stretch {\n  align-items: stretch;\n}\n\n.justify-start {\n  justify-content: flex-start;\n}\n\n.justify-end {\n  justify-content: flex-end;\n}\n\n.justify-center {\n  justify-content: center;\n}\n\n.justify-between {\n  justify-content: space-between;\n}\n\n.justify-around {\n  justify-content: space-around;\n}\n\n.justify-evenly {\n  justify-content: space-evenly;\n}\n\n.gap-2 {\n  gap: 0.5rem;\n}\n\n.gap-4 {\n  gap: 1rem;\n}\n\n.gap-3 {\n  gap: 0.75rem;\n}\n\n.gap-x-2 {\n  -webkit-column-gap: 0.5rem;\n          column-gap: 0.5rem;\n}\n\n.gap-x-\\[10px\\] {\n  -webkit-column-gap: 10px;\n          column-gap: 10px;\n}\n\n.gap-y-\\[10px\\] {\n  row-gap: 10px;\n}\n\n.space-x-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.5rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-2 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0px * var(--tw-space-y-reverse));\n}\n\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.space-x-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1rem * var(--tw-space-x-reverse));\n  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-6 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n}\n\n.space-y-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2rem * var(--tw-space-y-reverse));\n}\n\n.space-x-8 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(2rem * var(--tw-space-x-reverse));\n  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-y-3 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));\n}\n\n.space-y-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));\n}\n\n.space-y-0\\.5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.125rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.125rem * var(--tw-space-y-reverse));\n}\n\n.space-x-7 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.75rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-0 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0px * var(--tw-space-x-reverse));\n  margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.space-x-5 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(1.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n\n.self-start {\n  align-self: flex-start;\n}\n\n.justify-self-start {\n  justify-self: start;\n}\n\n.justify-self-end {\n  justify-self: end;\n}\n\n.overflow-auto {\n  overflow: auto;\n}\n\n.overflow-hidden {\n  overflow: hidden;\n}\n\n.overflow-x-auto {\n  overflow-x: auto;\n}\n\n.overflow-y-auto {\n  overflow-y: auto;\n}\n\n.overflow-x-hidden {\n  overflow-x: hidden;\n}\n\n.overflow-y-scroll {\n  overflow-y: scroll;\n}\n\n.scroll-smooth {\n  scroll-behavior: smooth;\n}\n\n.truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.text-ellipsis {\n  text-overflow: ellipsis;\n}\n\n.\\!whitespace-normal {\n  white-space: normal !important;\n}\n\n.whitespace-normal {\n  white-space: normal;\n}\n\n.whitespace-nowrap {\n  white-space: nowrap;\n}\n\n.whitespace-pre-line {\n  white-space: pre-line;\n}\n\n.whitespace-pre-wrap {\n  white-space: pre-wrap;\n}\n\n.break-words {\n  overflow-wrap: break-word;\n}\n\n.break-all {\n  word-break: break-all;\n}\n\n.rounded-md {\n  border-radius: 0.375rem;\n}\n\n.rounded-2xl {\n  border-radius: 1rem;\n}\n\n.rounded-full {\n  border-radius: 9999px;\n}\n\n.rounded {\n  border-radius: 0.25rem;\n}\n\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n\n.rounded-sm {\n  border-radius: 4px;\n}\n\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n\n.rounded-\\[13px\\] {\n  border-radius: 13px;\n}\n\n.rounded-none {\n  border-radius: 0px;\n}\n\n.rounded-\\[10px\\] {\n  border-radius: 10px;\n}\n\n.rounded-t-md {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.rounded-b-\\[8px\\] {\n  border-bottom-right-radius: 8px;\n  border-bottom-left-radius: 8px;\n}\n\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n\n.border-2 {\n  border-width: 2px;\n}\n\n.border {\n  border-width: 1px;\n}\n\n.border-\\[1px\\] {\n  border-width: 1px;\n}\n\n.border-0 {\n  border-width: 0px;\n}\n\n.\\!border {\n  border-width: 1px !important;\n}\n\n.border-b-2 {\n  border-bottom-width: 2px;\n}\n\n.border-b {\n  border-bottom-width: 1px;\n}\n\n.border-t-4 {\n  border-top-width: 4px;\n}\n\n.border-r-4 {\n  border-right-width: 4px;\n}\n\n.border-b-\\[1px\\] {\n  border-bottom-width: 1px;\n}\n\n.border-t {\n  border-top-width: 1px;\n}\n\n.border-r-2 {\n  border-right-width: 2px;\n}\n\n.border-none {\n  border-style: none;\n}\n\n.border-body-balances-300 {\n  border-color: #00ffa355;\n}\n\n.border-red-600 {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.border-blue-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(191 219 254 / var(--tw-border-opacity));\n}\n\n.border-gray-900 {\n  --tw-border-opacity: 1;\n  border-color: rgb(10 18 30 / var(--tw-border-opacity));\n}\n\n.border-border-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(103 103 103 / var(--tw-border-opacity));\n}\n\n.border-gray-700 {\n  --tw-border-opacity: 1;\n  border-color: rgb(55 65 81 / var(--tw-border-opacity));\n}\n\n.border-gray-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-component-input-border {\n  --tw-border-opacity: 1;\n  border-color: rgb(47 47 47 / var(--tw-border-opacity));\n}\n\n.border-transparent {\n  border-color: transparent;\n}\n\n.border-primary-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(217 233 250 / var(--tw-border-opacity));\n}\n\n.border-primary-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 255 163 / var(--tw-border-opacity));\n}\n\n.border-body-activity-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(54 54 54 / var(--tw-border-opacity));\n}\n\n.border-white {\n  --tw-border-opacity: 1;\n  border-color: rgb(255 255 255 / var(--tw-border-opacity));\n}\n\n.border-border-100 {\n  border-color: #ffffff26;\n}\n\n.border-border-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.border-gray-500 {\n  --tw-border-opacity: 1;\n  border-color: rgb(107 114 128 / var(--tw-border-opacity));\n}\n\n.\\!border-gray-200 {\n  --tw-border-opacity: 1 !important;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity)) !important;\n}\n\n.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}\n\n.border-red-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.border-body-networkSelect-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(49 47 47 / var(--tw-border-opacity));\n}\n\n.border-green-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.border-yellow-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.border-current {\n  border-color: currentColor;\n}\n\n.border-gray-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(209 213 219 / var(--tw-border-opacity));\n}\n\n.border-green-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.border-primary-100 {\n  --tw-border-opacity: 1;\n  border-color: rgb(231 241 251 / var(--tw-border-opacity));\n}\n\n.border-red-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(252 165 165 / var(--tw-border-opacity));\n}\n\n.border-body-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(66 66 66 / var(--tw-border-opacity));\n}\n\n.border-component-btn-200 {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 255 163 / var(--tw-border-opacity));\n}\n\n.border-t-gray-200 {\n  --tw-border-opacity: 1;\n  border-top-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-b-gray-200 {\n  --tw-border-opacity: 1;\n  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.border-opacity-0 {\n  --tw-border-opacity: 0;\n}\n\n.bg-body-balances-100 {\n  background-color: #00ffa314;\n}\n\n.bg-primary-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-red-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 226 226 / var(--tw-bg-opacity));\n}\n\n.bg-red-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 242 242 / var(--tw-bg-opacity));\n}\n\n.bg-red-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 38 38 / var(--tw-bg-opacity));\n}\n\n.bg-blue-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(191 219 254 / var(--tw-bg-opacity));\n}\n\n.bg-gray-900 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-100 {\n  background-color: #00ffa314;\n}\n\n.bg-component-btn-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-gray-700 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 250 / var(--tw-bg-opacity));\n}\n\n.bg-transparent {\n  background-color: transparent;\n}\n\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n\n.bg-body-assets-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}\n\n.bg-container-100 {\n  background-color: #ffffff0d;\n}\n\n.bg-header-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.bg-header-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(26 26 28 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-header-step-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(51 51 51 / var(--tw-bg-opacity));\n}\n\n.bg-gray-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity));\n}\n\n.bg-body-collectibles-100 {\n  background-color: #1414145c;\n}\n\n.bg-green-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 252 231 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.bg-green-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(74 222 128 / var(--tw-bg-opacity));\n}\n\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n\n.bg-component-btn-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 252 252 / var(--tw-bg-opacity));\n}\n\n.bg-primary-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 204 21 / var(--tw-bg-opacity));\n}\n\n.bg-orange-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(251 146 60 / var(--tw-bg-opacity));\n}\n\n.bg-red-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 113 113 / var(--tw-bg-opacity));\n}\n\n.bg-gray-400 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(156 163 175 / var(--tw-bg-opacity));\n}\n\n.bg-primary-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.bg-component-input-bg {\n  --tw-bg-opacity: 1;\n  background-color: rgb(21 21 21 / var(--tw-bg-opacity));\n}\n\n.\\!bg-gray-200 {\n  --tw-bg-opacity: 1 !important;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;\n}\n\n.bg-container-reveal {\n  --tw-bg-opacity: 1;\n  background-color: rgb(121 121 128 / var(--tw-bg-opacity));\n}\n\n.bg-red-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 165 165 / var(--tw-bg-opacity));\n}\n\n.bg-blue-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.bg-gray-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(75 85 99 / var(--tw-bg-opacity));\n}\n\n.bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.bg-yellow-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 240 138 / var(--tw-bg-opacity));\n}\n\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n\n.bg-body-800 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.bg-body-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(33 33 33 / var(--tw-bg-opacity));\n}\n\n.bg-opacity-\\[8\\%\\] {\n  --tw-bg-opacity: 8%;\n}\n\n.bg-opacity-50 {\n  --tw-bg-opacity: 0.5;\n}\n\n.bg-opacity-60 {\n  --tw-bg-opacity: 0.6;\n}\n\n.bg-opacity-75 {\n  --tw-bg-opacity: 0.75;\n}\n\n.bg-opacity-20 {\n  --tw-bg-opacity: 0.2;\n}\n\n.fill-black {\n  fill: #000;\n}\n\n.fill-component-btn-200 {\n  fill: #00FFA3;\n}\n\n.fill-green-600 {\n  fill: #16a34a;\n}\n\n.\\!fill-selected {\n  fill: #00FFA3 !important;\n}\n\n.\\!fill-danger {\n  fill: red !important;\n}\n\n.\\!fill-gray {\n  fill: #8093AB !important;\n}\n\n.stroke-component-btn-200 {\n  stroke: #00FFA3;\n}\n\n.stroke-current {\n  stroke: currentColor;\n}\n\n.stroke-primary-300 {\n  stroke: #00FFA3;\n}\n\n.\\!stroke-gray {\n  stroke: #8093AB !important;\n}\n\n.p-4 {\n  padding: 1rem;\n}\n\n.p-1 {\n  padding: 0.25rem;\n}\n\n.p-0 {\n  padding: 0px;\n}\n\n.p-1\\.5 {\n  padding: 0.375rem;\n}\n\n.p-3 {\n  padding: 0.75rem;\n}\n\n.p-6 {\n  padding: 1.5rem;\n}\n\n.p-2 {\n  padding: 0.5rem;\n}\n\n.p-5 {\n  padding: 1.25rem;\n}\n\n.p-\\[14px\\] {\n  padding: 14px;\n}\n\n.p-0\\.5 {\n  padding: 0.125rem;\n}\n\n.p-8 {\n  padding: 2rem;\n}\n\n.p-10 {\n  padding: 2.5rem;\n}\n\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.py-5 {\n  padding-top: 1.25rem;\n  padding-bottom: 1.25rem;\n}\n\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n\n.px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.px-\\[10\\.5px\\] {\n  padding-left: 10.5px;\n  padding-right: 10.5px;\n}\n\n.px-\\[14px\\] {\n  padding-left: 14px;\n  padding-right: 14px;\n}\n\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.px-7 {\n  padding-left: 1.75rem;\n  padding-right: 1.75rem;\n}\n\n.py-2\\.5 {\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n}\n\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n\n.px-2\\.5 {\n  padding-left: 0.625rem;\n  padding-right: 0.625rem;\n}\n\n.py-1\\.5 {\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n}\n\n.px-1\\.5 {\n  padding-left: 0.375rem;\n  padding-right: 0.375rem;\n}\n\n.py-6 {\n  padding-top: 1.5rem;\n  padding-bottom: 1.5rem;\n}\n\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n\n.px-12 {\n  padding-left: 3rem;\n  padding-right: 3rem;\n}\n\n.px-24 {\n  padding-left: 6rem;\n  padding-right: 6rem;\n}\n\n.py-0\\.5 {\n  padding-top: 0.125rem;\n  padding-bottom: 0.125rem;\n}\n\n.py-0 {\n  padding-top: 0px;\n  padding-bottom: 0px;\n}\n\n.py-14 {\n  padding-top: 3.5rem;\n  padding-bottom: 3.5rem;\n}\n\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n\n.px-10 {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.px-9 {\n  padding-left: 2.25rem;\n  padding-right: 2.25rem;\n}\n\n.px-48 {\n  padding-left: 12rem;\n  padding-right: 12rem;\n}\n\n.py-8 {\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n\n.py-\\[9px\\] {\n  padding-top: 9px;\n  padding-bottom: 9px;\n}\n\n.px-\\[18px\\] {\n  padding-left: 18px;\n  padding-right: 18px;\n}\n\n.pt-6 {\n  padding-top: 1.5rem;\n}\n\n.pt-3 {\n  padding-top: 0.75rem;\n}\n\n.pt-2 {\n  padding-top: 0.5rem;\n}\n\n.pt-0\\.5 {\n  padding-top: 0.125rem;\n}\n\n.pt-0 {\n  padding-top: 0px;\n}\n\n.pb-1\\.5 {\n  padding-bottom: 0.375rem;\n}\n\n.pb-1 {\n  padding-bottom: 0.25rem;\n}\n\n.pr-1 {\n  padding-right: 0.25rem;\n}\n\n.pt-1 {\n  padding-top: 0.25rem;\n}\n\n.pb-2 {\n  padding-bottom: 0.5rem;\n}\n\n.pr-\\[49px\\] {\n  padding-right: 49px;\n}\n\n.pb-\\[20px\\] {\n  padding-bottom: 20px;\n}\n\n.pl-2 {\n  padding-left: 0.5rem;\n}\n\n.pb-0 {\n  padding-bottom: 0px;\n}\n\n.pr-3 {\n  padding-right: 0.75rem;\n}\n\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n\n.pr-6 {\n  padding-right: 1.5rem;\n}\n\n.pl-4 {\n  padding-left: 1rem;\n}\n\n.pl-1 {\n  padding-left: 0.25rem;\n}\n\n.pt-4 {\n  padding-top: 1rem;\n}\n\n.pb-6 {\n  padding-bottom: 1.5rem;\n}\n\n.pr-0 {\n  padding-right: 0px;\n}\n\n.pt-5 {\n  padding-top: 1.25rem;\n}\n\n.pr-2 {\n  padding-right: 0.5rem;\n}\n\n.pl-9 {\n  padding-left: 2.25rem;\n}\n\n.pl-0 {\n  padding-left: 0px;\n}\n\n.pt-20 {\n  padding-top: 5rem;\n}\n\n.pt-\\[30px\\] {\n  padding-top: 30px;\n}\n\n.pb-\\[22px\\] {\n  padding-bottom: 22px;\n}\n\n.pb-4 {\n  padding-bottom: 1rem;\n}\n\n.pl-0\\.5 {\n  padding-left: 0.125rem;\n}\n\n.pl-6 {\n  padding-left: 1.5rem;\n}\n\n.pt-8 {\n  padding-top: 2rem;\n}\n\n.pt-28 {\n  padding-top: 7rem;\n}\n\n.pt-12 {\n  padding-top: 3rem;\n}\n\n.pt-10 {\n  padding-top: 2.5rem;\n}\n\n.pt-24 {\n  padding-top: 6rem;\n}\n\n.pr-1\\.5 {\n  padding-right: 0.375rem;\n}\n\n.pl-1\\.5 {\n  padding-left: 0.375rem;\n}\n\n.pb-8 {\n  padding-bottom: 2rem;\n}\n\n.text-left {\n  text-align: left;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.text-right {\n  text-align: right;\n}\n\n.align-middle {\n  vertical-align: middle;\n}\n\n.font-\\[CarbonText-Regular\\] {\n  font-family: CarbonText-Regular;\n}\n\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[10px\\] {\n  font-size: 10px;\n}\n\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n\n.text-xxs {\n  font-size: .625rem;\n}\n\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n\n.text-\\[32px\\] {\n  font-size: 32px;\n}\n\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n\n.font-bold {\n  font-weight: 700;\n}\n\n.font-normal {\n  font-weight: 400;\n}\n\n.font-semibold {\n  font-weight: 600;\n}\n\n.font-medium {\n  font-weight: 500;\n}\n\n.font-\\[400\\] {\n  font-weight: 400;\n}\n\n.font-black {\n  font-weight: 900;\n}\n\n.font-thin {\n  font-weight: 100;\n}\n\n.uppercase {\n  text-transform: uppercase;\n}\n\n.lowercase {\n  text-transform: lowercase;\n}\n\n.capitalize {\n  text-transform: capitalize;\n}\n\n.leading-10 {\n  line-height: 2.5rem;\n}\n\n.leading-6 {\n  line-height: 1.5rem;\n}\n\n.leading-loose {\n  line-height: 2;\n}\n\n.leading-5 {\n  line-height: 1.25rem;\n}\n\n.leading-relaxed {\n  line-height: 1.625;\n}\n\n.text-body-balances-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-component-btn-200 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-red-500 {\n  --tw-text-opacity: 1;\n  color: rgb(239 68 68 / var(--tw-text-opacity));\n}\n\n.text-red-300 {\n  --tw-text-opacity: 1;\n  color: rgb(252 165 165 / var(--tw-text-opacity));\n}\n\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.text-component-btn-400 {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(10 18 30 / var(--tw-text-opacity));\n}\n\n.text-component-btn-700 {\n  --tw-text-opacity: 1;\n  color: rgb(30 34 41 / var(--tw-text-opacity));\n}\n\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n\n.text-sky-600 {\n  --tw-text-opacity: 1;\n  color: rgb(2 132 199 / var(--tw-text-opacity));\n}\n\n.text-primary-300 {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n\n.text-body-activity-100 {\n  color: #c9c9c9fc;\n}\n\n.text-body-activity-200 {\n  color: #e9e9e999;\n}\n\n.text-body-assets-200 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-primary-200 {\n  --tw-text-opacity: 1;\n  color: rgb(217 233 250 / var(--tw-text-opacity));\n}\n\n.text-txt-settings {\n  --tw-text-opacity: 1;\n  color: rgb(204 218 231 / var(--tw-text-opacity));\n}\n\n.text-yellow-600 {\n  --tw-text-opacity: 1;\n  color: rgb(202 138 4 / var(--tw-text-opacity));\n}\n\n.text-green-600 {\n  --tw-text-opacity: 1;\n  color: rgb(22 163 74 / var(--tw-text-opacity));\n}\n\n.text-txt-logo {\n  --tw-text-opacity: 1;\n  color: rgb(239 239 239 / var(--tw-text-opacity));\n}\n\n.text-black {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.text-green-500 {\n  --tw-text-opacity: 1;\n  color: rgb(34 197 94 / var(--tw-text-opacity));\n}\n\n.text-yellow-500 {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.text-body-700 {\n  --tw-text-opacity: 1;\n  color: rgb(132 132 132 / var(--tw-text-opacity));\n}\n\n.text-body-600 {\n  --tw-text-opacity: 1;\n  color: rgb(201 201 201 / var(--tw-text-opacity));\n}\n\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n\n.text-red-600 {\n  --tw-text-opacity: 1;\n  color: rgb(220 38 38 / var(--tw-text-opacity));\n}\n\n.text-blue-200 {\n  --tw-text-opacity: 1;\n  color: rgb(191 219 254 / var(--tw-text-opacity));\n}\n\n.text-blue-600 {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n\n.text-yellow-400 {\n  --tw-text-opacity: 1;\n  color: rgb(250 204 21 / var(--tw-text-opacity));\n}\n\n.text-red-400 {\n  --tw-text-opacity: 1;\n  color: rgb(248 113 113 / var(--tw-text-opacity));\n}\n\n.text-slate-600 {\n  --tw-text-opacity: 1;\n  color: rgb(71 85 105 / var(--tw-text-opacity));\n}\n\n.text-gray-300 {\n  --tw-text-opacity: 1;\n  color: rgb(209 213 219 / var(--tw-text-opacity));\n}\n\n.text-primary-100 {\n  --tw-text-opacity: 1;\n  color: rgb(231 241 251 / var(--tw-text-opacity));\n}\n\n.text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.\\!text-primary-300 {\n  --tw-text-opacity: 1 !important;\n  color: rgb(0 255 163 / var(--tw-text-opacity)) !important;\n}\n\n.text-red-900 {\n  --tw-text-opacity: 1;\n  color: rgb(127 29 29 / var(--tw-text-opacity));\n}\n\n.text-blue-900 {\n  --tw-text-opacity: 1;\n  color: rgb(30 58 138 / var(--tw-text-opacity));\n}\n\n.text-yellow-900 {\n  --tw-text-opacity: 1;\n  color: rgb(113 63 18 / var(--tw-text-opacity));\n}\n\n.text-gray-800 {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.text-gray-200 {\n  --tw-text-opacity: 1;\n  color: rgb(229 231 235 / var(--tw-text-opacity));\n}\n\n.text-green-400 {\n  --tw-text-opacity: 1;\n  color: rgb(74 222 128 / var(--tw-text-opacity));\n}\n\n.text-txt-check {\n  --tw-text-opacity: 1;\n  color: rgb(207 208 211 / var(--tw-text-opacity));\n}\n\n.text-txt-warn {\n  --tw-text-opacity: 1;\n  color: rgb(255 156 84 / var(--tw-text-opacity));\n}\n\n.text-txt-subtitle {\n  --tw-text-opacity: 1;\n  color: rgb(138 138 138 / var(--tw-text-opacity));\n}\n\n.text-body-900 {\n  --tw-text-opacity: 1;\n  color: rgb(138 146 154 / var(--tw-text-opacity));\n}\n\n.underline {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n\n.underline-offset-1 {\n  text-underline-offset: 1px;\n}\n\n.placeholder-gray-400::-webkit-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-gray-400:-ms-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-gray-400::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder::-webkit-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder:-ms-input-placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.placeholder-component-input-placeholder::placeholder {\n  --tw-placeholder-opacity: 1;\n  color: rgb(85 85 85 / var(--tw-placeholder-opacity));\n}\n\n.opacity-50 {\n  opacity: 0.5;\n}\n\n.\\!opacity-100 {\n  opacity: 1 !important;\n}\n\n.opacity-5 {\n  opacity: 0.05;\n}\n\n.opacity-80 {\n  opacity: 0.8;\n}\n\n.opacity-100 {\n  opacity: 1;\n}\n\n.opacity-0 {\n  opacity: 0;\n}\n\n.opacity-90 {\n  opacity: 0.9;\n}\n\n.opacity-75 {\n  opacity: 0.75;\n}\n\n.opacity-30 {\n  opacity: 0.3;\n}\n\n.shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.outline-none {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n.outline {\n  outline-style: solid;\n}\n\n.blur {\n  --tw-blur: blur(8px);\n  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.filter {\n  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.backdrop-blur-md {\n  --tw-backdrop-blur: blur(12px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.backdrop-blur-\\[30px\\] {\n  --tw-backdrop-blur: blur(30px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition {\n  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-transform {\n  transition-property: -webkit-transform;\n  transition-property: transform;\n  transition-property: transform, -webkit-transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-opacity {\n  transition-property: opacity;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-width {\n  transition-property: width;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.transition-colors {\n  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.delay-300 {\n  transition-delay: 300ms;\n}\n\n.delay-150 {\n  transition-delay: 150ms;\n}\n\n.delay-500 {\n  transition-delay: 500ms;\n}\n\n.delay-100 {\n  transition-delay: 100ms;\n}\n\n.duration-300 {\n  transition-duration: 300ms;\n}\n\n.duration-200 {\n  transition-duration: 200ms;\n}\n\n.duration-75 {\n  transition-duration: 75ms;\n}\n\n.duration-500 {\n  transition-duration: 500ms;\n}\n\n.duration-100 {\n  transition-duration: 100ms;\n}\n\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n\n.ease-in-out {\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n\n.checked\\:bg-component-btn-200:checked {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.checked\\:text-component-btn-200:checked {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:rotate-180:hover {\n  --tw-rotate: 180deg;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.hover\\:cursor-pointer:hover {\n  cursor: pointer;\n}\n\n.hover\\:rounded-t-md:hover {\n  border-top-left-radius: 0.375rem;\n  border-top-right-radius: 0.375rem;\n}\n\n.hover\\:border-\\[1px\\]:hover {\n  border-width: 1px;\n}\n\n.hover\\:border-2:hover {\n  border-width: 2px;\n}\n\n.hover\\:border-red-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-400:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.hover\\:border-red-700:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(185 28 28 / var(--tw-border-opacity));\n}\n\n.hover\\:border-gray-800:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(31 41 55 / var(--tw-border-opacity));\n}\n\n.hover\\:border-primary-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 255 163 / var(--tw-border-opacity));\n}\n\n.hover\\:border-border-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(50 50 50 / var(--tw-border-opacity));\n}\n\n.hover\\:border-green-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(134 239 172 / var(--tw-border-opacity));\n}\n\n.hover\\:border-yellow-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(253 224 71 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-600:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(37 99 235 / var(--tw-border-opacity));\n}\n\n.hover\\:border-blue-300:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(147 197 253 / var(--tw-border-opacity));\n}\n\n.hover\\:border-opacity-100:hover {\n  --tw-border-opacity: 1;\n}\n\n.hover\\:border-opacity-50:hover {\n  --tw-border-opacity: 0.5;\n}\n\n.hover\\:bg-body-balances-300:hover {\n  background-color: #00ffa355;\n}\n\n.hover\\:bg-primary-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-red-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(185 28 28 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-800:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-900:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-primary-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(231 241 251 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-component-btn-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 255 163 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-body-assets-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(42 42 42 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-component-btn-100:hover {\n  background-color: #00ffa314;\n}\n\n.hover\\:hover\\:bg-gray-700:hover:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-body-assets-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(201 201 201 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(55 65 81 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-gray-500:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-yellow-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 249 195 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(37 99 235 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-blue-300:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}\n\n.hover\\:bg-container-100:hover {\n  background-color: #ffffff0d;\n}\n\n.hover\\:bg-opacity-\\[20\\%\\]:hover {\n  --tw-bg-opacity: 20%;\n}\n\n.hover\\:bg-opacity-20:hover {\n  --tw-bg-opacity: 0.2;\n}\n\n.hover\\:bg-opacity-\\[8\\%\\]:hover {\n  --tw-bg-opacity: 8%;\n}\n\n.hover\\:bg-opacity-50:hover {\n  --tw-bg-opacity: 0.5;\n}\n\n.hover\\:font-medium:hover {\n  font-weight: 500;\n}\n\n.hover\\:text-white:hover {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n\n.hover\\:text-primary-300:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:text-component-btn-200:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 255 163 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-600:hover {\n  --tw-text-opacity: 1;\n  color: rgb(37 99 235 / var(--tw-text-opacity));\n}\n\n.hover\\:text-body-balances-300:hover {\n  color: #00ffa355;\n}\n\n.hover\\:text-blue-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(234 179 8 / var(--tw-text-opacity));\n}\n\n.hover\\:text-black:hover {\n  --tw-text-opacity: 1;\n  color: rgb(0 0 0 / var(--tw-text-opacity));\n}\n\n.hover\\:text-blue-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(30 64 175 / var(--tw-text-opacity));\n}\n\n.hover\\:text-yellow-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(161 98 7 / var(--tw-text-opacity));\n}\n\n.hover\\:text-gray-800:hover {\n  --tw-text-opacity: 1;\n  color: rgb(31 41 55 / var(--tw-text-opacity));\n}\n\n.hover\\:underline:hover {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n\n.hover\\:opacity-60:hover {\n  opacity: 0.6;\n}\n\n.hover\\:opacity-80:hover {\n  opacity: 0.8;\n}\n\n.focus\\:border-red-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(248 113 113 / var(--tw-border-opacity));\n}\n\n.focus\\:border-green-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-400:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(250 204 21 / var(--tw-border-opacity));\n}\n\n.focus\\:border-yellow-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(202 138 4 / var(--tw-border-opacity));\n}\n\n.focus\\:border-red-600:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(220 38 38 / var(--tw-border-opacity));\n}\n\n.focus\\:ring-0:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n\n.active\\:scale-95:active {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.active\\:bg-primary-200:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(217 233 250 / var(--tw-bg-opacity));\n}\n\n.active\\:bg-container-100:active {\n  background-color: #ffffff0d;\n}\n\n.active\\:bg-opacity-20:active {\n  --tw-bg-opacity: 0.2;\n}\n\n.active\\:bg-opacity-50:active {\n  --tw-bg-opacity: 0.5;\n}\n\n.disabled\\:pointer-events-none:disabled {\n  pointer-events: none;\n}\n\n.disabled\\:cursor-default:disabled {\n  cursor: default;\n}\n\n.disabled\\:border-gray-200:disabled {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n}\n\n.disabled\\:bg-component-btn-300:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(39 39 39 / var(--tw-bg-opacity));\n}\n\n.disabled\\:bg-gray-100:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n\n.disabled\\:text-component-btn-400:disabled {\n  --tw-text-opacity: 1;\n  color: rgb(121 121 121 / var(--tw-text-opacity));\n}\n\n.disabled\\:opacity-60:disabled {\n  opacity: 0.6;\n}\n\n.disabled\\:hover\\:bg-gray-900:hover:disabled {\n  --tw-bg-opacity: 1;\n  background-color: rgb(10 18 30 / var(--tw-bg-opacity));\n}\n\n.group:hover .group-hover\\:visible {\n  visibility: visible;\n}\n\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n\n.group:hover .group-hover\\:opacity-100 {\n  opacity: 1;\n}\n\n.group:hover .group-hover\\:opacity-95 {\n  opacity: 0.95;\n}\n\n@media (min-width: 768px) {\n  .md\\:ml-6 {\n    margin-left: 1.5rem;\n  }\n\n  .md\\:w-full {\n    width: 100%;\n  }\n\n  .md\\:w-64 {\n    width: 16rem;\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:space-y-6 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));\n  }\n\n  .md\\:space-x-4 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(1rem * var(--tw-space-x-reverse));\n    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:px-0 {\n    padding-left: 0px;\n    padding-right: 0px;\n  }\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -639,7 +639,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/about.f83d4390.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/about.09ea0378.svg");
 
 /***/ }),
 
@@ -652,7 +652,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/account.4f603e83.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/account.ba7195ce.svg");
 
 /***/ }),
 
@@ -665,7 +665,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/account_add.f24c6f75.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/account_add.8270c1c4.svg");
 
 /***/ }),
 
@@ -678,7 +678,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/accounts.49bd1b98.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/accounts.9f8e02b8.svg");
 
 /***/ }),
 
@@ -708,19 +708,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/assets/images/icons/arrow_margin.svg":
-/*!**************************************************!*\
-  !*** ./src/assets/images/icons/arrow_margin.svg ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/arrow_margin.38c8d1ea.svg");
-
-/***/ }),
-
 /***/ "./src/assets/images/icons/arrow_right.svg":
 /*!*************************************************!*\
   !*** ./src/assets/images/icons/arrow_right.svg ***!
@@ -730,7 +717,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/arrow_right.f5e42c9a.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/arrow_right.334ce1ff.svg");
 
 /***/ }),
 
@@ -756,7 +743,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/backup.1cc16192.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/backup.7199861e.svg");
 
 /***/ }),
 
@@ -769,7 +756,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/bell.a3eb36aa.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/bell.6d32daaf.svg");
 
 /***/ }),
 
@@ -804,7 +791,7 @@ module.exports = JSON.parse("{\"v\":\"5.7.13\",\"fr\":60,\"ip\":0,\"op\":120,\"w
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/book.d2db7398.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/book.1fc55864.svg");
 
 /***/ }),
 
@@ -863,7 +850,7 @@ module.exports = JSON.parse("{\"v\":\"5.7.13\",\"fr\":60,\"ip\":0,\"op\":35,\"w\
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/connect_dapp.5bf1cdf2.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/connect_dapp.33ac11ee.svg");
 
 /***/ }),
 
@@ -876,20 +863,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/connected_sites.a74da41d.svg");
-
-/***/ }),
-
-/***/ "./src/assets/images/icons/copy.svg":
-/*!******************************************!*\
-  !*** ./src/assets/images/icons/copy.svg ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/copy.a98d3d0f.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/connected_sites.63c092e6.svg");
 
 /***/ }),
 
@@ -902,7 +876,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/cross.c3b42fab.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/cross.31a3cfe9.svg");
 
 /***/ }),
 
@@ -939,7 +913,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/download.6e0f3b56.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/download.8ead134f.svg");
 
 /***/ }),
 
@@ -952,7 +926,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/drawer.666c04e0.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/drawer.7317a5f9.svg");
 
 /***/ }),
 
@@ -965,7 +939,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/export.51202c93.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/export.d72835d1.svg");
 
 /***/ }),
 
@@ -1004,7 +978,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/gas.ee3efee0.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/gas.e6b4564a.svg");
 
 /***/ }),
 
@@ -1065,7 +1039,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/lock.6ffb6c41.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/lock.3fa0fc08.svg");
 
 /***/ }),
 
@@ -1091,7 +1065,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/network_cloud.46d4db40.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/network_cloud.2c1aff49.svg");
 
 /***/ }),
 
@@ -1104,7 +1078,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/news.71efb64d.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/news.93dc618d.svg");
 
 /***/ }),
 
@@ -1117,7 +1091,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/open_external.d05db600.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/open_external.775777c0.svg");
 
 /***/ }),
 
@@ -1130,7 +1104,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/pen.78790fe8.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/pen.a95788ba.svg");
 
 /***/ }),
 
@@ -1143,7 +1117,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/pencil.b544c7c3.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/pencil.69ba9938.svg");
 
 /***/ }),
 
@@ -1156,7 +1130,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/pin.1633aee9.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/pin.a14b100f.svg");
 
 /***/ }),
 
@@ -1169,7 +1143,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/plus.10f24cab.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/plus.7290eb00.svg");
 
 /***/ }),
 
@@ -1182,7 +1156,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/qr_icon.8001714a.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/qr_icon.ece724c4.svg");
 
 /***/ }),
 
@@ -1195,7 +1169,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/refresh.3d6dfcf0.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/refresh.7b7d9dbb.svg");
 
 /***/ }),
 
@@ -1208,7 +1182,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/reset.6b0c150b.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/reset.ff5ff0b0.svg");
 
 /***/ }),
 
@@ -1221,7 +1195,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/search.58d978b7.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/search.2dadc6fd.svg");
 
 /***/ }),
 
@@ -1234,7 +1208,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/shield.0023747b.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/shield.102aa402.svg");
 
 /***/ }),
 
@@ -1247,7 +1221,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/spanner.7c90806f.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/spanner.fcc73c0b.svg");
 
 /***/ }),
 
@@ -1273,7 +1247,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/trash_bin.202d9f6f.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/trash_bin.ee5e271d.svg");
 
 /***/ }),
 
@@ -1299,20 +1273,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/usb.a60487c1.svg");
-
-/***/ }),
-
-/***/ "./src/assets/images/icons/vector_right.svg":
-/*!**************************************************!*\
-  !*** ./src/assets/images/icons/vector_right.svg ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/vector_right.b686501a.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/usb.f95d3185.svg");
 
 /***/ }),
 
@@ -1325,7 +1286,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/world.7c10a207.svg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "media/world.10ff9ded.svg");
 
 /***/ }),
 
@@ -1364,27 +1325,19 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../context/hooks/useSelectedNetwork */ "./src/context/hooks/useSelectedNetwork.ts");
-/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
-/* harmony import */ var _util_hooks_useTransactions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/hooks/useTransactions */ "./src/util/hooks/useTransactions.ts");
-/* harmony import */ var _icons_FileIcon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./icons/FileIcon */ "./src/components/icons/FileIcon.tsx");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _icons_TransactionArrowIcon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/TransactionArrowIcon */ "./src/components/icons/TransactionArrowIcon.tsx");
-/* harmony import */ var _icons_CopyIconDark__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/CopyIconDark */ "./src/components/icons/CopyIconDark.tsx");
-/* harmony import */ var _icons_ExternalLinkIcon__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/ExternalLinkIcon */ "./src/components/icons/ExternalLinkIcon.tsx");
-/* harmony import */ var _popup_PopupHeader__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
-/* harmony import */ var _popup_PopupLayout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _transactions_TransactionsList__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./transactions/TransactionsList */ "./src/components/transactions/TransactionsList.tsx");
+/* harmony import */ var _context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context/hooks/useSelectedNetwork */ "./src/context/hooks/useSelectedNetwork.ts");
+/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
+/* harmony import */ var _util_hooks_useTransactions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/hooks/useTransactions */ "./src/util/hooks/useTransactions.ts");
+/* harmony import */ var _popup_PopupHeader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
+/* harmony import */ var _popup_PopupLayout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\ActivityList.tsx";
-// Context
+ // Context
+
 
  // Utils
-
-
-
-
-
 
 
 
@@ -1394,15 +1347,15 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\
 const ActivityList = () => {
   const {
     chainId
-  } = Object(_context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_0__["useSelectedNetwork"])();
+  } = Object(_context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_1__["useSelectedNetwork"])();
   const {
     address
-  } = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_1__["useSelectedAccount"])();
+  } = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_2__["useSelectedAccount"])();
   const {
     transactions
-  } = Object(_util_hooks_useTransactions__WEBPACK_IMPORTED_MODULE_2__["default"])();
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  } = Object(_util_hooks_useTransactions__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_4__["default"], {
       title: "home",
       backButton: true
     }, void 0, false, {
@@ -1410,374 +1363,31 @@ const ActivityList = () => {
       lineNumber: 32,
       columnNumber: 17
     }, undefined),
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
       className: "flex flex-col items-start flex-1 w-full max-h-screen px-6 py-4 space-y-2 overflow-auto hide-scroll",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
         className: "text-white flex justify-between w-full items-center",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("span", {
           className: "text-2xl",
           children: "Activity"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 38,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-          to: "/#",
-          className: "transition duration-300",
-          draggable: false,
-          "data-testid": "navigate-account-link",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-            className: "text-sm flex items-center",
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-              className: "mr-1.5",
-              children: "Export"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 46,
-              columnNumber: 29
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_FileIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 47,
-              columnNumber: 29
-            }, undefined)]
-          }, void 0, true, {
-            fileName: _jsxFileName,
-            lineNumber: 45,
-            columnNumber: 25
-          }, undefined)
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 39,
-          columnNumber: 21
-        }, undefined)]
-      }, void 0, true, {
+        }, undefined)
+      }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 37,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
         className: "flex flex-col flex-1 w-full space-y-0",
         "data-testid": "activity-list",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-          className: "mt-8",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-              className: "py-4 flex justify-between",
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                className: "flex",
-                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                  className: "rounded-md bg-body-balances-100 py-2 px-[10.5px] flex items-center justify-center mr-4",
-                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_TransactionArrowIcon__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                    direction: "right"
-                  }, void 0, false, {
-                    fileName: _jsxFileName,
-                    lineNumber: 65,
-                    columnNumber: 41
-                  }, undefined)
-                }, void 0, false, {
-                  fileName: _jsxFileName,
-                  lineNumber: 64,
-                  columnNumber: 37
-                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                  className: "flex flex-col text-base text-body-activity-100",
-                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: "Sent "
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 69,
-                      columnNumber: 45
-                    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: " 1.02 ETH"
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 70,
-                      columnNumber: 45
-                    }, undefined)]
-                  }, void 0, true, {
-                    fileName: _jsxFileName,
-                    lineNumber: 68,
-                    columnNumber: 41
-                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                    className: "flex text-xs items-center text-body-activity-200",
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                      className: "flex items-center mr-4",
-                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                        children: "Au...Ux"
-                      }, void 0, false, {
-                        fileName: _jsxFileName,
-                        lineNumber: 74,
-                        columnNumber: 49
-                      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_CopyIconDark__WEBPACK_IMPORTED_MODULE_6__["default"], {}, void 0, false, {
-                        fileName: _jsxFileName,
-                        lineNumber: 75,
-                        columnNumber: 49
-                      }, undefined)]
-                    }, void 0, true, {
-                      fileName: _jsxFileName,
-                      lineNumber: 73,
-                      columnNumber: 45
-                    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: "11:34 PM IST"
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 77,
-                      columnNumber: 45
-                    }, undefined)]
-                  }, void 0, true, {
-                    fileName: _jsxFileName,
-                    lineNumber: 72,
-                    columnNumber: 41
-                  }, undefined)]
-                }, void 0, true, {
-                  fileName: _jsxFileName,
-                  lineNumber: 67,
-                  columnNumber: 37
-                }, undefined)]
-              }, void 0, true, {
-                fileName: _jsxFileName,
-                lineNumber: 63,
-                columnNumber: 33
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                className: "flex items-center justify-center mr-4",
-                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_ExternalLinkIcon__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
-                  fileName: _jsxFileName,
-                  lineNumber: 82,
-                  columnNumber: 37
-                }, undefined)
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 81,
-                columnNumber: 33
-              }, undefined)]
-            }, void 0, true, {
-              fileName: _jsxFileName,
-              lineNumber: 62,
-              columnNumber: 29
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("hr", {
-              className: "border-0.5 border-body-activity-300"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 85,
-              columnNumber: 29
-            }, undefined)]
-          }, void 0, true, {
-            fileName: _jsxFileName,
-            lineNumber: 61,
-            columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-              className: "py-4 flex justify-between",
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                className: "flex",
-                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                  className: "rounded-md bg-body-balances-100 py-2 px-[10.5px] flex items-center justify-center mr-4",
-                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_TransactionArrowIcon__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                    direction: "left"
-                  }, void 0, false, {
-                    fileName: _jsxFileName,
-                    lineNumber: 91,
-                    columnNumber: 41
-                  }, undefined)
-                }, void 0, false, {
-                  fileName: _jsxFileName,
-                  lineNumber: 90,
-                  columnNumber: 37
-                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                  className: "flex flex-col text-base text-body-activity-100",
-                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: "Received "
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 95,
-                      columnNumber: 45
-                    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: " 2 ETH"
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 96,
-                      columnNumber: 45
-                    }, undefined)]
-                  }, void 0, true, {
-                    fileName: _jsxFileName,
-                    lineNumber: 94,
-                    columnNumber: 41
-                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                    className: "flex text-xs items-center text-body-activity-200",
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                      className: "flex items-center mr-4",
-                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                        children: "Au...Ux"
-                      }, void 0, false, {
-                        fileName: _jsxFileName,
-                        lineNumber: 100,
-                        columnNumber: 49
-                      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_CopyIconDark__WEBPACK_IMPORTED_MODULE_6__["default"], {}, void 0, false, {
-                        fileName: _jsxFileName,
-                        lineNumber: 101,
-                        columnNumber: 49
-                      }, undefined)]
-                    }, void 0, true, {
-                      fileName: _jsxFileName,
-                      lineNumber: 99,
-                      columnNumber: 45
-                    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: "11:34 PM IST"
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 103,
-                      columnNumber: 45
-                    }, undefined)]
-                  }, void 0, true, {
-                    fileName: _jsxFileName,
-                    lineNumber: 98,
-                    columnNumber: 41
-                  }, undefined)]
-                }, void 0, true, {
-                  fileName: _jsxFileName,
-                  lineNumber: 93,
-                  columnNumber: 37
-                }, undefined)]
-              }, void 0, true, {
-                fileName: _jsxFileName,
-                lineNumber: 89,
-                columnNumber: 33
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                className: "flex items-center justify-center mr-4",
-                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_ExternalLinkIcon__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
-                  fileName: _jsxFileName,
-                  lineNumber: 108,
-                  columnNumber: 37
-                }, undefined)
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 107,
-                columnNumber: 33
-              }, undefined)]
-            }, void 0, true, {
-              fileName: _jsxFileName,
-              lineNumber: 88,
-              columnNumber: 29
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("hr", {
-              className: "border-0.5 border-body-activity-300"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 111,
-              columnNumber: 29
-            }, undefined)]
-          }, void 0, true, {
-            fileName: _jsxFileName,
-            lineNumber: 87,
-            columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-              className: "py-4 flex justify-between",
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                className: "flex",
-                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                  className: "rounded-md bg-body-balances-100 py-2 px-[10.5px] flex items-center justify-center mr-4",
-                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_TransactionArrowIcon__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                    direction: "down"
-                  }, void 0, false, {
-                    fileName: _jsxFileName,
-                    lineNumber: 117,
-                    columnNumber: 41
-                  }, undefined)
-                }, void 0, false, {
-                  fileName: _jsxFileName,
-                  lineNumber: 116,
-                  columnNumber: 37
-                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                  className: "flex flex-col text-base text-body-activity-100",
-                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: "Deposited "
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 121,
-                      columnNumber: 45
-                    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: " 4 ETH"
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 122,
-                      columnNumber: 45
-                    }, undefined)]
-                  }, void 0, true, {
-                    fileName: _jsxFileName,
-                    lineNumber: 120,
-                    columnNumber: 41
-                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                    className: "flex text-xs items-center text-body-activity-200",
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                      className: "flex items-center mr-4",
-                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                        children: "Au...Ux"
-                      }, void 0, false, {
-                        fileName: _jsxFileName,
-                        lineNumber: 126,
-                        columnNumber: 49
-                      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_CopyIconDark__WEBPACK_IMPORTED_MODULE_6__["default"], {}, void 0, false, {
-                        fileName: _jsxFileName,
-                        lineNumber: 127,
-                        columnNumber: 49
-                      }, undefined)]
-                    }, void 0, true, {
-                      fileName: _jsxFileName,
-                      lineNumber: 125,
-                      columnNumber: 45
-                    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-                      children: "11:34 PM IST"
-                    }, void 0, false, {
-                      fileName: _jsxFileName,
-                      lineNumber: 129,
-                      columnNumber: 45
-                    }, undefined)]
-                  }, void 0, true, {
-                    fileName: _jsxFileName,
-                    lineNumber: 124,
-                    columnNumber: 41
-                  }, undefined)]
-                }, void 0, true, {
-                  fileName: _jsxFileName,
-                  lineNumber: 119,
-                  columnNumber: 37
-                }, undefined)]
-              }, void 0, true, {
-                fileName: _jsxFileName,
-                lineNumber: 115,
-                columnNumber: 33
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-                className: "flex items-center justify-center mr-4",
-                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_icons_ExternalLinkIcon__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
-                  fileName: _jsxFileName,
-                  lineNumber: 134,
-                  columnNumber: 37
-                }, undefined)
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 133,
-                columnNumber: 33
-              }, undefined)]
-            }, void 0, true, {
-              fileName: _jsxFileName,
-              lineNumber: 114,
-              columnNumber: 29
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("hr", {
-              className: "border-0.5 border-body-activity-300"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 137,
-              columnNumber: 29
-            }, undefined)]
-          }, void 0, true, {
-            fileName: _jsxFileName,
-            lineNumber: 113,
-            columnNumber: 25
-          }, undefined)]
-        }, void 0, true, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_transactions_TransactionsList__WEBPACK_IMPORTED_MODULE_0__["default"], {
+          transactions: transactions //When the chainId and/or the address changes, this component is unmounted and mounted again.
+
+        }, `${chainId}-${address}`, false, {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 55,
           columnNumber: 21
         }, undefined)
       }, void 0, false, {
@@ -2061,15 +1671,13 @@ const Asset = _ref2 => {
   const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_2__["useOnMountHistory"])();
   const formatter = Object(_util_hooks_useCurrencyFormatter__WEBPACK_IMPORTED_MODULE_11__["default"])();
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
-    // onClick={() =>
-    //     history.push({
-    //         pathname: `/asset/details`,
-    //         state: {
-    //             address: asset.token.address,
-    //             transitionDirection: "left",
-    //         },
-    //     })
-    // }
+    onClick: () => history.push({
+      pathname: `/asset/details`,
+      state: {
+        address: asset.token.address,
+        transitionDirection: "left"
+      }
+    }),
     className: "flex flex-row items-center justify-between px-3 py-4 -ml-6 transition duration-300 hover:bg-opacity-20 \r bg-body-assets-100 active:bg-opacity-20 cursor-pointer rounded-lg",
     style: {
       width: "calc(100% + 2 * 1.5rem)"
@@ -2091,7 +1699,7 @@ const Asset = _ref2 => {
           title: `
                                     ${Object(_ethersproject_units__WEBPACK_IMPORTED_MODULE_4__["formatUnits"])(asset.balance || "0", asset.token.decimals)} ${asset.token.symbol}
                                 `,
-          children: "Exzo"
+          children: asset.token.name
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 68,
@@ -3093,7 +2701,7 @@ const Divider = _ref => {
     className
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("hr", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, "w-full border-b-1 border-white")
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, "w-full border-b-1 border-body-400")
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 4,
@@ -3375,7 +2983,7 @@ const InfoComponent = _ref => {
     className
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
-    className: Object(_styles__WEBPACK_IMPORTED_MODULE_1__["classnames"])("flex flex-row items-start space-x-4 text-xs text-gray-500", className),
+    className: Object(_styles__WEBPACK_IMPORTED_MODULE_1__["classnames"])("flex flex-row items-start space-x-4 text-xs text-txt-settings", className),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
       src: _assets_images_icons_info_circle_svg__WEBPACK_IMPORTED_MODULE_0__["default"],
       alt: "info",
@@ -3665,7 +3273,7 @@ const PageLayout = _ref => {
                 fileName: _jsxFileName,
                 lineNumber: 66,
                 columnNumber: 45
-              }, undefined), step == 3 && backClick, step != 5 && fromImportPage == false ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+              }, undefined), (step == 3 || step == 6) && backClick, step != 5 && fromImportPage == false && step != 6 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
                 className: "flex gap-x-2 mt-6",
                 children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
                   className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_0__["classnames"])("w-4 h-4 rounded-full", step >= 1 ? "bg-header-step-200" : "bg-header-step-100")
@@ -4517,7 +4125,7 @@ const AccountMenu = () => {
                 }
               });
             },
-            className: "cursor-pointer p-2 transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300",
+            className: "cursor-pointer p-2 transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-[8%] hover:text-primary-300",
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_20__["jsxDEV"])("img", {
               src: _assets_images_icons_pencil_svg__WEBPACK_IMPORTED_MODULE_13__["default"],
               alt: "Edit"
@@ -4569,7 +4177,7 @@ const AccountMenu = () => {
             display: (option, i) => {
               var _option$classes, _option$size;
 
-              const className = "flex flex-row space-x-3 items-center text-gray-900 h-5";
+              const className = "flex flex-row space-x-3 items-center text-txt-settings font-medium h-5";
 
               const children = /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_20__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_20__["Fragment"], {
                 children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_20__["jsxDEV"])("div", {
@@ -4588,7 +4196,6 @@ const AccountMenu = () => {
                   lineNumber: 160,
                   columnNumber: 41
                 }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_20__["jsxDEV"])("span", {
-                  className: "font-bold",
                   children: option.label
                 }, void 0, false, {
                   fileName: _jsxFileName,
@@ -4672,11 +4279,11 @@ const AccountMultipleSelect = _ref => {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
     className: "flex flex-col space-y-3 text-sm text-gray-500",
     children: accounts.map((account, i) => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
-      className: "flex flex-row items-center space-x-3 cursor-pointer rounded-md hover:bg-primary-100 pl-2",
+      className: "flex flex-row items-center space-x-3 cursor-pointer rounded-md pl-2",
       onClick: () => toggleAccount(account),
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
         type: "checkbox",
-        className: Object(_styles__WEBPACK_IMPORTED_MODULE_1__["classnames"])(_styles__WEBPACK_IMPORTED_MODULE_1__["Classes"].checkboxAlt),
+        className: Object(_styles__WEBPACK_IMPORTED_MODULE_1__["classnames"])(_styles__WEBPACK_IMPORTED_MODULE_1__["Classes"].checkbox),
         checked: value.some(a => a.address === account.address),
         onChange: () => toggleAccount(account),
         id: `check-account-${account.address}`,
@@ -4777,7 +4384,7 @@ const AccountSearchBar = _ref => {
       lineNumber: 39,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(_ui_OutlinedButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("transition-width", searchBarVisible ? "w-full delay-150 duration-500" : "w-auto duration-100 cursor-pointer"),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("transition-width bg-component-btn-200 bg-opacity-[8%] hover:bg-opacity-[20%]", searchBarVisible ? "w-full delay-150 duration-500" : "w-auto duration-100 cursor-pointer"),
       onClick: () => {
         if (!searchBarVisible) {
           setSearchBarVisible(true);
@@ -5269,7 +4876,7 @@ const AccountSelect = _ref => {
                 }
               });
             },
-            className: "cursor-pointer p-2 transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300",
+            className: "cursor-pointer p-2 transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-20 hover:text-component-btn-200",
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_icons_GearIcon__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
               fileName: _jsxFileName,
               lineNumber: 225,
@@ -5605,26 +5212,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
 /* harmony import */ var _util_getExplorer__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../util/getExplorer */ "./src/util/getExplorer.ts");
 /* harmony import */ var _AssetsList__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../AssetsList */ "./src/components/AssetsList.tsx");
-/* harmony import */ var _button_RoundedIconButton__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../button/RoundedIconButton */ "./src/components/button/RoundedIconButton.tsx");
-/* harmony import */ var _components_AnimatedIcon__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../components/AnimatedIcon */ "./src/components/AnimatedIcon.tsx");
-/* harmony import */ var _icons_ArrowHoverAnimation__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../icons/ArrowHoverAnimation */ "./src/components/icons/ArrowHoverAnimation.tsx");
-/* harmony import */ var _assets_images_icons_open_external_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../assets/images/icons/open_external.svg */ "./src/assets/images/icons/open_external.svg");
-/* harmony import */ var _popup_PopupHeader__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
-/* harmony import */ var _popup_PopupLayout__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
-/* harmony import */ var _token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../token/TokenSummary */ "./src/components/token/TokenSummary.tsx");
-/* harmony import */ var _transactions_TransactionsList__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../transactions/TransactionsList */ "./src/components/transactions/TransactionsList.tsx");
-/* harmony import */ var loglevel__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! loglevel */ "./node_modules/loglevel/lib/loglevel.js");
-/* harmony import */ var loglevel__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(loglevel__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _dialog_ConfirmDialog__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../dialog/ConfirmDialog */ "./src/components/dialog/ConfirmDialog.tsx");
-/* harmony import */ var _util_tokenUtils__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../util/tokenUtils */ "./src/util/tokenUtils.ts");
-/* harmony import */ var _dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../dialog/SuccessDialog */ "./src/components/dialog/SuccessDialog.tsx");
-/* harmony import */ var _util_formatAccount__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../util/formatAccount */ "./src/util/formatAccount.ts");
-/* harmony import */ var _ui_Icon__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../ui/Icon */ "./src/components/ui/Icon.tsx");
-/* harmony import */ var _icons_DoubleArrowHoverAnimation__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../icons/DoubleArrowHoverAnimation */ "./src/components/icons/DoubleArrowHoverAnimation.tsx");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _assets_images_icons_open_external_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../assets/images/icons/open_external.svg */ "./src/assets/images/icons/open_external.svg");
+/* harmony import */ var _popup_PopupHeader__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
+/* harmony import */ var _popup_PopupLayout__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
+/* harmony import */ var _token_TokenSummary__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../token/TokenSummary */ "./src/components/token/TokenSummary.tsx");
+/* harmony import */ var _transactions_TransactionsList__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../transactions/TransactionsList */ "./src/components/transactions/TransactionsList.tsx");
+/* harmony import */ var loglevel__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! loglevel */ "./node_modules/loglevel/lib/loglevel.js");
+/* harmony import */ var loglevel__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(loglevel__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _dialog_ConfirmDialog__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../dialog/ConfirmDialog */ "./src/components/dialog/ConfirmDialog.tsx");
+/* harmony import */ var _util_tokenUtils__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../util/tokenUtils */ "./src/util/tokenUtils.ts");
+/* harmony import */ var _dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../dialog/SuccessDialog */ "./src/components/dialog/SuccessDialog.tsx");
+/* harmony import */ var _util_formatAccount__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../util/formatAccount */ "./src/util/formatAccount.ts");
+/* harmony import */ var _ui_Icon__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../ui/Icon */ "./src/components/ui/Icon.tsx");
+/* harmony import */ var _icons_SwapIconHover__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../icons/SwapIconHover */ "./src/components/icons/SwapIconHover.tsx");
+/* harmony import */ var _icons_BuyIcon__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../icons/BuyIcon */ "./src/components/icons/BuyIcon.tsx");
+/* harmony import */ var _icons_ArrowIcon__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../icons/ArrowIcon */ "./src/components/icons/ArrowIcon.tsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\assets\\AssetDetailsPage.tsx";
-
 
 
 
@@ -5674,7 +5279,7 @@ const AssetDetailsPage = () => {
     isBridgeEnabled
   } = Object(_context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_6__["useSelectedNetwork"])();
   const asset = Object(_util_hooks_useGetAssetByTokenAddress__WEBPACK_IMPORTED_MODULE_10__["default"])(address);
-  const isNative = Object(_util_tokenUtils__WEBPACK_IMPORTED_MODULE_25__["isNativeTokenAddress"])(address);
+  const isNative = Object(_util_tokenUtils__WEBPACK_IMPORTED_MODULE_22__["isNativeTokenAddress"])(address);
   const tokenTransactions = Object(_util_hooks_useTokenTransactions__WEBPACK_IMPORTED_MODULE_11__["default"])(asset === null || asset === void 0 ? void 0 : asset.token);
   const [confirmOpen, setConfirmOpen] = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false);
   const [isRemoving, setIsRemoving] = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false);
@@ -5690,11 +5295,11 @@ const AssetDetailsPage = () => {
   } = asset;
 
   if (!token) {
-    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("p", {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("p", {
       children: "Token not found"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 62,
       columnNumber: 16
     }, undefined);
   }
@@ -5713,91 +5318,91 @@ const AssetDetailsPage = () => {
         pathname: "/home"
       });
     } catch (error) {
-      loglevel__WEBPACK_IMPORTED_MODULE_23___default.a.error("Eror deleting token from list");
+      loglevel__WEBPACK_IMPORTED_MODULE_20___default.a.error("Eror deleting token from list");
     }
   };
 
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_20__["default"], {
-    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_19__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_17__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_16__["default"], {
       onBack: () => history.push("/home"),
-      title: `${Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_27__["formatName"])(account.name, 14)} - ${Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_27__["formatName"])(token.symbol, 12)}`,
+      title: `${Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_24__["formatName"])(account.name, 14)} - ${Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_24__["formatName"])(token.symbol, 12)}`,
       close: false,
       disabled: isRemoving,
-      actions: !isNative ? [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("a", {
+      actions: !isNative ? [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("a", {
         href: Object(_util_getExplorer__WEBPACK_IMPORTED_MODULE_13__["generateExplorerLink"])(availableNetworks, selectedNetwork, token.address, "address"),
         target: "_blank",
         rel: "noopener noreferrer",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
           className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("text-grey-900 cursor-pointer flex flex-row items-center p-2 hover:bg-gray-100 rounded-t-md", optionsWidth),
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
             className: "pl-1 pr-1 w-8",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("img", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("img", {
               width: "16",
               height: "16",
-              src: _assets_images_icons_open_external_svg__WEBPACK_IMPORTED_MODULE_18__["default"],
+              src: _assets_images_icons_open_external_svg__WEBPACK_IMPORTED_MODULE_15__["default"],
               alt: `View on ${explorerName}`
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 113,
+              lineNumber: 117,
               columnNumber: 47
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 112,
+            lineNumber: 116,
             columnNumber: 43
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
             children: ["View on ", explorerName]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 120,
+            lineNumber: 124,
             columnNumber: 43
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 110,
           columnNumber: 39
         }, undefined)
       }, 1, false, {
         fileName: _jsxFileName,
-        lineNumber: 95,
+        lineNumber: 99,
         columnNumber: 35
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
         onClick: () => {
           setConfirmOpen(true);
         },
         className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("text-red-500 cursor-pointer flex flex-row items-center p-2 hover:bg-gray-100 rounded-b-md w-40", optionsWidth),
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
           className: "pl-1 pr-1 w-8",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_ui_Icon__WEBPACK_IMPORTED_MODULE_28__["default"], {
-            name: _ui_Icon__WEBPACK_IMPORTED_MODULE_28__["IconName"].TRASH_BIN,
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_ui_Icon__WEBPACK_IMPORTED_MODULE_25__["default"], {
+            name: _ui_Icon__WEBPACK_IMPORTED_MODULE_25__["IconName"].TRASH_BIN,
             profile: "danger"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 134,
+            lineNumber: 138,
             columnNumber: 43
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 137,
           columnNumber: 39
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
           children: "Remove Token"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 139,
+          lineNumber: 143,
           columnNumber: 39
         }, undefined)]
       }, 2, true, {
         fileName: _jsxFileName,
-        lineNumber: 123,
+        lineNumber: 127,
         columnNumber: 35
       }, undefined)] : undefined
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 88,
       columnNumber: 17
     }, undefined),
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_dialog_ConfirmDialog__WEBPACK_IMPORTED_MODULE_24__["default"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_dialog_ConfirmDialog__WEBPACK_IMPORTED_MODULE_21__["default"], {
       title: "Remove Token",
       message: `Are you sure you want to remove ${token.symbol} token from the list?`,
       open: confirmOpen,
@@ -5808,9 +5413,9 @@ const AssetDetailsPage = () => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 151,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_26__["default"], {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_23__["default"], {
       open: successOpen,
       title: "Token Removed",
       message: `${token.symbol} token was successfully removed.`,
@@ -5821,32 +5426,32 @@ const AssetDetailsPage = () => {
       timeout: 1000
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 161,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
       className: "flex flex-col items-start flex-1 w-full h-0 max-h-screen p-6 space-y-6 overflow-auto hide-scroll",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_18__["default"], {
         minHeight: "13rem",
         className: "mt-2",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__["default"].Balances, {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_18__["default"].Balances, {
           className: "mt-2",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_AssetsList__WEBPACK_IMPORTED_MODULE_14__["AssetIcon"], {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_AssetsList__WEBPACK_IMPORTED_MODULE_14__["AssetIcon"], {
             filled: true,
             asset: token
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 171,
+            lineNumber: 175,
             columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__["default"].TokenName, {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_18__["default"].TokenName, {
             children: token.name
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 172,
+            lineNumber: 176,
             columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__["default"].TokenBalance, {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_18__["default"].TokenBalance, {
             className: "flex flex-row space-x-1",
             title: `${formattedTokenBalance} ${token.symbol}`,
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
               className: "truncate w-full max-w-xs",
               style: {
                 maxWidth: "18rem"
@@ -5854,27 +5459,20 @@ const AssetDetailsPage = () => {
               children: `${roundedTokenBalance} ${token.symbol}`
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 179,
+              lineNumber: 183,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 175,
-            columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__["default"].ExchangeRateBalance, {
-            children: currencyFormatter.format(balance, token.symbol, token.decimals, isNative)
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 186,
+            lineNumber: 179,
             columnNumber: 25
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 170,
+          lineNumber: 174,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_21__["default"].Actions, {
-          className: "mb-4",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_token_TokenSummary__WEBPACK_IMPORTED_MODULE_18__["default"].Actions, {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
             to: {
               pathname: "/send",
               state: {
@@ -5884,20 +5482,32 @@ const AssetDetailsPage = () => {
             },
             draggable: false,
             className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("flex flex-col items-center space-y-2 group", !isSendEnabled && "pointer-events-none"),
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_button_RoundedIconButton__WEBPACK_IMPORTED_MODULE_15__["default"], {
-              Icon: _icons_ArrowHoverAnimation__WEBPACK_IMPORTED_MODULE_17__["default"],
-              disabled: !isSendEnabled,
-              children: "Send"
-            }, void 0, false, {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+              className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("overflow-hidden flex items-center justify-center flex-1 w-full px-4 py-1.5 transition duration-300 rounded-lg group-hover:opacity-75", !isSendEnabled || !state.isUserNetworkOnline ? "bg-gray-300" : "bg-body-balances-100"),
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_ArrowIcon__WEBPACK_IMPORTED_MODULE_28__["default"], {
+                direction: "up"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 235,
+                columnNumber: 33
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+                className: "text-xs font-medium text-body-balances-200",
+                children: "Send"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 236,
+                columnNumber: 33
+              }, undefined)]
+            }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 207,
+              lineNumber: 211,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 196,
+            lineNumber: 200,
             columnNumber: 25
-          }, undefined), isSwapEnabled && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+          }, undefined), isSwapEnabled && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
             to: {
               pathname: "/swap",
               state: {
@@ -5909,33 +5519,30 @@ const AssetDetailsPage = () => {
             },
             draggable: false,
             className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("flex flex-col items-center space-y-2 group", (!isSendEnabled || !state.isUserNetworkOnline) && "pointer-events-none"),
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
-              className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("w-8 h-8 overflow-hidden transition duration-300 rounded-full group-hover:opacity-75", !isSendEnabled || !state.isUserNetworkOnline ? "bg-gray-300" : "bg-primary-300"),
-              style: {
-                transform: "scaleY(-1)"
-              },
-              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_icons_DoubleArrowHoverAnimation__WEBPACK_IMPORTED_MODULE_29__["default"], {}, void 0, false, {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+              className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("overflow-hidden flex flex-1 w-full justify-center items-center px-[18px] py-2.5 transition duration-300 rounded-lg group-hover:opacity-75", !isSendEnabled ? "bg-gray-300" : "bg-body-balances-100"),
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_SwapIconHover__WEBPACK_IMPORTED_MODULE_26__["default"], {}, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 243,
+                lineNumber: 281,
                 columnNumber: 37
-              }, undefined)
-            }, void 0, false, {
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+                className: "text-xs font-medium text-body-balances-200 ml-[5px]",
+                children: "Swap"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 282,
+                columnNumber: 37
+              }, undefined)]
+            }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 233,
-              columnNumber: 33
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
-              className: "text-xs font-medium",
-              children: "Swap"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 245,
-              columnNumber: 33
-            }, undefined)]
-          }, void 0, true, {
+              lineNumber: 260,
+              columnNumber: 30
+            }, undefined)
+          }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 215,
+            lineNumber: 242,
             columnNumber: 29
-          }, undefined), isBridgeEnabled && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+          }, undefined), isBridgeEnabled && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
             to: {
               pathname: "/bridge",
               state: {
@@ -5946,74 +5553,68 @@ const AssetDetailsPage = () => {
             },
             draggable: false,
             className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("flex flex-col items-center space-y-2 group", (!isSendEnabled || !state.isUserNetworkOnline) && "pointer-events-none"),
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
-              className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("w-8 h-8 overflow-hidden transition duration-300 rounded-full group-hover:opacity-75", !isSendEnabled || !state.isUserNetworkOnline ? "bg-gray-300" : "bg-primary-300"),
-              style: {
-                transform: "scaleY(-1)"
-              },
-              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_components_AnimatedIcon__WEBPACK_IMPORTED_MODULE_16__["default"], {
-                icon: _components_AnimatedIcon__WEBPACK_IMPORTED_MODULE_16__["AnimatedIconName"].Bridge,
-                className: "cursor-pointer"
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+              className: Object(_styles__WEBPACK_IMPORTED_MODULE_7__["classnames"])("overflow-hidden flex items-center justify-center flex-1 px-2.5 py-1.5 transition duration-300 rounded-lg group-hover:opacity-75", !isSendEnabled || !state.isUserNetworkOnline ? "bg-gray-300" : "bg-body-balances-100"),
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_BuyIcon__WEBPACK_IMPORTED_MODULE_27__["default"], {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 320,
+                columnNumber: 37
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+                className: "text-xs font-medium text-body-balances-200",
+                children: "Bridge"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 278,
+                lineNumber: 321,
                 columnNumber: 37
-              }, undefined)
-            }, void 0, false, {
+              }, undefined)]
+            }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 268,
-              columnNumber: 33
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
-              className: "text-xs font-medium",
-              children: "Bridge"
-            }, void 0, false, {
-              fileName: _jsxFileName,
-              lineNumber: 283,
-              columnNumber: 33
-            }, undefined)]
-          }, void 0, true, {
+              lineNumber: 307,
+              columnNumber: 37
+            }, undefined)
+          }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 251,
+            lineNumber: 289,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 195,
+          lineNumber: 199,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 169,
+        lineNumber: 173,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
         className: "flex flex-col flex-1 w-full space-y-0 border-t border-gray-200",
-        children: tokenTransactions.length > 0 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_transactions_TransactionsList__WEBPACK_IMPORTED_MODULE_22__["default"], {
+        children: tokenTransactions.length > 0 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_transactions_TransactionsList__WEBPACK_IMPORTED_MODULE_19__["default"], {
           transactions: tokenTransactions
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 292,
+          lineNumber: 331,
           columnNumber: 25
-        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
           className: "text-sm text-gray-500 pt-4 mx-auto",
           children: "You have no transactions."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 294,
+          lineNumber: 333,
           columnNumber: 25
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 290,
+        lineNumber: 329,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 172,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 82,
+    lineNumber: 86,
     columnNumber: 9
   }, undefined);
 };
@@ -7870,7 +7471,7 @@ const ButtonWithIcon = _ref => {
       lineNumber: 14,
       columnNumber: 22
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("span", {
-      className: "font-bold",
+      className: "font-bold text-component-btn-200",
       children: label
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -7883,7 +7484,7 @@ const ButtonWithIcon = _ref => {
     type: "button",
     disabled: disabled,
     className: !disableStyles ? `flex flex-row items-center justify-between p-4 rounded-md text-sm transform transition-all duration-300 active:scale-95
-                 disabled:pointer-events-none bg-primary-100 hover:bg-primary-200
+                 disabled:pointer-events-none bg-component-btn-100  hover:bg-body-balances-300 
                 ${disabled ? "pointer-events-none" : ""}
               ` : "",
     onClick: onClick,
@@ -8070,7 +7671,8 @@ const LinkButton = _ref => {
 
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
     onClick: handleTo,
-    className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_1__["classnames"])(lite ? _styles_classes__WEBPACK_IMPORTED_MODULE_1__["Classes"].confrimButton : "text-white", disabled ? "opacity-50" : "", classes),
+    className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_1__["classnames"])( // lite ? Classes.confrimButton : "text-white",
+    _styles_classes__WEBPACK_IMPORTED_MODULE_1__["Classes"].confrimButton, disabled ? "opacity-50" : "", classes),
     type: "button",
     disabled: disabled,
     children: text
@@ -8082,60 +7684,6 @@ const LinkButton = _ref => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (LinkButton);
-
-/***/ }),
-
-/***/ "./src/components/button/RoundedIconButton.tsx":
-/*!*****************************************************!*\
-  !*** ./src/components/button/RoundedIconButton.tsx ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\button\\RoundedIconButton.tsx";
-
-
-
-
-const RoundedIconButton = _ref => {
-  let {
-    children,
-    disabled,
-    Icon
-  } = _ref;
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("w-8 h-8 overflow-hidden transition duration-300 rounded-full group-hover:opacity-75", disabled ? "bg-gray-300" : "bg-primary-300"),
-      style: {
-        transform: "scaleY(-1)"
-      },
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])(Icon, {}, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 24,
-        columnNumber: 17
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("span", {
-      className: "text-xs font-medium",
-      children: children
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 13
-    }, undefined)]
-  }, void 0, true);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (RoundedIconButton);
 
 /***/ }),
 
@@ -8191,7 +7739,7 @@ const ToggleButton = _ref => {
     htmlFor: id,
     className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("flex items-center justify-between w-full", !disabled && !readOnly && "cursor-pointer"),
     children: [label && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
-      className: "font-bold text-sm text-body-balances-300",
+      className: "font-bold text-sm text-component-btn-200",
       children: label
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -8206,7 +7754,7 @@ const ToggleButton = _ref => {
         lineNumber: 56,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("dot absolute left-0.5 top-0.5 bg-white w-5 h-5 rounded-full transition transform", isChecked && "translate-x-full")
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("dot absolute left-0.5 top-0.5 bg-gray-900 w-5 h-5 rounded-full transition transform", isChecked && "translate-x-full")
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 62,
@@ -8352,7 +7900,7 @@ const ChainDisplay = _ref => {
     isTestnet
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("flex justify-between items-center flex-row relative px-3 rounded-md transition-all duration-300 active:scale-95", onClick && "cursor-pointer hover:bg-primary-100", selected && "bg-primary-200"),
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("flex justify-between items-center flex-row relative px-3 rounded-md transition-all duration-300 active:scale-95", onClick && "cursor-pointer hover:bg-body-assets-100", selected && "bg-body-assets-100"),
     onClick: onClick,
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("img", {
       src: _assets_images_icons_checkmark_mini_svg__WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -8388,7 +7936,7 @@ const ChainDisplay = _ref => {
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
         className: "flex flex-col space-y-1 justify-start h-full box-border ml-4",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("span", {
-          className: "text-sm text-black font-semibold mr-1 truncate w-48",
+          className: "text-sm text-txt-settings font-semibold mr-1 truncate w-48",
           children: name
         }, void 0, false, {
           fileName: _jsxFileName,
@@ -11367,70 +10915,6 @@ const AppIcon = _ref => {
 
 /***/ }),
 
-/***/ "./src/components/icons/ArrowHoverAnimation.tsx":
-/*!******************************************************!*\
-  !*** ./src/components/icons/ArrowHoverAnimation.tsx ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _assets_images_icons_arrow_margin_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/icons/arrow_margin.svg */ "./src/assets/images/icons/arrow_margin.svg");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\icons\\ArrowHoverAnimation.tsx";
-
-
-
-const HoverAnimation = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div`
-    background-repeat: repeat;
-    background-position-y: 0;
-    a:hover > div > & {
-        animation: ${styled_components__WEBPACK_IMPORTED_MODULE_0__["keyframes"]`
-      from {
-        background-position-y: 0;
-      }
-      to {
-        background-position-y: 4rem;
-      }
-    `} 0.4s backwards;
-    }
-    transform: ${props => `rotate(${props.rotate})`};
-`;
-const ROTATE = {
-  top: "0deg",
-  right: "270deg",
-  down: "180deg",
-  left: "90deg"
-};
-
-const ArrowHoverAnimation = _ref => {
-  let {
-    children,
-    direction = "top"
-  } = _ref;
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(HoverAnimation, {
-    rotate: ROTATE[direction],
-    className: "w-full h-full",
-    style: {
-      backgroundImage: `url(${_assets_images_icons_arrow_margin_svg__WEBPACK_IMPORTED_MODULE_1__["default"]})`,
-      backgroundSize: "32px 32px",
-      backgroundPosition: "center"
-    },
-    children: children
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 39,
-    columnNumber: 5
-  }, undefined);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ArrowHoverAnimation);
-
-/***/ }),
-
 /***/ "./src/components/icons/ArrowIcon.tsx":
 /*!********************************************!*\
   !*** ./src/components/icons/ArrowIcon.tsx ***!
@@ -11814,13 +11298,13 @@ const CenteredTextCircle = _ref => {
   } = _ref;
   const circleSize = SIZES_IN_PX[size || "lg"];
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    className: "border-2 border-black rounded-full flex items-center justify-center",
+    className: "border-2 border-component-btn-200 rounded-full flex items-center justify-center",
     style: {
       width: circleSize,
       height: circleSize
     },
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("span", {
-      className: "font-bold",
+      className: "font-bold text-component-btn-200",
       children: text
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -12163,48 +11647,6 @@ const CopyIcon = props => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMP
 
 /***/ }),
 
-/***/ "./src/components/icons/CopyIconDark.tsx":
-/*!***********************************************!*\
-  !*** ./src/components/icons/CopyIconDark.tsx ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\icons\\CopyIconDark.tsx";
-
-
-const CopyIcon = props => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("svg", {
-  width: "14",
-  height: "14",
-  viewBox: "0 0 14 14",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg",
-  className: "ml-1.5",
-  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("path", {
-    d: "M2.91663 8.74996H2.33329C2.02387 8.74996 1.72713 8.62704 1.50833 8.40825C1.28954 8.18946 1.16663 7.89271 1.16663 7.58329V2.33329C1.16663 2.02387 1.28954 1.72713 1.50833 1.50833C1.72713 1.28954 2.02387 1.16663 2.33329 1.16663H7.58329C7.89271 1.16663 8.18946 1.28954 8.40825 1.50833C8.62704 1.72713 8.74996 2.02387 8.74996 2.33329V2.91663M6.41663 5.24996H11.6666C12.311 5.24996 12.8333 5.77229 12.8333 6.41663V11.6666C12.8333 12.311 12.311 12.8333 11.6666 12.8333H6.41663C5.77229 12.8333 5.24996 12.311 5.24996 11.6666V6.41663C5.24996 5.77229 5.77229 5.24996 6.41663 5.24996Z",
-    stroke: "#fcfcfc66",
-    "stroke-width": "1.16667",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 3,
-    columnNumber: 5
-  }, undefined)
-}, void 0, false, {
-  fileName: _jsxFileName,
-  lineNumber: 2,
-  columnNumber: 1
-}, undefined);
-
-/* harmony default export */ __webpack_exports__["default"] = (CopyIcon);
-
-/***/ }),
-
 /***/ "./src/components/icons/CrossedOutEyeIcon.tsx":
 /*!****************************************************!*\
   !*** ./src/components/icons/CrossedOutEyeIcon.tsx ***!
@@ -12258,97 +11700,6 @@ const CrossedOutEyeIcon = _ref => {
 
 /***/ }),
 
-/***/ "./src/components/icons/DoubleArrowHoverAnimation.tsx":
-/*!************************************************************!*\
-  !*** ./src/components/icons/DoubleArrowHoverAnimation.tsx ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _assets_images_icons_vector_right_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/icons/vector_right.svg */ "./src/assets/images/icons/vector_right.svg");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\icons\\DoubleArrowHoverAnimation.tsx";
-
-
-
-
-const HoverAnimation = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
-    background-repeat: repeat;
-    background-position-y: 0;
-    a:hover > div > & {
-        .left-animation {
-            animation: ${styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"]`
-            from {
-              background-position-x: 0rem;
-            }
-            to {
-              background-position-x: 3.5rem;
-            }
-          `} 0.8s backwards;
-        }
-
-        .right-animation {
-            animation: ${styled_components__WEBPACK_IMPORTED_MODULE_1__["keyframes"]`
-            from {
-              background-position-x: 0rem;
-            }
-            to {
-              background-position-x: 3.5rem;
-            }
-          `} 0.8s;
-        }
-    }
-`;
-
-const DoubleArrowHoverAnimation = _ref => {
-  let {
-    children
-  } = _ref;
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(HoverAnimation, {
-    className: "flex flex-col items-center w-full h-full p-2",
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
-      className: "w-full h-full right-animation",
-      style: {
-        backgroundImage: `url(${_assets_images_icons_vector_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"]})`,
-        backgroundSize: "32px 100%",
-        backgroundPosition: "center"
-      },
-      children: children
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 9
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
-      className: "w-full h-full left-animation",
-      style: {
-        backgroundImage: `url(${_assets_images_icons_vector_right_svg__WEBPACK_IMPORTED_MODULE_2__["default"]})`,
-        backgroundSize: "32px 100%",
-        backgroundPosition: "center",
-        transform: "rotate(180deg)"
-      },
-      children: children
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 9
-    }, undefined)]
-  }, void 0, true, {
-    fileName: _jsxFileName,
-    lineNumber: 37,
-    columnNumber: 5
-  }, undefined);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (DoubleArrowHoverAnimation);
-
-/***/ }),
-
 /***/ "./src/components/icons/EmptyDrawerIcon.tsx":
 /*!**************************************************!*\
   !*** ./src/components/icons/EmptyDrawerIcon.tsx ***!
@@ -12377,7 +11728,7 @@ const EmptyDrawer = _ref => {
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M21 19H12.5L2 51H86L75.5 19H67",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "4"
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -12385,7 +11736,7 @@ const EmptyDrawer = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M86 51H2V86H86V51Z",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "4"
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -12393,14 +11744,14 @@ const EmptyDrawer = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M65 64H24V74H65V64Z",
-      fill: "#1673FF"
+      fill: "#00FFA3"
     }, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 17,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M69 51.5V2H19V51.5",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "4",
       strokeDasharray: "5 5"
     }, void 0, false, {
@@ -12409,7 +11760,7 @@ const EmptyDrawer = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M44 11V29.5",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "4"
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -12417,7 +11768,7 @@ const EmptyDrawer = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M44 36V41",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "4"
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -12512,48 +11863,6 @@ const ExclamationCircleIconFull = props => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ExclamationCircleIconFull);
-
-/***/ }),
-
-/***/ "./src/components/icons/ExternalLinkIcon.tsx":
-/*!***************************************************!*\
-  !*** ./src/components/icons/ExternalLinkIcon.tsx ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\icons\\ExternalLinkIcon.tsx";
-
-
-const ExternalLinkIcon = props => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("svg", {
-  width: "20",
-  height: "21",
-  viewBox: "0 0 20 21",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg",
-  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("path", {
-    d: "M8.33331 5.49998H4.99998C4.07951 5.49998 3.33331 6.24617 3.33331 7.16665V15.5C3.33331 16.4205 4.07951 17.1666 4.99998 17.1666H13.3333C14.2538 17.1666 15 16.4205 15 15.5V12.1666M11.6666 3.83331H16.6666M16.6666 3.83331V8.83331M16.6666 3.83331L8.33331 12.1666",
-    stroke: "#FCFCFC",
-    "stroke-opacity": "0.4",
-    "stroke-width": "1.66667",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 3,
-    columnNumber: 9
-  }, undefined)
-}, void 0, false, {
-  fileName: _jsxFileName,
-  lineNumber: 2,
-  columnNumber: 5
-}, undefined);
-
-/* harmony default export */ __webpack_exports__["default"] = (ExternalLinkIcon);
 
 /***/ }),
 
@@ -12656,47 +11965,6 @@ const EyeRevealIcon = () => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_I
 
 /***/ }),
 
-/***/ "./src/components/icons/FileIcon.tsx":
-/*!*******************************************!*\
-  !*** ./src/components/icons/FileIcon.tsx ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\icons\\FileIcon.tsx";
-
-
-const FileIcon = () => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("svg", {
-  width: "14",
-  height: "14",
-  viewBox: "0 0 14 14",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg",
-  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("path", {
-    d: "M7.58331 1.16669H3.49998C3.19056 1.16669 2.89381 1.2896 2.67502 1.5084C2.45623 1.72719 2.33331 2.02393 2.33331 2.33335V11.6667C2.33331 11.9761 2.45623 12.2729 2.67502 12.4916C2.89381 12.7104 3.19056 12.8334 3.49998 12.8334H10.5C10.8094 12.8334 11.1061 12.7104 11.3249 12.4916C11.5437 12.2729 11.6666 11.9761 11.6666 11.6667V5.25002M7.58331 1.16669L11.6666 5.25002M7.58331 1.16669V5.25002H11.6666",
-    stroke: "white",
-    "stroke-width": "1.16667",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 3,
-    columnNumber: 9
-  }, undefined)
-}, void 0, false, {
-  fileName: _jsxFileName,
-  lineNumber: 2,
-  columnNumber: 5
-}, undefined);
-
-/* harmony default export */ __webpack_exports__["default"] = (FileIcon);
-
-/***/ }),
-
 /***/ "./src/components/icons/GearIcon.tsx":
 /*!*******************************************!*\
   !*** ./src/components/icons/GearIcon.tsx ***!
@@ -12760,7 +12028,7 @@ const GroupIcon = _ref => {
     width: "16",
     height: "14",
     viewBox: "0 0 16 14",
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-black", className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-component-btn-200", className),
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M9 14H7C6.448 14 6 13.552 6 13C6 12.448 6.448 12 7 12H9C9.552 12 10 12.448 10 13C10 13.552 9.552 14 9 14Z"
@@ -12881,7 +12149,7 @@ const ImportIcon = _ref => {
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M1.66663 13.332V18.332H18.3333V13.332",
-      stroke: "#0A121E",
+      stroke: "#IMPORT",
       strokeWidth: "2",
       strokeMiterlimit: "10",
       strokeLinecap: "square"
@@ -12891,7 +12159,7 @@ const ImportIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M10 1.66602V14.166",
-      stroke: "#1673FF",
+      stroke: "#00FFA3",
       strokeWidth: "2",
       strokeMiterlimit: "10"
     }, void 0, false, {
@@ -12900,7 +12168,7 @@ const ImportIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M15 9.16602L10 14.166L5 9.16602",
-      stroke: "#1673FF",
+      stroke: "#00FFA3",
       strokeWidth: "2",
       strokeMiterlimit: "10",
       strokeLinecap: "square"
@@ -13148,7 +12416,7 @@ const RightChevronIcon = _ref => {
     className
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("svg", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("w-3 h-3 stroke-black", className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("w-3 h-3 stroke-component-btn-200", className),
     viewBox: "0 0 8 12",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
@@ -13199,7 +12467,7 @@ const SearchIcon = _ref => {
     width: "16",
     height: "16",
     viewBox: "0 0 16 16",
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-black", className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-component-btn-200", className),
     xmlns: "http://www.w3.org/2000/svg",
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M12.7 11.3C13.6 10.1 14.1 8.7 14.1 7.1C14.1 3.2 11 0 7.1 0C3.2 0 0 3.2 0 7.1C0 11 3.2 14.2 7.1 14.2C8.7 14.2 10.2 13.7 11.3 12.8L14.3 15.8C14.5 16 14.8 16.1 15 16.1C15.2 16.1 15.5 16 15.7 15.8C16.1 15.4 16.1 14.8 15.7 14.4L12.7 11.3ZM7.1 12.1C4.3 12.1 2 9.9 2 7.1C2 4.3 4.3 2 7.1 2C9.9 2 12.2 4.3 12.2 7.1C12.2 9.9 9.9 12.1 7.1 12.1Z"
@@ -13354,8 +12622,8 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\
 
 
 const HomeIcon = props => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("svg", {
-  width: "19",
-  height: "18",
+  width: "15",
+  height: "15",
   viewBox: "0 0 19 18",
   fill: "none",
   xmlns: "http://www.w3.org/2000/svg",
@@ -13406,7 +12674,7 @@ const SwitchIcon = function () {
     width: "16",
     height: "16",
     viewBox: "0 0 16 16",
-    fill: "currentColor",
+    fill: "#00FFA3",
     className: className,
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("g", {
@@ -13490,7 +12758,7 @@ const ThreeDotsIcon = _ref => {
     width: "16",
     height: "4",
     viewBox: "0 0 16 4",
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-black", className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-component-btn-200", className),
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4Z"
@@ -13646,7 +12914,7 @@ const TrashBinIcon = _ref => {
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("svg", {
     viewBox: "0 0 16 16",
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-black", className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("fill-component-btn-200", className),
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M7 7H5V13H7V7Z"
@@ -13706,7 +12974,7 @@ const UsbIcon = _ref => {
     xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M10 19.166V1.66602",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "1.5",
       strokeMiterlimit: "10"
     }, void 0, false, {
@@ -13715,7 +12983,7 @@ const UsbIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M7.5 4.16602L10 1.66602L12.5 4.16602",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "1.5",
       strokeMiterlimit: "10",
       strokeLinecap: "square"
@@ -13725,7 +12993,7 @@ const UsbIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M15 11.666V14.166L10 17.4993",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "1.5",
       strokeMiterlimit: "10"
     }, void 0, false, {
@@ -13734,7 +13002,7 @@ const UsbIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M5 10V13.3333L10 16.6667",
-      stroke: "black",
+      stroke: "#00FFA3",
       strokeWidth: "1.5",
       strokeMiterlimit: "10"
     }, void 0, false, {
@@ -13743,7 +13011,7 @@ const UsbIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M16.6666 8.33203H13.3333V11.6654H16.6666V8.33203Z",
-      stroke: "#1673FF",
+      stroke: "#00FFA3",
       strokeWidth: "1.5",
       strokeMiterlimit: "10",
       strokeLinecap: "square"
@@ -13753,7 +13021,7 @@ const UsbIcon = _ref => {
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
       d: "M4.99992 9.99935C5.92039 9.99935 6.66659 9.25316 6.66659 8.33268C6.66659 7.41221 5.92039 6.66602 4.99992 6.66602C4.07944 6.66602 3.33325 7.41221 3.33325 8.33268C3.33325 9.25316 4.07944 9.99935 4.99992 9.99935Z",
-      stroke: "#1673FF",
+      stroke: "#00FFA3",
       strokeWidth: "1.5",
       strokeMiterlimit: "10",
       strokeLinecap: "square"
@@ -13803,7 +13071,7 @@ const WalletIcon = _ref => {
       clipPath: "url(#clip0_6587_220)",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
         d: "M5.00004 2.5H2.50004C1.57921 2.5 0.833374 3.24583 0.833374 4.16667C0.833374 5.0875 1.57921 5.83333 2.50004 5.83333",
-        stroke: "#0A121E",
+        stroke: "#00FFA3",
         strokeWidth: "2",
         strokeMiterlimit: "10",
         strokeLinecap: "square"
@@ -13813,7 +13081,7 @@ const WalletIcon = _ref => {
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
         d: "M5 5.83398V0.833984H16.6667V5.83398",
-        stroke: "#0A121E",
+        stroke: "#00FFA3",
         strokeWidth: "2",
         strokeMiterlimit: "10",
         strokeLinecap: "square"
@@ -13823,7 +13091,7 @@ const WalletIcon = _ref => {
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
         d: "M19.1667 5.83464H2.50004C1.57921 5.83464 0.833374 5.0888 0.833374 4.16797V16.668C0.833374 18.0488 1.95254 19.168 3.33337 19.168H19.1667V5.83464Z",
-        stroke: "#0A121E",
+        stroke: "#00FFA3",
         strokeWidth: "2",
         strokeMiterlimit: "10",
         strokeLinecap: "square"
@@ -13833,7 +13101,7 @@ const WalletIcon = _ref => {
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("path", {
         d: "M14.1667 14.1673C15.0871 14.1673 15.8333 13.4211 15.8333 12.5007C15.8333 11.5802 15.0871 10.834 14.1667 10.834C13.2462 10.834 12.5 11.5802 12.5 12.5007C12.5 13.4211 13.2462 14.1673 14.1667 14.1673Z",
-        stroke: "#1673FF",
+        stroke: "#00FFA3",
         strokeWidth: "2",
         strokeMiterlimit: "10",
         strokeLinecap: "square"
@@ -15655,7 +14923,7 @@ const TextInput = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["forwar
     className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_2__["classnames"])(appearance === "blue-section" && _styles_classes__WEBPACK_IMPORTED_MODULE_2__["Classes"].blueSection, appearance === "blue-section" && hasFocus && _styles_classes__WEBPACK_IMPORTED_MODULE_2__["Classes"].blueSectionActive),
     children: [label ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("label", {
       htmlFor: name,
-      className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_2__["classnames"])(_styles_classes__WEBPACK_IMPORTED_MODULE_2__["Classes"].inputLabel, "flex flex-row items-center space-x-2"),
+      className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_2__["classnames"])(_styles_classes__WEBPACK_IMPORTED_MODULE_2__["Classes"].inputLabel, "flex flex-row items-center space-x-2 text-white mb-[2px]"),
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("span", {
         children: label
       }, void 0, false, {
@@ -15824,12 +15092,13 @@ const ClickToReveal = _ref => {
     revealMessage,
     revealed,
     onClick,
-    isReminder = false
+    isReminder = false,
+    isPrivate = false
   } = _ref;
   const phraseArray = hiddenText ? hiddenText.split(" ") : [];
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
-    className: "relative px-8 py-12 overflow-hidden rounded-3xl bg-container-reveal bg-opacity-20",
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+    className: "relative px-4 py-12 overflow-hidden rounded-3xl bg-container-reveal bg-opacity-20",
+    children: !isPrivate ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
       className: "grid grid-cols-3 gap-3",
       children: phraseArray.map((one, index) => {
         return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
@@ -15839,23 +15108,30 @@ const ClickToReveal = _ref => {
             children: one
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 30,
-            columnNumber: 48
+            lineNumber: 33,
+            columnNumber: 52
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 29,
-          columnNumber: 29
+          lineNumber: 32,
+          columnNumber: 33
         }, undefined);
       })
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
+      lineNumber: 28,
+      columnNumber: 17
+    }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
+      className: "text-txt-settings",
+      children: [phraseArray[0].slice(0, 36), "..."]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 26
     }, undefined)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 14,
+    lineNumber: 15,
     columnNumber: 9
   }, undefined);
 };
@@ -16997,7 +16273,7 @@ const NetworkDisplay = _ref => {
   const opacity = isDragging ? 0 : 1;
   const cardHoverStyle = !dropAnimation && !isHoveringIcons;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("rounded-md", dropAnimation && "bg-blue-100 transition-colors animate-[pulse_0.8s]", cardHoverStyle && "hover:bg-primary-100"),
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("rounded-md", dropAnimation && "transition-colors animate-[pulse_0.8s]", cardHoverStyle && "hover:bg-body-assets-100"),
     ref: dropRef,
     style: {
       opacity
@@ -17080,7 +16356,7 @@ const NetworkDisplay = _ref => {
             lineNumber: 198,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
-            className: "text-sm font-bold text-ellipsis overflow-hidden whitespace-nowrap",
+            className: "text-sm font-bold text-ellipsis overflow-hidden whitespace-nowrap text-txt-settings",
             children: networkInfo.desc
           }, void 0, false, {
             fileName: _jsxFileName,
@@ -17109,7 +16385,7 @@ const NetworkDisplay = _ref => {
             lineNumber: 219,
             columnNumber: 29
           }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", { ...getIsHoveringProps(),
-            className: "p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300",
+            className: "p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-20 hover:text-primary-300",
             title: "Switch network",
             onClick: () => setConfirmSwitchNetwork(true),
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_ui_Icon__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -17124,7 +16400,7 @@ const NetworkDisplay = _ref => {
             lineNumber: 229,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", { ...getIsHoveringProps(),
-            className: "p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300",
+            className: "p-2 hover:cursor-pointer transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-20 text-component-btn-200 hover:text-primary-300",
             title: "Edit network",
             onClick: onClick,
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_4__["RiPencilFill"], {
@@ -17419,21 +16695,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ui_Dropdown_Dropdown__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../ui/Dropdown/Dropdown */ "./src/components/ui/Dropdown/Dropdown.tsx");
 /* harmony import */ var _ui_Dropdown_DropdownMenu__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../ui/Dropdown/DropdownMenu */ "./src/components/ui/Dropdown/DropdownMenu.tsx");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _label_Tooltip__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../label/Tooltip */ "./src/components/label/Tooltip.tsx");
-/* harmony import */ var _icons_AccountIcon__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../icons/AccountIcon */ "./src/components/icons/AccountIcon.tsx");
-/* harmony import */ var _util_getAccountColor__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../util/getAccountColor */ "./src/util/getAccountColor.ts");
-/* harmony import */ var _util_hooks_useSelectedAddressWithChainIdChecksum__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../util/hooks/useSelectedAddressWithChainIdChecksum */ "./src/util/hooks/useSelectedAddressWithChainIdChecksum.ts");
-/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
-/* harmony import */ var _util_formatAccount__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../util/formatAccount */ "./src/util/formatAccount.ts");
-/* harmony import */ var _icons_CopyIcon__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../icons/CopyIcon */ "./src/components/icons/CopyIcon.tsx");
-/* harmony import */ var _label_opyToClipboardTooltip__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../label/СopyToClipboardTooltip */ "./src/components/label/СopyToClipboardTooltip.tsx");
-/* harmony import */ var _input_NetworkSelect__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../input/NetworkSelect */ "./src/components/input/NetworkSelect.tsx");
-/* harmony import */ var react_icons_hi__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! react-icons/hi */ "./node_modules/react-icons/hi/index.esm.js");
-/* harmony import */ var react_icons_bi__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! react-icons/bi */ "./node_modules/react-icons/bi/index.esm.js");
-/* harmony import */ var _label_GenericTooltip__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../label/GenericTooltip */ "./src/components/label/GenericTooltip.tsx");
-/* harmony import */ var _context_hooks_useConnectedSite__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../context/hooks/useConnectedSite */ "./src/context/hooks/useConnectedSite.ts");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _icons_AccountIcon__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../icons/AccountIcon */ "./src/components/icons/AccountIcon.tsx");
+/* harmony import */ var _util_getAccountColor__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../util/getAccountColor */ "./src/util/getAccountColor.ts");
+/* harmony import */ var _util_hooks_useSelectedAddressWithChainIdChecksum__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../util/hooks/useSelectedAddressWithChainIdChecksum */ "./src/util/hooks/useSelectedAddressWithChainIdChecksum.ts");
+/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
+/* harmony import */ var _util_formatAccount__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../util/formatAccount */ "./src/util/formatAccount.ts");
+/* harmony import */ var _icons_CopyIcon__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../icons/CopyIcon */ "./src/components/icons/CopyIcon.tsx");
+/* harmony import */ var _label_opyToClipboardTooltip__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../label/СopyToClipboardTooltip */ "./src/components/label/СopyToClipboardTooltip.tsx");
+/* harmony import */ var _input_NetworkSelect__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../input/NetworkSelect */ "./src/components/input/NetworkSelect.tsx");
+/* harmony import */ var react_icons_hi__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! react-icons/hi */ "./node_modules/react-icons/hi/index.esm.js");
+/* harmony import */ var react_icons_bi__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! react-icons/bi */ "./node_modules/react-icons/bi/index.esm.js");
+/* harmony import */ var _label_GenericTooltip__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../label/GenericTooltip */ "./src/components/label/GenericTooltip.tsx");
+/* harmony import */ var _context_hooks_useConnectedSite__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../context/hooks/useConnectedSite */ "./src/context/hooks/useConnectedSite.ts");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\popup\\PopupHeader.tsx";
 
 
@@ -17469,10 +16744,9 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\
 
 
 
-
 const AccountDisplay = () => {
-  const accountAddress = Object(_util_hooks_useSelectedAddressWithChainIdChecksum__WEBPACK_IMPORTED_MODULE_19__["useSelectedAddressWithChainIdChecksum"])();
-  const account = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_20__["useSelectedAccount"])();
+  const accountAddress = Object(_util_hooks_useSelectedAddressWithChainIdChecksum__WEBPACK_IMPORTED_MODULE_18__["useSelectedAddressWithChainIdChecksum"])();
+  const account = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_19__["useSelectedAccount"])();
   const [copied, setCopied] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false);
 
   const copy = async () => {
@@ -17482,21 +16756,21 @@ const AccountDisplay = () => {
     setCopied(false);
   };
 
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("button", {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("button", {
     type: "button",
     className: "relative flex flex-col group",
     onClick: copy,
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
       className: "text-sm font-bold text-white",
       "data-testid": "account-name",
-      children: Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_21__["formatName"])(account.name, 18)
+      children: Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_20__["formatName"])(account.name, 18)
     }, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 61,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
       className: "text-sm truncate text-white flex items-center",
-      children: [Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_21__["formatHash"])(accountAddress), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_CopyIcon__WEBPACK_IMPORTED_MODULE_22__["default"], {}, void 0, false, {
+      children: [Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_20__["formatHash"])(accountAddress), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_icons_CopyIcon__WEBPACK_IMPORTED_MODULE_21__["default"], {}, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 66,
         columnNumber: 17
@@ -17505,7 +16779,7 @@ const AccountDisplay = () => {
       fileName: _jsxFileName,
       lineNumber: 64,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_label_opyToClipboardTooltip__WEBPACK_IMPORTED_MODULE_23__["default"], {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_label_opyToClipboardTooltip__WEBPACK_IMPORTED_MODULE_22__["default"], {
       copied: copied
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -17520,21 +16794,21 @@ const AccountDisplay = () => {
 };
 
 const DAppConnection = () => {
-  const dAppConnected = Object(_context_hooks_useConnectedSite__WEBPACK_IMPORTED_MODULE_28__["useConnectedSite"])();
+  const dAppConnected = Object(_context_hooks_useConnectedSite__WEBPACK_IMPORTED_MODULE_27__["useConnectedSite"])();
   const history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_15__["useHistory"])();
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_label_GenericTooltip__WEBPACK_IMPORTED_MODULE_27__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_label_GenericTooltip__WEBPACK_IMPORTED_MODULE_26__["default"], {
     bottom: true,
     className: "p-2 w-150 overflow-auto -m-4 transition delay-300 hover:delay-0 ease-in-out",
-    content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("p", {
+    content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("p", {
         className: "w-100 text-center",
-        children: dAppConnected === "connected" ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+        children: dAppConnected === "connected" ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
           children: "You are connected to the open site"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 84,
           columnNumber: 29
-        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
           children: "You are not connected to the open site"
         }, void 0, false, {
           fileName: _jsxFileName,
@@ -17551,7 +16825,7 @@ const DAppConnection = () => {
       lineNumber: 81,
       columnNumber: 17
     }, undefined),
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
       onClick: () => {
         if (dAppConnected !== "not-connected") {
           history.push({
@@ -17572,20 +16846,20 @@ const DAppConnection = () => {
       // "bg-yellow-100 hover:border-yellow-300",
       // dAppConnected === "not-connected" && "pointer-events-none"
       ),
-      children: [dAppConnected === "connected" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+      children: [dAppConnected === "connected" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
         className: "relative inline-flex rounded-full h-2 w-2 mr-2 animate-pulse bg-green-400 pointer-events-none"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 116,
         columnNumber: 21
-      }, undefined), dAppConnected === "connected-warning" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_hi__WEBPACK_IMPORTED_MODULE_25__["HiOutlineExclamationCircle"], {
+      }, undefined), dAppConnected === "connected-warning" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(react_icons_hi__WEBPACK_IMPORTED_MODULE_24__["HiOutlineExclamationCircle"], {
         size: 16,
         className: "mr-1 text-yellow-600"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 120,
         columnNumber: 21
-      }, undefined), dAppConnected === "not-connected" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_bi__WEBPACK_IMPORTED_MODULE_26__["BiCircle"], {
+      }, undefined), dAppConnected === "not-connected" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(react_icons_bi__WEBPACK_IMPORTED_MODULE_25__["BiCircle"], {
         className: "mr-1 w-2 text-white"
       }, void 0, false, {
         fileName: _jsxFileName,
@@ -17629,7 +16903,7 @@ const PopupHeader = _ref => {
   const network = Object(_context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_4__["useSelectedNetwork"])();
   const [fromAction, setFromAction] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false);
   const [mounted, setMounted] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false);
-  const checksumAddress = Object(_util_hooks_useSelectedAddressWithChainIdChecksum__WEBPACK_IMPORTED_MODULE_19__["useSelectedAddressWithChainIdChecksum"])();
+  const checksumAddress = Object(_util_hooks_useSelectedAddressWithChainIdChecksum__WEBPACK_IMPORTED_MODULE_18__["useSelectedAddressWithChainIdChecksum"])();
   const {
     isSeedPhraseBackedUp,
     isImportingDeposits
@@ -17653,14 +16927,14 @@ const PopupHeader = _ref => {
     }
   };
 
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("flex flex-row w-full items-center px-5 py-3 bg-header-100 max-w-full popup-layout", className),
     style: {
       backdropFilter: "blur(4px)",
       minHeight: "61px"
     },
-    children: [isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    children: [isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
         title: "Backup Seed",
         className: "text-base font-bold ml-1.5 text-white",
         children: "Backup Seed"
@@ -17673,10 +16947,10 @@ const PopupHeader = _ref => {
       fileName: _jsxFileName,
       lineNumber: 225,
       columnNumber: 28
-    }, undefined), backButton && !isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+    }, undefined), backButton && !isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
       className: "flex items-center justify-between w-full",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("button", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("button", {
           type: "button",
           onClick: e => {
             if (onBack) return onBack(e); //means there is no stack at all and we don't were to go
@@ -17712,17 +16986,18 @@ const PopupHeader = _ref => {
           },
           disabled: disabled || !mounted,
           className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("p-2 -ml-2 mr-1 cursor-pointer transition duration-300 rounded-lg hover:bg-body-assets-200 text-white hover:text-black", disabled && "pointer-events-none text-gray-300"),
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
             className: "flex items-center",
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_ArrowIcon__WEBPACK_IMPORTED_MODULE_12__["default"], {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_icons_ArrowIcon__WEBPACK_IMPORTED_MODULE_12__["default"], {
               direction: "left"
             }, void 0, false, {
               fileName: _jsxFileName,
               lineNumber: 272,
               columnNumber: 33
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
               title: title,
-              className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("text-base font-bold ml-1.5", icon && "w-56"),
+              className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("text-base font-bold ml-1.5" // icon && "w-56"
+              ),
               children: "Back"
             }, void 0, false, {
               fileName: _jsxFileName,
@@ -17743,82 +17018,83 @@ const PopupHeader = _ref => {
         fileName: _jsxFileName,
         lineNumber: 228,
         columnNumber: 21
-      }, undefined), title === "Settings" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("button", {
+      }, undefined), title === "Settings" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("button", {
           type: "button",
           onClick: logout,
           className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(!isImportingDeposits ? _styles_classes__WEBPACK_IMPORTED_MODULE_8__["Classes"].logoutButton : _styles_classes__WEBPACK_IMPORTED_MODULE_8__["Classes"].disabledLogoutButton, "h-2.5 p-4"),
           disabled: isImportingDeposits,
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("img", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("img", {
             alt: "Logout",
             src: _assets_images_icons_logout_svg__WEBPACK_IMPORTED_MODULE_9__["default"],
             className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_styles_classes__WEBPACK_IMPORTED_MODULE_8__["Classes"].buttonIcon, "mr-0", isImportingDeposits && "opacity-30")
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 298,
+            lineNumber: 300,
             columnNumber: 41
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 287,
+          lineNumber: 289,
           columnNumber: 33
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 286,
+        lineNumber: 288,
         columnNumber: 29
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
       lineNumber: 227,
       columnNumber: 17
-    }, undefined), lockStatus && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    }, undefined), lockStatus && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("span", {
       title: title,
-      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("text-base font-bold ml-1.5 text-white", icon && "w-56"),
+      className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("text-base font-bold ml-1.5 text-white" //  icon && "w-56"
+      ),
       children: title
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 315,
+      lineNumber: 317,
       columnNumber: 21
-    }, undefined), icon && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+    }, undefined), icon && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
       className: "pr-3",
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_AppIcon__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_icons_AppIcon__WEBPACK_IMPORTED_MODULE_10__["default"], {
         iconURL: icon,
         size: 10
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 324,
+        lineNumber: 328,
         columnNumber: 21
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 323,
+      lineNumber: 327,
       columnNumber: 17
-    }, undefined), backButton && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["Fragment"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-        className: "ml-auto flex space-x-1",
-        children: [actions && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_ui_Dropdown_Dropdown__WEBPACK_IMPORTED_MODULE_13__["default"], {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_ui_Dropdown_Dropdown__WEBPACK_IMPORTED_MODULE_13__["default"].Menu, {
+    }, undefined), backButton && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["Fragment"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+        className: "ml-auto flex space-x-1 mr-2.5",
+        children: [actions && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_ui_Dropdown_Dropdown__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_ui_Dropdown_Dropdown__WEBPACK_IMPORTED_MODULE_13__["default"].Menu, {
             id: "popup-actions",
             children: actions.map((action, idx) => {
-              return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_ui_Dropdown_DropdownMenu__WEBPACK_IMPORTED_MODULE_14__["DropdownMenuItem"], {
+              return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_ui_Dropdown_DropdownMenu__WEBPACK_IMPORTED_MODULE_14__["DropdownMenuItem"], {
                 children: action
               }, idx, false, {
                 fileName: _jsxFileName,
-                lineNumber: 336,
+                lineNumber: 340,
                 columnNumber: 49
               }, undefined);
             })
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 333,
+            lineNumber: 337,
             columnNumber: 37
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 332,
+          lineNumber: 336,
           columnNumber: 33
-        }, undefined), close && isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("button", {
+        }, undefined), close && isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("button", {
           onClick: e => {
             if (onClose) return onClose(e);
             history.push(typeof close === "string" ? close : "/home");
@@ -17826,117 +17102,95 @@ const PopupHeader = _ref => {
           disabled: disabled,
           className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("p-2 -mr-2 transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300", disabled && "pointer-events-none text-gray-300"),
           type: "button",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_CloseIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {}, void 0, false, {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_icons_CloseIcon__WEBPACK_IMPORTED_MODULE_11__["default"], {}, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 362,
+            lineNumber: 366,
             columnNumber: 37
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 348,
+          lineNumber: 352,
           columnNumber: 33
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 330,
+        lineNumber: 334,
         columnNumber: 25
       }, undefined)
-    }, void 0, false), backButton && title !== "Settings" && !isReminder && !isReminderConfirm && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-      children: [children, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_input_NetworkSelect__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        dappConnection: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(DAppConnection, {}, void 0, false, {
+    }, void 0, false), backButton && title !== "Settings" && !isReminder && !isReminderConfirm && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+      children: [children, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_input_NetworkSelect__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        dappConnection: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(DAppConnection, {}, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 372,
+          lineNumber: 376,
           columnNumber: 56
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 372,
+        lineNumber: 376,
         columnNumber: 25
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 370,
+      lineNumber: 374,
       columnNumber: 21
-    }, undefined), !backButton && !lockStatus && !isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+    }, undefined), !backButton && !lockStatus && !isReminder && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
       className: "flex flex-row items-center justify-between w-full",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
         className: "flex flex-row items-center space-x-3",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
           className: "relative flex flex-col items-start group",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_15__["Link"] // to="/accounts"
-          , {
-            to: "#/",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_15__["Link"], {
+            to: "/accounts",
             className: "transition duration-300",
             draggable: false,
             "data-testid": "navigate-account-link",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_AccountIcon__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_icons_AccountIcon__WEBPACK_IMPORTED_MODULE_16__["default"], {
               className: "transition-transform duration-200 ease-in transform hover:rotate-180",
-              fill: Object(_util_getAccountColor__WEBPACK_IMPORTED_MODULE_18__["getAccountColor"])(checksumAddress)
+              fill: Object(_util_getAccountColor__WEBPACK_IMPORTED_MODULE_17__["getAccountColor"])(checksumAddress)
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 388,
+              lineNumber: 391,
               columnNumber: 37
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 381,
-            columnNumber: 33
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_label_Tooltip__WEBPACK_IMPORTED_MODULE_16__["default"], {
-            className: "pointer-events-none absolute bottom-0 -mb-2 transform !translate-x-0 !translate-y-full p-2 rounded-md text-xs font-bold bg-gray-900 text-white",
-            content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["Fragment"], {
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-                className: "border-t-4 border-r-4 border-gray-900 absolute top-0 left-2 w-2 h-2 -mt-2.5 transform -rotate-45 -translate-x-1/2"
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 397,
-                columnNumber: 45
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
-                children: "My Accounts"
-              }, void 0, false, {
-                fileName: _jsxFileName,
-                lineNumber: 398,
-                columnNumber: 45
-              }, undefined)]
-            }, void 0, true)
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 393,
-            columnNumber: 33
-          }, undefined)]
-        }, void 0, true, {
-          fileName: _jsxFileName,
-          lineNumber: 380,
-          columnNumber: 29
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-          className: "flex flex-row items-center space-x-1",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(AccountDisplay, {}, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 404,
+            lineNumber: 385,
             columnNumber: 33
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 403,
+          lineNumber: 384,
+          columnNumber: 29
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])("div", {
+          className: "flex flex-row items-center space-x-1",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(AccountDisplay, {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 407,
+            columnNumber: 33
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 406,
           columnNumber: 29
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 379,
+        lineNumber: 383,
         columnNumber: 25
-      }, undefined), title !== "Settings" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_input_NetworkSelect__WEBPACK_IMPORTED_MODULE_24__["default"], {
-        dappConnection: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(DAppConnection, {}, void 0, false, {
+      }, undefined), title !== "Settings" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(_input_NetworkSelect__WEBPACK_IMPORTED_MODULE_23__["default"], {
+        dappConnection: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_28__["jsxDEV"])(DAppConnection, {}, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 422,
+          lineNumber: 425,
           columnNumber: 84
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 422,
+        lineNumber: 425,
         columnNumber: 53
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 378,
+      lineNumber: 382,
       columnNumber: 21
     }, undefined)]
   }, void 0, true, {
@@ -19991,7 +19245,7 @@ const TokenName = _ref5 => {
     title
   } = _ref5;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
-    className: "text-xs text-gray-600",
+    className: "text-xs text-component-btn-200",
     title: title,
     children: children
   }, void 0, false, {
@@ -23850,9 +23104,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bridge_BridgeDetails__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../bridge/BridgeDetails */ "./src/components/bridge/BridgeDetails.tsx");
 /* harmony import */ var _util_bridgeUtils__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../util/bridgeUtils */ "./src/util/bridgeUtils.ts");
 /* harmony import */ var _TransactionDetails__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./TransactionDetails */ "./src/components/transactions/TransactionDetails.tsx");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _icons_TransactionArrowIcon__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../icons/TransactionArrowIcon */ "./src/components/icons/TransactionArrowIcon.tsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\components\\transactions\\TransactionItem.tsx";
+
 
 
 
@@ -23969,109 +23225,109 @@ const getTransactionItemStyles = function () {
 };
 
 const transactionIcons = {
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BLANK_DEPOSIT]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("img", {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BLANK_DEPOSIT]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("img", {
     src: _assets_images_logo_svg__WEBPACK_IMPORTED_MODULE_13__["default"],
     alt: "blank"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 134,
+    lineNumber: 135,
     columnNumber: 44
   }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BLANK_WITHDRAWAL]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("img", {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BLANK_WITHDRAWAL]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("img", {
     src: _assets_images_logo_svg__WEBPACK_IMPORTED_MODULE_13__["default"],
     alt: "ExzoWallet"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 136,
+    lineNumber: 137,
     columnNumber: 9
   }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("img", {
-    src: _assets_images_icons_ETH_svg__WEBPACK_IMPORTED_MODULE_12__["default"],
-    alt: "ETH"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 138,
-    columnNumber: 39
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].SENT_ETHER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("img", {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("img", {
     src: _assets_images_icons_ETH_svg__WEBPACK_IMPORTED_MODULE_12__["default"],
     alt: "ETH"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 139,
-    columnNumber: 41
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].CONTRACT_DEPLOYMENT]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__["FiUpload"], {}, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 140,
-    columnNumber: 50
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].CONTRACT_INTERACTION]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaExchangeAlt"], {}, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 141,
-    columnNumber: 51
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_APPROVE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
-    size: "1.5rem"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 143,
-    columnNumber: 9
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_TRANSFER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
-    size: "1.5rem"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 146,
-    columnNumber: 9
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_INCOMING_TRANSFER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
-    size: "1.5rem"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 149,
-    columnNumber: 9
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_TRANSFER_FROM]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
-    size: "1.5rem"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 152,
-    columnNumber: 9
-  }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].EXCHANGE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
-    size: "1.5rem"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 154,
     columnNumber: 39
   }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BRIDGE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].SENT_ETHER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("img", {
+    src: _assets_images_icons_ETH_svg__WEBPACK_IMPORTED_MODULE_12__["default"],
+    alt: "ETH"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 140,
+    columnNumber: 41
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].CONTRACT_DEPLOYMENT]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_fi__WEBPACK_IMPORTED_MODULE_2__["FiUpload"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 141,
+    columnNumber: 50
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].CONTRACT_INTERACTION]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaExchangeAlt"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 142,
+    columnNumber: 51
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_APPROVE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
+    size: "1.5rem"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 144,
+    columnNumber: 9
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_TRANSFER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
+    size: "1.5rem"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 147,
+    columnNumber: 9
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_INCOMING_TRANSFER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
+    size: "1.5rem"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 150,
+    columnNumber: 9
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].TOKEN_METHOD_TRANSFER_FROM]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
+    size: "1.5rem"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 153,
+    columnNumber: 9
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].EXCHANGE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_ri__WEBPACK_IMPORTED_MODULE_3__["RiCopperCoinFill"], {
     size: "1.5rem"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 155,
+    columnNumber: 39
+  }, undefined),
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BRIDGE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
+    size: "1.5rem"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 156,
     columnNumber: 37
   }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
     size: "1.5rem"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 157,
+    lineNumber: 158,
     columnNumber: 9
   }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE_REFUND]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE_REFUND]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
     size: "1.5rem"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 160,
+    lineNumber: 161,
     columnNumber: 9
   }, undefined),
-  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE_PLACEHOLDER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
+  [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE_PLACEHOLDER]: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_gi__WEBPACK_IMPORTED_MODULE_5__["GiSuspensionBridge"], {
     size: "1.5rem"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 163,
+    lineNumber: 164,
     columnNumber: 9
   }, undefined)
 };
@@ -24081,12 +23337,12 @@ const PendingSpinner = _ref => {
   let {
     size = "1rem"
   } = _ref;
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_im__WEBPACK_IMPORTED_MODULE_6__["ImSpinner"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_im__WEBPACK_IMPORTED_MODULE_6__["ImSpinner"], {
     size: size,
     className: "animate-spin text-black opacity-50"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 177,
+    lineNumber: 178,
     columnNumber: 5
   }, undefined);
 };
@@ -24099,39 +23355,39 @@ const TransactionIcon = _ref2 => {
     },
     transactionIcon
   } = _ref2;
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
     className: "align-start",
-    children: transactionStatus !== _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].SUBMITTED ? transactionIcon ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_AssetsList__WEBPACK_IMPORTED_MODULE_10__["AssetIcon"], {
+    children: transactionStatus !== _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].SUBMITTED ? transactionIcon ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_AssetsList__WEBPACK_IMPORTED_MODULE_10__["AssetIcon"], {
       asset: {
         logo: transactionIcon,
         symbol: ""
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 194,
       columnNumber: 17
-    }, undefined) : category ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+    }, undefined) : category ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
       className: _styles__WEBPACK_IMPORTED_MODULE_9__["Classes"].roundedIcon,
       children: transactionIcons[category]
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 201,
       columnNumber: 17
-    }, undefined) : null : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+    }, undefined) : null : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
       className: _styles__WEBPACK_IMPORTED_MODULE_9__["Classes"].roundedIcon,
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(PendingSpinner, {}, void 0, false, {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(PendingSpinner, {}, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 206,
+        lineNumber: 207,
         columnNumber: 17
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 205,
+      lineNumber: 206,
       columnNumber: 13
     }, undefined)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 190,
+    lineNumber: 191,
     columnNumber: 5
   }, undefined);
 };
@@ -24190,20 +23446,20 @@ const getTransactionTime = (status, metaType, time, isQueued) => {
     }];else return [displayTime];
   })();
 
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["Fragment"], {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
       className: `text-xs ${color}`,
       children: label
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 300,
+      lineNumber: 301,
       columnNumber: 13
-    }, undefined), extraInfo && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    }, undefined), extraInfo && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
       className: `text-xs ${extraInfo.color} mt-0.5`,
       children: extraInfo.label
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 302,
+      lineNumber: 303,
       columnNumber: 17
     }, undefined)]
   }, void 0, true);
@@ -24231,34 +23487,34 @@ const getTransactionLabel = (status, metaType, pendingIndex, transactionCategory
 
 const getTransactionTimeOrStatus = (status, metaType, confirmationTime, submittedTime, time, isQueued, forceDrop, bridgeParams) => {
   if (forceDrop) {
-    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
       className: "text-xs text-red-600",
       children: Object(_util_capitalize__WEBPACK_IMPORTED_MODULE_17__["capitalize"])(_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].DROPPED.toLowerCase())
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 363,
+      lineNumber: 364,
       columnNumber: 13
     }, undefined);
   }
 
   if (failedStatuses.includes(status) && metaType === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["MetaType"].REGULAR) {
-    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
       className: "text-xs text-red-600",
       children: Object(_util_capitalize__WEBPACK_IMPORTED_MODULE_17__["capitalize"])(status === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].CANCELLED ? "failed" : status.toLowerCase())
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 371,
+      lineNumber: 372,
       columnNumber: 13
     }, undefined);
   }
 
   if ((bridgeParams === null || bridgeParams === void 0 ? void 0 : bridgeParams.substatus) === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["BridgeSubstatus"].REFUNDED && bridgeParams.role !== "RECEIVING") {
-    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
       className: "text-xs text-red-600",
       children: "Failed bridge: Refunded"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 386,
+      lineNumber: 387,
       columnNumber: 13
     }, undefined);
   }
@@ -24336,17 +23592,18 @@ const TransactionItem = _ref3 => {
   const transferCurrencyAmount = formatter.format(transfer.amount, tokenSymbol, transfer.decimals, transfer.currency === networkNativeCurrency.symbol.toUpperCase());
   const canSpeedUpOrCancel = status === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].SUBMITTED && metaType === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["MetaType"].REGULAR && transactionCategory !== _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE_PLACEHOLDER && !isBlankWithdraw;
   const OperationDetails = transactionCategory && [_context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BRIDGE, _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE_REFUND, _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING_BRIDGE].includes(transactionCategory) ? _bridge_BridgeDetails__WEBPACK_IMPORTED_MODULE_26__["default"] : _TransactionDetails__WEBPACK_IMPORTED_MODULE_28__["default"];
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["Fragment"], {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(OperationDetails, {
+  console.log("transaction---------", transaction);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(OperationDetails, {
       transaction: transaction,
       open: hasDetails,
       onClose: () => setHasDetails(false)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 506,
+      lineNumber: 507,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
-      className: `flex flex-col px-6 py-5 -ml-6 transition duration-300 hover:bg-primary-100 hover:bg-opacity-50 active:bg-primary-200 active:bg-opacity-50 ${!(txHash && transaction.transactionParams.from) && "cursor-default"}`,
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+      className: `flex flex-col px-6 py-5 -ml-6 transition duration-300 rounded-lg hover:bg-container-100 active:bg-container-100 active:bg-opacity-50 ${!(txHash && transaction.transactionParams.from) && "cursor-default"}`,
       style: {
         width: "calc(100% + 3rem)"
       },
@@ -24357,113 +23614,116 @@ const TransactionItem = _ref3 => {
           setHasDetails(true);
         }
       },
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
         className: "flex flex-row items-center w-full justify-between",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(TransactionIcon, {
-          transaction: {
-            transactionCategory,
-            transactionStatus: status
-          },
-          transactionIcon: transfer.logo
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
+          className: "rounded-md bg-body-balances-100 py-4 px-3 flex items-center justify-center mr-4",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_icons_TransactionArrowIcon__WEBPACK_IMPORTED_MODULE_29__["default"], {
+            direction: transactionCategory === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].INCOMING ? "left" : transactionCategory === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].SENT_ETHER ? "right" : "down"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 537,
+            columnNumber: 25
+          }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 528,
+          lineNumber: 536,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
           className: "flex flex-col ml-2",
           style: {
             width: "calc(100% - 1rem)"
           },
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
             className: "flex flex-row w-full items-center space-x-1",
             style: typeCss,
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
-              className: "text-sm font-bold truncate",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+              className: "text-sm font-bold truncate text-txt-settings",
               title: label,
               children: formattedLabel
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 543,
+              lineNumber: 548,
               columnNumber: 29
-            }, undefined), flashbots && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_icons_AppIcon__WEBPACK_IMPORTED_MODULE_21__["default"], {
+            }, undefined), flashbots && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_icons_AppIcon__WEBPACK_IMPORTED_MODULE_21__["default"], {
               iconURL: _assets_images_flashbots_png__WEBPACK_IMPORTED_MODULE_14__["default"],
               size: 6,
               iconSize: 5,
               title: "Flashbots"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 550,
+              lineNumber: 555,
               columnNumber: 33
-            }, undefined), status === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].DROPPED && metaType === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["MetaType"].REGULAR && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+            }, undefined), status === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].DROPPED && metaType === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["MetaType"].REGULAR && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
               className: "group relative self-start",
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("a", {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("a", {
                 href: "https://help.blockwallet.io/hc/en-us/articles/4410031249553",
                 target: "_blank",
                 rel: "noreferrer",
-                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_4__["AiFillInfoCircle"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_4__["AiFillInfoCircle"], {
                   size: 24,
                   className: "pl-2 pb-1 text-primary-200 cursor-pointer hover:text-primary-300"
                 }, void 0, false, {
                   fileName: _jsxFileName,
-                  lineNumber: 565,
+                  lineNumber: 570,
                   columnNumber: 45
                 }, undefined)
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 560,
+                lineNumber: 565,
                 columnNumber: 41
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
                   className: "flex flex-col font-normal items-start text-xs text-white-500",
-                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
                     className: "flex flex-row items-end space-x-7",
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
                       children: "This transaction was never mined."
                     }, void 0, false, {
                       fileName: _jsxFileName,
-                      lineNumber: 574,
+                      lineNumber: 579,
                       columnNumber: 57
                     }, undefined), " "]
                   }, void 0, true, {
                     fileName: _jsxFileName,
-                    lineNumber: 573,
+                    lineNumber: 578,
                     columnNumber: 53
-                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+                  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
                     className: "flex flex-row items-end space-x-4",
-                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
                       children: "Click on this icon to learn more."
                     }, void 0, false, {
                       fileName: _jsxFileName,
-                      lineNumber: 580,
+                      lineNumber: 585,
                       columnNumber: 57
                     }, undefined), " "]
                   }, void 0, true, {
                     fileName: _jsxFileName,
-                    lineNumber: 579,
+                    lineNumber: 584,
                     columnNumber: 53
                   }, undefined)]
                 }, void 0, true, {
                   fileName: _jsxFileName,
-                  lineNumber: 572,
+                  lineNumber: 577,
                   columnNumber: 49
                 }, undefined)
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 570,
+                lineNumber: 575,
                 columnNumber: 41
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 559,
+              lineNumber: 564,
               columnNumber: 37
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 539,
+            lineNumber: 544,
             columnNumber: 25
-          }, undefined), getTransactionTimeOrStatus(status, metaType, confirmationTime, submittedTime, time, isQueued || false, forceDrop || false, bridgeParams), canSpeedUpOrCancel && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+          }, undefined), getTransactionTimeOrStatus(status, metaType, confirmationTime, submittedTime, time, isQueued || false, forceDrop || false, bridgeParams), canSpeedUpOrCancel && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
             className: "mt-2",
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("button", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("button", {
               type: "button",
               className: Object(_styles__WEBPACK_IMPORTED_MODULE_9__["classnames"])("rounded-md cursor-pointer text-blue-500 border-current border p-1 font-bold hover:bg-blue-500 hover:text-white transition-colors", isQueued ? "opacity-50 pointer-events-none" : ""),
               disabled: isQueued,
@@ -24479,9 +23739,9 @@ const TransactionItem = _ref3 => {
               children: "Speed up"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 604,
+              lineNumber: 609,
               columnNumber: 33
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("button", {
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("button", {
               type: "button",
               className: "ml-1.5 border p-1 rounded-md cursor-pointer text-gray-500 border-current font-bold hover:bg-gray-500 hover:text-white transition-colors",
               onClick: e => {
@@ -24496,85 +23756,85 @@ const TransactionItem = _ref3 => {
               children: "Cancel"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 625,
+              lineNumber: 630,
               columnNumber: 33
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 603,
+            lineNumber: 608,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 535,
+          lineNumber: 540,
           columnNumber: 21
-        }, undefined), transfer.amount && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+        }, undefined), transfer.amount && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
           className: classnames__WEBPACK_IMPORTED_MODULE_8___default()("flex flex-col items-end"),
           style: amountCss,
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
             className: "w-full flex justify-end",
             title: Object(_util_formatTransactionValue__WEBPACK_IMPORTED_MODULE_19__["default"])(transfer).reduce((acc, curr) => `${acc} ${curr}`, ""),
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
-              className: classnames__WEBPACK_IMPORTED_MODULE_8___default()("text-sm font-bold text-right mr-1 truncate max-w-[130px]"),
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+              className: classnames__WEBPACK_IMPORTED_MODULE_8___default()("text-sm font-bold text-white text-right mr-1 truncate max-w-[130px]"),
               children: `${valueLabel} ${transfer.currency.toUpperCase()}`
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 656,
+              lineNumber: 661,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 650,
+            lineNumber: 655,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
             className: "w-full flex justify-end",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("span", {
-              className: "text-xs text-gray-600 truncate",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("span", {
+              className: "text-xs text-txt-settings truncate",
               title: transferCurrencyAmount,
               children: transferCurrencyAmount
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 665,
+              lineNumber: 670,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 664,
+            lineNumber: 669,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 646,
+          lineNumber: 651,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 527,
+        lineNumber: 528,
         columnNumber: 17
-      }, undefined), status === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].CONFIRMED && transactionCategory === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BRIDGE && bridgeParams && _util_bridgeUtils__WEBPACK_IMPORTED_MODULE_27__["BRIDGE_PENDING_STATUS"].includes(bridgeParams.status || "") ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("div", {
+      }, undefined), status === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionStatus"].CONFIRMED && transactionCategory === _context_commTypes__WEBPACK_IMPORTED_MODULE_15__["TransactionCategories"].BRIDGE && bridgeParams && _util_bridgeUtils__WEBPACK_IMPORTED_MODULE_27__["BRIDGE_PENDING_STATUS"].includes(bridgeParams.status || "") ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("div", {
         className: "ml-11 mt-2",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])("i", {
-          className: "text-gray-500",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["Fragment"], {
-            children: [(_getBridgePendingMess = Object(_util_bridgeUtils__WEBPACK_IMPORTED_MODULE_27__["getBridgePendingMessage"])(bridgeParams, bridgeTransactionsData === null || bridgeTransactionsData === void 0 ? void 0 : (_bridgeTransactionsDa = bridgeTransactionsData.receivingTransaction) === null || _bridgeTransactionsDa === void 0 ? void 0 : _bridgeTransactionsDa.networkName)) === null || _getBridgePendingMess === void 0 ? void 0 : _getBridgePendingMess.label, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_29__["jsxDEV"])(_loading_LoadingDots__WEBPACK_IMPORTED_MODULE_23__["default"], {}, void 0, false, {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])("i", {
+          className: "text-txt-settings",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["Fragment"], {
+            children: [(_getBridgePendingMess = Object(_util_bridgeUtils__WEBPACK_IMPORTED_MODULE_27__["getBridgePendingMessage"])(bridgeParams, bridgeTransactionsData === null || bridgeTransactionsData === void 0 ? void 0 : (_bridgeTransactionsDa = bridgeTransactionsData.receivingTransaction) === null || _bridgeTransactionsDa === void 0 ? void 0 : _bridgeTransactionsDa.networkName)) === null || _getBridgePendingMess === void 0 ? void 0 : _getBridgePendingMess.label, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_30__["jsxDEV"])(_loading_LoadingDots__WEBPACK_IMPORTED_MODULE_23__["default"], {}, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 689,
+              lineNumber: 694,
               columnNumber: 33
             }, undefined)]
           }, void 0, true)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 680,
+          lineNumber: 685,
           columnNumber: 25
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 679,
+        lineNumber: 684,
         columnNumber: 21
       }, undefined) : null]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 512,
+      lineNumber: 513,
       columnNumber: 13
     }, undefined)]
   }, void 0, true);
@@ -24992,10 +24252,10 @@ const DropdownIconButton = _ref2 => {
     getIsHoveringProps
   } = Object(_util_hooks_useIsHovering__WEBPACK_IMPORTED_MODULE_1__["default"])();
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", { ...getIsHoveringProps(),
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("p-2 transition duration-300 rounded-full hover:bg-primary-100 cursor-pointer select-none", isShowingMenu && "bg-primary-100"),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("p-2 transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-20 cursor-pointer select-none hover:text-component-btn-200", isShowingMenu && "bg-component-btn-200"),
     onClick: onClick,
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
-      className: "w-4 h-4 flex items-center justify-center",
+      className: "w-4 h-4 flex items-center justify-center hover:text-component-btn-200",
       children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Icon__WEBPACK_IMPORTED_MODULE_3__["default"], {
         name: iconName || _Icon__WEBPACK_IMPORTED_MODULE_3__["IconName"].THREE_DOTS,
         profile: isHovering || isShowingMenu ? "selected" : "default"
@@ -25022,7 +24282,7 @@ const DropdownOutlinedIconButton = _ref3 => {
     isShowingMenu
   } = _ref3;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_OutlinedButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: isShowingMenu ? "!bg-primary-100" : "",
+    className: isShowingMenu ? "" : "",
     onClick: onClick,
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Icon__WEBPACK_IMPORTED_MODULE_3__["default"], {
       name: iconName,
@@ -25186,7 +24446,7 @@ const EmptyState = _ref => {
     className
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("items-center flex flex-col space-y-1 text-center", className || ""),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("items-center flex flex-col space-y-1 text-center text-txt-settings", className || ""),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_Icon__WEBPACK_IMPORTED_MODULE_1__["default"], {
       size: "xl",
       name: iconName || _Icon__WEBPACK_IMPORTED_MODULE_1__["IconName"].EMPTY_DRAWER
@@ -25195,6 +24455,7 @@ const EmptyState = _ref => {
       lineNumber: 23,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_Typography__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      className: "text-white",
       type: _Typography__WEBPACK_IMPORTED_MODULE_2__["TypographyType"].TITLE,
       children: title
     }, void 0, false, {
@@ -25379,7 +24640,7 @@ const OutlinedButton = _ref => {
     children
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("button", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("flex flex-row items-center bg-white border border-gray-200 hover:border-black justify-between", "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-black w-full", onClick && "cursor-pointer", className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("flex flex-row items-center  justify-between", "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-white w-full bg-component-btn-200 bg-opacity-[8%] hover:bg-opacity-20", onClick && "cursor-pointer", className),
     onClick: onClick,
     children: children
   }, void 0, false, {
@@ -32261,7 +31522,8 @@ const ReminderPage = () => {
             revealMessage: "Click here to reveal secret words",
             revealed: revealed,
             onClick: () => setRevealed(true),
-            isReminder: true
+            isReminder: true,
+            isPrivate: false
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 126,
@@ -32283,35 +31545,35 @@ const ReminderPage = () => {
                 className: "mr-2 w-4 h-4"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 136,
+                lineNumber: 137,
                 columnNumber: 233
               }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
                 children: "Copy to clipboard"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 136,
+                lineNumber: 137,
                 columnNumber: 278
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 136,
+              lineNumber: 137,
               columnNumber: 33
             }, undefined), copied && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
               className: "absolute text-white text-xxs rounded-2xl left-[166px] -top-[35px] bg-black px-4 py-1",
               children: "Copied!"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 137,
+              lineNumber: 138,
               columnNumber: 44
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 135,
+            lineNumber: 136,
             columnNumber: 29
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 135,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
@@ -32340,12 +31602,12 @@ const ReminderPage = () => {
           }
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 142,
+          lineNumber: 143,
           columnNumber: 25
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 141,
+        lineNumber: 142,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
@@ -32919,7 +32181,8 @@ const AddAccountPage = () => {
             placeholder: suggestedAccountName,
             error: (_errors$accountName = errors.accountName) === null || _errors$accountName === void 0 ? void 0 : _errors$accountName.message,
             autoFocus: true,
-            maxLength: 40
+            maxLength: 40,
+            className: "bg-component-input-bg"
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 144,
@@ -32928,12 +32191,6 @@ const AddAccountPage = () => {
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 143,
-          columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("hr", {
-          className: "border-0.5 border-gray-200 w-full"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 154,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_10__["default"], {
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_11__["ButtonWithLoading"], {
@@ -33011,7 +32268,7 @@ const CardFrame = _ref => {
     role: role,
     onClick: onClick,
     ...ariaProps,
-    className: classnames__WEBPACK_IMPORTED_MODULE_5___default()("rounded-md border border-gray-200 flex flex-row p-4 h-26 justify-between hover:border-black hover:cursor-pointer", disabled && "opacity-50 pointer-events-none"),
+    className: classnames__WEBPACK_IMPORTED_MODULE_5___default()("rounded-md flex flex-row p-4 h-26 justify-between bg-body-assets-100 hover:bg-opacity-20 hover:cursor-pointer", disabled && "opacity-50 pointer-events-none"),
     children: children
   }, void 0, false, {
     fileName: _jsxFileName,
@@ -33044,14 +32301,14 @@ const CreateAccountCard = _ref2 => {
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
       className: "flex-1 flex flex-col justify-start space-y-2",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("span", {
-        className: "font-bold text-sm leading-6",
+        className: "font-bold text-sm leading-6 text-white",
         children: title
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 49,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("p", {
-        className: "text-xs text-gray-500 leading-5",
+        className: "text-xs text-txt-settings leading-5",
         children: description
       }, void 0, false, {
         fileName: _jsxFileName,
@@ -33592,7 +32849,8 @@ const ImportAccountPage = () => {
               placeholder: suggestedAccountName,
               error: (_errors$accountName = errors.accountName) === null || _errors$accountName === void 0 ? void 0 : _errors$accountName.message,
               autoFocus: true,
-              maxLength: 40
+              maxLength: 40,
+              className: "bg-component-input-bg"
             }, void 0, false, {
               fileName: _jsxFileName,
               lineNumber: 190,
@@ -33617,17 +32875,17 @@ const ImportAccountPage = () => {
                 children: "Private Key"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 210,
+                lineNumber: 211,
                 columnNumber: 33
               }, undefined)
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 201,
+              lineNumber: 202,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 200,
+            lineNumber: 201,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
             className: "flex flex-col space-y-1",
@@ -33637,15 +32895,16 @@ const ImportAccountPage = () => {
               placeholder: "Paste your private key string here",
               ...register("privateKey"),
               error: (_errors$privateKey = errors.privateKey) === null || _errors$privateKey === void 0 ? void 0 : _errors$privateKey.message,
-              maxLength: 66
+              maxLength: 66,
+              className: "bg-component-input-bg"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 216,
+              lineNumber: 217,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 215,
+            lineNumber: 216,
             columnNumber: 25
           }, undefined), state.settings.useAntiPhishingProtection && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
             className: "pt-2",
@@ -33654,23 +32913,17 @@ const ImportAccountPage = () => {
               size: "sm"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 227,
+              lineNumber: 229,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 226,
+            lineNumber: 228,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
           lineNumber: 188,
-          columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("hr", {
-          className: "border-0.5 border-gray-200 w-full"
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 234,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_15__["default"], {
           children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_16__["ButtonWithLoading"], {
@@ -33679,12 +32932,12 @@ const ImportAccountPage = () => {
             label: "Import"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 236,
+            lineNumber: 237,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 235,
+          lineNumber: 236,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
@@ -33793,21 +33046,6 @@ const ResetAccountPage = _ref => {
       lineNumber: 46,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
-        label: "Reset",
-        type: "reset",
-        onClick: handleReset
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 17
-    }, undefined),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_10__["default"], {
       status: status,
       open: isOpen,
@@ -33825,17 +33063,17 @@ const ResetAccountPage = _ref => {
       timeout: 1100
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 48,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
       className: "flex flex-col p-6 space-y-6 w-full",
       children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
           children: "Resetting your account will clear the transaction history and added tokens. You will not need to re-import your seed phrase and your on-chain balance will not change. You will be able to use your account normally."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 75,
+          lineNumber: 66,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
           className: "w-full border border-gray-200 rounded-md flex justify-between items-center p-4 py-2 my-6",
@@ -33844,7 +33082,7 @@ const ResetAccountPage = _ref => {
             children: "Download state logs for support"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 82,
+            lineNumber: 73,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("button", {
             className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_styles__WEBPACK_IMPORTED_MODULE_8__["Classes"].smallButton, "px-4"),
@@ -33853,33 +33091,47 @@ const ResetAccountPage = _ref => {
               size: 18
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 89,
+              lineNumber: 80,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 85,
+            lineNumber: 76,
             columnNumber: 25
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 72,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
           children: "Please download your state logs if you need support before resetting your account."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 83,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 65,
         columnNumber: 17
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 64,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
+        label: "Reset",
+        type: "reset",
+        onClick: handleReset
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 89,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -35537,30 +34789,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
 /* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
 /* harmony import */ var _styles_classes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/classes */ "./src/styles/classes.ts");
-/* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Divider */ "./src/components/Divider.tsx");
-/* harmony import */ var _assets_images_icons_connect_dapp_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/icons/connect_dapp.svg */ "./src/assets/images/icons/connect_dapp.svg");
-/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
-/* harmony import */ var _components_account_AccountMultipleSelect__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/account/AccountMultipleSelect */ "./src/components/account/AccountMultipleSelect.tsx");
-/* harmony import */ var _components_icons_AppIcon__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/icons/AppIcon */ "./src/components/icons/AppIcon.tsx");
-/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
-/* harmony import */ var _context_hooks_usePendingPermissionRequest__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../context/hooks/usePendingPermissionRequest */ "./src/context/hooks/usePendingPermissionRequest.ts");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _components_loading_LoadingOverlay__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/loading/LoadingOverlay */ "./src/components/loading/LoadingOverlay.tsx");
-/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-icons/ai */ "./node_modules/react-icons/ai/index.esm.js");
-/* harmony import */ var _components_label_Tooltip__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../components/label/Tooltip */ "./src/components/label/Tooltip.tsx");
-/* harmony import */ var _context_hooks_useSortedAccounts__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../context/hooks/useSortedAccounts */ "./src/context/hooks/useSortedAccounts.ts");
-/* harmony import */ var _context_hooks_useNextRequestRoute__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../context/hooks/useNextRequestRoute */ "./src/context/hooks/useNextRequestRoute.ts");
-/* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
-/* harmony import */ var _components_account_AccountSearchBar__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../components/account/AccountSearchBar */ "./src/components/account/AccountSearchBar.tsx");
-/* harmony import */ var _util_hooks_account_useAccountSearch__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../util/hooks/account/useAccountSearch */ "./src/util/hooks/account/useAccountSearch.tsx");
-/* harmony import */ var _components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../components/dialog/WaitingDialog */ "./src/components/dialog/WaitingDialog.tsx");
-/* harmony import */ var _util_hooks_useDebouncedState__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../util/hooks/useDebouncedState */ "./src/util/hooks/useDebouncedState.ts");
-/* harmony import */ var _util_constants__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../util/constants */ "./src/util/constants.ts");
-/* harmony import */ var _components_label_GenericTooltip__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../components/label/GenericTooltip */ "./src/components/label/GenericTooltip.tsx");
-/* harmony import */ var _components_CollapsableWarning__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../components/CollapsableWarning */ "./src/components/CollapsableWarning.tsx");
-/* harmony import */ var _util_isOriginSafe__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../util/isOriginSafe */ "./src/util/isOriginSafe.ts");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _assets_images_icons_connect_dapp_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/icons/connect_dapp.svg */ "./src/assets/images/icons/connect_dapp.svg");
+/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
+/* harmony import */ var _components_account_AccountMultipleSelect__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/account/AccountMultipleSelect */ "./src/components/account/AccountMultipleSelect.tsx");
+/* harmony import */ var _components_icons_AppIcon__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/icons/AppIcon */ "./src/components/icons/AppIcon.tsx");
+/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
+/* harmony import */ var _context_hooks_usePendingPermissionRequest__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../context/hooks/usePendingPermissionRequest */ "./src/context/hooks/usePendingPermissionRequest.ts");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_loading_LoadingOverlay__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/loading/LoadingOverlay */ "./src/components/loading/LoadingOverlay.tsx");
+/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-icons/ai */ "./node_modules/react-icons/ai/index.esm.js");
+/* harmony import */ var _components_label_Tooltip__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../components/label/Tooltip */ "./src/components/label/Tooltip.tsx");
+/* harmony import */ var _context_hooks_useSortedAccounts__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../context/hooks/useSortedAccounts */ "./src/context/hooks/useSortedAccounts.ts");
+/* harmony import */ var _context_hooks_useNextRequestRoute__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../context/hooks/useNextRequestRoute */ "./src/context/hooks/useNextRequestRoute.ts");
+/* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
+/* harmony import */ var _components_account_AccountSearchBar__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../components/account/AccountSearchBar */ "./src/components/account/AccountSearchBar.tsx");
+/* harmony import */ var _util_hooks_account_useAccountSearch__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../util/hooks/account/useAccountSearch */ "./src/util/hooks/account/useAccountSearch.tsx");
+/* harmony import */ var _components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../components/dialog/WaitingDialog */ "./src/components/dialog/WaitingDialog.tsx");
+/* harmony import */ var _util_hooks_useDebouncedState__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../util/hooks/useDebouncedState */ "./src/util/hooks/useDebouncedState.ts");
+/* harmony import */ var _util_constants__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../util/constants */ "./src/util/constants.ts");
+/* harmony import */ var _components_label_GenericTooltip__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../components/label/GenericTooltip */ "./src/components/label/GenericTooltip.tsx");
+/* harmony import */ var _components_CollapsableWarning__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../components/CollapsableWarning */ "./src/components/CollapsableWarning.tsx");
+/* harmony import */ var _util_isOriginSafe__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../util/isOriginSafe */ "./src/util/isOriginSafe.ts");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\connect\\ConnectPage.tsx";
 
 
@@ -35590,20 +34841,19 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\conn
 
 
 
-
 const ConnectPage = () => {
-  const pendingPermissionRequest = Object(_context_hooks_usePendingPermissionRequest__WEBPACK_IMPORTED_MODULE_11__["usePendingPermissionRequest"])();
-  const route = Object(_context_hooks_useNextRequestRoute__WEBPACK_IMPORTED_MODULE_17__["default"])();
-  const [nextRequest, setNextRequest] = Object(_util_hooks_useDebouncedState__WEBPACK_IMPORTED_MODULE_22__["default"])(pendingPermissionRequest, _util_constants__WEBPACK_IMPORTED_MODULE_23__["DAPP_FEEDBACK_WINDOW_TIMEOUT"]);
+  const pendingPermissionRequest = Object(_context_hooks_usePendingPermissionRequest__WEBPACK_IMPORTED_MODULE_10__["usePendingPermissionRequest"])();
+  const route = Object(_context_hooks_useNextRequestRoute__WEBPACK_IMPORTED_MODULE_16__["default"])();
+  const [nextRequest, setNextRequest] = Object(_util_hooks_useDebouncedState__WEBPACK_IMPORTED_MODULE_21__["default"])(pendingPermissionRequest, _util_constants__WEBPACK_IMPORTED_MODULE_22__["DAPP_FEEDBACK_WINDOW_TIMEOUT"]);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     setNextRequest(pendingPermissionRequest);
   }, [setNextRequest, pendingPermissionRequest]);
-  return nextRequest.requestId ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(ConnectSteps, { ...nextRequest
+  return nextRequest.requestId ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(ConnectSteps, { ...nextRequest
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 48,
     columnNumber: 9
-  }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Redirect"], {
+  }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_11__["Redirect"], {
     to: route
   }, void 0, false, {
     fileName: _jsxFileName,
@@ -35618,15 +34868,15 @@ const ConnectSteps = _ref => {
     requestId,
     site
   } = _ref;
-  const isSiteOriginSafe = Object(_util_isOriginSafe__WEBPACK_IMPORTED_MODULE_26__["isOriginSafe"])(site.origin);
-  const accountsList = Object(_context_hooks_useSortedAccounts__WEBPACK_IMPORTED_MODULE_16__["useSortedAccounts"])();
-  const account = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_7__["useSelectedAccount"])(); // State
+  const isSiteOriginSafe = Object(_util_isOriginSafe__WEBPACK_IMPORTED_MODULE_25__["isOriginSafe"])(site.origin);
+  const accountsList = Object(_context_hooks_useSortedAccounts__WEBPACK_IMPORTED_MODULE_15__["useSortedAccounts"])();
+  const account = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_6__["useSelectedAccount"])(); // State
 
   const [selectedAccounts, setSelectedAccounts] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([account]);
   const {
     accounts: filteredAccounts,
     onChangeSearch
-  } = Object(_util_hooks_account_useAccountSearch__WEBPACK_IMPORTED_MODULE_20__["default"])([account, // Place selected account at the top
+  } = Object(_util_hooks_account_useAccountSearch__WEBPACK_IMPORTED_MODULE_19__["default"])([account, // Place selected account at the top
   ...accountsList.filter(a => a.address !== account.address)]);
   const {
     status,
@@ -35634,7 +34884,7 @@ const ConnectSteps = _ref => {
     dispatch,
     texts,
     titles
-  } = Object(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_21__["useWaitingDialog"])();
+  } = Object(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_20__["useWaitingDialog"])();
   const [step, setStep] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(1);
   const [allowSite, setAllowSite] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true);
   const [isLoading, setIsLoading] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
@@ -35666,7 +34916,7 @@ const ConnectSteps = _ref => {
     await new Promise(resolve => {
       setTimeout(resolve, 300);
     });
-    await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_10__["confirmPermission"])(requestId, accept ? selectedAccounts.map(a => a.address) : null);
+    await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_9__["confirmPermission"])(requestId, accept ? selectedAccounts.map(a => a.address) : null);
     dispatch({
       type: "setStatus",
       payload: {
@@ -35695,21 +34945,21 @@ const ConnectSteps = _ref => {
     setIsLoading(false);
   };
 
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
       title: "Connect With ExzoWallet",
       close: false,
       onBack: cancel,
-      children: [requestCount > 1 && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+      children: [requestCount > 1 && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
         className: "group relative",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_14__["AiFillInfoCircle"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_13__["AiFillInfoCircle"], {
           size: 26,
           className: "pl-2 text-primary-200 cursor-pointer hover:text-primary-300"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 150,
           columnNumber: 29
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_14__["default"], {
           content: `${requestCount - 1} more ${requestCount > 2 ? "requests" : "request"}`
         }, void 0, false, {
           fileName: _jsxFileName,
@@ -35720,8 +34970,8 @@ const ConnectSteps = _ref => {
         fileName: _jsxFileName,
         lineNumber: 149,
         columnNumber: 25
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
-        className: "ml-auto text-sm text-gray-600",
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
+        className: "ml-auto text-sm text-txt-settings",
         children: [step, " of 2"]
       }, void 0, true, {
         fileName: _jsxFileName,
@@ -35733,80 +34983,65 @@ const ConnectSteps = _ref => {
       lineNumber: 143,
       columnNumber: 17
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_18__["ButtonWithLoading"], {
-        label: step === 1 ? "Next" : "Connect",
-        disabled: !nextEnabled,
-        onClick: next
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 168,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
+    children: [isLoading && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_loading_LoadingOverlay__WEBPACK_IMPORTED_MODULE_12__["default"], {}, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 167,
-      columnNumber: 17
-    }, undefined),
-    children: [isLoading && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_loading_LoadingOverlay__WEBPACK_IMPORTED_MODULE_13__["default"], {}, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 176,
       columnNumber: 27
-    }, undefined), !isSiteOriginSafe && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_CollapsableWarning__WEBPACK_IMPORTED_MODULE_25__["default"], {
+    }, undefined), !isSiteOriginSafe && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_CollapsableWarning__WEBPACK_IMPORTED_MODULE_24__["default"], {
       dialog: {
         title: "Warning: Suspicious URL",
-        message: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
-          children: ["The DApp URL you are connecting to seems malicious. Make sure", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("a", {
+        message: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
+          children: ["The DApp URL you are connecting to seems malicious. Make sure", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("a", {
             className: "underline text-blue-600 hover:text-blue-800",
-            href: _util_constants__WEBPACK_IMPORTED_MODULE_23__["LINKS"].ARTICLES.MALICIOUS_DAPPS,
+            href: _util_constants__WEBPACK_IMPORTED_MODULE_22__["LINKS"].ARTICLES.MALICIOUS_DAPPS,
             target: "_blank",
             rel: "noreferrer",
             children: "you know and trust this decentralized application"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 185,
+            lineNumber: 176,
             columnNumber: 33
           }, undefined), " ", "before connecting your wallet. Failure to do so may result in loss of funds."]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 182,
+          lineNumber: 173,
           columnNumber: 29
         }, undefined)
       },
       isCollapsedByDefault: true,
-      collapsedMessage: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+      collapsedMessage: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
         className: "text-center  bg-yellow-200 hover:bg-yellow-100 opacity-90  w-full p-2 space-x-2 flex tems-center font-bold justify-center",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_14__["AiOutlineWarning"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_13__["AiOutlineWarning"], {
           className: "w-4 h-4 yellow-300"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 202,
+          lineNumber: 193,
           columnNumber: 29
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
           className: "text-xs text-yellow-900",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
             className: "font-bold",
             children: "This DApp URL seems malicious."
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 204,
+            lineNumber: 195,
             columnNumber: 33
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 203,
+          lineNumber: 194,
           columnNumber: 29
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 201,
+        lineNumber: 192,
         columnNumber: 25
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 169,
       columnNumber: 17
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_21__["default"], {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_20__["default"], {
       status: status,
       open: isOpen,
       titles: {
@@ -35825,95 +35060,91 @@ const ConnectSteps = _ref => {
         });
         postProcess();
       },
-      timeout: _util_constants__WEBPACK_IMPORTED_MODULE_23__["DAPP_FEEDBACK_WINDOW_TIMEOUT"],
+      timeout: _util_constants__WEBPACK_IMPORTED_MODULE_22__["DAPP_FEEDBACK_WINDOW_TIMEOUT"],
       hideButton: true
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 203,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
       className: "overflow-auto hide-scroll",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
         className: "flex flex-col items-center w-full p-6 space-y-3",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_icons_AppIcon__WEBPACK_IMPORTED_MODULE_9__["default"], {
-          iconURL: site.siteMetadata.iconURL || _assets_images_icons_connect_dapp_svg__WEBPACK_IMPORTED_MODULE_6__["default"],
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_icons_AppIcon__WEBPACK_IMPORTED_MODULE_8__["default"], {
+          iconURL: site.siteMetadata.iconURL || _assets_images_icons_connect_dapp_svg__WEBPACK_IMPORTED_MODULE_5__["default"],
           size: 14,
           background: false
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 237,
+          lineNumber: 228,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
           className: "w-max max-w-full group relative",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("p", {
-            className: "text-center text-sm text-gray-800 whitespace-pre-wrap max-w-full truncate",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("p", {
+            className: "text-center text-sm text-white whitespace-pre-wrap max-w-full truncate",
             children: site.origin
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 243,
+            lineNumber: 234,
             columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_label_GenericTooltip__WEBPACK_IMPORTED_MODULE_24__["default"], {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_label_GenericTooltip__WEBPACK_IMPORTED_MODULE_23__["default"], {
             bottom: true,
             className: "p-2 break-all max-w-[310px]",
-            content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
-              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("p", {
-                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
+            content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("p", {
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
                   className: "font-bold",
                   children: "Origin:"
                 }, void 0, false, {
                   fileName: _jsxFileName,
-                  lineNumber: 252,
+                  lineNumber: 243,
                   columnNumber: 41
-                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("br", {}, void 0, false, {
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("br", {}, void 0, false, {
                   fileName: _jsxFileName,
-                  lineNumber: 255,
+                  lineNumber: 246,
                   columnNumber: 41
-                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
+                }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
                   "data-testid": "transaction-origin",
                   children: site.origin
                 }, void 0, false, {
                   fileName: _jsxFileName,
-                  lineNumber: 256,
+                  lineNumber: 247,
                   columnNumber: 41
                 }, undefined)]
               }, void 0, true, {
                 fileName: _jsxFileName,
-                lineNumber: 251,
+                lineNumber: 242,
                 columnNumber: 37
               }, undefined)
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 250,
+              lineNumber: 241,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 246,
+            lineNumber: 237,
             columnNumber: 25
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 242,
+          lineNumber: 233,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
-          className: "text-xs text-gray-600",
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
+          className: "text-xs text-txt-settings",
           children: "Only connect with sites you trust."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 265,
+          lineNumber: 256,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 236,
+        lineNumber: 227,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_Divider__WEBPACK_IMPORTED_MODULE_5__["default"], {}, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 269,
-        columnNumber: 17
-      }, undefined), step === 1 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+      }, undefined), step === 1 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
         className: "flex flex-col p-6 space-y-5",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_account_AccountSearchBar__WEBPACK_IMPORTED_MODULE_19__["default"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_account_AccountSearchBar__WEBPACK_IMPORTED_MODULE_18__["default"], {
           setIsSearching: isSearching => {
             if (!isSearching) {
               onChangeSearch("");
@@ -35922,13 +35153,13 @@ const ConnectSteps = _ref => {
           onChange: onChangeSearch
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 272,
+          lineNumber: 262,
           columnNumber: 25
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
           className: "flex flex-row items-center justify-start w-full text-sm space-x-4 cursor-pointer",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("input", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("input", {
             type: "checkbox",
-            className: _styles_classes__WEBPACK_IMPORTED_MODULE_4__["Classes"].checkboxAlt,
+            className: _styles_classes__WEBPACK_IMPORTED_MODULE_4__["Classes"].checkbox,
             checked: checkAll,
             onClick: () => {
               !checkAll ? setSelectedAccounts(filteredAccounts) : setSelectedAccounts([]);
@@ -35939,85 +35170,99 @@ const ConnectSteps = _ref => {
             id: "selectAll"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 281,
+            lineNumber: 271,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("label", {
-            className: "text-gray-600 cursor-pointer",
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("label", {
+            className: "text-txt-settings cursor-pointer",
             htmlFor: "selectAll",
             children: "Please select accounts:"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 295,
+            lineNumber: 285,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 280,
+          lineNumber: 270,
           columnNumber: 25
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
-          className: "flex flex-col space-y-3 text-sm text-gray-600",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])(_components_account_AccountMultipleSelect__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
+          className: "flex flex-col space-y-3 text-sm text-txt-settings",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_account_AccountMultipleSelect__WEBPACK_IMPORTED_MODULE_7__["default"], {
             accounts: filteredAccounts,
             selectedAccount: account,
             value: selectedAccounts,
             onChange: setSelectedAccounts
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 303,
+            lineNumber: 293,
             columnNumber: 29
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 302,
+          lineNumber: 292,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 271,
+        lineNumber: 261,
         columnNumber: 21
-      }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
+      }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
         className: "flex flex-col p-6 space-y-6",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("span", {
-          className: "text-sm text-gray-600",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("span", {
+          className: "text-sm text-txt-settings",
           children: "Allow this site to:"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 313,
+          lineNumber: 303,
           columnNumber: 25
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("div", {
-          className: "flex flex-row items-center space-x-4 text-sm text-gray-600 cursor-pointer",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("input", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("div", {
+          className: "flex flex-row items-center space-x-4 text-sm text-txt-settings cursor-pointer",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("input", {
             type: "checkbox",
-            className: _styles_classes__WEBPACK_IMPORTED_MODULE_4__["Classes"].checkboxAlt,
+            className: _styles_classes__WEBPACK_IMPORTED_MODULE_4__["Classes"].checkbox,
             checked: allowSite,
             onChange: () => setAllowSite(!allowSite),
             id: "allowCheck"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 317,
+            lineNumber: 307,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_27__["jsxDEV"])("label", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])("label", {
             className: "cursor-pointer",
             htmlFor: "allowCheck",
             children: "View the addresses of your permitted accounts (required)"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 324,
+            lineNumber: 314,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 316,
+          lineNumber: 306,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 312,
+        lineNumber: 302,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 235,
+      lineNumber: 226,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_17__["ButtonWithLoading"], {
+        label: step === 1 ? "Next" : "Connect",
+        disabled: !nextEnabled,
+        onClick: next
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 326,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 325,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -37210,7 +36455,7 @@ const ApproveAsset = _ref => {
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_47__["jsxDEV"])("div", {
         className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_19__["classnames"])("absolute mr-6 right-0 top-6", isCustomSelected ? "hidden" : "visible"),
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_47__["jsxDEV"])(_components_icons_MiniCheckmark__WEBPACK_IMPORTED_MODULE_7__["default"], {
-          fill: "#1673FF"
+          fill: "#00FFA3"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 513,
@@ -37254,7 +36499,7 @@ const ApproveAsset = _ref => {
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_47__["jsxDEV"])("div", {
         className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_19__["classnames"])("absolute mr-6 right-0 top-6", isCustomSelected ? "visible" : "hidden"),
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_47__["jsxDEV"])(_components_icons_MiniCheckmark__WEBPACK_IMPORTED_MODULE_7__["default"], {
-          fill: "#1673FF"
+          fill: "#00FFA3"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 549,
@@ -41485,9 +40730,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles */ "./src/styles/index.ts");
 /* harmony import */ var _components_label_Tooltip__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/label/Tooltip */ "./src/components/label/Tooltip.tsx");
-/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-icons/ai */ "./node_modules/react-icons/ai/index.esm.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_exzo_images_images_back_icon_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/exzo-images/images/back_icon.png */ "./src/assets/exzo-images/images/back_icon.png");
+/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-icons/ai */ "./node_modules/react-icons/ai/index.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\hardware-wallet\\ConnectDeviceStepsLayout.tsx";
 
 
@@ -41511,79 +40757,101 @@ const ConnectDeviceStepsLayout = _ref => {
     subtitle
   } = _ref;
   const history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["useHistory"])();
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_SetupLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_SetupLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: title,
     subtitle: subtitle,
-    buttons: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_0__["ButtonWithLoading"], {
-        label: "Cancel",
-        buttonClass: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_styles__WEBPACK_IMPORTED_MODULE_6__["Classes"].liteButton, "h-14"),
-        disabled: isLoading,
-        onClick: onCancel ? onCancel : () => history.push("/hardware-wallet")
+    backClick: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["Link"], {
+      to: {
+        pathname: "/hardware-wallet"
+      },
+      className: "absolute left-4 top-4 px-6 py-2 flex justify-center items-center hover:border-border-300 hover:border-2 rounded-sm",
+      draggable: false,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("img", {
+        className: "w-6 h-4",
+        src: _assets_exzo_images_images_back_icon_png__WEBPACK_IMPORTED_MODULE_8__["default"]
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 36,
-        columnNumber: 21
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_0__["ButtonWithLoading"], {
-        label: "Continue",
-        buttonClass: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_styles__WEBPACK_IMPORTED_MODULE_6__["Classes"].button, "h-14"),
-        isLoading: isLoading,
-        onClick: onConnect
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 21
-      }, undefined)]
-    }, void 0, true),
-    children: [isLoading && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_loading_LoadingOverlay__WEBPACK_IMPORTED_MODULE_4__["default"], {}, void 0, false, {
+        lineNumber: 42,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 35,
+      columnNumber: 24
+    }, undefined),
+    buttons:
+    /*#__PURE__*/
+    // <>
+    //     <ButtonWithLoading
+    //         label="Cancel"
+    //         buttonClass={classnames(Classes.backButton, "h-14")}
+    //         disabled={isLoading}
+    //         onClick={
+    //             onCancel
+    //                 ? onCancel
+    //                 : () => history.push("/hardware-wallet")
+    //         }
+    //     />
+    Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_0__["ButtonWithLoading"], {
+      label: "Continue",
+      buttonClass: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_styles__WEBPACK_IMPORTED_MODULE_6__["Classes"].button, "h-14"),
+      isLoading: isLoading,
+      onClick: onConnect
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 21
+    }, undefined) // </>
+    ,
+    children: [isLoading && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_loading_LoadingOverlay__WEBPACK_IMPORTED_MODULE_4__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 66,
       columnNumber: 27
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
       className: "w-full p-8 space-y-4",
-      children: steps.map((step, index) => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      children: steps.map((step, index) => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
         className: "flex flex-row items-center space-x-2",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_Step__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_Step__WEBPACK_IMPORTED_MODULE_3__["default"], {
           step: index + 1,
           text: step.label
         }, index, false, {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 70,
           columnNumber: 25
-        }, undefined), step.info && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        }, undefined), step.info && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
           className: "group relative",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_8__["AiFillInfoCircle"], {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(react_icons_ai__WEBPACK_IMPORTED_MODULE_9__["AiFillInfoCircle"], {
             size: 26,
             className: "pl-2 text-primary-200 cursor-pointer hover:text-primary-300"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 63,
+            lineNumber: 73,
             columnNumber: 33
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_7__["default"], {
             content: step.info
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 67,
+            lineNumber: 77,
             columnNumber: 33
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 72,
           columnNumber: 29
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 69,
         columnNumber: 21
       }, undefined))
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 67,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 31,
+    lineNumber: 32,
     columnNumber: 9
   }, undefined);
 };
@@ -42067,64 +41335,64 @@ const HardwareWalletSetupLayout = _ref => {
     children,
     title,
     subtitle,
-    buttons
+    buttons,
+    backClick
   } = _ref;
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_components_PageLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     header: true,
-    style: {
-      maxWidth: "500px"
-    },
+    backClick: backClick,
+    step: 6,
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_components_dialog_IsLockedDialog__WEBPACK_IMPORTED_MODULE_0__["default"], {}, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 9
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
-      className: "my-8 text-2xl font-bold font-title",
+      className: "my-8 text-2xl font-bold font-title text-white",
       children: title
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 9
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_components_Divider__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 9
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
       className: "pt-8 px-8 flex w-full",
       children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
-        className: " px-6 text-base leading-relaxed text-center text-gray-600 w-full",
+        className: " px-6 text-base leading-relaxed text-center text-txt-settings w-full",
         children: subtitle
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 13
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 9
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
       className: "flex flex-col w-full",
       children: children
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 29,
       columnNumber: 9
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_components_Divider__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 30,
       columnNumber: 9
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
       className: "p-8 w-full flex space-x-5",
       children: buttons
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 9
     }, undefined)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 20,
     columnNumber: 5
   }, undefined);
 };
@@ -42174,7 +41442,7 @@ const Step = _ref => {
       lineNumber: 21,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("span", {
-      className: "font-semibold",
+      className: "font-semibold text-txt-settings",
       children: text
     }, void 0, false, {
       fileName: _jsxFileName,
@@ -42421,7 +41689,7 @@ const HardwareWalletVendorsPage = () => {
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("button", {
           type: "button",
           onClick: () => setSelectedVendor(_context_commTypes__WEBPACK_IMPORTED_MODULE_3__["Devices"].LEDGER),
-          className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("bg-white rounded-md p-4 w-1/2 flex flex-col items-center justify-center space-y-3 cursor-pointer border hover:border-primary-300", selectedVendor === _context_commTypes__WEBPACK_IMPORTED_MODULE_3__["Devices"].LEDGER ? "border-primary-300" : "border-primary-100"),
+          className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("bg-white rounded-md p-4 w-1/2 flex flex-col items-center justify-center space-y-3 cursor-pointer border-2 hover:border-primary-300", selectedVendor === _context_commTypes__WEBPACK_IMPORTED_MODULE_3__["Devices"].LEDGER ? "border-primary-300" : "border-primary-100"),
           style: {
             height: "120px"
           },
@@ -42468,7 +41736,7 @@ const HardwareWalletVendorsPage = () => {
         lineNumber: 76,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-        className: "w-full flex flex-col p-8 space-y-5",
+        className: "w-full flex flex-col p-8 space-y-5 text-white",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(ExternalLink, {
           href: "https://help.blockwallet.io/hc/en-us/articles/6670564432657-How-do-Hardware-Wallets-Work-",
           title: "How do Hardware Wallets work?"
@@ -42937,22 +42205,6 @@ const NetworkFormPage = _ref => {
       lineNumber: 332,
       columnNumber: 17
     }, undefined),
-    footer: editMode !== "disabled" && !editingSelectedNetwork ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_6__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_4__["ButtonWithLoading"], {
-        label: "Save",
-        type: "submit",
-        disabled: !canSubmitForm,
-        onClick: onSave
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 363,
-        columnNumber: 25
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 362,
-      columnNumber: 21
-    }, undefined) : null,
     children: [!isNativelySupported && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_CollapsableWarning__WEBPACK_IMPORTED_MODULE_22__["default"], {
       dialog: {
         title: "Warning",
@@ -42965,12 +42217,12 @@ const NetworkFormPage = _ref => {
             children: "the potential risks adding a custom network may pose"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 381,
+            lineNumber: 369,
             columnNumber: 33
           }, undefined), "."]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 378,
+          lineNumber: 366,
           columnNumber: 29
         }, undefined)
       },
@@ -42981,7 +42233,7 @@ const NetworkFormPage = _ref => {
           className: "w-4 h-4 yellow-300"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 397,
+          lineNumber: 385,
           columnNumber: 29
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])("span", {
           className: "text-xs text-yellow-900",
@@ -42990,22 +42242,22 @@ const NetworkFormPage = _ref => {
             children: "ExzoWallet does not verify custom networks."
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 399,
+            lineNumber: 387,
             columnNumber: 33
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 398,
+          lineNumber: 386,
           columnNumber: 29
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 396,
+        lineNumber: 384,
         columnNumber: 25
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 374,
+      lineNumber: 362,
       columnNumber: 17
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_10__["default"], {
       open: !addNetworkInvoke.isIdle,
@@ -43030,7 +42282,7 @@ const NetworkFormPage = _ref => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 407,
+      lineNumber: 395,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_10__["default"], {
       open: !removeNetworkInvoke.isIdle,
@@ -43055,7 +42307,7 @@ const NetworkFormPage = _ref => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 438,
+      lineNumber: 426,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_dialog_ConfirmDialog__WEBPACK_IMPORTED_MODULE_20__["default"], {
       title: "Delete Network",
@@ -43068,7 +42320,7 @@ const NetworkFormPage = _ref => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 469,
+      lineNumber: 457,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])("div", {
       className: "flex flex-col w-full justify-between flex-1 h-full",
@@ -43085,15 +42337,16 @@ const NetworkFormPage = _ref => {
             autoFocus: true,
             maxLength: 40,
             defaultValue: network === null || network === void 0 ? void 0 : network.name,
-            readOnly: editMode === "disabled" || editingSelectedNetwork
+            readOnly: editMode === "disabled" || editingSelectedNetwork,
+            className: "bg-component-input-bg"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 482,
+            lineNumber: 470,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 481,
+          lineNumber: 469,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__["default"], {
           appearance: "outline",
@@ -43111,12 +42364,13 @@ const NetworkFormPage = _ref => {
             rpcValidation: rpcValidationStatus
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 513,
+            lineNumber: 502,
             columnNumber: 29
-          }, undefined)
+          }, undefined),
+          className: "bg-component-input-bg"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 501,
+          lineNumber: 490,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__["default"], {
           appearance: "outline",
@@ -43135,19 +42389,20 @@ const NetworkFormPage = _ref => {
               children: "0x"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 540,
+              lineNumber: 530,
               columnNumber: 33
             }, undefined), " prefixed hexadecimal number."]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 535,
+            lineNumber: 525,
             columnNumber: 29
           }, undefined),
           defaultValue: network === null || network === void 0 ? void 0 : network.chainId,
-          readOnly: editMode !== "all"
+          readOnly: editMode !== "all",
+          className: "bg-component-input-bg"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 521,
+          lineNumber: 511,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__["default"], {
           appearance: "outline",
@@ -43158,10 +42413,11 @@ const NetworkFormPage = _ref => {
           warning: invalidCurrencySymbolWarn ? `Chain ${watchChainId} uses ${(_chainDetailsRef$curr2 = chainDetailsRef.current) === null || _chainDetailsRef$curr2 === void 0 ? void 0 : _chainDetailsRef$curr2.nativeCurrency.symbol} as currency symbol.` : undefined,
           autoFocus: true,
           defaultValue: network === null || network === void 0 ? void 0 : network.symbol,
-          readOnly: editMode !== "all"
+          readOnly: editMode !== "all",
+          className: "bg-component-input-bg"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 547,
+          lineNumber: 538,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__["default"], {
           appearance: "outline",
@@ -43171,10 +42427,11 @@ const NetworkFormPage = _ref => {
           error: (_errors$blockExplorer = errors.blockExplorerUrl) === null || _errors$blockExplorer === void 0 ? void 0 : _errors$blockExplorer.message,
           autoFocus: true,
           defaultValue: network === null || network === void 0 ? void 0 : network.blockExplorerUrl,
-          readOnly: editMode === "disabled" || editingSelectedNetwork
+          readOnly: editMode === "disabled" || editingSelectedNetwork,
+          className: "bg-component-input-bg"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 562,
+          lineNumber: 554,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_13__["default"], {
           label: "Testnet",
@@ -43187,7 +42444,7 @@ const NetworkFormPage = _ref => {
           disabled: isNativelySupported
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 574,
+          lineNumber: 567,
           columnNumber: 21
         }, undefined), networkAlreadyExistError && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_ui_Alert__WEBPACK_IMPORTED_MODULE_18__["default"], {
           type: "error",
@@ -43196,19 +42453,19 @@ const NetworkFormPage = _ref => {
             children: "Error: "
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 586,
+            lineNumber: 579,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])("span", {
             className: "font-medium",
             children: "The network you're trying to add already exists. Try editing the existing network instead."
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 587,
+            lineNumber: 580,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 585,
+          lineNumber: 578,
           columnNumber: 25
         }, undefined), editingSelectedNetwork && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_ui_Alert__WEBPACK_IMPORTED_MODULE_18__["default"], {
           type: "warn",
@@ -43217,24 +42474,39 @@ const NetworkFormPage = _ref => {
             children: "You can't edit this network while it is selected."
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 595,
+            lineNumber: 588,
             columnNumber: 29
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 594,
+          lineNumber: 587,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 480,
+        lineNumber: 468,
         columnNumber: 17
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 479,
+      lineNumber: 467,
       columnNumber: 13
-    }, undefined)]
+    }, undefined), editMode !== "disabled" && !editingSelectedNetwork ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_25__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_4__["ButtonWithLoading"], {
+        label: "Save",
+        type: "submit",
+        disabled: !canSubmitForm,
+        onClick: onSave
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 599,
+        columnNumber: 29
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 598,
+      columnNumber: 25
+    }, undefined) : null]
   }, void 0, true, {
     fileName: _jsxFileName,
     lineNumber: 326,
@@ -43396,7 +42668,7 @@ const NetworksPage = () => {
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
           className: "flex flex-col space-y-2",
           children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
-            className: "text-xs text-gray-500",
+            className: "text-xs text-white",
             children: "MAINNET"
           }, void 0, false, {
             fileName: _jsxFileName,
@@ -43420,7 +42692,7 @@ const NetworksPage = () => {
             lineNumber: 152,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
-            className: "text-xs text-gray-500 mt-4",
+            className: "text-xs text-white mt-4",
             children: "TESTNET"
           }, void 0, false, {
             fileName: _jsxFileName,
@@ -43485,23 +42757,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
 /* harmony import */ var _components_chain_ChainDisplay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/chain/ChainDisplay */ "./src/components/chain/ChainDisplay.tsx");
 /* harmony import */ var _components_input_SearchInput__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/input/SearchInput */ "./src/components/input/SearchInput.tsx");
-/* harmony import */ var _components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/popup/PopupFooter */ "./src/components/popup/PopupFooter.tsx");
-/* harmony import */ var _components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
-/* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
-/* harmony import */ var _components_spinner_Spinner__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/spinner/Spinner */ "./src/components/spinner/Spinner.tsx");
-/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
-/* harmony import */ var _util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../util/hooks/useAsyncInvoke */ "./src/util/hooks/useAsyncInvoke.ts");
-/* harmony import */ var _assets_images_icons_search_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/images/icons/search.svg */ "./src/assets/images/icons/search.svg");
-/* harmony import */ var _components_button_ClickableText__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../components/button/ClickableText */ "./src/components/button/ClickableText.tsx");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
-/* harmony import */ var _components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../components/chain/ChainFiltersButton */ "./src/components/chain/ChainFiltersButton.tsx");
-/* harmony import */ var _components_ui_EmptyState__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../components/ui/EmptyState */ "./src/components/ui/EmptyState.tsx");
-/* harmony import */ var _util_networkUtils__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../util/networkUtils */ "./src/util/networkUtils.ts");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
+/* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
+/* harmony import */ var _components_spinner_Spinner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/spinner/Spinner */ "./src/components/spinner/Spinner.tsx");
+/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
+/* harmony import */ var _util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../util/hooks/useAsyncInvoke */ "./src/util/hooks/useAsyncInvoke.ts");
+/* harmony import */ var _assets_images_icons_search_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/images/icons/search.svg */ "./src/assets/images/icons/search.svg");
+/* harmony import */ var _components_button_ClickableText__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/button/ClickableText */ "./src/components/button/ClickableText.tsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
+/* harmony import */ var _components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/chain/ChainFiltersButton */ "./src/components/chain/ChainFiltersButton.tsx");
+/* harmony import */ var _components_ui_EmptyState__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../components/ui/EmptyState */ "./src/components/ui/EmptyState.tsx");
+/* harmony import */ var _util_networkUtils__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../util/networkUtils */ "./src/util/networkUtils.ts");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\networks\\SearchNetworkPage.tsx";
-
 
 
 
@@ -43522,11 +42792,11 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\netw
 
 const SearchNetworkPage = () => {
   const [filters, setFilters] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
-  const history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["useHistory"])();
+  const history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_11__["useHistory"])();
   const hintRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
   const {
     availableNetworks
-  } = Object(_context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_13__["useBlankState"])();
+  } = Object(_context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_12__["useBlankState"])();
   const [pickedChain, setPickedChain] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null);
   const {
     run,
@@ -43535,7 +42805,7 @@ const SearchNetworkPage = () => {
     reset,
     isIdle,
     isSuccess
-  } = Object(_util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_9__["default"])({
+  } = Object(_util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_8__["default"])({
     data: []
   });
 
@@ -43547,7 +42817,7 @@ const SearchNetworkPage = () => {
     } //If the value can be parsed as int, means that the value is either a number or an hex string.
 
 
-    const valueAsNumber = Object(_util_networkUtils__WEBPACK_IMPORTED_MODULE_16__["parseChainId"])(value);
+    const valueAsNumber = Object(_util_networkUtils__WEBPACK_IMPORTED_MODULE_15__["parseChainId"])(value);
 
     if (valueAsNumber && !isNaN(valueAsNumber)) {
       value = valueAsNumber.toString();
@@ -43560,7 +42830,7 @@ const SearchNetworkPage = () => {
       return;
     }
 
-    run(Object(_context_commActions__WEBPACK_IMPORTED_MODULE_8__["searchChainsByTerm"])(value));
+    run(Object(_context_commActions__WEBPACK_IMPORTED_MODULE_7__["searchChainsByTerm"])(value));
   };
 
   const addOrEditNetwork = () => {
@@ -43593,11 +42863,11 @@ const SearchNetworkPage = () => {
   };
 
   const filterChains = chainData => {
-    if (!filters.includes(_components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_14__["ChainFilters"].ENABLED) && chainData.isEnabled) {
+    if (!filters.includes(_components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_13__["ChainFilters"].ENABLED) && chainData.isEnabled) {
       return false;
     }
 
-    if (!filters.includes(_components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_14__["ChainFilters"].TESTNET) && chainData.chain.isTestnet) {
+    if (!filters.includes(_components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_13__["ChainFilters"].TESTNET) && chainData.chain.isTestnet) {
       return false;
     }
 
@@ -43605,8 +42875,8 @@ const SearchNetworkPage = () => {
   };
 
   const filteredChains = (data || []).filter(filterChains);
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_4__["default"], {
       title: "Search Networks",
       close: "/"
     }, void 0, false, {
@@ -43614,28 +42884,13 @@ const SearchNetworkPage = () => {
       lineNumber: 109,
       columnNumber: 21
     }, undefined),
-    footer: pickedChain ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_1__["ButtonWithLoading"], {
-        type: "button",
-        label: pickedChain.isEnabled ? "Edit Network" : "Add Network",
-        onClick: addOrEditNetwork
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 113,
-        columnNumber: 25
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 112,
-      columnNumber: 21
-    }, undefined) : null,
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
-      className: "w-76 w-full p-6 pb-4 bg-white fixed z-20 flex flex-col",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+      className: "w-76 w-full p-6 pb-4 fixed z-20 flex flex-col",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
         className: "flex flex-row space-x-2",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
           className: "flex-1",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_SearchInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_input_SearchInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
             inputClassName: "!h-12",
             placeholder: "Input Chain ID or Name...",
             disabled: false,
@@ -43644,113 +42899,113 @@ const SearchNetworkPage = () => {
             debounced: true
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 129,
+            lineNumber: 114,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 113,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_chain_ChainFiltersButton__WEBPACK_IMPORTED_MODULE_13__["default"], {
           filters: filters,
           onChangeFilters: setFilters
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 138,
+          lineNumber: 123,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 127,
+        lineNumber: 112,
         columnNumber: 17
-      }, undefined), isSuccess && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("span", {
-        className: "text-xs mt-2",
-        children: ["Network not found?", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_button_ClickableText__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      }, undefined), isSuccess && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("span", {
+        className: "text-xs mt-2 text-txt-settings",
+        children: ["Network not found?", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_button_ClickableText__WEBPACK_IMPORTED_MODULE_10__["default"], {
           onClick: manuallyAddNetwork,
           children: "Add it manually."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 131,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 144,
+        lineNumber: 129,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 111,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
       className: "flex flex-col h-full w-full p-6",
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
         className: "w-full mt-20 h-full",
-        children: [isIdle && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+        children: [isIdle && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
           className: "flex flex-col items-center justify-start flex-1 h-full p-6",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
             className: "flex justify-center items-center relative mb-6",
-            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("img", {
-              src: _assets_images_icons_search_svg__WEBPACK_IMPORTED_MODULE_10__["default"],
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("img", {
+              src: _assets_images_icons_search_svg__WEBPACK_IMPORTED_MODULE_9__["default"],
               alt: "search",
               className: "w-7 h-7 absolute z-10"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 157,
+              lineNumber: 142,
               columnNumber: 33
-            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
-              className: "w-20 h-20 bg-primary-100 rounded-full relative z-0"
+            }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+              className: "w-20 h-20 bg-component-btn-200 bg-opacity-[8%] rounded-full relative z-0"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 162,
+              lineNumber: 147,
               columnNumber: 33
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 156,
+            lineNumber: 141,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("span", {
-            className: "text-sm text-gray-600 text-center",
-            children: ["Search the networks you want to add by name or chain identification. Or add", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_button_ClickableText__WEBPACK_IMPORTED_MODULE_11__["default"], {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("span", {
+            className: "text-sm text-txt-settings text-center",
+            children: ["Search the networks you want to add by name or chain identification. Or add", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_button_ClickableText__WEBPACK_IMPORTED_MODULE_10__["default"], {
               onClick: manuallyAddNetwork,
               children: "add it manually."
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 167,
+              lineNumber: 152,
               columnNumber: 33
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 164,
+            lineNumber: 149,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 155,
+          lineNumber: 140,
           columnNumber: 25
-        }, undefined), isLoading && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+        }, undefined), isLoading && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
           className: "w-full h-full flex justify-center items-center",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_spinner_Spinner__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_spinner_Spinner__WEBPACK_IMPORTED_MODULE_6__["default"], {
             size: "24px"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 175,
+            lineNumber: 160,
             columnNumber: 29
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 174,
+          lineNumber: 159,
           columnNumber: 25
-        }, undefined), isSuccess && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+        }, undefined), isSuccess && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
           className: "flex flex-col space-y-1 pb-4 h-full",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
-            className: "text-xs text-gray-500 pt-2 pb-1",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+            className: "text-xs text-txt-settings pt-2 pb-1",
             children: "SEARCH NETWORKS"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 180,
+            lineNumber: 165,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
             className: "flex flex-col overflow-y-auto h-50",
             children: filteredChains && filteredChains.length ? filteredChains.map(_ref => {
               var _pickedChain$chain;
@@ -43759,7 +43014,7 @@ const SearchNetworkPage = () => {
                 chain,
                 isEnabled
               } = _ref;
-              return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_chain_ChainDisplay__WEBPACK_IMPORTED_MODULE_2__["default"], {
+              return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_chain_ChainDisplay__WEBPACK_IMPORTED_MODULE_2__["default"], {
                 chainId: chain.chainId,
                 name: chain.name,
                 logoUrl: chain.logo,
@@ -43772,51 +43027,69 @@ const SearchNetworkPage = () => {
                 })
               }, chain.chainId, false, {
                 fileName: _jsxFileName,
-                lineNumber: 188,
+                lineNumber: 173,
                 columnNumber: 49
               }, undefined);
-            }) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_ui_EmptyState__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            }) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_ui_EmptyState__WEBPACK_IMPORTED_MODULE_14__["default"], {
               title: "No results",
               className: "p-6",
-              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("span", {
-                children: ["The network you are searching for is unknown to ExzoWallet. Try to adjusting your search term or filters, or", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_button_ClickableText__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("span", {
+                children: ["The network you are searching for is unknown to ExzoWallet. Try to adjusting your search term or filters, or", " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_button_ClickableText__WEBPACK_IMPORTED_MODULE_10__["default"], {
                   onClick: manuallyAddNetwork,
                   children: "add it manually."
                 }, void 0, false, {
                   fileName: _jsxFileName,
-                  lineNumber: 220,
+                  lineNumber: 205,
                   columnNumber: 45
                 }, undefined)]
               }, void 0, true, {
                 fileName: _jsxFileName,
-                lineNumber: 215,
+                lineNumber: 200,
                 columnNumber: 41
               }, undefined)
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 211,
+              lineNumber: 196,
               columnNumber: 37
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 183,
+            lineNumber: 168,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 179,
+          lineNumber: 164,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 153,
+        lineNumber: 138,
         columnNumber: 17
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 137,
       columnNumber: 13
-    }, undefined)]
+    }, undefined), pickedChain ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+      className: "flex flex-row w-full items-center fixed bottom-12 space-x-4 py-5 pt-0 px-6",
+      style: {
+        background: "#191919"
+      },
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_1__["ButtonWithLoading"], {
+        type: "button",
+        label: pickedChain.isEnabled ? "Edit Network" : "Add Network",
+        onClick: addOrEditNetwork
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 221,
+        columnNumber: 25
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 220,
+      columnNumber: 21
+    }, undefined) : null]
   }, void 0, true, {
     fileName: _jsxFileName,
     lineNumber: 108,
@@ -43958,22 +43231,6 @@ const DefaultGasPreferencesPage = () => {
       lineNumber: 44,
       columnNumber: 17
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_7__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_3__["ButtonWithLoading"], {
-        label: "Save",
-        isLoading: isLoading,
-        disabled: defaultGasOption === selectedOption,
-        onClick: onSave
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 17
-    }, undefined),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_4__["default"], {
       open: showSuccessDialog,
       title: "Default Gas Option",
@@ -43982,21 +43239,21 @@ const DefaultGasPreferencesPage = () => {
       onDone: history.goBack
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 47,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-      className: "flex flex-col p-6 space-y-4 w-full",
+      className: "flex flex-col p-6 pb-0 space-y-4 w-full",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "Set your preferred gas setting for all future transactions."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 65,
+        lineNumber: 55,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
         className: "flex flex-col w-full space-y-4",
         children: gasOptions.map(option => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("w-full flex flex-row p-4 justify-between cursor-pointer rounded-md hover:border-primary-300 hover:text-primary-300 border", selectedOption === option.name && "text-primary-300 border-primary-300"),
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()("w-full flex flex-row p-4 justify-between cursor-pointer rounded-md bg-container-100 hover:text-component-btn-200 text-txt-settings", selectedOption === option.name && "text-primary-300"),
           onClick: () => {
             setSelectedOption(option.name);
           },
@@ -44007,42 +43264,42 @@ const DefaultGasPreferencesPage = () => {
               children: option.name
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 84,
+              lineNumber: 74,
               columnNumber: 33
             }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
               className: "text-xs",
               children: option.desc
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 91,
+              lineNumber: 81,
               columnNumber: 33
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 83,
+            lineNumber: 73,
             columnNumber: 29
           }, undefined), selectedOption === option.name && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
             className: "h-full flex items-center",
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_icons_MiniCheckmark__WEBPACK_IMPORTED_MODULE_5__["default"], {
-              fill: "#1673FF"
+              fill: "#00FFA3"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 95,
+              lineNumber: 85,
               columnNumber: 37
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 94,
+            lineNumber: 84,
             columnNumber: 33
           }, undefined)]
         }, option.name, true, {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 60,
           columnNumber: 25
         }, undefined))
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 58,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
         className: "flex flex-row space-x-2 w-full ",
@@ -44050,17 +43307,32 @@ const DefaultGasPreferencesPage = () => {
           children: "This setting will apply on all transactions on all networks. You will still be able to change the gas amount before submitting your transactions."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 102,
+          lineNumber: 92,
           columnNumber: 21
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 101,
+        lineNumber: 91,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 54,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_3__["ButtonWithLoading"], {
+        label: "Save",
+        isLoading: isLoading,
+        disabled: defaultGasOption === selectedOption,
+        onClick: onSave
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 100,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 99,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -44090,13 +43362,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/button/ToggleButton */ "./src/components/button/ToggleButton.tsx");
 /* harmony import */ var _components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/dialog/SuccessDialog */ "./src/components/dialog/SuccessDialog.tsx");
 /* harmony import */ var _components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/popup/PopupFooter */ "./src/components/popup/PopupFooter.tsx");
-/* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
-/* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
-/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
-/* harmony import */ var _util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../util/hooks/useAsyncInvoke */ "./src/util/hooks/useAsyncInvoke.ts");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
+/* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
+/* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
+/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
+/* harmony import */ var _util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../util/hooks/useAsyncInvoke */ "./src/util/hooks/useAsyncInvoke.ts");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\preferences\\DefaultWalletPreferencesPage.tsx";
+
 
 
 
@@ -44117,23 +43391,23 @@ const DefaultWalletPreferencesPage = _ref => {
   } = _ref;
   const {
     settings
-  } = Object(_context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_7__["useBlankState"])();
+  } = Object(_context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_8__["useBlankState"])();
   const history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
   const {
     run,
     isSuccess,
     isError
-  } = Object(_util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_9__["default"])();
+  } = Object(_util_hooks_useAsyncInvoke__WEBPACK_IMPORTED_MODULE_10__["default"])();
   const [defaultBrowserWallet, setDefaultBrowserWallet] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(settings.defaultBrowserWallet);
   const wasDefaultBrowserWallet = settings.defaultBrowserWallet;
 
   const onSave = async () => {
-    run(Object(_context_commActions__WEBPACK_IMPORTED_MODULE_8__["toggleDefaultBrowserWallet"])(defaultBrowserWallet));
+    run(Object(_context_commActions__WEBPACK_IMPORTED_MODULE_9__["toggleDefaultBrowserWallet"])(defaultBrowserWallet));
   };
 
   const onNext = async () => {
     if (isDirty) {
-      run(Object(_context_commActions__WEBPACK_IMPORTED_MODULE_8__["toggleDefaultBrowserWallet"])(defaultBrowserWallet));
+      run(Object(_context_commActions__WEBPACK_IMPORTED_MODULE_9__["toggleDefaultBrowserWallet"])(defaultBrowserWallet));
     } else {
       dismissDefaultWalletPreferences();
     }
@@ -44144,44 +43418,37 @@ const DefaultWalletPreferencesPage = _ref => {
   }
 
   const isDirty = defaultBrowserWallet !== settings.defaultBrowserWallet;
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
-        label: isWelcome ? "Next" : "Save",
-        disabled: isWelcome ? false : !isDirty,
-        onClick: isWelcome ? onNext : onSave
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 21
-      }, undefined)
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      title: "Default Wallet",
+      close: "/"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 17
+      lineNumber: 50,
+      columnNumber: 21
     }, undefined),
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-      className: "flex flex-col p-6 pt-28 space-y-6 w-full",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
+      className: "flex flex-col p-6 space-y-6 w-full",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
         className: "text-sm text-white",
-        children: wasDefaultBrowserWallet ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
+        children: wasDefaultBrowserWallet ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
           children: "ExzoWallet is set as your default browser wallet."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 55,
           columnNumber: 25
-        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
+        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
           children: "ExzoWallet is not set as your default browser wallet."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 59,
           columnNumber: 25
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 53,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_4__["default"], {
         open: isSuccess,
         title: "Default Browser Wallet",
         timeout: 800,
@@ -44189,56 +43456,70 @@ const DefaultWalletPreferencesPage = _ref => {
         onDone: isWelcome ? dismissDefaultWalletPreferences : history.goBack
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 66,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
         label: "Default Browser Wallet",
         defaultChecked: defaultBrowserWallet,
         onToggle: setDefaultBrowserWallet
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 86,
+        lineNumber: 78,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
-        className: "text-sm text-white",
-        children: [wasDefaultBrowserWallet ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
+        className: "text-sm text-txt-settings",
+        children: [wasDefaultBrowserWallet ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
           children: "Turning this off will make ExzoWallet unable to connect to DApps in case you have more than one wallet installed in your browser. Turn it off if you want a different browser wallet to connect to the DApps you are visiting."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 25
+        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
+          children: "Turning this on will make ExzoWallet connect to DApps by default. Turn it on if you want to use ExzoWallet to connect to DApps, instead of other browser wallets."
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 94,
           columnNumber: 25
-        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-          children: "Turning this on will make ExzoWallet connect to DApps by default. Turn it on if you want to use ExzoWallet to connect to DApps, instead of other browser wallets."
-        }, void 0, false, {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 21
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("br", {}, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 102,
-          columnNumber: 25
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("br", {}, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 109,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("br", {}, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 110,
-          columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
           children: "You can change this setting at any time. Be aware that you need to refresh any DApp pages you might be on, for these changes to take affect."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 112,
+          lineNumber: 104,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 84,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 52,
       columnNumber: 13
-    }, undefined)
-  }, void 0, false, {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
+        label: isWelcome ? "Next" : "Save",
+        disabled: isWelcome ? false : !isDirty,
+        onClick: isWelcome ? onNext : onSave
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 112,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 111,
+      columnNumber: 13
+    }, undefined)]
+  }, void 0, true, {
     fileName: _jsxFileName,
     lineNumber: 49,
     columnNumber: 9
@@ -44322,22 +43603,6 @@ const LocalePreferencesPage = () => {
       lineNumber: 46,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
-        label: "Save",
-        isLoading: isLoading,
-        disabled: newCurrency === nativeCurrency,
-        onClick: onSave
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 17
-    }, undefined),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_3__["default"], {
       open: showSuccessDialog,
       title: "Locale Configuration",
@@ -44346,7 +43611,7 @@ const LocalePreferencesPage = () => {
       onDone: history.goBack
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 48,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
       className: "flex flex-col p-6 space-y-6 w-full",
@@ -44360,17 +43625,32 @@ const LocalePreferencesPage = () => {
           children: `${c.code.toUpperCase()} - ${c.name || c.code.toUpperCase()}`
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 64,
           columnNumber: 29
         }, undefined))
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 67,
+        lineNumber: 57,
         columnNumber: 21
       }, undefined) : null
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 55,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
+        label: "Save",
+        isLoading: isLoading,
+        disabled: newCurrency === nativeCurrency,
+        onClick: onSave
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 74,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 73,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -44484,22 +43764,6 @@ const PhishingProtectionPreferencesPage = () => {
       lineNumber: 62,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_9__["ButtonWithLoading"], {
-        label: "Save",
-        disabled: !isDirty,
-        onClick: onSave,
-        isLoading: isLoading
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 17
-    }, undefined),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_12__["default"], {
       open: showSuccessDialog,
       title: "Phishing Protection",
@@ -44508,16 +43772,16 @@ const PhishingProtectionPreferencesPage = () => {
       onDone: history.goBack
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 64,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
-      className: "flex flex-col p-6 space-y-6 w-full",
+      className: "flex flex-col px-6 pt-2 pb-0 space-y-6 w-full",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "The following image is uniquely created for you to prevent phishing attempts. Ensure this graphic is on every login/seed phrase page."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 82,
+        lineNumber: 72,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
         label: "Use Phishing Protection",
@@ -44527,7 +43791,7 @@ const PhishingProtectionPreferencesPage = () => {
         }
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 77,
         columnNumber: 17
       }, undefined), phishingEnabled && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["Fragment"], {
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
@@ -44536,12 +43800,12 @@ const PhishingProtectionPreferencesPage = () => {
             image: newPhishingImage
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 97,
+            lineNumber: 87,
             columnNumber: 29
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 86,
           columnNumber: 25
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_button_ButtonWithIcon__WEBPACK_IMPORTED_MODULE_1__["ButtonWithIcon"], {
           icon: _assets_images_icons_refresh_svg__WEBPACK_IMPORTED_MODULE_7__["default"],
@@ -44549,13 +43813,28 @@ const PhishingProtectionPreferencesPage = () => {
           onClick: refreshImage
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 99,
+          lineNumber: 89,
           columnNumber: 25
         }, undefined)]
       }, void 0, true)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 71,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_9__["ButtonWithLoading"], {
+        label: "Save",
+        disabled: !isDirty,
+        onClick: onSave,
+        isLoading: isLoading
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 98,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 97,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -44637,30 +43916,14 @@ const ReleaseNotesPreferencesPage = () => {
       lineNumber: 31,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
-        label: "Save",
-        disabled: !isDirty,
-        onClick: onSave,
-        isLoading: isLoading
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 17
-    }, undefined),
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
       className: "flex flex-col p-6 space-y-6 w-full",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "Be up-to-date with latest ExzoWallet news."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 34,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_4__["default"], {
         open: isSuccess,
@@ -44670,7 +43933,7 @@ const ReleaseNotesPreferencesPage = () => {
         onDone: history.goBack
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 37,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
         label: "Show Release Notes",
@@ -44678,15 +43941,30 @@ const ReleaseNotesPreferencesPage = () => {
         onToggle: setSubscribedToReleaseNotes
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 44,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 33,
       columnNumber: 13
-    }, undefined)
-  }, void 0, false, {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
+        label: "Save",
+        disabled: !isDirty,
+        onClick: onSave,
+        isLoading: isLoading
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 13
+    }, undefined)]
+  }, void 0, true, {
     fileName: _jsxFileName,
     lineNumber: 30,
     columnNumber: 9
@@ -44777,30 +44055,14 @@ const WarningsPreferencesPage = () => {
       lineNumber: 57,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
-        label: "Save",
-        disabled: Object(_util_objectUtils__WEBPACK_IMPORTED_MODULE_11__["deepEqual"])(warningsConfig, initialState.current),
-        onClick: onSave,
-        isLoading: isLoading
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 60,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 17
-    }, undefined),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
-      className: "flex flex-col p-6 space-y-6 w-full",
+      className: "flex flex-col p-6 pb-0 space-y-6 w-full",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "Warn me when my selected account address is different from transaction's address."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 73,
+        lineNumber: 60,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
         label: "Show Different Addresses Warning",
@@ -44810,18 +44072,18 @@ const WarningsPreferencesPage = () => {
         })
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 65,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("hr", {}, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 88,
+        lineNumber: 75,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "Warn me when a dApp suggests fees much lower/higher than recommended."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 76,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
         id: "gasWarning" //inputName="gasWarning"
@@ -44833,18 +44095,18 @@ const WarningsPreferencesPage = () => {
         })
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 93,
+        lineNumber: 80,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("hr", {}, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 107,
+        lineNumber: 94,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "Warn me when I haven't enough funds in the destination network of a bridge"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 108,
+        lineNumber: 95,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
         id: "bridgeNativeTokenWarning",
@@ -44855,12 +44117,12 @@ const WarningsPreferencesPage = () => {
         })
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 112,
+        lineNumber: 99,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 59,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_dialog_SuccessDialog__WEBPACK_IMPORTED_MODULE_4__["default"], {
       open: isSuccess,
@@ -44870,7 +44132,22 @@ const WarningsPreferencesPage = () => {
       onDone: history.goBack
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 112,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_2__["ButtonWithLoading"], {
+        label: "Save",
+        disabled: Object(_util_objectUtils__WEBPACK_IMPORTED_MODULE_11__["deepEqual"])(warningsConfig, initialState.current),
+        onClick: onSave,
+        isLoading: isLoading
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 120,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 119,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -46036,7 +45313,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_images_logo_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/logo.svg */ "./src/assets/images/logo.svg");
+/* harmony import */ var _assets_exzo_images_images_logo_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/exzo-images/images/logo.png */ "./src/assets/exzo-images/images/logo.png");
 /* harmony import */ var _util_constants__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../util/constants */ "./src/util/constants.ts");
 /* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-icons/fi */ "./node_modules/react-icons/fi/index.esm.js");
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../styles */ "./src/styles/index.ts");
@@ -46059,7 +45336,7 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\sett
 
 const links = [{
   icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_icons_hi__WEBPACK_IMPORTED_MODULE_4__["HiGlobeAlt"], {
-    className: "w-5 h-5"
+    className: "w-5 h-5 text-component-btn-200"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 17,
@@ -46069,7 +45346,7 @@ const links = [{
   text: "blockwallet.io"
 }, {
   icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_5__["FaTelegramPlane"], {
-    className: "w-5 h-5"
+    className: "w-5 h-5 text-component-btn-200"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 22,
@@ -46079,7 +45356,7 @@ const links = [{
   text: "t.me/blockwallet"
 }, {
   icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_5__["FaGithub"], {
-    className: "w-5 h-5"
+    className: "w-5 h-5 text-component-btn-200"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 27,
@@ -46089,7 +45366,7 @@ const links = [{
   text: "github.com/block-wallet"
 }, {
   icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_icons_io__WEBPACK_IMPORTED_MODULE_3__["IoLogoTwitter"], {
-    className: "w-5 h-5"
+    className: "w-5 h-5 text-component-btn-200"
   }, void 0, false, {
     fileName: _jsxFileName,
     lineNumber: 32,
@@ -46115,11 +45392,11 @@ const AboutPage = () => {
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
       className: "space-y-4 p-6 py-4",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-        className: "rounded border border-gray-200 p-4",
+        className: "bg-body-assets-100 rounded-lg p-4",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
           className: "flex items-center",
           children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("img", {
-            src: _assets_images_logo_svg__WEBPACK_IMPORTED_MODULE_7__["default"],
+            src: _assets_exzo_images_images_logo_png__WEBPACK_IMPORTED_MODULE_7__["default"],
             alt: "ExzoWallet logo",
             className: "w-5 h-5"
           }, void 0, false, {
@@ -46127,7 +45404,7 @@ const AboutPage = () => {
             lineNumber: 44,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-            className: "ml-2 text-lg font-bold",
+            className: "ml-2 text-lg font-bold text-white",
             children: "ExzoWallet"
           }, void 0, false, {
             fileName: _jsxFileName,
@@ -46139,13 +45416,14 @@ const AboutPage = () => {
           lineNumber: 43,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("p", {
-          className: "mt-4",
+          className: "mt-4 text-txt-settings",
           children: "ExzoWallet is the most private, non-custodial browser extension wallet where users can store funds and interact with their favorite blockchain applications anonymously."
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 53,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("p", {
+          className: "text-txt-settings",
           children: "Join us today and reclaim your privacy."
         }, void 0, false, {
           fileName: _jsxFileName,
@@ -46168,9 +45446,9 @@ const AboutPage = () => {
         lineNumber: 42,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-        className: "rounded border border-gray-200 p-4",
+        className: "bg-body-assets-100 rounded-lg p-4",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-          className: "text-lg font-bold",
+          className: "text-lg font-bold text-white",
           children: "Contacts"
         }, void 0, false, {
           fileName: _jsxFileName,
@@ -46187,10 +45465,10 @@ const AboutPage = () => {
             return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("a", {
               href: link,
               target: "_blank",
-              className: "text-sm font-bold hover:underline flex items-center",
+              className: "text-sm font-bold flex items-center",
               rel: "noopener noreferrer",
               children: [icon, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-                className: "ml-2",
+                className: "ml-2 text-txt-settings hover:text-component-btn-200",
                 children: text
               }, void 0, false, {
                 fileName: _jsxFileName,
@@ -46213,9 +45491,9 @@ const AboutPage = () => {
         lineNumber: 64,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-        className: "w-full border border-gray-200 rounded-md flex justify-between items-center p-4 py-2",
+        className: "w-full bg-body-assets-100 rounded-lg flex justify-between items-center p-4 py-2",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-          className: "text-xs mr-2",
+          className: "text-xs mr-2 text-txt-settings",
           children: "Download state logs for support"
         }, void 0, false, {
           fileName: _jsxFileName,
@@ -46270,23 +45548,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
 /* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
-/* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Divider */ "./src/components/Divider.tsx");
-/* harmony import */ var _components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/popup/PopupFooter */ "./src/components/popup/PopupFooter.tsx");
-/* harmony import */ var _components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/input/TextInput */ "./src/components/input/TextInput.tsx");
-/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! yup */ "./node_modules/yup/es/index.js");
-/* harmony import */ var _hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @hookform/resolvers/yup */ "./node_modules/@hookform/resolvers/yup/dist/yup.module.js");
-/* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/index.esm.mjs");
-/* harmony import */ var _context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../context/hooks/useOnMount */ "./src/context/hooks/useOnMount.ts");
-/* harmony import */ var _context_hooks_useAddressBook__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../context/hooks/useAddressBook */ "./src/context/hooks/useAddressBook.ts");
-/* harmony import */ var ethereumjs_util__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ethereumjs-util */ "./node_modules/ethereumjs-util/dist.browser/index.js");
-/* harmony import */ var ethereumjs_util__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(ethereumjs_util__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
-/* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
-/* harmony import */ var _components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../components/dialog/WaitingDialog */ "./src/components/dialog/WaitingDialog.tsx");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/popup/PopupFooter */ "./src/components/popup/PopupFooter.tsx");
+/* harmony import */ var _components_input_TextInput__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/input/TextInput */ "./src/components/input/TextInput.tsx");
+/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! yup */ "./node_modules/yup/es/index.js");
+/* harmony import */ var _hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @hookform/resolvers/yup */ "./node_modules/@hookform/resolvers/yup/dist/yup.module.js");
+/* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/index.esm.mjs");
+/* harmony import */ var _context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../context/hooks/useOnMount */ "./src/context/hooks/useOnMount.ts");
+/* harmony import */ var _context_hooks_useAddressBook__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../context/hooks/useAddressBook */ "./src/context/hooks/useAddressBook.ts");
+/* harmony import */ var ethereumjs_util__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ethereumjs-util */ "./node_modules/ethereumjs-util/dist.browser/index.js");
+/* harmony import */ var ethereumjs_util__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(ethereumjs_util__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
+/* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
+/* harmony import */ var _components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/dialog/WaitingDialog */ "./src/components/dialog/WaitingDialog.tsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\settings\\AddContactPage.tsx";
-
 
 
 
@@ -46303,21 +45579,21 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\sett
  // new contact schema
 
 
-const contactSchema = yup__WEBPACK_IMPORTED_MODULE_6__["object"]().shape({
-  contactName: yup__WEBPACK_IMPORTED_MODULE_6__["string"]().test("is-empty", "Contact name is empty.", s => {
+const contactSchema = yup__WEBPACK_IMPORTED_MODULE_5__["object"]().shape({
+  contactName: yup__WEBPACK_IMPORTED_MODULE_5__["string"]().test("is-empty", "Contact name is empty.", s => {
     return !!s && s.trim().length > 0;
   }).max(40, "Contact name is too long"),
-  contactAddress: yup__WEBPACK_IMPORTED_MODULE_6__["string"]().required("No address provided.").test("is-correct", "Address is incorrect.", address => {
-    return Object(ethereumjs_util__WEBPACK_IMPORTED_MODULE_11__["isValidAddress"])(address || "");
+  contactAddress: yup__WEBPACK_IMPORTED_MODULE_5__["string"]().required("No address provided.").test("is-correct", "Address is incorrect.", address => {
+    return Object(ethereumjs_util__WEBPACK_IMPORTED_MODULE_10__["isValidAddress"])(address || "");
   })
 });
 
 const AddContactPage = () => {
   var _errors$contactName, _errors$contactAddres, _errors$contactName$m, _errors$contactName2;
 
-  const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_9__["useOnMountHistory"])();
-  const addressBook = Object(_context_hooks_useAddressBook__WEBPACK_IMPORTED_MODULE_10__["useAddressBook"])();
-  const recentAddresses = Object(_context_hooks_useAddressBook__WEBPACK_IMPORTED_MODULE_10__["useAddressBookRecentAddresses"])();
+  const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_8__["useOnMountHistory"])();
+  const addressBook = Object(_context_hooks_useAddressBook__WEBPACK_IMPORTED_MODULE_9__["useAddressBook"])();
+  const recentAddresses = Object(_context_hooks_useAddressBook__WEBPACK_IMPORTED_MODULE_9__["useAddressBookRecentAddresses"])();
   const {
     register,
     handleSubmit,
@@ -46325,14 +45601,14 @@ const AddContactPage = () => {
     formState: {
       errors
     }
-  } = Object(react_hook_form__WEBPACK_IMPORTED_MODULE_8__["useForm"])({
-    resolver: Object(_hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_7__["yupResolver"])(contactSchema)
+  } = Object(react_hook_form__WEBPACK_IMPORTED_MODULE_7__["useForm"])({
+    resolver: Object(_hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_6__["yupResolver"])(contactSchema)
   });
   const {
     status,
     isOpen,
     dispatch
-  } = Object(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_14__["useWaitingDialog"])();
+  } = Object(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_13__["useWaitingDialog"])();
   const {
     editMode,
     contact
@@ -46363,7 +45639,7 @@ const AddContactPage = () => {
           status: "loading"
         }
       });
-      await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_12__["addressBookSet"])(data.contactAddress, data.contactName ? data.contactName : placeholderСontactName, "");
+      await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_11__["addressBookSet"])(data.contactAddress, data.contactName ? data.contactName : placeholderСontactName, "");
       dispatch({
         type: "setStatus",
         payload: {
@@ -46385,12 +45661,12 @@ const AddContactPage = () => {
       return Promise.reject();
     }
   });
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     submitOnEnter: {
       onSubmit,
       isFormValid: Object.keys(errors).length === 0
     },
-    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
       title: pageTitle,
       close: "/"
     }, void 0, false, {
@@ -46398,32 +45674,13 @@ const AddContactPage = () => {
       lineNumber: 120,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_13__["ButtonWithLoading"], {
-        label: buttonTitle,
-        onClick: onSubmit,
-        disabled: !canUpdate
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 123,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 122,
-      columnNumber: 17
-    }, undefined),
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_Divider__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 131,
-      columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
       className: "flex flex-col w-full justify-between flex-1 h-full",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
         className: "flex flex-col flex-1 p-6 space-y-3",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
           className: "flex flex-col space-y-1",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_4__["default"], {
             appearance: "outline",
             label: "Contact Name",
             ...register("contactName", {
@@ -46435,19 +45692,20 @@ const AddContactPage = () => {
             error: (_errors$contactName = errors.contactName) === null || _errors$contactName === void 0 ? void 0 : _errors$contactName.message,
             autoFocus: true,
             maxLength: 40,
-            defaultValue: (contact === null || contact === void 0 ? void 0 : contact.name) || placeholderСontactName
+            defaultValue: (contact === null || contact === void 0 ? void 0 : contact.name) || placeholderСontactName,
+            className: "bg-component-input-bg"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 135,
+            lineNumber: 125,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 124,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
           className: "flex flex-col space-y-1",
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_input_TextInput__WEBPACK_IMPORTED_MODULE_4__["default"], {
             appearance: "outline",
             label: "Contact Address",
             placeholder: "Address",
@@ -46458,33 +45716,28 @@ const AddContactPage = () => {
               onChange: () => {
                 setCanUpdate(true);
               }
-            })
+            }),
+            className: "bg-component-input-bg"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 153,
+            lineNumber: 144,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 152,
+          lineNumber: 143,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 133,
+        lineNumber: 123,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("hr", {
-        className: "border-0.5 border-gray-200 w-full"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 168,
-        columnNumber: 17
-      }, undefined)]
-    }, void 0, true, {
+      }, undefined)
+    }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 122,
       columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_13__["default"], {
       open: isOpen,
       status: status,
       titles: {
@@ -46515,7 +45768,21 @@ const AddContactPage = () => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 161,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_12__["ButtonWithLoading"], {
+        label: buttonTitle,
+        onClick: onSubmit,
+        disabled: !canUpdate
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 190,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 189,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -47123,7 +46390,7 @@ const ConnectedSiteAccount = _ref => {
   } = Object(_context_hooks_useSelectedNetwork__WEBPACK_IMPORTED_MODULE_15__["useSelectedNetwork"])();
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
-      className: "flex flex-col items-start",
+      className: "flex flex-col items-start hover:bg-opacity-20 bg-body-assets-100 active:bg-opacity-20 p-2 rounded-lg",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
         className: "flex flex-row items-center justify-between w-full",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
@@ -47131,7 +46398,6 @@ const ConnectedSiteAccount = _ref => {
           children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
             className: "flex flex-row items-center justify-center w-10 h-10 rounded-full",
             children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(_components_icons_AccountIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
-              className: "w-10 h-10",
               fill: Object(_util_getAccountColor__WEBPACK_IMPORTED_MODULE_13__["getAccountColor"])(account.address)
             }, void 0, false, {
               fileName: _jsxFileName,
@@ -47147,25 +46413,25 @@ const ConnectedSiteAccount = _ref => {
             children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
               className: "flex flex-row space-x-1",
               children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("span", {
-                className: "text-sm font-bold text-gray-800 cursor-text",
+                className: "text-sm font-bold text-txt-settings cursor-text",
                 title: account.name,
                 children: [Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_16__["formatName"])(account.name, 18), " "]
               }, void 0, true, {
                 fileName: _jsxFileName,
-                lineNumber: 67,
+                lineNumber: 66,
                 columnNumber: 33
               }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("span", {
-                className: "font-bold text-black cursor-text",
+                className: "font-bold text-white cursor-text",
                 title: account.address,
                 children: Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_16__["formatHashLastChars"])(account.address)
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 73,
+                lineNumber: 72,
                 columnNumber: 33
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 66,
+              lineNumber: 65,
               columnNumber: 29
             }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("span", {
               className: "text-xs text-gray-400",
@@ -47173,12 +46439,12 @@ const ConnectedSiteAccount = _ref => {
               children: [Object(_util_formatNumberLength__WEBPACK_IMPORTED_MODULE_12__["formatNumberLength"])(Object(_ethersproject_units__WEBPACK_IMPORTED_MODULE_0__["formatUnits"])(account.balances[chainId].nativeTokenBalance || "0"), 10), " ", networkNativeCurrency.symbol]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 80,
+              lineNumber: 79,
               columnNumber: 29
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 65,
+            lineNumber: 64,
             columnNumber: 25
           }, undefined)]
         }, void 0, true, {
@@ -47198,18 +46464,18 @@ const ConnectedSiteAccount = _ref => {
                 profile: "danger"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 108,
+                lineNumber: 107,
                 columnNumber: 37
               }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("span", {
                 children: "Disconnect"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 112,
+                lineNumber: 111,
                 columnNumber: 37
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 102,
+              lineNumber: 101,
               columnNumber: 33
             }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(_components_ui_Dropdown_Dropdown__WEBPACK_IMPORTED_MODULE_18__["default"].MenuItem, {
               onClick: () => {
@@ -47220,28 +46486,28 @@ const ConnectedSiteAccount = _ref => {
                 size: 24
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 121,
+                lineNumber: 120,
                 columnNumber: 37
               }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("span", {
                 children: "Connect"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 122,
+                lineNumber: 121,
                 columnNumber: 37
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 115,
+              lineNumber: 114,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 100,
+            lineNumber: 99,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 99,
+          lineNumber: 98,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
@@ -47255,7 +46521,7 @@ const ConnectedSiteAccount = _ref => {
           children: "Active"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 130,
           columnNumber: 29
         }, undefined), account.address !== selectedAddress && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("button", {
           className: Object(_styles__WEBPACK_IMPORTED_MODULE_11__["classnames"])("mt-2 px-1.5 py-0.5 font-bold border rounded-sm text-xs border-primary-300 text-primary-300 hover:bg-primary-200", active ? "ml-2" : "ml-14"),
@@ -47263,19 +46529,19 @@ const ConnectedSiteAccount = _ref => {
           children: "Switch"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 135,
           columnNumber: 29
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 129,
+        lineNumber: 128,
         columnNumber: 21
       }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("span", {
         className: Object(_styles__WEBPACK_IMPORTED_MODULE_11__["classnames"])("mt-2 ml-14 px-1.5 py-0.5 border rounded-sm text-xs", "border-red-300  text-red-300 pointer-events-none"),
         children: "Not connected"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 150,
+        lineNumber: 149,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
@@ -47292,7 +46558,7 @@ const ConnectedSiteAccount = _ref => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 159,
       columnNumber: 13
     }, undefined)]
   }, void 0, true);
@@ -47351,7 +46617,7 @@ const ConnectedSiteAccountsPage = () => {
     to: "/"
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 221,
+    lineNumber: 220,
     columnNumber: 9
   }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
     header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -47373,11 +46639,11 @@ const ConnectedSiteAccountsPage = () => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 224,
       columnNumber: 17
     }, undefined),
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
-      className: "flex flex-col p-6 space-y-8 text-sm text-gray-500",
+      className: "flex flex-col p-6 space-y-8 text-sm text-txt-settings",
       children: [!isSelectedAccountConnected && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(_components_label_WarningTip__WEBPACK_IMPORTED_MODULE_14__["default"], {
           text: "Current account is not connected",
@@ -47385,12 +46651,12 @@ const ConnectedSiteAccountsPage = () => {
           justify: "justify-start"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 247,
+          lineNumber: 246,
           columnNumber: 25
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 246,
+        lineNumber: 245,
         columnNumber: 21
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
         className: "flex flex-col space-y-2",
@@ -47399,7 +46665,7 @@ const ConnectedSiteAccountsPage = () => {
           children: "CURRENT ACCOUNT"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 255,
+          lineNumber: 254,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])(ConnectedSiteAccount, {
           account: accounts[selectedAddress],
@@ -47410,12 +46676,12 @@ const ConnectedSiteAccountsPage = () => {
           handleSwitchAccount: handleSwitchAccount
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 256,
+          lineNumber: 255,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 254,
+        lineNumber: 253,
         columnNumber: 17
       }, undefined), (connectedAccounts === null || connectedAccounts === void 0 ? void 0 : connectedAccounts.length) > 0 && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
         className: "flex flex-col space-y-2",
@@ -47424,7 +46690,7 @@ const ConnectedSiteAccountsPage = () => {
           children: "CONNECTED ACCOUNTS"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 268,
+          lineNumber: 267,
           columnNumber: 25
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_19__["jsxDEV"])("div", {
           className: "flex flex-col space-y-6",
@@ -47436,27 +46702,27 @@ const ConnectedSiteAccountsPage = () => {
             handleSwitchAccount: handleSwitchAccount
           }, address, false, {
             fileName: _jsxFileName,
-            lineNumber: 273,
+            lineNumber: 272,
             columnNumber: 41
           }, undefined))
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 269,
+          lineNumber: 268,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 267,
+        lineNumber: 266,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 243,
       columnNumber: 13
     }, undefined)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 223,
+    lineNumber: 222,
     columnNumber: 9
   }, undefined);
 };
@@ -47515,53 +46781,66 @@ const ConnectedSite = _ref => {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
     className: "flex flex-row items-center justify-between w-full ",
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-      className: "flex flex-row items-center space-x-4 w-11/12 hover:bg-primary-200 rounded-md p-1 cursor-pointer ",
+      className: "flex flex-row items-center justify-between space-x-4 w-full bg-body-assets-100 hover:bg-opacity-20 rounded-md p-4 cursor-pointer ",
       onClick: () => onSiteClick(origin),
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
-        className: "flex flex-row items-center justify-center w-10 h-10 p-2 rounded-full bg-primary-100",
-        children: site.iconURL ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_icons_AppIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          iconURL: site.iconURL,
-          size: 10
+        className: "flex flex-row",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
+          className: "flex flex-row items-center justify-center w-10 h-10 rounded-full ",
+          children: site.iconURL ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_icons_AppIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+            iconURL: site.iconURL,
+            size: 10
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 32,
+            columnNumber: 29
+          }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaGlobe"], {
+            size: 24
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 34,
+            columnNumber: 29
+          }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 31,
-          columnNumber: 25
-        }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_9__["FaGlobe"], {
-          size: 24
+          lineNumber: 30,
+          columnNumber: 21
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
+          className: "text-sm font-bold text-txt-settings ml-4 flex items-center",
+          children: new URL(origin).hostname
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 25
-        }, undefined)
-      }, void 0, false, {
+          lineNumber: 37,
+          columnNumber: 21
+        }, undefined)]
+      }, void 0, true, {
         fileName: _jsxFileName,
         lineNumber: 29,
         columnNumber: 17
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-        className: "text-sm font-bold text-gray-800",
-        children: new URL(origin).hostname
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("button", {
+          onClick: () => setConfirmOpen(true),
+          className: "hover:bg-component-btn-200 hover:bg-opacity-[8%] p-2 rounded-full",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_ui_Icon__WEBPACK_IMPORTED_MODULE_11__["default"], {
+            name: _components_ui_Icon__WEBPACK_IMPORTED_MODULE_11__["IconName"].TRASH_BIN
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 46,
+            columnNumber: 25
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 21
+        }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 41,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 13
-    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("button", {
-      onClick: () => setConfirmOpen(true),
-      className: "hover:bg-primary-200 p-2 rounded-full",
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_ui_Icon__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        name: _components_ui_Icon__WEBPACK_IMPORTED_MODULE_11__["IconName"].TRASH_BIN
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 17
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 40,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(_components_dialog_ConfirmDialog__WEBPACK_IMPORTED_MODULE_1__["default"], {
       title: "Remove Site Connection",
@@ -47571,7 +46850,7 @@ const ConnectedSite = _ref => {
       onConfirm: () => onDelete(origin)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -47623,33 +46902,33 @@ const ConnectedSitesPage = () => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 94,
       columnNumber: 17
     }, undefined),
     children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
       className: "flex flex-col p-6 space-y-6",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-          className: "font-bold text-black",
+          className: "font-bold text-white",
           title: account.name,
           children: Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_10__["formatName"])(account.name, 30)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 103,
+          lineNumber: 107,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("span", {
-          className: "font-bold text-black",
+          className: "font-bold text-white",
           title: account.address,
           children: [" ", Object(_util_formatAccount__WEBPACK_IMPORTED_MODULE_10__["formatHashLastChars"])(account.address)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 110,
           columnNumber: 21
         }, undefined), connectedSites.length > 0 ? " is connected to these sites. They can view your account address." : " is not connected to any site."]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 102,
+        lineNumber: 106,
         columnNumber: 17
       }, undefined), connectedSites.length > 0 && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
         className: "flex flex-col space-y-2",
@@ -47660,22 +46939,22 @@ const ConnectedSitesPage = () => {
           onDelete: handleDeleteClick
         }, i, false, {
           fileName: _jsxFileName,
-          lineNumber: 120,
+          lineNumber: 124,
           columnNumber: 29
         }, undefined))
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 118,
+        lineNumber: 122,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 105,
       columnNumber: 13
     }, undefined)
   }, void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 88,
+    lineNumber: 92,
     columnNumber: 9
   }, undefined);
 };
@@ -47699,21 +46978,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
 /* harmony import */ var _components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/input/PasswordInput */ "./src/components/input/PasswordInput.tsx");
 /* harmony import */ var _components_phishing_AntiPhishing__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/phishing/AntiPhishing */ "./src/components/phishing/AntiPhishing.tsx");
-/* harmony import */ var _components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/popup/PopupFooter */ "./src/components/popup/PopupFooter.tsx");
-/* harmony import */ var _components_label_WarningTip__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/label/WarningTip */ "./src/components/label/WarningTip.tsx");
-/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! yup */ "./node_modules/yup/es/index.js");
-/* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/index.esm.mjs");
-/* harmony import */ var _hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @hookform/resolvers/yup */ "./node_modules/@hookform/resolvers/yup/dist/yup.module.js");
-/* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
-/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
-/* harmony import */ var _context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../context/hooks/useOnMount */ "./src/context/hooks/useOnMount.ts");
-/* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
-/* harmony import */ var _components_input_Select__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../components/input/Select */ "./src/components/input/Select.tsx");
-/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
-/* harmony import */ var _util_account__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../util/account */ "./src/util/account.ts");
-/* harmony import */ var _components_label_Tooltip__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../components/label/Tooltip */ "./src/components/label/Tooltip.tsx");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _components_label_WarningTip__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/label/WarningTip */ "./src/components/label/WarningTip.tsx");
+/* harmony import */ var yup__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! yup */ "./node_modules/yup/es/index.js");
+/* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/index.esm.mjs");
+/* harmony import */ var _hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @hookform/resolvers/yup */ "./node_modules/@hookform/resolvers/yup/dist/yup.module.js");
+/* harmony import */ var _context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../context/background/backgroundHooks */ "./src/context/background/backgroundHooks.ts");
+/* harmony import */ var _context_commActions__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../context/commActions */ "./src/context/commActions.ts");
+/* harmony import */ var _context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../context/hooks/useOnMount */ "./src/context/hooks/useOnMount.ts");
+/* harmony import */ var _components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../components/button/ButtonWithLoading */ "./src/components/button/ButtonWithLoading.tsx");
+/* harmony import */ var _components_input_Select__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../components/input/Select */ "./src/components/input/Select.tsx");
+/* harmony import */ var _context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../context/hooks/useSelectedAccount */ "./src/context/hooks/useSelectedAccount.ts");
+/* harmony import */ var _util_account__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../util/account */ "./src/util/account.ts");
+/* harmony import */ var _components_label_Tooltip__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../components/label/Tooltip */ "./src/components/label/Tooltip.tsx");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\settings\\ExportAccountPage.tsx";
 
 
@@ -47734,27 +47012,26 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\sett
 
 
 
-
-const schema = yup__WEBPACK_IMPORTED_MODULE_7__["object"]({
-  password: yup__WEBPACK_IMPORTED_MODULE_7__["string"]().required("No password provided."),
-  exportType: yup__WEBPACK_IMPORTED_MODULE_7__["string"]().default("key").required("Please select an export format"),
-  encryptingPassword: yup__WEBPACK_IMPORTED_MODULE_7__["string"]().when("exportType", {
+const schema = yup__WEBPACK_IMPORTED_MODULE_6__["object"]({
+  password: yup__WEBPACK_IMPORTED_MODULE_6__["string"]().required("No password provided."),
+  exportType: yup__WEBPACK_IMPORTED_MODULE_6__["string"]().default("key").required("Please select an export format"),
+  encryptingPassword: yup__WEBPACK_IMPORTED_MODULE_6__["string"]().when("exportType", {
     is: value => value === "json",
     then: rule => rule.required("Please enter an encrypting password")
   }),
-  encryptingPasswordConfirmation: yup__WEBPACK_IMPORTED_MODULE_7__["string"]().nullable().notRequired().when("encryptingPassword", {
+  encryptingPasswordConfirmation: yup__WEBPACK_IMPORTED_MODULE_6__["string"]().nullable().notRequired().when("encryptingPassword", {
     is: value => !!value,
-    then: rule => rule.required("Please confirm the encrypting password").oneOf([yup__WEBPACK_IMPORTED_MODULE_7__["ref"]("encryptingPassword"), null], "Encrypting passwords must match.")
+    then: rule => rule.required("Please confirm the encrypting password").oneOf([yup__WEBPACK_IMPORTED_MODULE_6__["ref"]("encryptingPassword"), null], "Encrypting passwords must match.")
   })
 });
 
 const ExportAccountPage = () => {
   var _history$location$sta, _errors$password, _errors$exportType, _errors$encryptingPas, _errors$encryptingPas2;
 
-  const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_12__["useOnMountHistory"])();
+  const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_11__["useOnMountHistory"])();
   const fromAccountList = (_history$location$sta = history.location.state) === null || _history$location$sta === void 0 ? void 0 : _history$location$sta.fromAccountList;
-  const account = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_15__["useSelectedAccount"])();
-  const blankState = Object(_context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_10__["useBlankState"])();
+  const account = Object(_context_hooks_useSelectedAccount__WEBPACK_IMPORTED_MODULE_14__["useSelectedAccount"])();
+  const blankState = Object(_context_background_backgroundHooks__WEBPACK_IMPORTED_MODULE_9__["useBlankState"])();
   const [isVerificationInProgress, setIsVerificationInProgress] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
   const {
     register,
@@ -47765,11 +47042,11 @@ const ExportAccountPage = () => {
     formState: {
       errors
     }
-  } = Object(react_hook_form__WEBPACK_IMPORTED_MODULE_8__["useForm"])({
+  } = Object(react_hook_form__WEBPACK_IMPORTED_MODULE_7__["useForm"])({
     defaultValues: {
       exportType: "key"
     },
-    resolver: Object(_hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_9__["yupResolver"])(schema),
+    resolver: Object(_hookform_resolvers_yup__WEBPACK_IMPORTED_MODULE_8__["yupResolver"])(schema),
     shouldUnregister: false
   });
   const exportType = watch("exportType");
@@ -47777,11 +47054,11 @@ const ExportAccountPage = () => {
     setIsVerificationInProgress(true);
 
     try {
-      if (_util_account__WEBPACK_IMPORTED_MODULE_16__["HARDWARE_TYPES"].includes(account.accountType)) {
+      if (_util_account__WEBPACK_IMPORTED_MODULE_15__["HARDWARE_TYPES"].includes(account.accountType)) {
         throw new Error("Can't export data from a Hardware Wallet account");
       }
 
-      const isValidPassword = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_11__["verifyPassword"])(data.password);
+      const isValidPassword = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_10__["verifyPassword"])(data.password);
 
       if (!isValidPassword) {
         throw new Error("Incorrect password");
@@ -47791,15 +47068,15 @@ const ExportAccountPage = () => {
 
       switch (data.exportType) {
         case "key":
-          exportData = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_11__["exportAccountPrivateKey"])(account.address, data.password);
+          exportData = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_10__["exportAccountPrivateKey"])(account.address, data.password);
           break;
 
         case "json":
-          exportData = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_11__["exportAccountJson"])(account.address, data.password, data.encryptingPassword);
+          exportData = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_10__["exportAccountJson"])(account.address, data.password, data.encryptingPassword);
           break;
 
         case "seedphrase":
-          exportData = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_11__["requestSeedPhrase"])(data.password);
+          exportData = await Object(_context_commActions__WEBPACK_IMPORTED_MODULE_10__["requestSeedPhrase"])(data.password);
           break;
       }
 
@@ -47821,17 +47098,17 @@ const ExportAccountPage = () => {
       return Promise.reject();
     }
   });
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("form", {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("form", {
     className: "w-full h-full",
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
       className: "flex flex-col w-full h-full",
       id: "export-key-form",
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
         submitOnEnter: {
           onSubmit,
           isFormValid: Object.keys(errors).length === 0
         },
-        header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
           title: "Export Account Data",
           onBack: () => {
             history.push({
@@ -47846,28 +47123,11 @@ const ExportAccountPage = () => {
           lineNumber: 145,
           columnNumber: 25
         }, undefined),
-        footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
-          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_13__["ButtonWithLoading"], {
-            label: "Export",
-            type: "submit",
-            isLoading: isVerificationInProgress,
-            onClick: onSubmit,
-            disabled: _util_account__WEBPACK_IMPORTED_MODULE_16__["HARDWARE_TYPES"].includes(account.accountType)
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 157,
-            columnNumber: 29
-          }, undefined)
-        }, void 0, false, {
-          fileName: _jsxFileName,
-          lineNumber: 156,
-          columnNumber: 25
-        }, undefined),
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
           className: "flex flex-col p-6 space-y-4",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
             className: "flex flex-col space-y-1",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
               label: "Your Password",
               placeholder: "Your Password",
               ...register("password"),
@@ -47875,16 +47135,16 @@ const ExportAccountPage = () => {
               autoFocus: true
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 171,
+              lineNumber: 158,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 170,
+            lineNumber: 157,
             columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
             className: "flex flex-col space-y-1 mb-5",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_14__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_13__["default"], {
               onChange: value => {
                 setValue("exportType", value);
               },
@@ -47892,70 +47152,70 @@ const ExportAccountPage = () => {
               label: "Format",
               id: "exportType",
               error: (_errors$exportType = errors.exportType) === null || _errors$exportType === void 0 ? void 0 : _errors$exportType.message,
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_14__["default"].Option, {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_13__["default"].Option, {
                 value: "key",
                 children: "Private Key"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 189,
+                lineNumber: 176,
                 columnNumber: 33
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_14__["default"].Option, {
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_13__["default"].Option, {
                 value: "json",
                 children: "JSON Data"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 192,
+                lineNumber: 179,
                 columnNumber: 33
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_14__["default"].Option, {
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_13__["default"].Option, {
                 value: "seedphrase",
-                disabled: !Object(_util_account__WEBPACK_IMPORTED_MODULE_16__["isInternalAccount"])(account.accountType),
-                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+                disabled: !Object(_util_account__WEBPACK_IMPORTED_MODULE_15__["isInternalAccount"])(account.accountType),
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
                   className: "group relative",
-                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
                     children: "Seed Phrase"
                   }, void 0, false, {
                     fileName: _jsxFileName,
-                    lineNumber: 202,
+                    lineNumber: 189,
                     columnNumber: 41
-                  }, undefined), !Object(_util_account__WEBPACK_IMPORTED_MODULE_16__["isInternalAccount"])(account.accountType) && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_17__["default"], {
+                  }, undefined), !Object(_util_account__WEBPACK_IMPORTED_MODULE_15__["isInternalAccount"])(account.accountType) && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_label_Tooltip__WEBPACK_IMPORTED_MODULE_16__["default"], {
                     className: "!w-60 !break-word !whitespace-normal !-translate-y-8 !translate-x-3 border boder-gray-300",
-                    content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("span", {
+                    content: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("span", {
                       children: "Seed Phrase can only be exported while using an internal account."
                     }, void 0, false, {
                       fileName: _jsxFileName,
-                      lineNumber: 209,
+                      lineNumber: 196,
                       columnNumber: 53
                     }, undefined)
                   }, void 0, false, {
                     fileName: _jsxFileName,
-                    lineNumber: 206,
+                    lineNumber: 193,
                     columnNumber: 45
                   }, undefined)]
                 }, void 0, true, {
                   fileName: _jsxFileName,
-                  lineNumber: 201,
+                  lineNumber: 188,
                   columnNumber: 37
                 }, undefined)
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 195,
+                lineNumber: 182,
                 columnNumber: 33
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 180,
+              lineNumber: 167,
               columnNumber: 29
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 179,
+            lineNumber: 166,
             columnNumber: 25
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
             className: "flex flex-col space-y-1",
-            children: exportType === "json" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["Fragment"], {
-              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+            children: exportType === "json" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["Fragment"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
                 className: "mb-5",
-                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
                   label: "Encrypting Password",
                   placeholder: "Encrypting Password",
                   ...register("encryptingPassword"),
@@ -47964,14 +47224,14 @@ const ExportAccountPage = () => {
                   name: "encryptingPassword"
                 }, void 0, false, {
                   fileName: _jsxFileName,
-                  lineNumber: 225,
+                  lineNumber: 212,
                   columnNumber: 41
                 }, undefined)
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 224,
+                lineNumber: 211,
                 columnNumber: 37
-              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_input_PasswordInput__WEBPACK_IMPORTED_MODULE_3__["default"], {
                 label: "Confirm Encrypting Password",
                 placeholder: "Confirm Encrypting Password",
                 ...register("encryptingPasswordConfirmation"),
@@ -47980,39 +47240,49 @@ const ExportAccountPage = () => {
                 name: "encryptingPasswordConfirmation"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 237,
+                lineNumber: 224,
                 columnNumber: 37
               }, undefined)]
             }, void 0, true)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 221,
+            lineNumber: 208,
             columnNumber: 25
-          }, undefined), exportType === "json" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_label_WarningTip__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          }, undefined), exportType === "json" && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_label_WarningTip__WEBPACK_IMPORTED_MODULE_5__["default"], {
             text: "Encrypting password is used to encrypt your export. You will need it when importing the account data later. Please create a strong encrypting password and store it securely.",
             fontSize: "text-xs",
             justify: "justify-start"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 255,
+            lineNumber: 242,
             columnNumber: 29
-          }, undefined), blankState.settings.useAntiPhishingProtection && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])("div", {
+          }, undefined), blankState.settings.useAntiPhishingProtection && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])("div", {
             className: "pt-1",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_18__["jsxDEV"])(_components_phishing_AntiPhishing__WEBPACK_IMPORTED_MODULE_4__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_phishing_AntiPhishing__WEBPACK_IMPORTED_MODULE_4__["default"], {
               image: blankState.antiPhishingImage
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 265,
+              lineNumber: 252,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 264,
+            lineNumber: 251,
             columnNumber: 29
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_17__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_12__["ButtonWithLoading"], {
+            label: "Export",
+            type: "submit",
+            isLoading: isVerificationInProgress,
+            onClick: onSubmit,
+            disabled: _util_account__WEBPACK_IMPORTED_MODULE_15__["HARDWARE_TYPES"].includes(account.accountType)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 257,
+            columnNumber: 25
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 169,
+          lineNumber: 156,
           columnNumber: 21
         }, undefined)
       }, void 0, false, {
@@ -48049,17 +47319,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/popup/PopupHeader */ "./src/components/popup/PopupHeader.tsx");
 /* harmony import */ var _components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/popup/PopupLayout */ "./src/components/popup/PopupLayout.tsx");
-/* harmony import */ var _components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/popup/PopupFooter */ "./src/components/popup/PopupFooter.tsx");
-/* harmony import */ var _assets_images_icons_copy_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/icons/copy.svg */ "./src/assets/images/icons/copy.svg");
-/* harmony import */ var _components_label_opyToClipboardTooltip__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/label/СopyToClipboardTooltip */ "./src/components/label/СopyToClipboardTooltip.tsx");
-/* harmony import */ var _components_button_LinkButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/button/LinkButton */ "./src/components/button/LinkButton.tsx");
-/* harmony import */ var _context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../context/hooks/useOnMount */ "./src/context/hooks/useOnMount.ts");
-/* harmony import */ var _components_label_ClickToReveal__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/label/ClickToReveal */ "./src/components/label/ClickToReveal.tsx");
-/* harmony import */ var react_json_view__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-json-view */ "./node_modules/react-json-view/dist/main.js");
-/* harmony import */ var react_json_view__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_json_view__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _assets_images_icons_download_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/images/icons/download.svg */ "./src/assets/images/icons/download.svg");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
-/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _components_button_LinkButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/button/LinkButton */ "./src/components/button/LinkButton.tsx");
+/* harmony import */ var _context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../context/hooks/useOnMount */ "./src/context/hooks/useOnMount.ts");
+/* harmony import */ var _components_label_ClickToReveal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/label/ClickToReveal */ "./src/components/label/ClickToReveal.tsx");
+/* harmony import */ var react_json_view__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-json-view */ "./node_modules/react-json-view/dist/main.js");
+/* harmony import */ var react_json_view__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_json_view__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _assets_images_icons_download_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/icons/download.svg */ "./src/assets/images/icons/download.svg");
+/* harmony import */ var _assets_exzo_images_images_copy_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/exzo-images/images/copy.png */ "./src/assets/exzo-images/images/copy.png");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__);
 var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\settings\\ExportDonePage.tsx";
 
 
@@ -48072,10 +47340,8 @@ var _jsxFileName = "F:\\block-wallet\\extension\\packages\\ui\\src\\routes\\sett
 
 
 
-
-
 const ExportDonePage = () => {
-  const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_7__["useOnMountHistory"])();
+  const history = Object(_context_hooks_useOnMount__WEBPACK_IMPORTED_MODULE_4__["useOnMountHistory"])();
   const {
     exportData,
     exportType
@@ -48090,89 +47356,117 @@ const ExportDonePage = () => {
     setCopied(false);
   };
 
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  console.log("exportType------", exportType);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_popup_PopupLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    header: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_popup_PopupHeader__WEBPACK_IMPORTED_MODULE_1__["default"], {
       title: "Export Account Data",
       close: "/",
-      backButton: false
+      backButton: true
     }, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 31,
       columnNumber: 17
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_button_LinkButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        location: "/",
-        text: "Done",
-        classes: "w-full"
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 39,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 17
-    }, undefined),
-    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
-      className: "flex flex-col p-6 space-y-6",
-      children: [exportType !== "json" ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
-        className: "flex flex-col space-y-4",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_label_ClickToReveal__WEBPACK_IMPORTED_MODULE_8__["default"], {
-          hiddenText: exportData,
-          revealMessage: `Click here to reveal ${exportType}`,
-          revealed: revealed,
-          onClick: () => setRevealed(true)
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      className: "flex flex-col p-6 pt-12",
+      children: [exportType !== "json" ?
+      /*#__PURE__*/
+      // <div className="flex flex-col space-y-4">
+      //     <ClickToReveal
+      //         hiddenText={exportData}
+      //         revealMessage={`Click here to reveal ${exportType}`}
+      //         revealed={revealed}
+      //         onClick={() => setRevealed(true)}
+      //         isReminder={true}
+      //     />
+      //     <button
+      //         type="button"
+      //         className="relative flex flex-row items-stretch justify-between w-full rounded group bg-primary-100 hover:bg-primary-200"
+      //         onClick={copyToClipboard}
+      //     >
+      //         <span className="flex-grow px-4 py-4 text-sm ">
+      //             Copy {exportType} to clipboard
+      //         </span>
+      //         <span className="flex items-center justify-center px-4 transition duration-300 outline-none cursor-pointer border-1">
+      //             <img
+      //                 src={copy}
+      //                 alt="copy"
+      //                 className="w-4 h-4 mr-1"
+      //             />
+      //         </span>
+      //         <CopyTooltip copied={copied}></CopyTooltip>
+      //     </button>
+      // </div>
+      Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "flex flex-col w-full relative",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "flex flex-col space-y-6",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_label_ClickToReveal__WEBPACK_IMPORTED_MODULE_5__["default"], {
+            hiddenText: exportData,
+            revealMessage: "Click here to reveal secret words",
+            revealed: revealed,
+            onClick: () => setRevealed(true),
+            isReminder: true,
+            isPrivate: exportType === 'key'
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 68,
+            columnNumber: 29
+          }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 67,
           columnNumber: 25
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("button", {
-          type: "button",
-          className: "relative flex flex-row items-stretch justify-between w-full rounded group bg-primary-100 hover:bg-primary-200",
-          onClick: copyToClipboard,
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
-            className: "flex-grow px-4 py-4 text-sm ",
-            children: ["Copy ", exportType, " to clipboard"]
-          }, void 0, true, {
-            fileName: _jsxFileName,
-            lineNumber: 57,
-            columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
-            className: "flex items-center justify-center px-4 transition duration-300 outline-none cursor-pointer border-1",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("img", {
-              src: _assets_images_icons_copy_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
-              alt: "copy",
-              className: "w-4 h-4 mr-1"
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+          className: "px-12 w-full absolute -bottom-6 left-0",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+            className: "relative",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+              className: "bg-component-btn-500 py-4 rounded-full text-sm font-bold hover:opacity-60 flex justify-center hover:cursor-pointer",
+              onClick: copyToClipboard,
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("img", {
+                src: _assets_exzo_images_images_copy_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+                className: "mr-2 w-5 h-5"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 79,
+                columnNumber: 191
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("span", {
+                children: "Copy to clipboard"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 79,
+                columnNumber: 236
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 79,
+              columnNumber: 33
+            }, undefined), copied && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+              className: "absolute text-white text-xxs rounded-2xl right-0 -top-2 bg-black px-4 py-1",
+              children: "Copied!"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 61,
-              columnNumber: 33
-            }, undefined)
-          }, void 0, false, {
+              lineNumber: 80,
+              columnNumber: 44
+            }, undefined)]
+          }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 60,
+            lineNumber: 78,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(_components_label_opyToClipboardTooltip__WEBPACK_IMPORTED_MODULE_5__["default"], {
-            copied: copied
-          }, void 0, false, {
-            fileName: _jsxFileName,
-            lineNumber: 67,
-            columnNumber: 29
-          }, undefined)]
-        }, void 0, true, {
+          }, undefined)
+        }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 77,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 66,
         columnNumber: 21
-      }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
+      }, undefined) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
         className: "flex flex-col space-y-4 overflow-x-hidden",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])(react_json_view__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(react_json_view__WEBPACK_IMPORTED_MODULE_6___default.a, {
           src: JSON.parse(exportData),
           name: false,
           enableClipboard: false,
@@ -48184,68 +47478,83 @@ const ExportDonePage = () => {
           collapsed: 1
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 86,
           columnNumber: 25
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("a", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("a", {
           type: "button",
           className: "relative flex flex-row items-stretch justify-between w-full rounded group bg-primary-100 hover:bg-primary-200",
           href: `data:text/json;charset=utf-8,${encodeURIComponent(exportData)}`,
           download: "blockwallet.json",
-          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("span", {
             className: "flex-grow px-4 py-4 text-sm ",
             children: "Download JSON file"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 91,
+            lineNumber: 105,
             columnNumber: 29
-          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("span", {
             className: "flex items-center justify-center px-4 transition duration-300 outline-none cursor-pointer border-1",
-            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("img", {
-              src: _assets_images_icons_download_svg__WEBPACK_IMPORTED_MODULE_10__["default"],
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("img", {
+              src: _assets_images_icons_download_svg__WEBPACK_IMPORTED_MODULE_7__["default"],
               alt: "Download JSON file"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 95,
+              lineNumber: 109,
               columnNumber: 33
             }, undefined)
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 94,
+            lineNumber: 108,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 97,
           columnNumber: 25
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 71,
+        lineNumber: 85,
         columnNumber: 21
-      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("div", {
-        className: "w-full px-4 py-4 text-sm text-center text-red-500 bg-red-100 rounded",
-        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("strong", {
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "w-full px-4 py-4 text-sm text-center text-red-500 bg-red-100 rounded mt-16",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("strong", {
           className: "font-bold",
           children: "Warning: "
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 118,
           columnNumber: 21
-        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxDEV"])("span", {
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("span", {
           children: "Never disclose this information. Anyone with your private keys can steal any assets held in your account."
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 105,
+          lineNumber: 119,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 103,
+        lineNumber: 117,
+        columnNumber: 17
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        className: "mt-[72px]",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_components_button_LinkButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          location: "/",
+          text: "Done",
+          classes: "w-full"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 21
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 124,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 38,
       columnNumber: 13
     }, undefined)
   }, void 0, false, {
@@ -48350,21 +47659,6 @@ const LockTimeout = () => {
       lineNumber: 56,
       columnNumber: 21
     }, undefined),
-    footer: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_5__["ButtonWithLoading"], {
-        label: "Save",
-        disabled: selectedTimeout === currentTimeout,
-        onClick: onSave
-      }, void 0, false, {
-        fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 21
-      }, undefined)
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 17
-    }, undefined),
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_dialog_WaitingDialog__WEBPACK_IMPORTED_MODULE_6__["default"], {
       open: isOpen,
       status: status,
@@ -48391,16 +47685,16 @@ const LockTimeout = () => {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 58,
       columnNumber: 13
     }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
       className: "flex flex-col p-6 space-y-6 w-full",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("span", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-txt-settings",
         children: "ExzoWallet will automatically lock and require an additional login after the selected period."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 91,
+        lineNumber: 82,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ToggleButton__WEBPACK_IMPORTED_MODULE_8__["default"], {
         label: "Enabled",
@@ -48410,7 +47704,7 @@ const LockTimeout = () => {
         }
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 95,
+        lineNumber: 86,
         columnNumber: 17
       }, undefined), timeoutEnabled && selectedTimeout !== 0 && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])("div", {
         className: "flex flex-col space-y-2",
@@ -48424,85 +47718,99 @@ const LockTimeout = () => {
             children: "1 minute"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 110,
+            lineNumber: 101,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 3,
             children: "3 minutes"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 111,
+            lineNumber: 102,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 5,
             children: "5 minutes"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 112,
+            lineNumber: 103,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 15,
             children: "15 minutes"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 113,
+            lineNumber: 104,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 30,
             children: "30 minutes"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 114,
+            lineNumber: 105,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 60,
             children: "1 hour"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 115,
+            lineNumber: 106,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 180,
             children: "3 hours"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 116,
+            lineNumber: 107,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 360,
             children: "6 hours"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 117,
+            lineNumber: 108,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 720,
             children: "12 hours"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 118,
+            lineNumber: 109,
             columnNumber: 29
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_input_Select__WEBPACK_IMPORTED_MODULE_9__["default"].Option, {
             value: 1440,
             children: "1 day"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 119,
+            lineNumber: 110,
             columnNumber: 29
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 95,
           columnNumber: 25
         }, undefined)
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 103,
+        lineNumber: 94,
         columnNumber: 21
       }, undefined)]
     }, void 0, true, {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 81,
+      columnNumber: 13
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_popup_PopupFooter__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_10__["jsxDEV"])(_components_button_ButtonWithLoading__WEBPACK_IMPORTED_MODULE_5__["ButtonWithLoading"], {
+        label: "Save",
+        disabled: selectedTimeout === currentTimeout,
+        onClick: onSave
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 116,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 115,
       columnNumber: 13
     }, undefined)]
   }, void 0, true, {
@@ -48620,7 +47928,7 @@ const PreferencesPage = () => {
             display: (option, i) => {
               var _option$classes, _option$size;
 
-              const className = "flex flex-row space-x-3 items-center text-gray-900";
+              const className = "flex flex-row space-x-3 items-center text-txt-settings";
 
               const children = /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["Fragment"], {
                 children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__["jsxDEV"])("div", {
@@ -48865,11 +48173,11 @@ const SettingsPage = () => {
             display: (option, i) => {
               var _option$classes, _option$size;
 
-              const className = "flex flex-row space-x-3 items-center text-white";
+              const className = "flex flex-row space-x-3 items-center text-txt-settings font-medium";
 
               const children = /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["Fragment"], {
                 children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
-                  className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_4__["classnames"])((_option$classes = option.classes) !== null && _option$classes !== void 0 ? _option$classes : "", "bg-white rounded-full p-1.5"),
+                  className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_4__["classnames"])((_option$classes = option.classes) !== null && _option$classes !== void 0 ? _option$classes : "", "bg-component-btn-200 bg-opacity-[8%] rounded-full p-1.5"),
                   children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("img", {
                     src: option.icon,
                     alt: "icon",
@@ -48884,7 +48192,6 @@ const SettingsPage = () => {
                   lineNumber: 155,
                   columnNumber: 41
                 }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("span", {
-                  className: "font-bold",
                   children: option.label
                 }, void 0, false, {
                   fileName: _jsxFileName,
@@ -49546,7 +48853,9 @@ const BackupNoticePage = () => {
             hiddenText: seedPhrase,
             revealMessage: "Click here to reveal secret words",
             revealed: revealed,
-            onClick: () => setRevealed(true)
+            onClick: () => setRevealed(true),
+            isReminder: true,
+            isPrivate: false
           }, void 0, false, {
             fileName: _jsxFileName,
             lineNumber: 96,
@@ -49568,35 +48877,35 @@ const BackupNoticePage = () => {
                 className: "mr-2 w-5 h-5"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 105,
+                lineNumber: 107,
                 columnNumber: 187
               }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("span", {
                 children: "Copy to clipboard"
               }, void 0, false, {
                 fileName: _jsxFileName,
-                lineNumber: 105,
+                lineNumber: 107,
                 columnNumber: 232
               }, undefined)]
             }, void 0, true, {
               fileName: _jsxFileName,
-              lineNumber: 105,
+              lineNumber: 107,
               columnNumber: 29
             }, undefined), copied && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
               className: "absolute text-white text-xxs rounded-2xl right-0 -top-2 bg-black px-4 py-1",
               children: "Copied!"
             }, void 0, false, {
               fileName: _jsxFileName,
-              lineNumber: 106,
+              lineNumber: 108,
               columnNumber: 40
             }, undefined)]
           }, void 0, true, {
             fileName: _jsxFileName,
-            lineNumber: 104,
+            lineNumber: 106,
             columnNumber: 25
           }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 103,
+          lineNumber: 105,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
@@ -49614,7 +48923,7 @@ const BackupNoticePage = () => {
             onClick: onCheck1
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 112,
+            lineNumber: 114,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("label", {
             htmlFor: "backDONE",
@@ -49622,12 +48931,12 @@ const BackupNoticePage = () => {
             children: "I have backed up my recovery key"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 118,
+            lineNumber: 120,
             columnNumber: 25
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 113,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
           className: "flex flex-row items-center space-x-2",
@@ -49638,7 +48947,7 @@ const BackupNoticePage = () => {
             onClick: onCheck2
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 123,
+            lineNumber: 125,
             columnNumber: 25
           }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("label", {
             htmlFor: "underSTOOD",
@@ -49646,17 +48955,17 @@ const BackupNoticePage = () => {
             children: "I understand that if I lose my recovery key I won\u2019t be able to access my wallet"
           }, void 0, false, {
             fileName: _jsxFileName,
-            lineNumber: 129,
+            lineNumber: 131,
             columnNumber: 25
           }, undefined)]
         }, void 0, true, {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 124,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 110,
+        lineNumber: 112,
         columnNumber: 17
       }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])("div", {
         className: "flex flex-row w-full p-6 space-x-4",
@@ -49668,7 +48977,7 @@ const BackupNoticePage = () => {
           buttonClass: _styles_classes__WEBPACK_IMPORTED_MODULE_4__["Classes"].reminderButton
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 137,
           columnNumber: 21
         }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
           to: {
@@ -49684,12 +48993,12 @@ const BackupNoticePage = () => {
           children: "Next"
         }, void 0, false, {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 142,
           columnNumber: 21
         }, undefined)]
       }, void 0, true, {
         fileName: _jsxFileName,
-        lineNumber: 134,
+        lineNumber: 136,
         columnNumber: 17
       }, undefined)]
     }, void 0, true, {
@@ -53229,7 +52538,7 @@ const ApprovePage = () => {
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_40__["jsxDEV"])("div", {
         className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_17__["classnames"])("absolute mr-6 right-0 top-6", isCustomSelected ? "hidden" : "visible"),
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_40__["jsxDEV"])(_components_icons_MiniCheckmark__WEBPACK_IMPORTED_MODULE_5__["default"], {
-          fill: "#1673FF"
+          fill: "#00FFA3"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 652,
@@ -53273,7 +52582,7 @@ const ApprovePage = () => {
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_40__["jsxDEV"])("div", {
         className: Object(_styles_classes__WEBPACK_IMPORTED_MODULE_17__["classnames"])("absolute mr-6 right-0 top-6", isCustomSelected ? "visible" : "hidden"),
         children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_40__["jsxDEV"])(_components_icons_MiniCheckmark__WEBPACK_IMPORTED_MODULE_5__["default"], {
-          fill: "#1673FF"
+          fill: "#00FFA3"
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 686,
@@ -53592,14 +52901,14 @@ Classes.centered = classnames("flex flex-row items-center justify-center");
 Classes.start = classnames("flex flex-row items-center justify-start ");
 Classes.animated = classnames("transition-all duration-300");
 Classes.transform = classnames("transform active:scale-95");
-Classes.iconButton = classnames(Classes.start, Classes.animated, Classes.transform, "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-black cursor-pointer disabled:pointer-events-none");
+Classes.iconButton = classnames(Classes.start, Classes.animated, Classes.transform, "h-12 space-x-2 p-4 rounded-md text-sm font-bold text-component-btn-200 cursor-pointer disabled:pointer-events-none");
 Classes.baseButton = classnames(Classes.centered, Classes.animated, Classes.transform, "flex-1 h-12 px-6 py-3 font-normal font-title text-sm shadow-sm rounded-md", // "border-2",
 "cursor-pointer disabled:pointer-events-none");
 Classes.button = classnames(Classes.centered, Classes.baseButton, primaryButton);
 Classes.smallButton = classnames(Classes.centered, primaryButton, "text-xs shadow-sm rounded-md p-1 border-2 cursor-pointer disabled:pointer-events-none");
 Classes.menuButton = classnames(Classes.iconButton, "bg-primary-100 hover:bg-primary-200");
 Classes.buttonIcon = classnames("w-5 h-5 mr-3");
-Classes.actionButton = classnames(Classes.iconButton, "bg-white border border-gray-200 hover:border-black");
+Classes.actionButton = classnames(Classes.iconButton, "bg-component-btn-200 bg-opacity-[8%] hover:bg-opacity-[20%]");
 Classes.logoutButton = classnames(Classes.iconButton, "text-red-500 bg-red-100 border border-opacity-0 hover:border-red-600 hover:border-opacity-100");
 Classes.disabledLogoutButton = classnames(Classes.iconButton, "text-red-300 bg-red-50 border border-opacity-0 hover:border-red-400 hover:border-opacity-50");
 Classes.redButton = classnames(Classes.centered, Classes.baseButton, "text-white bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700");
@@ -53611,7 +52920,7 @@ Classes.disabledDarkButton = classnames(Classes.baseButton, "bg-gray-700 border-
 Classes.liteButton = classnames(Classes.centered, Classes.baseButton, "text-gray-900 border-gray-900 hover:text-white hover:bg-gray-900");
 Classes.backButton = classnames(Classes.centered, Classes.baseButton, "text-white border-gray-900 hover:text-white hover:bg-gray-900");
 Classes.inputLabel = classnames("text-xs");
-Classes.inputBordered = classnames("text-sm rounded-md border-1 border-gray-200 placeholder-gray-400 focus:ring-0");
+Classes.inputBordered = classnames("text-sm rounded-md placeholder-gray-400 focus:ring-0");
 Classes.input = classnames("w-full text-xs px-4 rounded-md py-5 text-white border-[1px] border-component-input-border placeholder-component-input-placeholder focus:ring-0");
 Classes.seedInput = classnames("bg-component-btn-600 text-component-btn-700 rounded-2xl py-2 text-xs rounded-md py-5 placeholder-component-input-placeholder focus:ring-0");
 Classes.inputBorder = classnames("w-full text-xs px-2 py-2 mt-1 rounded-md border-1 border-gray-200 placeholder-gray-400 focus:ring-0");

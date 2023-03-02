@@ -134,7 +134,7 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>(
                         htmlFor={name}
                         className={classnames(
                             Classes.inputLabel,
-                            "flex flex-row items-center space-x-2"
+                            "flex flex-row items-center space-x-2 text-white mb-[2px]"
                         )}
                     >
                         <span>{label}</span>

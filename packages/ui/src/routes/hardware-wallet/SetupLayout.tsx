@@ -6,7 +6,8 @@ import PageLayout from "../../components/PageLayout"
 type SetupLayoutProps = {
     title: string
     subtitle: string
-    buttons: React.ReactNode
+    buttons: React.ReactNode,
+    backClick?: React.ReactNode
 }
 
 const HardwareWalletSetupLayout: FC<PropsWithChildren<SetupLayoutProps>> = ({
@@ -14,13 +15,14 @@ const HardwareWalletSetupLayout: FC<PropsWithChildren<SetupLayoutProps>> = ({
     title,
     subtitle,
     buttons,
+    backClick,
 }) => (
-    <PageLayout header style={{ maxWidth: "500px" }}>
+    <PageLayout header backClick={backClick} step={6}>
         <IsLockedDialog />
-        <span className="my-8 text-2xl font-bold font-title">{title}</span>
+        <span className="my-8 text-2xl font-bold font-title text-white">{title}</span>
         <Divider />
         <div className="pt-8 px-8 flex w-full">
-            <span className=" px-6 text-base leading-relaxed text-center text-gray-600 w-full">
+            <span className=" px-6 text-base leading-relaxed text-center text-txt-settings w-full">
                 {subtitle}
             </span>
         </div>

@@ -47,15 +47,15 @@ const Asset: FunctionComponent<{
     const formatter = useCurrencyFromatter()
     return (
         <div
-            // onClick={() =>
-            //     history.push({
-            //         pathname: `/asset/details`,
-            //         state: {
-            //             address: asset.token.address,
-            //             transitionDirection: "left",
-            //         },
-            //     })
-            // }
+            onClick={() =>
+                history.push({
+                    pathname: `/asset/details`,
+                    state: {
+                        address: asset.token.address,
+                        transitionDirection: "left",
+                    },
+                })
+            }
             className="flex flex-row items-center justify-between px-3 py-4 -ml-6 transition duration-300 hover:bg-opacity-20 
                 bg-body-assets-100 active:bg-opacity-20 cursor-pointer rounded-lg"
             style={{ width: "calc(100% + 2 * 1.5rem)" }}
@@ -74,7 +74,7 @@ const Asset: FunctionComponent<{
                         )} ${asset.token.symbol}
                                 `}
                     >
-                        Exzo
+                        {asset.token.name}
                     </span>
                     <span className="text-sm text-body-assets-200">
                         {`

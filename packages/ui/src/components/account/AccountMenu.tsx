@@ -123,7 +123,7 @@ const AccountMenu = () => {
                                         },
                                     })
                                 }}
-                                className="cursor-pointer p-2 transition duration-300 rounded-full hover:bg-primary-100 hover:text-primary-300"
+                                className="cursor-pointer p-2 transition duration-300 rounded-full hover:bg-component-btn-200 hover:bg-opacity-[8%] hover:text-primary-300"
                             >
                                 <img src={editIcon} alt="Edit"></img>
                             </div>,
@@ -154,7 +154,7 @@ const AccountMenu = () => {
                             containerClassName="flex flex-col space-y-4"
                             display={(option, i) => {
                                 const className =
-                                    "flex flex-row space-x-3 items-center text-gray-900 h-5"
+                                    "flex flex-row space-x-3 items-center text-txt-settings font-medium h-5"
                                 const children = (
                                     <>
                                         <div
@@ -170,7 +170,7 @@ const AccountMenu = () => {
                                                 }
                                             />
                                         </div>
-                                        <span className="font-bold">
+                                        <span>
                                             {option.label}
                                         </span>
                                     </>

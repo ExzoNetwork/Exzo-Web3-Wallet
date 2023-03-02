@@ -44,15 +44,6 @@ const ResetAccountPage = ({}) => {
     return (
         <PopupLayout
             header={<PopupHeader title="Reset Account" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label={"Reset"}
-                        type="reset"
-                        onClick={handleReset}
-                    />
-                </PopupFooter>
-            }
         >
             <WaitingDialog
                 status={status}
@@ -71,7 +62,7 @@ const ResetAccountPage = ({}) => {
                 timeout={1100}
             />
             <div className="flex flex-col p-6 space-y-6 w-full">
-                <div className="text-sm text-gray-500">
+                <div className="text-sm text-txt-settings">
                     <span>
                         Resetting your account will clear the transaction
                         history and added tokens. You will not need to re-import
@@ -95,6 +86,13 @@ const ResetAccountPage = ({}) => {
                     </span>
                 </div>
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label={"Reset"}
+                    type="reset"
+                    onClick={handleReset}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

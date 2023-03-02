@@ -149,9 +149,9 @@ const AddAccountPage = () => {
                             error={errors.accountName?.message}
                             autoFocus={true}
                             maxLength={40}
+                            className="bg-component-input-bg"
                         />
                     </div>
-                    <hr className="border-0.5 border-gray-200 w-full" />
                     <PopupFooter>
                         <ButtonWithLoading
                             type="submit"

@@ -118,17 +118,7 @@ const AddContactPage = () => {
                 isFormValid: Object.keys(errors).length === 0,
             }}
             header={<PopupHeader title={pageTitle} close="/" />}
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label={buttonTitle}
-                        onClick={onSubmit}
-                        disabled={!canUpdate}
-                    />
-                </PopupFooter>
-            }
         >
-            <Divider />
             <div className="flex flex-col w-full justify-between flex-1 h-full">
                 <div className="flex flex-col flex-1 p-6 space-y-3">
                     <div className="flex flex-col space-y-1">
@@ -147,6 +137,7 @@ const AddContactPage = () => {
                             defaultValue={
                                 contact?.name || placeholderСontactName
                             }
+                            className="bg-component-input-bg"
                         />
                     </div>
                     <div className="flex flex-col space-y-1">
@@ -162,10 +153,10 @@ const AddContactPage = () => {
                                     setCanUpdate(true)
                                 },
                             })}
+                            className="bg-component-input-bg"
                         />
                     </div>
                 </div>
-                <hr className="border-0.5 border-gray-200 w-full" />
             </div>
             <WaitingDialog
                 open={isOpen}
@@ -195,6 +186,13 @@ const AddContactPage = () => {
                     })
                 }}
             />
+            <PopupFooter>
+                <ButtonWithLoading
+                    label={buttonTitle}
+                    onClick={onSubmit}
+                    disabled={!canUpdate}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

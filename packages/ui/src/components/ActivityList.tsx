@@ -36,7 +36,7 @@ const ActivityList = () => {
             <div className="flex flex-col items-start flex-1 w-full max-h-screen px-6 py-4 space-y-2 overflow-auto hide-scroll">
                 <div className="text-white flex justify-between w-full items-center">
                     <span className="text-2xl">Activity</span>
-                    <Link
+                    {/* <Link
                         to="/#"
                         className="transition duration-300"
                         draggable={false}
@@ -46,18 +46,18 @@ const ActivityList = () => {
                             <span className="mr-1.5">Export</span>
                             <FileIcon />    
                         </div>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div
                     className="flex flex-col flex-1 w-full space-y-0"
                     data-testid="activity-list"
                 >
-                    {/* <TransactionsList
+                    <TransactionsList
                         transactions={transactions}
                         //When the chainId and/or the address changes, this component is unmounted and mounted again.
                         key={`${chainId}-${address}`}
-                    /> */}
-                    <div className="mt-8">
+                    />
+                    {/* <div className="mt-8">
                         <div>
                             <div className="py-4 flex justify-between">
                                 <div className="flex">
@@ -136,7 +136,7 @@ const ActivityList = () => {
                             </div>
                             <hr className="border-0.5 border-body-activity-300"/>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             </PopupLayout>

@@ -13,10 +13,10 @@ const CenteredTextCircle = ({ text, size }: CenteredTextCircleProps) => {
     const circleSize = SIZES_IN_PX[size || "lg"]
     return (
         <div
-            className="border-2 border-black rounded-full flex items-center justify-center"
+            className="border-2 border-component-btn-200 rounded-full flex items-center justify-center"
             style={{ width: circleSize, height: circleSize }}
         >
-            <span className="font-bold">{text}</span>
+            <span className="font-bold text-component-btn-200">{text}</span>
         </div>
     )
 }

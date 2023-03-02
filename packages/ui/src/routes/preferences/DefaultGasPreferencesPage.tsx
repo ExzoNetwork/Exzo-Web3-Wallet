@@ -43,16 +43,6 @@ const DefaultGasPreferencesPage = () => {
             header={
                 <PopupHeader title="Default Gas Setting" disabled={isLoading} />
             }
-            footer={
-                <PopupFooter>
-                    <ButtonWithLoading
-                        label="Save"
-                        isLoading={isLoading}
-                        disabled={defaultGasOption === selectedOption}
-                        onClick={onSave}
-                    />
-                </PopupFooter>
-            }
         >
             <SuccessDialog
                 open={showSuccessDialog}
@@ -61,8 +51,8 @@ const DefaultGasPreferencesPage = () => {
                 message="Your changes have been succesfully saved!"
                 onDone={history.goBack}
             />
-            <div className="flex flex-col p-6 space-y-4 w-full">
-                <span className="text-sm text-gray-500">
+            <div className="flex flex-col p-6 pb-0 space-y-4 w-full">
+                <span className="text-sm text-txt-settings">
                     Set your preferred gas setting for all future transactions.
                 </span>
                 <div className="flex flex-col w-full space-y-4">
@@ -70,9 +60,9 @@ const DefaultGasPreferencesPage = () => {
                         <div
                             key={option.name}
                             className={classnames(
-                                "w-full flex flex-row p-4 justify-between cursor-pointer rounded-md hover:border-primary-300 hover:text-primary-300 border",
+                                "w-full flex flex-row p-4 justify-between cursor-pointer rounded-md bg-container-100 hover:text-component-btn-200 text-txt-settings",
                                 selectedOption === option.name &&
-                                    "text-primary-300 border-primary-300"
+                                    "text-primary-300"
                             )}
                             onClick={() => {
                                 setSelectedOption(
@@ -92,7 +82,7 @@ const DefaultGasPreferencesPage = () => {
                             </div>
                             {selectedOption === option.name && (
                                 <div className="h-full flex items-center">
-                                    <MiniCheckmark fill="#1673FF" />
+                                    <MiniCheckmark fill="#00FFA3" />
                                 </div>
                             )}
                         </div>
@@ -106,6 +96,14 @@ const DefaultGasPreferencesPage = () => {
                     </InfoComponent>
                 </div>
             </div>
+            <PopupFooter>
+                <ButtonWithLoading
+                    label="Save"
+                    isLoading={isLoading}
+                    disabled={defaultGasOption === selectedOption}
+                    onClick={onSave}
+                />
+            </PopupFooter>
         </PopupLayout>
     )
 }

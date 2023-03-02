@@ -10,7 +10,8 @@ module.exports = {
                     logo: "#EFEFEF",
                     subtitle: "#8A8A8A",
                     warn:  "#FF9C54",
-                    check: "#CFD0D3"
+                    check: "#CFD0D3",
+                    settings: "#CCDAE7"
                 },
                 container: {
                     100: "#ffffff0d",
@@ -44,7 +45,7 @@ module.exports = {
                 primary: {
                     100: "#E7F1FB",
                     200: "#D9E9FA",
-                    300: "#1673FF",
+                    300: "#00FFA3",
                 },
                 header: {
                     100: "#272727",

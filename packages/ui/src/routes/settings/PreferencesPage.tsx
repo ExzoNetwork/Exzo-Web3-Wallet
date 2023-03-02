@@ -71,7 +71,7 @@ const PreferencesPage = () => {
                             containerClassName="flex flex-col space-y-4"
                             display={(option, i) => {
                                 const className =
-                                    "flex flex-row space-x-3 items-center text-gray-900"
+                                    "flex flex-row space-x-3 items-center text-txt-settings"
                                 const children = (
                                     <>
                                         <div

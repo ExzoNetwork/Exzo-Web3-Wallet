@@ -98,6 +98,8 @@ const BackupNoticePage = () => {
                             revealMessage={"Click here to reveal secret words"}
                             revealed={revealed}
                             onClick={() => setRevealed(true)}
+                            isReminder={true}
+                            isPrivate={false}
                         />
                     </div>
                     <div className="px-48 w-full absolute bottom-0 left-0">

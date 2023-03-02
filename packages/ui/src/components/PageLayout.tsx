@@ -70,11 +70,11 @@ const PageLayout: FunctionComponent<{
                                             </Link>
                                     }
                                     {
-                                        step == 3 &&
+                                        (step == 3 || step == 6) &&
                                         backClick
                                     }
                                     {
-                                        step != 5 && fromImportPage == false ?
+                                        step != 5 && fromImportPage == false && step != 6 ?
                                             <div className="flex gap-x-2 mt-6">
                                                 <div className={classnames("w-4 h-4 rounded-full", step >= 1 ? "bg-header-step-200" : "bg-header-step-100")} ></div>
                                                 <div className={classnames("w-4 h-4 rounded-full", step >= 2 ? "bg-header-step-200" : "bg-header-step-100")}></div>

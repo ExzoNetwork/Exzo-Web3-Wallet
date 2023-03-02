@@ -7,7 +7,7 @@ const TrashBinIcon: FunctionComponent<{ className?: string }> = ({
     return (
         <svg
             viewBox="0 0 16 16"
-            className={classnames("fill-black", className)}
+            className={classnames("fill-component-btn-200", className)}
             xmlns="http://www.w3.org/2000/svg"
         >
             <path d="M7 7H5V13H7V7Z" />
