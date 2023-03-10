@@ -76,7 +76,7 @@ const HardwareWalletVendorsPage = () => {
                 <Divider />
                 <div className="w-full flex flex-col p-8 space-y-5 text-white">
                     <ExternalLink
-                        href="https://help.blockwallet.io/hc/en-us/articles/6670564432657-How-do-Hardware-Wallets-Work-"
+                        href="https://exzonetwork.medium.com/how-do-crypto-hardware-wallets-work-3f869ec3edd0"
                         title="How do Hardware Wallets work?"
                     />
                     <ExternalLink
@@ -84,7 +84,7 @@ const HardwareWalletVendorsPage = () => {
                         title="How to get a Ledger?"
                     />
                     <ExternalLink
-                        href="https://help.blockwallet.io/hc/en-us/articles/6670542248209-How-to-get-the-Trezor-Hardware-Wallet-"
+                        href="https://trezor.io/support/a/where-to-buy-trezor"
                         title="How to get a Trezor?"
                     />
                 </div>
