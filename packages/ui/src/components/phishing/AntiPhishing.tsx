@@ -27,7 +27,7 @@ const AntiPhishing: FunctionComponent<{
                     <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://help.blockwallet.io/hc/en-us/articles/4756464544657"
+                        href="https://exzo.network"
                     >
                         <img
                             src={image}
