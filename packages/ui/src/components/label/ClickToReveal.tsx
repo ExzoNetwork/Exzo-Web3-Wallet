@@ -13,16 +13,16 @@ const ClickToReveal: FunctionComponent<{
     const phraseArray = hiddenText ? hiddenText.split(" ") : [];
     return (
         <div className="relative px-4 py-12 overflow-hidden rounded-3xl bg-container-reveal bg-opacity-20">
-            {/* {!revealed ? (
+            {!revealed ? (
                 <button
                     type="button"
                     onClick={onClick}
-                    className="absolute top-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full space-y-2 bg-opacity-50 bg-body-balances-100"
+                    className="absolute top-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full space-y-2 bg-body-300"
                 >
                     <img src={lockIcon} alt="lock" className="w-5 h-5" />
                     <span className="font-bold text-white">{revealMessage}</span>
                 </button>
-            ) : null} */}
+            ) : null}
             {
                 !isPrivate ? 
                 <div className="grid grid-cols-3 gap-3">

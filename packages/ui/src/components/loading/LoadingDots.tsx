@@ -8,6 +8,8 @@ const Dots = styled.span`
         content: "";
         width: 1em;
         text-align: left;
+        color: white;
+        font-size: 36px
     }
     @keyframes ellipsis {
         0% {

@@ -83,6 +83,7 @@ enum APP {
     UNLOCK = 'UNLOCK_APP',
     GET_IDLE_TIMEOUT = 'GET_IDLE_TIMEOUT',
     SET_IDLE_TIMEOUT = 'SET_IDLE_TIMEOUT',
+    GET_IDLE_TIMEOUT_COUNT = 'GET_IDLE_TIMEOUT_COUNT',
     SET_LAST_USER_ACTIVE_TIME = 'SET_LAST_USER_ACTIVE_TIME',
     RETURN_TO_ONBOARDING = 'RETURN_TO_ONBOARDING',
     OPEN_RESET = 'OPEN_RESET',
@@ -299,6 +300,7 @@ export interface RequestSignatures {
     ];
     [Messages.APP.GET_IDLE_TIMEOUT]: [undefined, number];
     [Messages.APP.SET_IDLE_TIMEOUT]: [RequestSetIdleTimeout, void];
+    [Messages.APP.GET_IDLE_TIMEOUT_COUNT]: [undefined, number];
     [Messages.APP.SET_LAST_USER_ACTIVE_TIME]: [undefined, void];
     [Messages.APP.LOCK]: [undefined, boolean];
     [Messages.APP.UNLOCK]: [RequestAppUnlock, boolean];
@@ -594,6 +596,10 @@ export interface RequestAppUnlock {
 
 export interface RequestSetIdleTimeout {
     idleTimeout: number;
+}
+
+export interface RequestSetIdleTimeoutCount {
+    idleTimeoutCount: number;
 }
 
 export interface RequestConfirmDappRequest {

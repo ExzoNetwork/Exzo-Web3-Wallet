@@ -191,6 +191,7 @@ describe('Blank Provider Controller', function () {
                 isAppUnlocked: true,
                 lastActiveTime: new Date().getTime(),
                 lockedByTimeout: false,
+                idleTimeoutCount: 0,
             },
             mockKeyringController,
             transactionController
@@ -414,6 +415,7 @@ describe('Blank Provider Controller', function () {
                 lastActiveTime: new Date().getTime(),
                 lockedByTimeout: false,
                 idleTimeout: defaultIdleTimeout,
+                idleTimeoutCount: 0
             });
 
             sinon.stub(permissionsController.store, 'getState').returns({

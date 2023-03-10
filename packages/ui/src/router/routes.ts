@@ -60,6 +60,7 @@ import BridgeConfirmPage from "../routes/bridge/BridgeConfirmPage"
 import BridgeAfterAddTokenPage from "../routes/bridge/BridgeAfterAddTokenPage"
 import ActivityList from "../components/ActivityList"
 import CollectiblesPage from "../routes/CollectiblesPage"
+import CollectiblesDetailPage from "../routes/CollectiblesDetailPage"
 
 export const ROUTES_DEFINITION = [
     /* Root */
@@ -113,6 +114,7 @@ export const ROUTES_DEFINITION = [
     },
     /* Collectibles */
     { path: "/collectibles", exact: true, component: CollectiblesPage },
+    { path: "/collectibles/detail", exact: true, component: CollectiblesDetailPage },
     /* Send */
     { path: "/send", exact: true, component: SendPage },
     {

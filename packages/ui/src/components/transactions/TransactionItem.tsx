@@ -501,7 +501,6 @@ const TransactionItem: React.FC<{
         ].includes(transactionCategory)
             ? BridgeDetails
             : TransactionDetails
-        console.log("transaction---------", transaction)
     return (
         <>
             <OperationDetails

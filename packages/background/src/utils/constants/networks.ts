@@ -1,3 +1,4 @@
+
 import { BigNumber } from '@ethersproject/bignumber';
 import { BlankSupportedFeatures, FEATURES } from './features';
 import { Duration, MINUTE, SECOND } from './time';
@@ -161,7 +162,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: true,
         showGasLevels: true,
-        rpcUrls: [`https://mainnet-node.blockwallet.io`],
+        rpcUrls: [`https://mainnet.infura.io/v3/d26d5f4154164d209e83e3ca30be634f`],
         blockExplorerUrls: ['https://etherscan.io'],
         blockExplorerName: 'Etherscan',
         etherscanApiUrl: 'https://api.etherscan.io',
@@ -191,7 +192,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: false,
-        rpcUrls: ['https://arbitrum-node.blockwallet.io'],
+        rpcUrls: ['https://arbitrum-mainnet.infura.io/v3/d26d5f4154164d209e83e3ca30be634f'],
         blockExplorerUrls: ['https://arbiscan.io'],
         blockExplorerName: 'Arbiscan',
         etherscanApiUrl: 'https://api.arbiscan.io',
@@ -224,7 +225,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: false,
-        rpcUrls: ['https://optimism-node.blockwallet.io'],
+        rpcUrls: ['https://optimism-mainnet.infura.io/v3/d26d5f4154164d209e83e3ca30be634f'],
         blockExplorerUrls: ['https://optimistic.etherscan.io'],
         blockExplorerName: 'Etherscan',
         etherscanApiUrl: 'https://api-optimistic.etherscan.io',
@@ -247,7 +248,7 @@ export const INITIAL_NETWORKS: Networks = {
         },
         hasFixedGasCost: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartchain/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/smartchain/info/logo.png',
         ],
         enable: true,
         test: false,
@@ -255,7 +256,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: true,
-        rpcUrls: ['https://bsc-node.blockwallet.io'],
+        rpcUrls: ['https://warp-nd-221-121-511.p2pify.com/6ff675a2804014898012a3623db6f0bb'],
         blockExplorerUrls: ['https://bscscan.com'],
         blockExplorerName: 'Bscscan',
         etherscanApiUrl: 'https://api.bscscan.com',
@@ -279,7 +280,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polygon/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/polygon/info/logo.png',
         ],
         hasFixedGasCost: true,
         gasLowerCap: {
@@ -291,7 +292,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: true,
-        rpcUrls: [`https://polygon-node.blockwallet.io`],
+        rpcUrls: [`https://polygon-mainnet.infura.io/v3/d26d5f4154164d209e83e3ca30be634f`],
         blockExplorerUrls: ['https://polygonscan.com'],
         blockExplorerName: 'Polygonscan',
         etherscanApiUrl: 'https://api.polygonscan.com',
@@ -315,7 +316,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/avalanchec/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/avalanchec/info/logo.png',
         ],
         hasFixedGasCost: true,
         gasLowerCap: {
@@ -327,7 +328,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: true,
-        rpcUrls: [`https://avax-node.blockwallet.io`],
+        rpcUrls: [`https://avalanche-mainnet.infura.io/v3/d26d5f4154164d209e83e3ca30be634f`],
         blockExplorerUrls: ['https://snowtrace.io/'],
         blockExplorerName: 'Snowtrace',
         etherscanApiUrl: 'https://api.snowtrace.io/',
@@ -351,7 +352,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/fantom/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/fantom/info/logo.png',
         ],
         hasFixedGasCost: true,
         enable: true,
@@ -360,7 +361,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: true,
-        rpcUrls: [`https://fantom-node.blockwallet.io`],
+        rpcUrls: [`https://nd-902-875-641.p2pify.com/a68023e027b60c1c4ba3d3d97c80537f`],
         blockExplorerUrls: ['https://ftmscan.com'],
         blockExplorerName: 'FTMScan',
         etherscanApiUrl: 'https://api.ftmscan.com',
@@ -389,9 +390,9 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: false,
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/xdai/assets/0x/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/xdai/assets/0x/logo.png',
         ],
-        rpcUrls: ['https://xdai-node.blockwallet.io'],
+        rpcUrls: ['hhttps://rpc.ankr.com/gnosis'],
         blockExplorerUrls: ['https://blockscout.com/xdai/mainnet'],
         blockExplorerName: 'Blockscout',
         etherscanApiUrl: 'https://api-gnosis.etherscan.io',
@@ -420,9 +421,9 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: false, // "Slow" gas level might be lower than the minimumGasPrice so the tx will be rejected
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/rsk/assets/0x/logo.png',
         ],
-        rpcUrls: ['https://rsk-node.blockwallet.io'],
+        rpcUrls: ['https://public-node.rsk.co'],
         blockExplorerName: 'RSK Explorer',
         blockExplorerUrls: ['https://explorer.rsk.co'],
         actionsTimeIntervals: { ...ACTIONS_TIME_INTERVALS_DEFAULT_VALUES },
@@ -449,7 +450,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: true,
         showGasLevels: true,
-        rpcUrls: [`https://goerli-node.blockwallet.io`],
+        rpcUrls: [`https://goerli.infura.io/v3/d26d5f4154164d209e83e3ca30be634f`],
         blockExplorerUrls: ['https://goerli.etherscan.io'],
         blockExplorerName: 'Etherscan',
         etherscanApiUrl: 'https://api-goerli.etherscan.io',
@@ -472,7 +473,7 @@ export const INITIAL_NETWORKS: Networks = {
         },
         hasFixedGasCost: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/smartchain/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/smartchain/info/logo.png',
         ],
         enable: true,
         test: true,
@@ -501,7 +502,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/polygon/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/polygon/info/logo.png',
         ],
         hasFixedGasCost: true,
         enable: true,
@@ -510,7 +511,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: true,
-        rpcUrls: [`https://matic-mumbai.chainstacklabs.com`],
+        rpcUrls: [`https://polygon-mumbai.infura.io/v3/d26d5f4154164d209e83e3ca30be634f`],
         blockExplorerUrls: ['https://mumbai.polygonscan.com'],
         blockExplorerName: 'Etherscan',
         etherscanApiUrl: 'https://mumbai.polygonscan.com',
@@ -532,7 +533,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/zksync/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/zksync/info/logo.png',
         ],
         hasFixedGasCost: false,
         enable: true,
@@ -541,7 +542,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: false,
-        rpcUrls: [`https://zksync-testnet-node.blockwallet.io`],
+        rpcUrls: [`https://zksync2-testnet.zksync.dev`],
         blockExplorerUrls: ['https://goerli.explorer.zksync.io'],
         blockExplorerName: 'zkSync Explorer',
         actionsTimeIntervals: { ...SLOW_TESTNET_TIME_INTERVALS_DEFAULT_VALUES },
@@ -562,7 +563,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/scroll/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/scroll/info/logo.png',
         ],
         hasFixedGasCost: false,
         enable: true,
@@ -571,7 +572,7 @@ export const INITIAL_NETWORKS: Networks = {
         features: [FEATURES.SENDS],
         ens: false,
         showGasLevels: false,
-        rpcUrls: [`https://scroll-l1-testnet-node.blockwallet.io`],
+        rpcUrls: [`https://l1scan.scroll.io/api`],
         blockExplorerUrls: ['https://l1scan.scroll.io/'],
         blockExplorerName: 'Scroll L1 Explorer',
         actionsTimeIntervals: { ...SLOW_TESTNET_TIME_INTERVALS_DEFAULT_VALUES },
@@ -592,7 +593,7 @@ export const INITIAL_NETWORKS: Networks = {
             decimals: 18,
         },
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/scroll/info/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/scroll/info/logo.png',
         ],
         hasFixedGasCost: false,
         enable: true,
@@ -602,7 +603,7 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: false,
         rpcUrls: [`https://scroll-l2-testnet-node.blockwallet.io`],
-        blockExplorerUrls: ['https://l2scan.scroll.io/'],
+        blockExplorerUrls: ['https://l2scan.scroll.io/api'],
         blockExplorerName: 'Scroll L2 Explorer',
         actionsTimeIntervals: { ...SLOW_TESTNET_TIME_INTERVALS_DEFAULT_VALUES },
         tornadoIntervals: {
@@ -629,7 +630,7 @@ export const INITIAL_NETWORKS: Networks = {
         ens: false,
         showGasLevels: true,
         iconUrls: [
-            'https://raw.githubusercontent.com/block-wallet/assets/master/blockchains/rsk/assets/0x/logo.png',
+            'https://raw.githubusercontent.com/ExzoNetwork/assets/master/blockchains/rsk/assets/0x/logo.png',
         ],
         rpcUrls: ['https://did.testnet.rsk.co:4444'],
         blockExplorerName: 'RSK Testnet Explorer',

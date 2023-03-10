@@ -743,6 +743,8 @@ export default class BlankController extends EventEmitter {
                 );
             case Messages.APP.GET_IDLE_TIMEOUT:
                 return this.getIdleTimeout();
+            case Messages.APP.GET_IDLE_TIMEOUT_COUNT:
+                return this.getIdleTimeoutCount();
             case Messages.APP.SET_IDLE_TIMEOUT:
                 return this.setIdleTimeout(request as RequestSetIdleTimeout);
             case Messages.APP.SET_LAST_USER_ACTIVE_TIME:
@@ -1338,6 +1340,10 @@ export default class BlankController extends EventEmitter {
      */
     private async getIdleTimeout(): Promise<number> {
         return this.appStateController.getIdleTimeout();
+    }
+
+    private async getIdleTimeoutCount(): Promise<number> {
+        return this.appStateController.getIdleTimeoutCount();
     }
 
     /**

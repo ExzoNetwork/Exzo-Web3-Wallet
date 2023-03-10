@@ -291,6 +291,10 @@ export const getIdleTimeout = async (): Promise<number> => {
     return sendMessage(Messages.APP.GET_IDLE_TIMEOUT)
 }
 
+export const getIdleTimeoutCount = async (): Promise<number> => {
+    return sendMessage(Messages.APP.GET_IDLE_TIMEOUT_COUNT)
+}
+
 /**
  * Locks the current vault
  */

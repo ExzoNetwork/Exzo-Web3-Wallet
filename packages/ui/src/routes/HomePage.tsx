@@ -156,7 +156,6 @@ const HomePage = () => {
 
     const isLoading =
         state.isNetworkChanging || state.isRatesChangingAfterNetworkChange
-
     return (
         <PopupLayout
             header={

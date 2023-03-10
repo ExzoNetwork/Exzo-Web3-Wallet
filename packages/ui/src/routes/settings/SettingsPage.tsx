@@ -179,7 +179,7 @@ const SettingsPage = () => {
                         />
                         {!isSeedPhraseBackedUp && (
                             <div className="w-full border border-gray-200 rounded-md flex justify-between items-center p-4">
-                                <span className="text-xs mr-2">
+                                <span className="text-xs mr-2 text-white">
                                     Back your seed phrase up and store it in a
                                     safe place.
                                 </span>

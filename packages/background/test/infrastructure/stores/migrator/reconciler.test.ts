@@ -175,6 +175,7 @@ const initialState: BlankAppState & {
         isAppUnlocked: true,
         lastActiveTime: 0,
         lockedByTimeout: false,
+        idleTimeoutCount: 0
     },
     KeyringController: {
         isUnlocked: false,

@@ -5,13 +5,16 @@ import { SwapQuote } from "@block-wallet/background/controllers/SwapController"
 import { Token } from "@block-wallet/background/controllers/erc-20/Token"
 import { useOnMountHistory } from "../context/hooks/useOnMount"
 
+import { useAppDispatch } from "../app/hooks"
+import { useAppSelector } from "../app/hooks"
+import { getCollectionData } from "../slices/collection"
+
 //assets
-import Image1 from "../assets/exzo-images/images/screenshot-opensea.io-2023.021.png"
-import Image2 from "../assets/exzo-images/images/unnamed-33.png"
-import Image3 from "../assets/exzo-images/images/unnamed1.png"
-import Image4 from "../assets/exzo-images/images/AnyConv1.png"
-import Image5 from "../assets/exzo-images/images/Yuga-Labs-Bored-Ape-Yacht-Club-79401.png"
-import Image6 from "../assets/exzo-images/images/Manager-Noet-All1.png"
+import { useEffect, useMemo, useState } from "react"
+import { RootState } from "../app/store"
+import LoadingDots from "../components/loading/LoadingDots"
+import { useSelectedAddressWithChainIdChecksum } from "../util/hooks/useSelectedAddressWithChainIdChecksum"
+import { useSelectedNetwork } from "../context/hooks/useSelectedNetwork"
 
 interface SwapPageLocalState {
     fromToken?: Token
@@ -27,7 +30,26 @@ interface SwapState {
     bigNumberAmount?: BigNumber
 }
 
+const getNetworkName = (chainID: Number) => {
+    const networkName = [{ key: 1, value: "eth-main" },
+    { key: 42161, value: "arbitrum-main" },
+    { key: 10, value: "optimism-main" },
+    { key: 137, value: "poly-main" },
+    { key: 5, value: "eth-goerli" }]
+    for (const item of networkName) {
+        if (item.key == chainID) {
+            return item.value;
+        }
+    }
+    return "no exist"
+}
+
 const CollectiblesPage = () => {
+
+    const accountAddress = useSelectedAddressWithChainIdChecksum()
+    const { chainId } = useSelectedNetwork()
+    const networkName = useMemo(() => getNetworkName(chainId), [chainId])
+    console.log("network name-----", networkName)
     const history = useOnMountHistory()
     const {
         fromToken,
@@ -36,6 +58,22 @@ const CollectiblesPage = () => {
         amount: defaultAmount,
         fromAssetPage,
     } = (history.location.state || {}) as SwapPageLocalState
+
+    const isLoading = useAppSelector((state: RootState) => state.collection.isFetching)
+
+    const dispatch = useAppDispatch()
+
+    const nftArray = useAppSelector((state: RootState) => state.collection.data)
+
+    const _getCollectionData = async () => {
+        await dispatch(getCollectionData({ accountAddress, networkName }))
+    }
+    
+    useEffect(() => {
+        if (networkName != "no exist") {
+            _getCollectionData()
+        }
+    }, [accountAddress, networkName])
 
     return (
         <PopupLayout
@@ -48,8 +86,8 @@ const CollectiblesPage = () => {
                     onBack={() =>
                         fromAssetPage
                             ? history.push({
-                                  pathname: "/asset/details"
-                              })
+                                pathname: "/asset/details"
+                            })
                             : history.push("/home")
                     }
                 />
@@ -57,50 +95,45 @@ const CollectiblesPage = () => {
         >
             <div className="p-4">
                 <div className="text-white text-2xl p-6 pt-2">Collectibles</div>
-                <div className="grid grid-cols-2 gap-4">
-                    <div className="relative">
-                        <img className="w-full h-full" src={Image1} />
-                        <div className="absolute bottom-0 bg-body-collectibles-100 text-white font-bold backdrop-blur-[30px] flex justify-between  w-full rounded-b-[8px] p-1.5 text-[10px]">
-                            <div>Clone X</div>
-                            <div>#9231</div>
-                        </div>    
-                    </div>
-                    <div className="relative">
-                        <img className="w-full h-full" src={Image2} />
-                        <div className="absolute bottom-0 bg-body-collectibles-100 text-white font-bold backdrop-blur-[30px] flex justify-between  w-full rounded-b-[8px] p-1.5 text-[10px]">
-                            <div>Bored Ape</div>
-                            <div>#91</div>
-                        </div>    
-                    </div>
-                    <div className="relative">
-                        <img className="w-full h-full" src={Image3} />
-                        <div className="absolute bottom-0 bg-body-collectibles-100 text-white font-bold backdrop-blur-[30px] flex justify-between  w-full rounded-b-[8px] p-1.5 text-[10px]">
-                            <div>Futuristic Roberts</div>
-                            <div>#10000</div>
-                        </div>    
-                    </div>
-                    <div className="relative">
-                        <img className="w-full h-full" src={Image4} />
-                        <div className="absolute bottom-0 bg-body-collectibles-100 text-white font-bold backdrop-blur-[30px] flex justify-between  w-full rounded-b-[8px] p-1.5 text-[10px]">
-                            <div>Mutant Ape</div>
-                            <div>#1179</div>
-                        </div>    
-                    </div>
-                    <div className="relative">
-                        <img className="w-full h-full" src={Image5} />
-                        <div className="absolute bottom-0 bg-body-collectibles-100 text-white font-bold backdrop-blur-[30px] flex justify-between  w-full rounded-b-[8px] p-1.5 text-[10px]">
-                            <div>Bored Ape</div>
-                            <div>#79</div>
-                        </div>    
-                    </div>
-                    <div className="relative">
-                        <img className="w-full h-full" src={Image6} />
-                        <div className="absolute bottom-0 bg-body-collectibles-100 text-white font-bold backdrop-blur-[30px] flex justify-between  w-full rounded-b-[8px] p-1.5 text-[10px]">
-                            <div>Mutant Ape</div>
-                            <div>#1165</div>
-                        </div>    
-                    </div>
-                </div>
+                {
+                    isLoading ?
+                        <div className="flex justify-center w-full">
+                            <LoadingDots />
+                        </div> :
+                        nftArray.length === 0 ? <div className="text-sm text-gray-500 w-full flex justify-center mx-auto">You have no collections</div> :
+                            <div className="grid grid-cols-2 gap-4 w-full">
+                                {
+                                    nftArray.map((token: any, index: Number) => {
+                                        return (
+                                            <div key={index + token.contract_address} className="relative p-2 bg-container-100 rounded-lg border-container-100 border-2 hover:border-component-btn-200 cursor-pointer"
+                                                onClick={() => {
+                                                    history.push({
+                                                        pathname: `/collectibles/detail`,
+                                                        state: {
+                                                            token
+                                                        },
+                                                    })
+                                                }}>
+                                                <div>
+                                                    <img className="w-full h-full rounded-t-lg" src={token.cached_images ? token.cached_images.tiny_100_100 : ""} />
+                                                </div>
+                                                <div className="mt-2 text-white text-xs">{token.token_name}</div>
+                                                <div className="mt-2">
+                                                    {
+                                                        token.recent_price ?
+                                                            <><div className="text-txt-settings font-thin text-[10px]"><span className="text-white text-xs font-medium">price: </span>
+                                                                ${parseFloat(token.recent_price.price_usd).toFixed(2)}
+                                                            </div><div className="text-txt-settings flex text-[10px] justify-end font-thin">{token.recent_price.price + token.recent_price.price_currency}</div></> :
+                                                            <div className="mt-1 text-txt-settings font-thin"><span className="text-white text-xs font-medium">price: </span>
+                                                                {"not sale yet"}
+                                                            </div>
+                                                    }
+                                                </div>
+                                            </div>)
+                                    })
+                                }
+                            </div>
+                }
             </div>
         </PopupLayout>
     )

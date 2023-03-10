@@ -10,6 +10,7 @@ export interface AppStateControllerState {
     isAppUnlocked: boolean;
     lockedByTimeout: boolean;
     lastActiveTime: number;
+    idleTimeoutCount: number;
 }
 
 export enum AppStateEvents {
@@ -77,6 +78,9 @@ export default class AppStateController extends BaseController<AppStateControlle
 
         this._resetTimer();
     };
+    public setIdleTimeoutCount = (idleTimeoutCount: number): void => {
+        this.store.updateState({ idleTimeoutCount });
+    };
 
     /**
      * @returns Returns the idle timeout stored in the state.
@@ -84,6 +88,10 @@ export default class AppStateController extends BaseController<AppStateControlle
     public getIdleTimeout = (): number => {
         return this.store.getState().idleTimeout;
     };
+
+    public getIdleTimeoutCount = (): number => {
+        return this.store.getState().idleTimeoutCount;
+    }
 
     /**
      * Locks the vault and the app
@@ -99,8 +107,17 @@ export default class AppStateController extends BaseController<AppStateControlle
                 chrome.storage.session && chrome.storage.session.clear();
             }
 
+            let idleTimeoutCount = this.getIdleTimeoutCount();
+
+            if(idleTimeoutCount >= 10) {
+                idleTimeoutCount = 0;
+            } else {
+                idleTimeoutCount ++;
+            }
+            
             // Update controller state
-            this.store.updateState({ isAppUnlocked: false, lockedByTimeout });
+            this.store.updateState({ isAppUnlocked: false, lockedByTimeout});
+            this.setIdleTimeoutCount(idleTimeoutCount);
 
             // event emit
             this.emit(AppStateEvents.APP_LOCKED);

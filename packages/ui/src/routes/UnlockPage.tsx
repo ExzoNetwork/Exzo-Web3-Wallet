@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useHistory } from "react-router-dom"
 
 import PopupFooter from "../components/popup/PopupFooter"
@@ -15,7 +15,7 @@ import { yupResolver } from "@hookform/resolvers/yup"
 import { useForm } from "react-hook-form"
 import logo from "../assets/exzo-images/images/logo.png"
 
-import { unlockApp, requestSeedPhrase } from "../context/commActions"
+import { unlockApp, requestSeedPhrase, getIdleTimeoutCount } from "../context/commActions"
 import { openReset } from "../context/commActions"
 import { useBlankState } from "../context/background/backgroundHooks"
 import { ButtonWithLoading } from "../components/button/ButtonWithLoading"
@@ -48,7 +48,7 @@ const UnlockPage = () => {
     } = useBlankState()!
     const [hasDialog, setHasDialog] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
-
+    const [idleTimeoutCount, setIdleTimeoutCount] = useState(0)
     const getSeedPhrase = async (password: any) => {
         try {
             const phrase = await requestSeedPhrase(password)
@@ -63,7 +63,7 @@ const UnlockPage = () => {
         try {
             setIsLoading(true)
             if (await unlockApp(data.password)) {
-                if (!isSeedPhraseBackedUp) {
+                if (!isSeedPhraseBackedUp && (idleTimeoutCount == 1)) {
                     const seedPhrase = await getSeedPhrase(data.password)
 
                     return history.replace({
@@ -101,6 +101,12 @@ const UnlockPage = () => {
             )
         }
     })
+
+    useEffect(() => {
+        getIdleTimeoutCount().then((logoutCount) => {
+            setIdleTimeoutCount(logoutCount);
+        })
+    }, [])
 
     return (
         <PopupLayout

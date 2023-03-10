@@ -18,7 +18,7 @@ const ProviderDownDialog = () => {
     const location = useLocation()
     const history = useOnMountHistory()
 
-    const showDialog =
+    const showDialog = 
         !isProviderNetworkOnline &&
         isUserNetworkOnline &&
         !allowedPaths.includes(location.pathname)

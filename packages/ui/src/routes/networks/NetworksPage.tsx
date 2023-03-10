@@ -128,7 +128,6 @@ const NetworksPage = () => {
         setMainNetworks(parsedAvailableNetworks.mainnets)
         setTestNetworks(parsedAvailableNetworks.testnets)
     }, [])
-
     return (
         <PopupLayout
             header={

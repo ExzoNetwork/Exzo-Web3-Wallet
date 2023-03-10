@@ -28,6 +28,7 @@ const ReminderPage = () => {
     const [seedPhrase, setSeedPhrase] = useState<string | undefined>("")
     const [password, setPassword] = useState<string | undefined>("")
     const [copied, setCopied] = useState(false)
+    const [active, setActive] = useState(false)
     const hasBack = history.location.state?.hasBack ?? true
 
     const { permissionRequests, unapprovedTransactions, dappRequests } =
@@ -77,9 +78,9 @@ const ReminderPage = () => {
     }, [])
 
     const copyToClipboard = async () => {
-        setRevealed(true);
         await navigator.clipboard.writeText(seedPhrase? seedPhrase  : "")
         setCopied(true)
+        setActive(true)
         await new Promise((resolve) => setTimeout(resolve, 1000))
         setCopied(false)
     }
@@ -132,16 +133,22 @@ const ReminderPage = () => {
                                 isPrivate={false}
                             />
                         </div>
-                        <div className="px-18 absolute bottom-0 left-0 w-[300px]">
-                            <div className="relative w-[300px]">
-                                <div className="bg-component-btn-500 py-4 rounded-full text-xs font-bold hover:opacity-60 absolute left-[72px] -top-[26px] p-[14px] flex justify-center hover:cursor-pointer" onClick={copyToClipboard}><img src={CopyImg} className="mr-2 w-4 h-4"/><span>Copy to clipboard</span></div>
-                                {copied && <div className="absolute text-white text-xxs rounded-2xl left-[166px] -top-[35px] bg-black px-4 py-1">Copied!</div>}
-                            </div>
-                        </div>
+                        {
+                            revealed && 
+                                <div className="px-18 absolute bottom-0 left-0 w-[300px]">
+                                    <div className="relative w-[300px]">
+                                        <div className="bg-component-btn-500 py-4 rounded-full text-xs font-bold hover:opacity-60 absolute left-[72px] -top-[26px] 
+                                            p-[14px] flex justify-center hover:cursor-pointer" onClick={copyToClipboard}><img src={CopyImg} className="mr-2 w-4 h-4"/>
+                                            <span>Copy to clipboard</span>
+                                        </div>
+                                        {copied && <div className="absolute text-white text-xxs rounded-2xl left-[166px] -top-[35px] bg-black px-4 py-1">Copied!</div>}
+                                    </div>
+                                </div>
+                        }
                     </div>
                     <div className="w-full absolute bottom-0 pr-[49px] pb-[20px]">
                         <ButtonWithLoading
-                            disabled={!shouldEnterPassword && !revealed}
+                            disabled={!shouldEnterPassword && !active}
                             label={shouldEnterPassword ? "Next" : "Backup now"}
                             onClick={() => {
                                 if (shouldEnterPassword) {

@@ -13,7 +13,6 @@ export const useSelectedNetwork = () => {
     } = useBlankState()!
 
     const network = availableNetworks[selectedNetwork.toUpperCase()]
-    console.log(network)
     const defaultNetworkLogo = network.iconUrls ? network.iconUrls[0] : ETH_LOGO
     return {
         ...network,

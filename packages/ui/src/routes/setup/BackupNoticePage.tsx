@@ -59,6 +59,7 @@ const BackupNoticePage = () => {
     }, [isUnlocked])
 
     const [revealed, setRevealed] = useState(false)
+    const [active, setActive] = useState(false)
     const history: any = useOnMountHistory()
     const { seedPhrase, password } = history.location.state
     const [check1, setCheck1] = useState(-1)
@@ -74,6 +75,7 @@ const BackupNoticePage = () => {
     const copyToClipboard = async () => {
         await navigator.clipboard.writeText(seedPhrase)
         setCopied(true)
+        setActive(true)
         await new Promise((resolve) => setTimeout(resolve, 1000))
         setCopied(false)
     }
@@ -102,12 +104,15 @@ const BackupNoticePage = () => {
                             isPrivate={false}
                         />
                     </div>
-                    <div className="px-48 w-full absolute bottom-0 left-0">
-                        <div className="relative">
-                            <div className="bg-component-btn-500 py-4 rounded-full text-sm font-bold hover:opacity-60 flex justify-center hover:cursor-pointer" onClick={copyToClipboard}><img src={CopyImg} className="mr-2 w-5 h-5"/><span>Copy to clipboard</span></div>
-                            {copied && <div className="absolute text-white text-xxs rounded-2xl right-0 -top-2 bg-black px-4 py-1">Copied!</div>}
-                        </div>
-                    </div>
+                    {
+                        revealed && 
+                            <div className="px-48 w-full absolute bottom-0 left-0">
+                                <div className="relative">
+                                    <div className="bg-component-btn-500 py-4 rounded-full text-sm font-bold hover:opacity-60 flex justify-center hover:cursor-pointer" onClick={copyToClipboard}><img src={CopyImg} className="mr-2 w-5 h-5"/><span>Copy to clipboard</span></div>
+                                    {copied && <div className="absolute text-white text-xxs rounded-2xl right-0 -top-2 bg-black px-4 py-1">Copied!</div>}
+                                </div>
+                            </div>
+                    }
                 </div>
                 <div className="flex flex-col space-y-1 mt-6">
                     <div className="flex flex-row items-center space-x-2">

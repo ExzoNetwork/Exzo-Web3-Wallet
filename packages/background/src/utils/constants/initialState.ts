@@ -123,6 +123,7 @@ const initialState: BlankAppState = {
         isAppUnlocked: false,
         lastActiveTime: 0,
         lockedByTimeout: false,
+        idleTimeoutCount: 0,
     },
     BlockUpdatesController: { blockData: {} },
     KeyringController: {
