@@ -38,11 +38,11 @@ import { useNonSubmittedExternalTransaction } from "../../context/hooks/useNonSu
 import useNextRequestRoute from "../../context/hooks/useNextRequestRoute"
 import { useUserSettings } from "../../context/hooks/useUserSettings"
 import { useSelectedNetwork } from "../../context/hooks/useSelectedNetwork"
-import { TransactionFeeData } from "@block-wallet/background/controllers/erc-20/transactions/SignedTransaction"
+import { TransactionFeeData } from "@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction"
 import {
     TransactionAdvancedData,
     TransactionMeta,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import {
     confirmTransaction,
     getNextNonce,

@@ -1,5 +1,5 @@
 import { formatUnits } from "@ethersproject/units"
-import { TransferType } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransferType } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { formatRounded } from "./formatRounded"
 
 const formatTransactionValue = (

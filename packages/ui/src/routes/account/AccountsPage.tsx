@@ -1,7 +1,7 @@
 import PopupHeader from "../../components/popup/PopupHeader"
 import PopupLayout from "../../components/popup/PopupLayout"
 import AccountSelect from "../../components/account/AccountSelect"
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { selectAccount } from "../../context/commActions"
 import { useSelectedAccount } from "../../context/hooks/useSelectedAccount"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"

@@ -7,7 +7,7 @@ import {
     useEffect,
     useState,
 } from "react"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 import SearchInput from "../input/SearchInput"
 import NetworkSelectorList from "./NetworkSelectorList"
 import NetworkDropdownDisplay from "./NetworkDropdownDisplay"

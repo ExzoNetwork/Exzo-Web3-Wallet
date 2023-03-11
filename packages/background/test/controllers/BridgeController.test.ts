@@ -1,21 +1,21 @@
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
 import BridgeController, {
     BridgeAllowanceCheck,
     GetBridgeQuoteResponse,
     GetBridgeQuoteNotFoundResponse,
-} from '@block-wallet/background/controllers/BridgeController';
+} from '@exzo-wallet/background/controllers/BridgeController';
 import {
     TokenController,
     TokenControllerProps,
-} from '@block-wallet/background/controllers/erc-20/TokenController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
-import NetworkController from '@block-wallet/background/controllers/NetworkController';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import { PreferencesController } from '@block-wallet/background/controllers/PreferencesController';
-import TransactionController from '@block-wallet/background/controllers/transactions/TransactionController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+} from '@exzo-wallet/background/controllers/erc-20/TokenController';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
+import NetworkController from '@exzo-wallet/background/controllers/NetworkController';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import { PreferencesController } from '@exzo-wallet/background/controllers/PreferencesController';
+import TransactionController from '@exzo-wallet/background/controllers/transactions/TransactionController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import { TypedTransaction } from '@ethereumjs/tx';
 import { getNetworkControllerInstance } from 'test/mocks/mock-network-instance';
 import { mockedPermissionsController } from 'test/mocks/mock-permissions';
@@ -25,25 +25,25 @@ import BridgeAPI, {
     BridgeImplementation,
     IBridgeRoute,
     QuoteNotFoundError,
-} from '@block-wallet/background/utils/bridgeApi';
-import { IChain } from '@block-wallet/background/utils/types/chain';
+} from '@exzo-wallet/background/utils/bridgeApi';
+import { IChain } from '@exzo-wallet/background/utils/types/chain';
 import { expect } from 'chai';
-import { INITIAL_NETWORKS } from '@block-wallet/background/utils/constants/networks';
-import NETWORK_TOKENS_LIST from '@block-wallet/background/controllers/erc-20/TokenList';
-import { IToken } from '@block-wallet/background/controllers/erc-20/Token';
-import { ContractSignatureParser } from '@block-wallet/background/controllers/transactions/ContractSignatureParser';
+import { INITIAL_NETWORKS } from '@exzo-wallet/background/utils/constants/networks';
+import NETWORK_TOKENS_LIST from '@exzo-wallet/background/controllers/erc-20/TokenList';
+import { IToken } from '@exzo-wallet/background/controllers/erc-20/Token';
+import { ContractSignatureParser } from '@exzo-wallet/background/controllers/transactions/ContractSignatureParser';
 import { expectThrowsAsync } from 'test/utils/expectThrowsAsync.test';
 import { BigNumber } from '@ethersproject/bignumber';
-import { getChainListItem } from '@block-wallet/background/utils/chainlist';
-import { BRIDGE_REFERRER_ADDRESS } from '@block-wallet/background/utils/types/lifi';
+import { getChainListItem } from '@exzo-wallet/background/utils/chainlist';
+import { BRIDGE_REFERRER_ADDRESS } from '@exzo-wallet/background/utils/types/lifi';
 import MOCKS from '../mocks/mock-bridge-operations';
-import TokenAllowanceController from '@block-wallet/background/controllers/erc-20/transactions/TokenAllowanceController';
-import { sleep } from '@block-wallet/background/utils/sleep';
+import TokenAllowanceController from '@exzo-wallet/background/controllers/erc-20/transactions/TokenAllowanceController';
+import { sleep } from '@exzo-wallet/background/utils/sleep';
 import MockProvider from 'test/mocks/mock-provider';
-import { TransactionStatus } from '@block-wallet/background/controllers/transactions/utils/types';
+import { TransactionStatus } from '@exzo-wallet/background/controllers/transactions/utils/types';
 import { mockKeyringController } from 'test/mocks/mock-keyring-controller';
-import { AccountTrackerController } from '@block-wallet/background/controllers/AccountTrackerController';
-import { TransactionWatcherController } from '@block-wallet/background/controllers/TransactionWatcherController';
+import { AccountTrackerController } from '@exzo-wallet/background/controllers/AccountTrackerController';
+import { TransactionWatcherController } from '@exzo-wallet/background/controllers/TransactionWatcherController';
 
 const TOKEN_A_GOERLI: IToken = {
     address: 'token_a_g',
@@ -223,7 +223,7 @@ describe('Bridge Controller', () => {
                             name: 'desc',
                             type: 'tuple',
                             value: [
-                                '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 '0x220bdA5c8994804Ac96ebe4DF184d25e5c2196D4',
                                 '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                                 {
@@ -416,7 +416,7 @@ describe('Bridge Controller', () => {
                         fromChainId: GOERLI_CHAIN_ID,
                         toChainId: 1,
                         fromTokenAddress:
-                            '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                            '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                         toTokenAddress:
                             '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                         slippage: 0.01,
@@ -433,7 +433,7 @@ describe('Bridge Controller', () => {
                             feeCosts: [],
                             fromToken: {
                                 address:
-                                    '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                    '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 decimals: 18,
                                 logo: 'logo1',
                                 name: 'eth',
@@ -482,7 +482,7 @@ describe('Bridge Controller', () => {
                                 toChainId: 123,
                                 fromToken: {
                                     address:
-                                        '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                     decimals: 18,
                                     logo: 'logo1',
                                     chainId: 1,
@@ -495,7 +495,7 @@ describe('Bridge Controller', () => {
                                 },
                                 toToken: {
                                     address:
-                                        '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                     decimals: 18,
                                     logo: 'logo1',
                                     chainId: 1,
@@ -509,7 +509,7 @@ describe('Bridge Controller', () => {
                                 fromAmount: 'asd',
                                 slippage: 123,
                                 toAddress:
-                                    '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                    '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                             },
                             tool: 'tool',
                             message: 'message',
@@ -559,7 +559,7 @@ describe('Bridge Controller', () => {
                         {
                             toChainId: 1,
                             fromTokenAddress:
-                                '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                             toTokenAddress:
                                 '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                             slippage: 0.01,
@@ -605,7 +605,7 @@ describe('Bridge Controller', () => {
                             {
                                 toChainId: 1,
                                 fromTokenAddress:
-                                    '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                    '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 toTokenAddress:
                                     '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                                 slippage: 0.01,
@@ -634,7 +634,7 @@ describe('Bridge Controller', () => {
                         {
                             toChainId: 1,
                             fromTokenAddress:
-                                '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                             toTokenAddress:
                                 '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                             slippage: 0.01,
@@ -676,7 +676,7 @@ describe('Bridge Controller', () => {
                         {
                             toChainId: 1,
                             fromTokenAddress:
-                                '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                             toTokenAddress:
                                 '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                             slippage: 0.01,

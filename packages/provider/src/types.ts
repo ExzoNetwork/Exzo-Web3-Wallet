@@ -1,6 +1,6 @@
 import BlankProvider from './provider/BlankProvider';
-import { JSONRPCMethod } from '@block-wallet/background/utils/types/ethereum';
-import { Origin } from '@block-wallet/background/utils/types/communication';
+import { JSONRPCMethod } from '@exzo-wallet/background/utils/types/ethereum';
+import { Origin } from '@exzo-wallet/background/utils/types/communication';
 
 // Global
 type This = typeof globalThis;
@@ -12,7 +12,7 @@ export interface InjectedWindow extends This {
 
 // Provider interface
 export interface EthereumProvider {
-    readonly isBlockWallet: boolean;
+    readonly isExzoWallet: boolean;
 
     // Metamask compatibility
     readonly isMetaMask: boolean;

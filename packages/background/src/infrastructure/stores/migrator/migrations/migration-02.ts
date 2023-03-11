@@ -1,5 +1,5 @@
-import { GasPricesControllerState } from '@block-wallet/background/controllers/GasPricesController';
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { GasPricesControllerState } from '@exzo-wallet/background/controllers/GasPricesController';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { BigNumber } from '@ethersproject/bignumber';
 import { IMigration } from '../IMigration';
 

@@ -1,5 +1,5 @@
-import { AccountBalanceToken } from "@block-wallet/background/controllers/AccountTrackerController"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { AccountBalanceToken } from "@exzo-wallet/background/controllers/AccountTrackerController"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { BigNumber } from "@ethersproject/bignumber"
 import { parseUnits } from "@ethersproject/units"
 import { useTokensList } from "./useTokensList"

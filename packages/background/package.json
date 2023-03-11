@@ -1,12 +1,12 @@
 {
-    "name": "@block-wallet/background",
+    "name": "@exzo-wallet/background",
     "version": "1.0.2",
     "private": true,
     "dependencies": {
-        "@block-wallet/chains-assets": "https://github.com/block-wallet/chains-assets#v0.0.27",
-        "@block-wallet/eth-ledger-bridge-keyring": "https://github.com/block-wallet/eth-ledger-bridge-keyring",
-        "@block-wallet/explorer-link": "https://github.com/block-wallet/explorer-link#v2.2.2",
-        "@block-wallet/remote-configs": "https://github.com/block-wallet/remote-configs#v1.1.0",
+        "@exzo-wallet/chains-assets": "https://github.com/block-wallet/chains-assets#v0.0.27",
+        "@exzo-wallet/eth-ledger-bridge-keyring": "https://github.com/block-wallet/eth-ledger-bridge-keyring",
+        "@exzo-wallet/explorer-link": "https://github.com/block-wallet/explorer-link#v2.2.2",
+        "@exzo-wallet/remote-configs": "https://github.com/block-wallet/remote-configs#v1.1.0",
         "@ethereumjs/tx": "^3.5.2",
         "@metamask/eth-sig-util": "^5.0.2",
         "@unstoppabledomains/resolution": "^8.3.3",

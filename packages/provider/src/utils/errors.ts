@@ -1,4 +1,4 @@
-import { ProviderError } from '@block-wallet/background/utils/types/ethereum';
+import { ProviderError } from '@exzo-wallet/background/utils/types/ethereum';
 import { ethErrors } from 'eth-rpc-errors';
 
 /**

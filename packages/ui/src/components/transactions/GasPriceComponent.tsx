@@ -7,8 +7,8 @@ import * as yup from "yup"
 import { InferType } from "yup"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { useForm } from "react-hook-form"
-import { GasPriceLevels } from "@block-wallet/background/controllers/GasPricesController"
-import { TransactionFeeData } from "@block-wallet/background/controllers/erc-20/transactions/SignedTransaction"
+import { GasPriceLevels } from "@exzo-wallet/background/controllers/GasPricesController"
+import { TransactionFeeData } from "@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction"
 
 // Components
 import HorizontalSelect from "../input/HorizontalSelect"

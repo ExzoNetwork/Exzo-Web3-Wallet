@@ -11,10 +11,10 @@
         "noEmit": false,
         "noFallthroughCasesInSwitch": true,
         "paths": {
-            "@block-wallet/background": ["../background/src"],
-            "@block-wallet/background/*": ["../background/src/*"],
-            "@block-wallet/provider": ["./src"],
-            "@block-wallet/provider/*": ["./src/*"]
+            "@exzo-wallet/background": ["../background/src"],
+            "@exzo-wallet/background/*": ["../background/src/*"],
+            "@exzo-wallet/provider": ["./src"],
+            "@exzo-wallet/provider/*": ["./src/*"]
         },
         "resolveJsonModule": true,
         "skipLibCheck": true,

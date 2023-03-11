@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react"
 import AccountDisplay from "../account/AccountDisplay"
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { Classes, classnames } from "../../styles"
 
 const AccountMultipleSelect: FunctionComponent<{

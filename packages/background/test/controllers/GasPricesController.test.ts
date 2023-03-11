@@ -1,4 +1,4 @@
-import initialState from '@block-wallet/background/utils/constants/initialState';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import { expect } from 'chai';
 import { BigNumber } from '@ethersproject/bignumber';
 import {
@@ -10,11 +10,11 @@ import {
 import NetworkController from '../../src/controllers/NetworkController';
 import sinon from 'sinon';
 import { getNetworkControllerInstance } from '../mocks/mock-network-instance';
-import { Network } from '@block-wallet/background/utils/constants/networks';
+import { Network } from '@exzo-wallet/background/utils/constants/networks';
 import { it } from 'mocha';
 import { Block } from '@ethersproject/abstract-provider';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
 import httpClient, { RequestError } from './../../src/utils/http';
 
 // TODO(REC): FIX US!

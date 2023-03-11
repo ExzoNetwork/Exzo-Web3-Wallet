@@ -25,16 +25,16 @@ import {
     EXTERNAL,
     Origin,
     WindowTransportRequestMessage,
-} from '@block-wallet/background/utils/types/communication';
+} from '@exzo-wallet/background/utils/types/communication';
 import SafeEventEmitter from '@metamask/safe-event-emitter';
 import { ethErrors } from 'eth-rpc-errors';
 import { getIconData } from '../utils/site';
-import { JSONRPCMethod } from '@block-wallet/background/utils/types/ethereum';
+import { JSONRPCMethod } from '@exzo-wallet/background/utils/types/ethereum';
 import { validateError } from '../utils/errors';
 import log from 'loglevel';
 import {
-    getBlockWalletCompatibility,
-    updateBlockWalletCompatibility,
+    getExzoWalletCompatibility,
+    updateExzoWalletCompatibility,
 } from '../utils/compatibility';
 
 interface BlankProviderState {
@@ -52,7 +52,7 @@ export default class BlankProvider
     extends SafeEventEmitter
     implements EthereumProvider
 {
-    public isBlockWallet = true;
+    public isExzoWallet = true;
     public isMetaMask = true;
     public chainId: string | null;
     public selectedAddress: string | null;
@@ -90,12 +90,12 @@ export default class BlankProvider
         this._handlers = {};
         this._requestId = 0;
 
-        const cachedCompatibility = getBlockWalletCompatibility();
-        this.isBlockWallet = cachedCompatibility.isBlockWallet ?? true;
+        const cachedCompatibility = getExzoWalletCompatibility();
+        this.isExzoWallet = cachedCompatibility.isExzoWallet ?? true;
         this._ethSubscriptions = {};
 
         // Metamask compatibility
-        this.isMetaMask = !this.isBlockWallet;
+        this.isMetaMask = !this.isExzoWallet;
         this._updateSiteCompatibility();
 
         this.autoRefreshOnNetworkChange = false;
@@ -123,18 +123,18 @@ export default class BlankProvider
     }
 
     /**
-     * This method checks whether the current page is compatible with BlockWallet.
-     * If the site is not compatible, the isBlockWallet flag will be set to false when injecting the provider and isMetamask will be true.
+     * This method checks whether the current page is compatible with ExzoWallet.
+     * If the site is not compatible, the isExzoWallet flag will be set to false when injecting the provider and isMetamask will be true.
      */
     private async _updateSiteCompatibility(): Promise<void> {
         const providerConfig = await this._postMessage(
             Messages.EXTERNAL.GET_PROVIDER_CONFIG
         );
-        const { isBlockWallet } = updateBlockWalletCompatibility(
+        const { isExzoWallet } = updateExzoWalletCompatibility(
             providerConfig.incompatibleSites
         );
-        this.isBlockWallet = isBlockWallet;
-        this.isMetaMask = !isBlockWallet;
+        this.isExzoWallet = isExzoWallet;
+        this.isMetaMask = !isExzoWallet;
     }
 
     private async reInitializeSubscriptions() {
@@ -773,7 +773,7 @@ export default class BlankProvider
         ];
         if (deprecatedMethods.includes(methodName) || force) {
             log.warn(
-                `BlockWallet: '${methodName}' is deprecated and may be removed in the future. See: https://eips.ethereum.org/EIPS/eip-1193`
+                `ExzoWallet: '${methodName}' is deprecated and may be removed in the future. See: https://eips.ethereum.org/EIPS/eip-1193`
             );
         }
     }

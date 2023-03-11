@@ -1,5 +1,5 @@
-import ComposedStore from '@block-wallet/background/infrastructure/stores/ComposedStore';
-import ObservableStore from '@block-wallet/background/infrastructure/stores/ObservableStore';
+import ComposedStore from '@exzo-wallet/background/infrastructure/stores/ComposedStore';
+import ObservableStore from '@exzo-wallet/background/infrastructure/stores/ObservableStore';
 import { expect } from 'chai';
 import sinon from 'sinon';
 

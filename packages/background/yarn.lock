@@ -196,11 +196,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@block-wallet/chains-assets@https://github.com/block-wallet/chains-assets#v0.0.27":
+"@exzo-wallet/chains-assets@https://github.com/block-wallet/chains-assets#v0.0.27":
   version "0.0.27"
   resolved "https://github.com/block-wallet/chains-assets#e85446cac33b09c7e3a9893644ad3091eba806fd"
 
-"@block-wallet/eth-ledger-bridge-keyring@https://github.com/block-wallet/eth-ledger-bridge-keyring":
+"@exzo-wallet/eth-ledger-bridge-keyring@https://github.com/block-wallet/eth-ledger-bridge-keyring":
   version "0.13.0"
   resolved "https://github.com/block-wallet/eth-ledger-bridge-keyring#403c27ac0a1d49a4ee9722238f22c3ccf0a926f1"
   dependencies:
@@ -209,11 +209,11 @@
     ethereumjs-util "^7.0.9"
     hdkey "0.8.0"
 
-"@block-wallet/explorer-link@https://github.com/block-wallet/explorer-link#v2.2.2":
+"@exzo-wallet/explorer-link@https://github.com/block-wallet/explorer-link#v2.2.2":
   version "2.2.2"
   resolved "https://github.com/block-wallet/explorer-link#06beadc0eed8b3aed7c3b3813288ac85b5e99a19"
 
-"@block-wallet/remote-configs@https://github.com/block-wallet/remote-configs#v1.1.0":
+"@exzo-wallet/remote-configs@https://github.com/block-wallet/remote-configs#v1.1.0":
   version "0.0.0"
   resolved "https://github.com/block-wallet/remote-configs#eca1a737090b224974ede7b47ec44224b31fe2d1"
 

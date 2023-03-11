@@ -1,4 +1,4 @@
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { formatUnits } from "@ethersproject/units"
 import { FunctionComponent, useMemo, useState } from "react"
 import { BiRadioCircleMarked } from "react-icons/bi"

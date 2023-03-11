@@ -1,5 +1,5 @@
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
-import { IBridgeFeeCost } from "@block-wallet/background/utils/bridgeApi"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
+import { IBridgeFeeCost } from "@exzo-wallet/background/utils/bridgeApi"
 import { FC, Fragment } from "react"
 import { useSelectedNetwork } from "../../context/hooks/useSelectedNetwork"
 import { BridgeTransactionsData } from "../../util/hooks/useGetBridgeTransactionsData"

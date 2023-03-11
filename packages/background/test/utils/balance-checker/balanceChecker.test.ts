@@ -1,7 +1,7 @@
 import sinon from 'sinon';
 import { expect } from 'chai';
-import * as balanceChecker from '@block-wallet/background/utils/balance-checker/balanceChecker';
-import NetworkController from '@block-wallet/background/controllers/NetworkController';
+import * as balanceChecker from '@exzo-wallet/background/utils/balance-checker/balanceChecker';
+import NetworkController from '@exzo-wallet/background/controllers/NetworkController';
 import { getNetworkControllerInstance } from 'test/mocks/mock-network-instance';
 import { BigNumber } from '@ethersproject/bignumber';
 

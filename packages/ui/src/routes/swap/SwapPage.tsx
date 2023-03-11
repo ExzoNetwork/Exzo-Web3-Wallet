@@ -19,8 +19,8 @@
 // import { ExchangeType } from "../../context/commTypes"
 // import { InferType } from "yup"
 // import { SwapConfirmPageLocalState } from "./SwapConfirmPage"
-// import { SwapQuote } from "@block-wallet/background/controllers/SwapController"
-// import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+// import { SwapQuote } from "@exzo-wallet/background/controllers/SwapController"
+// import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 // import { classnames, Classes } from "../../styles"
 // import { formatCurrency, toCurrencyAmount } from "../../util/formatCurrency"
 // import { formatUnits, parseUnits } from "@ethersproject/units"
@@ -603,8 +603,8 @@ import { BASE_SWAP_FEE, SWAP_QUOTE_REFRESH_TIMEOUT } from "../../util/constants"
 import { ExchangeType } from "../../context/commTypes"
 import { InferType } from "yup"
 import { SwapConfirmPageLocalState } from "./SwapConfirmPage"
-import { SwapQuote } from "@block-wallet/background/controllers/SwapController"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { SwapQuote } from "@exzo-wallet/background/controllers/SwapController"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { classnames, Classes } from "../../styles"
 import { formatCurrency, toCurrencyAmount } from "../../util/formatCurrency"
 import { formatUnits, parseUnits } from "@ethersproject/units"
@@ -1199,7 +1199,7 @@ const SwapPage = () => {
                 </div>
                 {swapFee && (
                     <div className="flex items-center pt-2 text-xs text-gray-600 pt-0.5 mr-1 mt-2">
-                        <span>{`BlockWallet fee (${BASE_SWAP_FEE}%): ${swapFee}`}</span>
+                        <span>{`ExzoWallet fee (${BASE_SWAP_FEE}%): ${swapFee}`}</span>
                     </div>
                 )}
                 <div className="flex flex-col justify-end space-y-3">

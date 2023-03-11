@@ -1,7 +1,7 @@
 import NetworkLogo from "./NetworkLogo"
 import classnames from "classnames"
 import { FunctionComponent, useEffect } from "react"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 
 interface NetworkDisplayProps {
     network: IChain

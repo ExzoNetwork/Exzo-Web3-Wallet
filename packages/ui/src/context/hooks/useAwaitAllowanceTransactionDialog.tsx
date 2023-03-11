@@ -1,4 +1,4 @@
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { useCallback, useEffect } from "react"
 import { useWaitingDialog } from "../../components/dialog/WaitingDialog"
 import { TransactionStatus } from "../commTypes"

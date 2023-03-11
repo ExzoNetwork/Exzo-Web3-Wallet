@@ -1,39 +1,39 @@
 import { isCompatible } from './site';
-import CACHED_INCOMPATIBLE_SITES from '@block-wallet/remote-configs/provider/incompatible_sites.json';
+import CACHED_INCOMPATIBLE_SITES from '@exzo-wallet/remote-configs/provider/incompatible_sites.json';
 
 interface CompatibilityCache {
-    isBlockWallet: boolean;
+    isExzoWallet: boolean;
 }
 
-const BLOCKWALLET_COMPATIBLITY_KEY = '__BlockWallet_compatibility__';
+const EXZOWALLET_COMPATIBLITY_KEY = '__ExzoWallet_compatibility__';
 
 function getCompatibility(): CompatibilityCache | null {
-    const cache = window.localStorage.getItem(BLOCKWALLET_COMPATIBLITY_KEY);
+    const cache = window.localStorage.getItem(EXZOWALLET_COMPATIBLITY_KEY);
     if (cache) {
         return JSON.parse(cache);
     }
     return null;
 }
 
-function setCompatibility(isBlockWallet: boolean) {
+function setCompatibility(isExzoWallet: boolean) {
     return window.localStorage.setItem(
-        BLOCKWALLET_COMPATIBLITY_KEY,
-        JSON.stringify({ isBlockWallet })
+        EXZOWALLET_COMPATIBLITY_KEY,
+        JSON.stringify({ isExzoWallet })
     );
 }
 
-export function getBlockWalletCompatibility(): CompatibilityCache {
+export function getExzoWalletCompatibility(): CompatibilityCache {
     const compatibility = getCompatibility();
     if (compatibility) {
         return compatibility;
     }
-    return updateBlockWalletCompatibility(CACHED_INCOMPATIBLE_SITES);
+    return updateExzoWalletCompatibility(CACHED_INCOMPATIBLE_SITES);
 }
 
-export function updateBlockWalletCompatibility(
+export function updateExzoWalletCompatibility(
     incompatibleSites: string[] = CACHED_INCOMPATIBLE_SITES
 ): CompatibilityCache {
-    const isBlockWallet = isCompatible(incompatibleSites);
-    setCompatibility(isBlockWallet);
-    return { isBlockWallet };
+    const isExzoWallet = isCompatible(incompatibleSites);
+    setCompatibility(isExzoWallet);
+    return { isExzoWallet };
 }

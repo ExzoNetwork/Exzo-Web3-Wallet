@@ -4,7 +4,7 @@ import ReleaseNotesInfo from "../info/ReleaseNotesInfo"
 import { generateOnDemandReleaseNotes } from "../../context/commActions"
 import useAsyncInvoke from "../../util/hooks/useAsyncInvoke"
 
-import { ReleaseNote } from "@block-wallet/background/controllers/PreferencesController"
+import { ReleaseNote } from "@exzo-wallet/background/controllers/PreferencesController"
 
 const OnDemandReleaseNotesPage: FC = () => {
     const { version } = useParams<{ version: string }>()

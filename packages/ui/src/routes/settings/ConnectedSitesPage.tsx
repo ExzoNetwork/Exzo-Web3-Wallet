@@ -1,5 +1,5 @@
 import { FunctionComponent, useMemo, useState } from "react"
-import { SiteMetadata } from "@block-wallet/provider/types"
+import { SiteMetadata } from "@exzo-wallet/provider/types"
 import ConfirmDialog from "../../components/dialog/ConfirmDialog"
 import AppIcon from "../../components/icons/AppIcon"
 import PopupHeader from "../../components/popup/PopupHeader"

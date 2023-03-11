@@ -1,5 +1,5 @@
 import { parseEther } from "@ethersproject/units"
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 
 import {
     TransactionCategories,

@@ -1,6 +1,6 @@
 import { FunctionComponent, useState } from "react"
 import { BigNumber } from "@ethersproject/bignumber"
-import { TransactionArgument } from "@block-wallet/background/controllers/transactions/ContractSignatureParser"
+import { TransactionArgument } from "@exzo-wallet/background/controllers/transactions/ContractSignatureParser"
 import { TransactionDetailsTabProps } from "./TransactionDetails"
 import ExpandableText from "../ExpandableText"
 import classNames from "classnames"

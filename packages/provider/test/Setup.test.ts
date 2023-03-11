@@ -1,7 +1,7 @@
 import {
     checkScriptLoad,
     isCompatible,
-} from '@block-wallet/provider/utils/site';
+} from '@exzo-wallet/provider/utils/site';
 import { expect } from 'chai';
 
 const INCOMPATIBLE_SITES_MOCK = ['opensea.io'];

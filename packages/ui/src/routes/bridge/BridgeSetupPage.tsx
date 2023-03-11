@@ -14,7 +14,7 @@ import { ButtonWithLoading } from "../../components/button/ButtonWithLoading"
 import { GetAmountYupSchema } from "../../util/yup/GetAmountSchema"
 import { InferType } from "yup"
 import { NetworkSelector } from "../../components/network/NetworkSelector"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { classnames } from "../../styles"
 import { formatCurrency, toCurrencyAmount } from "../../util/formatCurrency"
 import { formatUnits, parseUnits } from "@ethersproject/units"
@@ -31,8 +31,8 @@ import {
 } from "../../context/commActions"
 import { capitalize } from "../../util/capitalize"
 import { BridgeConfirmPageLocalState } from "./BridgeConfirmPage"
-import { IBridgeRoute } from "@block-wallet/background/utils/bridgeApi"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IBridgeRoute } from "@exzo-wallet/background/utils/bridgeApi"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 import {
     checkForBridgeNativeAsset,
     getRouteForNetwork,
@@ -42,7 +42,7 @@ import {
     BridgeQuoteRequest,
     GetBridgeQuoteResponse,
     GetBridgeQuoteNotFoundResponse,
-} from "@block-wallet/background/controllers/BridgeController"
+} from "@exzo-wallet/background/controllers/BridgeController"
 import { ApproveOperation } from "../transaction/ApprovePage"
 import { BridgeAllowanceCheck, QuoteFeeStatus } from "../../context/commTypes"
 import { defaultAdvancedSettings } from "../../components/transactions/AdvancedSettings"

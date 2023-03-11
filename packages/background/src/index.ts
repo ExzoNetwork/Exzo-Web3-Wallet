@@ -102,10 +102,10 @@ const getDevTools = () => {
 const updateExtensionBadge = (label: string) => {
     if (isManifestV3()) {
         chrome.action.setBadgeText({ text: label });
-        chrome.action.setBadgeBackgroundColor({ color: '#00FFA3' }); // BlockWallet primary color
+        chrome.action.setBadgeBackgroundColor({ color: '#00FFA3' }); // EXZOWallet primary color
     } else {
         chrome.browserAction.setBadgeText({ text: label });
-        chrome.browserAction.setBadgeBackgroundColor({ color: '#00FFA3' }); // BlockWallet primary color
+        chrome.browserAction.setBadgeBackgroundColor({ color: '#00FFA3' }); // EXZOWallet primary color
     }
 };
 
@@ -113,7 +113,7 @@ const updateExtensionBadge = (label: string) => {
  * Initializes block wallet
  *
  */
-const initBlockWallet = async () => {
+const initExzoWallet = async () => {
     // Get persisted state
     const initState = await getPersistedState;
 
@@ -174,7 +174,7 @@ const initBlockWallet = async () => {
 };
 
 // Start block wallet
-initBlockWallet().catch((error) => {
+initExzoWallet().catch((error) => {
     log.error(error.message || error);
 });
 

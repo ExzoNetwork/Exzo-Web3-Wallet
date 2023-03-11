@@ -1,6 +1,6 @@
 import NetworkDisplay from "./NetworkDisplay"
 import Spinner from "../spinner/Spinner"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 import { FC } from "react"
 import classnames from "classnames"
 

@@ -1140,11 +1140,11 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@block-wallet/explorer-link@https://github.com/Block-Wallet/explorer-link":
+"@exzo-wallet/explorer-link@https://github.com/Block-Wallet/explorer-link":
   version "2.1.1"
   resolved "https://github.com/Block-Wallet/explorer-link#88f34d2e1ad1f7a5f5be05ed5c67f92f3a8cc75c"
 
-"@block-wallet/phishing-prevention@git+https://github.com/block-wallet/phishing-prevention#4708461673825816104b8a6cf5260ecb29b75c61":
+"@exzo-wallet/phishing-prevention@git+https://github.com/block-wallet/phishing-prevention#4708461673825816104b8a6cf5260ecb29b75c61":
   version "1.0.0"
   resolved "git+https://github.com/block-wallet/phishing-prevention#4708461673825816104b8a6cf5260ecb29b75c61"
   dependencies:

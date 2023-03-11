@@ -1,4 +1,4 @@
-import { ChainListItem } from "@block-wallet/background/utils/chainlist"
+import { ChainListItem } from "@exzo-wallet/background/utils/chainlist"
 import { getFirstUrl } from "../../util/networkUtils"
 import NetworkFormPage from "./NetworkFormPage"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"

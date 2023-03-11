@@ -1,8 +1,8 @@
 import {
     parseBlock,
     validateLogSubscriptionRequest,
-} from '@block-wallet/background/utils/subscriptions';
-import { Block } from '@block-wallet/background/utils/types/ethereum';
+} from '@exzo-wallet/background/utils/subscriptions';
+import { Block } from '@exzo-wallet/background/utils/types/ethereum';
 import { expect } from 'chai';
 
 describe('Subscriptions utils', async () => {

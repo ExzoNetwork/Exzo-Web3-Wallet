@@ -1,4 +1,4 @@
-import { isCurrencyCodeValid } from '@block-wallet/background/utils/currency';
+import { isCurrencyCodeValid } from '@exzo-wallet/background/utils/currency';
 import { expect } from 'chai';
 
 describe('Currency tests', () => {

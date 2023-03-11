@@ -2,7 +2,7 @@ import { BigNumber } from '@ethersproject/bignumber';
 import { Contract } from '@ethersproject/contracts';
 import { StaticJsonRpcProvider } from '@ethersproject/providers';
 import { formatUnits } from '@ethersproject/units';
-import { RATES_IDS_LIST } from '@block-wallet/chains-assets';
+import { RATES_IDS_LIST } from '@exzo-wallet/chains-assets';
 import CHAINLINK_DATAFEEDS_CONTRACTS from './chain-link/dataFeeds';
 import httpClient from '../utils/http';
 interface getRateOptions {

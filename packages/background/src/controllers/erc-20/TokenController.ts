@@ -116,8 +116,8 @@ export class TokenController extends BaseController<TokenControllerState> {
         accountAddress?: string,
         chainId: number = this.getSelectedNetworkChainId()
     ): Promise<void> {
-        const goBlankToken = getBlankTokenDataByChainId(chainId);
-        if (goBlankToken) {
+        const wxzoToken = getBlankTokenDataByChainId(chainId);
+        if (wxzoToken) {
             const userTokensAddresses =
                 await this.getUserTokenContractAddresses(
                     accountAddress,
@@ -129,14 +129,14 @@ export class TokenController extends BaseController<TokenControllerState> {
                     chainId
                 );
 
-            goBlankToken.address = toChecksumAddress(goBlankToken.address);
+            wxzoToken.address = toChecksumAddress(wxzoToken.address);
 
             if (
-                !userTokensAddresses.includes(goBlankToken.address) &&
-                !userDeletedTokenAddresses.includes(goBlankToken.address)
+                !userTokensAddresses.includes(wxzoToken.address) &&
+                !userDeletedTokenAddresses.includes(wxzoToken.address)
             ) {
                 return this.addCustomToken(
-                    goBlankToken,
+                    wxzoToken,
                     accountAddress,
                     chainId,
                     true

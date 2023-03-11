@@ -8,10 +8,10 @@ import {
     MetaType,
 } from "../../context/commTypes"
 import { parseEther } from "@ethersproject/units"
-import { CurrencyAmountPair } from "@block-wallet/background/controllers/privacy/types"
+import { CurrencyAmountPair } from "@exzo-wallet/background/controllers/privacy/types"
 import { DappReq } from "../../context/hooks/useDappRequest"
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
-import { NormalizedAddEthereumChainParameter } from "@block-wallet/background/utils/types/ethereum"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
+import { NormalizedAddEthereumChainParameter } from "@exzo-wallet/background/utils/types/ethereum"
 
 export const Popup = () => (
     <MockPopup

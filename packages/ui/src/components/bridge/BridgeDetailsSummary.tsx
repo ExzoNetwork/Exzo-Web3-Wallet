@@ -1,7 +1,7 @@
 import {
     BridgeTransactionParams,
     TransactionMeta,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 
 import { FC, useMemo } from "react"
 import {

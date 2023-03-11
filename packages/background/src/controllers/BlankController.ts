@@ -170,7 +170,7 @@ import { TokenOperationsController } from './erc-20/transactions/Transaction';
 import {
     ProviderEvents,
     ProviderSetupData,
-} from '@block-wallet/provider/types';
+} from '@exzo-wallet/provider/types';
 import {
     AddressBookController,
     AddressBookEntry,
@@ -205,7 +205,7 @@ import { toError } from '../utils/toError';
 
 import { getCustomRpcChainId } from '../utils/ethereumChain';
 import { getChainListItem, searchChainsByTerm } from '../utils/chainlist';
-import { ChainListItem } from '@block-wallet/chains-assets';
+import { ChainListItem } from '@exzo-wallet/chains-assets';
 import { Network } from '../utils/constants/networks';
 
 import { generateOnDemandReleaseNotes } from '../utils/userPreferences';
@@ -2972,7 +2972,7 @@ export default class BlankController extends EventEmitter {
     }
 
     /**
-     * Sets whether the user wants to have BlockWallet as the default browser
+     * Sets whether the user wants to have ExzoWallet as the default browser
      * @param defaultBrowser flags that indicates the default browser status
      */
     private toggleDefaultBrowserWallet({

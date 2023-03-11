@@ -7,7 +7,7 @@ import CloseIcon from "../icons/CloseIcon"
 import Divider from "../Divider"
 import { Classes, classnames } from "../../styles"
 import GenericTooltip from "../label/GenericTooltip"
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 
 export type TransactionDetailsProps = {
     open: boolean

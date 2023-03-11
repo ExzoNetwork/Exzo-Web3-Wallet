@@ -1,4 +1,4 @@
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { IMigration } from '../IMigration';
 import {
     IAccountTokens,
@@ -8,7 +8,7 @@ import {
 } from '../../../../controllers/erc-20/Token';
 import NetworkController from '../../../../controllers/NetworkController';
 import { TokenOperationsController } from '../../../../controllers/erc-20/transactions/Transaction';
-import { Accounts } from '@block-wallet/background/controllers/AccountTrackerController';
+import { Accounts } from '@exzo-wallet/background/controllers/AccountTrackerController';
 import { toChecksumAddress } from 'ethereumjs-util';
 
 const hasRecords = (records: Record<any, any>): boolean => {

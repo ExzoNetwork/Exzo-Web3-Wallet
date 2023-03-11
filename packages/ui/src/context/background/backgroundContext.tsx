@@ -1,5 +1,5 @@
 import { createContext } from "react"
-import type { ResponseGetState } from "@block-wallet/background/utils/types/communication"
+import type { ResponseGetState } from "@exzo-wallet/background/utils/types/communication"
 
 export type BackgroundStateType = {
     blankState?: ResponseGetState

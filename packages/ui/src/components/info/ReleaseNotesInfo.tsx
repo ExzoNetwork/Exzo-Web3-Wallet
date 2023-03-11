@@ -1,7 +1,7 @@
 import {
     Note,
     ReleaseNote,
-} from "@block-wallet/background/controllers/PreferencesController"
+} from "@exzo-wallet/background/controllers/PreferencesController"
 import { FC } from "react"
 import { useHistory } from "react-router-dom"
 import { LINKS } from "../../util/constants"

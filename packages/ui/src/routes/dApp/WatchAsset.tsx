@@ -1,4 +1,4 @@
-import type { DappRequestParams } from "@block-wallet/background/utils/types/ethereum"
+import type { DappRequestParams } from "@exzo-wallet/background/utils/types/ethereum"
 import AccountIcon from "../../components/icons/AccountIcon"
 import CopyTooltip from "../../components/label/СopyToClipboardTooltip"
 import Divider from "../../components/Divider"

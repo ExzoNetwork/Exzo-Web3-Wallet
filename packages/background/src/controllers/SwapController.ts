@@ -42,12 +42,12 @@ export interface SwapControllerMemState {
 }
 
 export interface SwapQuote extends OneInchSwapQuoteResponse {
-    // BlockWallet fee in spender token units
-    blockWalletFee: BigNumber;
+    // ExzoWallet fee in spender token units
+    exzoWalletFee: BigNumber;
 }
 
 export interface SwapParameters extends OneInchSwapRequestResponse {
-    blockWalletFee: BigNumber;
+    exzoWalletFee: BigNumber;
     methodSignature?: ContractMethodSignature;
 }
 
@@ -66,13 +66,13 @@ export interface ExchangeParams {
     toToken: BasicToken;
     fromTokenAmount: string;
     toTokenAmount: string;
-    blockWalletFee: BigNumber;
+    exzoWalletFee: BigNumber;
 }
 
 /**
  * Exchange Controller
  *
- * This class handles BlockWallet native exchange actions.
+ * This class handles ExzoWallet native exchange actions.
  *
  * Provides functionality to approve an asset transfer, fetch quotes for exchanges
  * depending on the exchange type, and execute the transactions.
@@ -233,7 +233,7 @@ export default class SwapController extends BaseController<
 
             return {
                 ...res,
-                blockWalletFee: BigNumber.from(res.fromTokenAmount)
+                exzoWalletFee: BigNumber.from(res.fromTokenAmount)
                     .mul(BASE_SWAP_FEE * 10)
                     .div(1000),
                 estimatedGas: Math.round(res.estimatedGas * GAS_LIMIT_INCREASE),
@@ -281,7 +281,7 @@ export default class SwapController extends BaseController<
             return {
                 ...res,
                 methodSignature,
-                blockWalletFee: BigNumber.from(res.fromTokenAmount)
+                exzoWalletFee: BigNumber.from(res.fromTokenAmount)
                     .mul(BASE_SWAP_FEE * 10)
                     .div(1000),
                 tx: {
@@ -315,7 +315,7 @@ export default class SwapController extends BaseController<
         toToken,
         fromTokenAmount,
         toTokenAmount,
-        blockWalletFee,
+        exzoWalletFee,
     }: SwapTransaction): Promise<string> => {
         try {
             const { result, transactionMeta } =
@@ -349,7 +349,7 @@ export default class SwapController extends BaseController<
                 toToken,
                 fromTokenAmount,
                 toTokenAmount,
-                blockWalletFee,
+                exzoWalletFee,
             };
 
             this._transactionController.updateTransaction(transactionMeta);

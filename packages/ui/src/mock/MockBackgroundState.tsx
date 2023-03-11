@@ -5,9 +5,9 @@ import BackgroundContext, {
     BackgroundStateType,
 } from "../context/background/backgroundContext"
 import BackgroundReducer from "../context/background/backgroundReducer"
-import { CurrencyAmountPair } from "@block-wallet/background/controllers/privacy/types"
-import { AddressBook } from "@block-wallet/background/controllers/AddressBookController"
-import { ActionsTimeInterval } from "@block-wallet/background/utils/constants/networks"
+import { CurrencyAmountPair } from "@exzo-wallet/background/controllers/privacy/types"
+import { AddressBook } from "@exzo-wallet/background/controllers/AddressBookController"
+import { ActionsTimeInterval } from "@exzo-wallet/background/utils/constants/networks"
 import { AccountStatus, AccountType } from "../context/commTypes"
 
 export const initBackgroundState: BackgroundStateType = {

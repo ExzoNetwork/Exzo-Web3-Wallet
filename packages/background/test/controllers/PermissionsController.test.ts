@@ -1,6 +1,6 @@
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import { PreferencesController } from '@block-wallet/background/controllers/PreferencesController';
-import { providerInstances } from '@block-wallet/background/infrastructure/connection';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import { PreferencesController } from '@exzo-wallet/background/controllers/PreferencesController';
+import { providerInstances } from '@exzo-wallet/background/infrastructure/connection';
 import { expect } from 'chai';
 import { mockPreferencesController } from '../mocks/mock-preferences';
 

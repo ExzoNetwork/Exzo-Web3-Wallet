@@ -6,28 +6,28 @@ import { expect } from 'chai';
 import sinon from 'sinon';
 import NetworkController from '../../src/controllers/NetworkController';
 import { mockPreferencesController } from '../mocks/mock-preferences';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import { PreferencesController } from '@block-wallet/background/controllers/PreferencesController';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import { PreferencesController } from '@exzo-wallet/background/controllers/PreferencesController';
 import { mockedPermissionsController } from '../mocks/mock-permissions';
-import { ActivityListController } from '@block-wallet/background/controllers/ActivityListController';
-import { PendingWithdrawalsStore } from '@block-wallet/background/controllers/privacy/types';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
+import { ActivityListController } from '@exzo-wallet/background/controllers/ActivityListController';
+import { PendingWithdrawalsStore } from '@exzo-wallet/background/controllers/privacy/types';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
 import {
     TokenController,
     TokenControllerProps,
-} from '@block-wallet/background/controllers/erc-20/TokenController';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+} from '@exzo-wallet/background/controllers/erc-20/TokenController';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import { TypedTransaction } from '@ethereumjs/tx';
 import { getNetworkControllerInstance } from '../mocks/mock-network-instance';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import TransactionController from '@block-wallet/background/controllers/transactions/TransactionController';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import { TransactionWatcherController } from '@block-wallet/background/controllers/TransactionWatcherController';
-import { PrivacyAsyncController } from '@block-wallet/background/controllers/privacy/PrivacyAsyncController';
-import BridgeController from '@block-wallet/background/controllers/BridgeController';
-import TokenAllowanceController from '@block-wallet/background/controllers/erc-20/transactions/TokenAllowanceController';
-import { AccountTrackerController } from '@block-wallet/background/controllers/AccountTrackerController';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import TransactionController from '@exzo-wallet/background/controllers/transactions/TransactionController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import { TransactionWatcherController } from '@exzo-wallet/background/controllers/TransactionWatcherController';
+import { PrivacyAsyncController } from '@exzo-wallet/background/controllers/privacy/PrivacyAsyncController';
+import BridgeController from '@exzo-wallet/background/controllers/BridgeController';
+import TokenAllowanceController from '@exzo-wallet/background/controllers/erc-20/transactions/TokenAllowanceController';
+import { AccountTrackerController } from '@exzo-wallet/background/controllers/AccountTrackerController';
 import { mockKeyringController } from 'test/mocks/mock-keyring-controller';
 
 describe('Address book controller implementation', function () {

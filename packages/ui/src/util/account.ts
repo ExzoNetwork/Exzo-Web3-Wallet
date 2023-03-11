@@ -1,7 +1,7 @@
 import {
     AccountInfo,
     Accounts,
-} from "@block-wallet/background/controllers/AccountTrackerController"
+} from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { AccountStatus, AccountType } from "../context/commTypes"
 
 const accountSort = (a: AccountInfo, b: AccountInfo) => {

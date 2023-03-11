@@ -19,10 +19,10 @@
         "baseUrl": ".",
         "typeRoots": ["./node_modules/@types", "./src/typings"],
         "paths": {
-            "@block-wallet/background": ["./src"],
-            "@block-wallet/background/*": ["./src/*"],
-            "@block-wallet/provider": ["../provider/src"],
-            "@block-wallet/provider/*": ["../provider/src/*"]
+            "@exzo-wallet/background": ["./src"],
+            "@exzo-wallet/background/*": ["./src/*"],
+            "@exzo-wallet/provider": ["../provider/src"],
+            "@exzo-wallet/provider/*": ["../provider/src/*"]
         },
         "experimentalDecorators": true
     },

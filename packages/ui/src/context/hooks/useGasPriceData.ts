@@ -1,4 +1,4 @@
-import { GasPriceData } from "@block-wallet/background/controllers/GasPricesController"
+import { GasPriceData } from "@exzo-wallet/background/controllers/GasPricesController"
 import { useBlankState } from "../background/backgroundHooks"
 import { useSelectedNetwork } from "./useSelectedNetwork"
 

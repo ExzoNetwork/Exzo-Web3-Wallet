@@ -6,9 +6,9 @@ import { TypedTransaction } from '@ethereumjs/tx';
 import {
     GasPriceData,
     GasPricesController,
-} from '@block-wallet/background/controllers/GasPricesController';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+} from '@exzo-wallet/background/controllers/GasPricesController';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import NetworkController from '../../../src/controllers/NetworkController';
 import { PreferencesController } from '../../../src/controllers/PreferencesController';
 import {
@@ -23,13 +23,13 @@ import {
     TransactionCategories,
     TransactionMeta,
     TransactionStatus,
-} from '@block-wallet/background/controllers/transactions/utils/types';
-import { ProviderError } from '@block-wallet/background/utils/types/ethereum';
+} from '@exzo-wallet/background/controllers/transactions/utils/types';
+import { ProviderError } from '@exzo-wallet/background/utils/types/ethereum';
 import { FeeData } from '@ethersproject/abstract-provider';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import { TokenController } from '@block-wallet/background/controllers/erc-20/TokenController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import { TokenController } from '@exzo-wallet/background/controllers/erc-20/TokenController';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
 
 // TODO: Test gas override
 

@@ -67,7 +67,7 @@ module.exports = (entry) => ({
     },
     resolve: {
         alias: {
-            ['@block-wallet/provider']: path.resolve(
+            ['@exzo-wallet/provider']: path.resolve(
                 __dirname,
                 '../../provider/src'
             ),

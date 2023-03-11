@@ -1,4 +1,4 @@
-import { TransactionParams } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionParams } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { TransactionType } from "../context/commTypes"
 
 /**

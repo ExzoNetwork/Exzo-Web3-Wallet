@@ -2,7 +2,7 @@ import { useState } from "react"
 import { FunctionComponent } from "react"
 
 import { formatUnits } from "@ethersproject/units"
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import {
     formatName,
     formatHash,

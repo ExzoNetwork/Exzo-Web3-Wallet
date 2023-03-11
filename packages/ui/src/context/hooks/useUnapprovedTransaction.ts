@@ -1,7 +1,7 @@
 import {
     TransactionMeta,
     uiTransactionParams,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { useBlankState } from "../background/backgroundHooks"
 import { useGasPriceData } from "./useGasPriceData"
 import { useSelectedNetwork } from "./useSelectedNetwork"

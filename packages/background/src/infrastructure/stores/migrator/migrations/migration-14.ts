@@ -1,5 +1,5 @@
-import { ReleaseNote } from '@block-wallet/background/controllers/PreferencesController';
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { ReleaseNote } from '@exzo-wallet/background/controllers/PreferencesController';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { IMigration } from '../IMigration';
 
 /**

@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import { INetworkTokens, IToken } from './Token';
-import { TOKENS_LIST } from '@block-wallet/chains-assets';
+import { TOKENS_LIST } from '@exzo-wallet/chains-assets';
 
-export const GOBLANK_TOKEN_DATA: {
+export const WRAPPEDEXZO_TOKEN_DATA: {
     addresses: { [chainId in number]: string };
     name: string;
     symbol: string;
@@ -11,11 +11,11 @@ export const GOBLANK_TOKEN_DATA: {
     logo: string;
 } = {
     addresses: {
-        1: '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+        1: '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
         137: '0xf4C83080E80AE530d6f8180572cBbf1Ac9D5d435',
     },
-    name: 'GoBlank',
-    symbol: 'BLANK',
+    name: 'Wrapped Exzo',
+    symbol: 'WXZO',
     type: 'ERC20',
     decimals: 18,
     logo: chrome.runtime.getURL('icons/icon-48.png'),
@@ -24,12 +24,12 @@ export const GOBLANK_TOKEN_DATA: {
 export const getBlankTokenDataByChainId = (
     chainId: number
 ): IToken | undefined => {
-    if (!(chainId in GOBLANK_TOKEN_DATA.addresses)) {
+    if (!(chainId in WRAPPEDEXZO_TOKEN_DATA.addresses)) {
         return undefined;
     }
-    const { name, symbol, type, decimals, logo } = GOBLANK_TOKEN_DATA;
+    const { name, symbol, type, decimals, logo } = WRAPPEDEXZO_TOKEN_DATA;
     return {
-        address: GOBLANK_TOKEN_DATA.addresses[chainId],
+        address: WRAPPEDEXZO_TOKEN_DATA.addresses[chainId],
         name,
         symbol,
         type,
@@ -223,7 +223,7 @@ for (const chainId in TOKENS_LIST) {
         NETWORK_TOKENS_LIST[parseInt(chainId)][address] = iToken;
     }
 
-    // Adding/updating BlockWallet
+    // Adding/updating ExzoWallet
     const blankToken = getBlankTokenDataByChainId(parseInt(chainId));
     if (blankToken) {
         NETWORK_TOKENS_LIST[parseInt(chainId)][blankToken.address] = blankToken;

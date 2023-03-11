@@ -33,8 +33,8 @@ import {
 import { normalizeNetworksOrder } from '../utils/networks';
 import log from 'loglevel';
 import {
-    isABlockWalletNode,
-    customHeadersForBlockWalletNode,
+    isAExzoWalletNode,
+    customHeadersForExzoWalletNode,
 } from '../utils/nodes';
 
 export enum NetworkEvents {
@@ -533,15 +533,15 @@ export default class NetworkController extends BaseController<NetworkControllerS
     };
 
     private _getProviderForNetwork(chainId: number, rpcUrl: string) {
-        const blockWalletNode = isABlockWalletNode(rpcUrl);
+        const exzoWalletNode = isAExzoWalletNode(rpcUrl);
         return this._overloadProviderMethods(
             { chainId },
             new StaticJsonRpcProvider(
                 {
                     url: rpcUrl,
-                    allowGzip: blockWalletNode,
-                    headers: blockWalletNode
-                        ? customHeadersForBlockWalletNode
+                    allowGzip: exzoWalletNode,
+                    headers: exzoWalletNode
+                        ? customHeadersForExzoWalletNode
                         : undefined,
                 },
                 chainId

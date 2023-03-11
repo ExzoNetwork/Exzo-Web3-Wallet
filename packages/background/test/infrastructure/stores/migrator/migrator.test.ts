@@ -4,7 +4,7 @@ import { BlankAppState } from '../../../../src/utils/constants/initialState';
 import { migrator } from '../../../../src/infrastructure/stores/migrator/migrator';
 import { DeepPartial } from '../../../../src/utils/types/helpers';
 import * as migrations from '../../../../src/infrastructure/stores/migrator/migrations';
-import { IMigration } from '@block-wallet/background/infrastructure/stores/migrator/IMigration';
+import { IMigration } from '@exzo-wallet/background/infrastructure/stores/migrator/IMigration';
 import { expect } from 'chai';
 import { lt, lte, valid } from 'semver';
 import { version } from '../../../../package.json';

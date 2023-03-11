@@ -4,13 +4,13 @@ import type {
     NormalizedSwitchEthereumChainParameters,
     RawSignatureData,
     WatchAssetReq,
-} from "@block-wallet/background/utils/types/ethereum"
+} from "@exzo-wallet/background/utils/types/ethereum"
 import { FunctionComponent, useEffect } from "react"
 
 import useNextRequestRoute from "../../context/hooks/useNextRequestRoute"
 import { DappReq, useDappRequest } from "../../context/hooks/useDappRequest"
 import { Redirect } from "react-router"
-import { SiteMetadata } from "@block-wallet/provider/types"
+import { SiteMetadata } from "@exzo-wallet/provider/types"
 import useDebouncedState from "../../util/hooks/useDebouncedState"
 import { DAPP_FEEDBACK_WINDOW_TIMEOUT } from "../../util/constants"
 

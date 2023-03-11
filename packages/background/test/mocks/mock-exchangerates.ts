@@ -1,9 +1,9 @@
 import BlockFetchController, {
     BlockFetchControllerState,
     BLOCKS_TO_WAIT_BEFORE_CHECHKING_FOR_CHAIN_SUPPORT,
-} from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import { BlockUpdatesControllerState } from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
+} from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import { BlockUpdatesControllerState } from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
 import sinon from 'sinon';
 import {
     ExchangeRatesController,
@@ -15,7 +15,7 @@ import {
     mockPreferencesControllerARS,
 } from './mock-preferences';
 import MockProvider from './mock-provider';
-import { Token } from '@block-wallet/background/controllers/erc-20/Token';
+import { Token } from '@exzo-wallet/background/controllers/erc-20/Token';
 
 let exchangeRatesControllerETH: ExchangeRatesControllerState;
 let blockFetchController: BlockFetchController;
@@ -69,9 +69,9 @@ const mockExchangeRatesController = new ExchangeRatesController(
     blockUpdatesController,
     () => {
         const token = new Token(
-            '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
-            'GoBlank',
-            'BLANK',
+            '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
+            'Wrapped Exzo',
+            'WXZO',
             18
         );
         const token2 = new Token(
@@ -94,9 +94,9 @@ const mockExchangeRatesControllerARS = new ExchangeRatesController(
     blockUpdatesController,
     () => {
         const token = new Token(
-            '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
-            'GoBlank',
-            'BLANK',
+            '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
+            'Wrapped Exzo',
+            'WXZO',
             18
         );
         const token2 = new Token(

@@ -47,8 +47,8 @@ import formatTransactionValue from "../util/formatTransactionValue"
 import {
     FeeMarketEIP1559Values,
     GasPriceValue,
-} from "@block-wallet/background/controllers/transactions/TransactionController"
-import { TransactionFeeData } from "@block-wallet/background/controllers/erc-20/transactions/SignedTransaction"
+} from "@exzo-wallet/background/controllers/transactions/TransactionController"
+import { TransactionFeeData } from "@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction"
 import { useTransactionById } from "../context/hooks/useTransactionById"
 import { useTransactionWaitingDialog } from "../context/hooks/useTransactionWaitingDialog"
 import { useSelectedAccount } from "../context/hooks/useSelectedAccount"

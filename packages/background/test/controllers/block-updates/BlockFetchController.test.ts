@@ -4,7 +4,7 @@ import NetworkController from '../../../src/controllers/NetworkController';
 import BlockFetchController, {
     BlockFetchData,
     OffChainBlockFetchService,
-} from '@block-wallet/background/controllers/block-updates/BlockFetchController';
+} from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
 import sinon from 'sinon';
 import { getNetworkControllerInstance } from 'test/mocks/mock-network-instance';
 import { StaticJsonRpcProvider } from '@ethersproject/providers';

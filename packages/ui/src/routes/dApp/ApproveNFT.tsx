@@ -25,12 +25,12 @@ import { Redirect } from "react-router-dom"
 import {
     TransactionAdvancedData,
     TransactionMeta,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import {
     HardwareWalletOpTypes,
     TransactionCategories,
 } from "../../context/commTypes"
-import { TransactionFeeData } from "@block-wallet/background/controllers/erc-20/transactions/SignedTransaction"
+import { TransactionFeeData } from "@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction"
 import { capitalize } from "../../util/capitalize"
 import { formatName } from "../../util/formatAccount"
 import { formatRounded } from "../../util/formatRounded"

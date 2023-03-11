@@ -22,7 +22,7 @@ import { calcExchangeRate } from "../../util/exchangeUtils"
 import isNil from "../../util/isNil"
 import TransactionDetailsList from "./TransactionDetailsList"
 import { bnOr0 } from "../../util/numberUtils"
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { resolveTransactionTo } from "../../util/transactionUtils"
 import { useMultipleCopyToClipboard } from "../../util/hooks/useCopyToClipboard"
 import { isNativeTokenAddress } from "../../util/tokenUtils"
@@ -108,7 +108,7 @@ export const TransactionDetailsBasic: FunctionComponent<
             details.push({
                 label: "Swap fee",
                 value: formatUnits(
-                    bnOr0(transaction.exchangeParams.blockWalletFee),
+                    bnOr0(transaction.exchangeParams.exzoWalletFee),
                     transaction.exchangeParams.fromToken.decimals
                 ),
                 decimals: 10,

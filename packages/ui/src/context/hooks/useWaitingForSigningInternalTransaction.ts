@@ -1,4 +1,4 @@
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { useBlankState } from "../background/backgroundHooks"
 import {
     MetaType,

@@ -1,7 +1,7 @@
 import {
     TransactionMeta,
     uiTransactionParams,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { getNonSubmittedTransactions } from "../../util/getNonSubmittedTransactions"
 import { getUITransactionParams } from "../../util/transactionUtils"
 import { useBlankState } from "../background/backgroundHooks"

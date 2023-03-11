@@ -1,16 +1,16 @@
-import { BridgeTransaction } from '@block-wallet/background/controllers/BridgeController';
+import { BridgeTransaction } from '@exzo-wallet/background/controllers/BridgeController';
 import {
     BridgeTransactionParams,
     MetaType,
     TransactionCategories,
     TransactionMeta,
     TransactionStatus,
-} from '@block-wallet/background/controllers/transactions/utils/types';
+} from '@exzo-wallet/background/controllers/transactions/utils/types';
 import {
     BridgeImplementation,
     BridgeStatus,
     BridgeSubstatus,
-} from '@block-wallet/background/utils/bridgeApi';
+} from '@exzo-wallet/background/utils/bridgeApi';
 import { BigNumber } from '@ethersproject/bignumber';
 
 const BASE_SENDING_TRANSACTION = {
@@ -65,7 +65,7 @@ const BASE_SENDING_TRANSACTION = {
     submittedTime: 1656527771238,
     bridgeParams: {
         bridgeImplementation: BridgeImplementation.LIFI_BRIDGE,
-        blockWalletFee: BigNumber.from('0'),
+        exzoWalletFee: BigNumber.from('0'),
         fromToken: {
             address: '0x0000000000000000000000000000000000000000',
             decimals: 18,

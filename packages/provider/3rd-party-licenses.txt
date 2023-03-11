@@ -1,6 +1,6 @@
 The following NPM package may be included in this product:
 
- - @block-wallet/provider@0.1.0
+ - @exzo-wallet/provider@0.1.0
 
 This package contains the following license and notice below:
 

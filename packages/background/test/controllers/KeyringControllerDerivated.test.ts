@@ -2,7 +2,7 @@ import sinon from 'sinon';
 import { expect } from 'chai';
 import KeyringControllerDerivated, {
     KeyringTypes,
-} from '@block-wallet/background/controllers/KeyringControllerDerivated';
+} from '@exzo-wallet/background/controllers/KeyringControllerDerivated';
 import KeyringController from 'eth-keyring-controller';
 import mockEncryptor from 'test/mocks/mock-encryptor';
 

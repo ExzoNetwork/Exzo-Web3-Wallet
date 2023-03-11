@@ -2,7 +2,7 @@ import { BigNumber } from "@ethersproject/bignumber"
 import {
     AccountInfo,
     DeviceAccountInfo,
-} from "@block-wallet/background/controllers/AccountTrackerController"
+} from "@exzo-wallet/background/controllers/AccountTrackerController"
 import {
     MessageTypes,
     RequestTypes,
@@ -13,44 +13,44 @@ import {
     RequestAddNetwork,
     RequestEditNetwork,
     RequestEditNetworksOrder,
-} from "@block-wallet/background/utils/types/communication"
+} from "@exzo-wallet/background/utils/types/communication"
 import { Devices, ExchangeType, Messages } from "./commTypes"
 import {
     IToken,
     ITokens,
     SearchTokensResponse,
     Token,
-} from "@block-wallet/background/controllers/erc-20/Token"
-import { SiteMetadata } from "@block-wallet/provider/types"
+} from "@exzo-wallet/background/controllers/erc-20/Token"
+import { SiteMetadata } from "@exzo-wallet/provider/types"
 import {
     TransactionAdvancedData,
     TransactionMeta,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import {
     FeeMarketEIP1559Values,
     GasPriceValue,
     TransactionGasEstimation,
-} from "@block-wallet/background/controllers/transactions/TransactionController"
+} from "@exzo-wallet/background/controllers/transactions/TransactionController"
 import {
     PopupTabs,
     UserSettings,
-} from "@block-wallet/background/controllers/PreferencesController"
+} from "@exzo-wallet/background/controllers/PreferencesController"
 import {
     DappReq,
     DappRequestConfirmOptions,
-} from "@block-wallet/background/utils/types/ethereum"
-import { TransactionFeeData } from "@block-wallet/background/controllers/erc-20/transactions/SignedTransaction"
+} from "@exzo-wallet/background/utils/types/ethereum"
+import { TransactionFeeData } from "@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction"
 import { handlers, port } from "./setup"
-import { Currency } from "@block-wallet/background/utils/currency"
+import { Currency } from "@exzo-wallet/background/utils/currency"
 import {
     SwapParameters,
     SwapQuote,
     SwapTransaction,
-} from "@block-wallet/background/controllers/SwapController"
+} from "@exzo-wallet/background/controllers/SwapController"
 import {
     OneInchSwapQuoteParams,
     OneInchSwapRequestParams,
-} from "@block-wallet/background/utils/types/1inch"
+} from "@exzo-wallet/background/utils/types/1inch"
 import { generatePhishingPreventionBase64 } from "../util/phishingPrevention"
 import {
     BridgeQuoteRequest,
@@ -59,8 +59,8 @@ import {
     GetBridgeAvailableRoutesResponse,
     GetBridgeQuoteResponse,
     GetBridgeQuoteNotFoundResponse,
-} from "@block-wallet/background/controllers/BridgeController"
-import { GasPriceData } from "@block-wallet/background/controllers/GasPricesController"
+} from "@exzo-wallet/background/controllers/BridgeController"
+import { GasPriceData } from "@exzo-wallet/background/controllers/GasPricesController"
 
 let requestId = 0
 

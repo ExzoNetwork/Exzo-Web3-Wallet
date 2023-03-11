@@ -1,9 +1,9 @@
-import { PermissionRequest } from "@block-wallet/background/controllers/PermissionsController"
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { PermissionRequest } from "@exzo-wallet/background/controllers/PermissionsController"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import {
     DappRequest,
     DappRequestParams,
-} from "@block-wallet/background/utils/types/ethereum"
+} from "@exzo-wallet/background/utils/types/ethereum"
 import { TransactionCategories } from "../commTypes"
 import { DappReq } from "../hooks/useDappRequest"
 

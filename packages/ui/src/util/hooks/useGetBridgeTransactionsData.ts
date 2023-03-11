@@ -1,5 +1,5 @@
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
-import { createCustomExplorerLink } from "@block-wallet/explorer-link"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
+import { createCustomExplorerLink } from "@exzo-wallet/explorer-link"
 import { useEffect, useState } from "react"
 import { useBlankState } from "../../context/background/backgroundHooks"
 import { getSpecificChainDetails } from "../../context/commActions"

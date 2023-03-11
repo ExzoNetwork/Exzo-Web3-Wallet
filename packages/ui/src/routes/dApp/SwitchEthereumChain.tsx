@@ -1,7 +1,7 @@
 import { FunctionComponent, useEffect, useState } from "react"
 import { CgArrowsExchangeV } from "react-icons/cg"
 
-import { DappRequestParams } from "@block-wallet/background/utils/types/ethereum"
+import { DappRequestParams } from "@exzo-wallet/background/utils/types/ethereum"
 
 import { DappReq } from "../../context/hooks/useDappRequest"
 import { useBlankState } from "../../context/background/backgroundHooks"

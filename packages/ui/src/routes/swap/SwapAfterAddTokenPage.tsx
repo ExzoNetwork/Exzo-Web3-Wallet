@@ -1,4 +1,4 @@
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { useEffect } from "react"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"
 

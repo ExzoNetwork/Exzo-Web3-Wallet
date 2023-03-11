@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
         "paths": {
-            "@block-wallet/background": ["../background/src"],
-            "@block-wallet/background/*": ["../background/src/*"],
-            "@block-wallet/provider": ["../provider/src"],
-            "@block-wallet/provider/*": ["../provider/src/*"]
+            "@exzo-wallet/background": ["../background/src"],
+            "@exzo-wallet/background/*": ["../background/src/*"],
+            "@exzo-wallet/provider": ["../provider/src"],
+            "@exzo-wallet/provider/*": ["../provider/src/*"]
         },
         "target": "es5",
         "lib": ["dom", "dom.iterable", "esnext"],

@@ -1,4 +1,4 @@
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { ACTIONS_TIME_INTERVALS_DEFAULT_VALUES } from '../../../../utils/constants/networks';
 import { IMigration } from '../IMigration';
 /**

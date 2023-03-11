@@ -18,7 +18,7 @@ import {
     TransactionCategories,
     TransactionStatus,
 } from "../../context/commTypes"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { classnames } from "../../styles"
 import { getDeviceFromAccountType } from "../../util/hardwareDevice"
 import {
@@ -53,11 +53,11 @@ import {
 } from "react"
 import { useTokensList } from "../../context/hooks/useTokensList"
 import { useTransactionWaitingDialog } from "../../context/hooks/useTransactionWaitingDialog"
-import { IBridgeRoute } from "@block-wallet/background/utils/bridgeApi"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IBridgeRoute } from "@exzo-wallet/background/utils/bridgeApi"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 import useCountdown from "../../util/hooks/useCountdown"
 import OutlinedButton from "../../components/ui/OutlinedButton"
-import { TransactionAdvancedData } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionAdvancedData } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import {
     AdvancedSettings,
     defaultAdvancedSettings,
@@ -69,7 +69,7 @@ import {
     BridgeTransaction,
     GetBridgeQuoteResponse,
     GetBridgeQuoteNotFoundResponse,
-} from "@block-wallet/background/controllers/BridgeController"
+} from "@exzo-wallet/background/controllers/BridgeController"
 import CollapsableWarning from "../../components/CollapsableWarning"
 import { AiOutlineWarning } from "react-icons/ai"
 import BridgeDetails from "../../components/bridge/BridgeDetails"
@@ -78,7 +78,7 @@ import BridgeErrorMessage, { BridgeErrorType } from "./BridgeErrorMessage"
 import BridgeNotFoundQuoteDetails from "../../components/transactions/BridgeNotFoundQuoteDetails"
 import { useSelectedAccountHasEnoughNativeTokensToSend } from "../../context/hooks/useSelectedAccountHasEnoughNativeTokensToSend"
 import { isNativeTokenAddress } from "../../util/tokenUtils"
-import { WithRequired } from "@block-wallet/background/utils/types/helpers"
+import { WithRequired } from "@exzo-wallet/background/utils/types/helpers"
 import useAwaitAllowanceTransactionDialog from "../../context/hooks/useAwaitAllowanceTransactionDialog"
 import { useTransactionById } from "../../context/hooks/useTransactionById"
 import WaitingAllowanceTransactionDialog from "../../components/dialog/WaitingAllowanceTransactionDialog"

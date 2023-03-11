@@ -1,10 +1,10 @@
-import { IToken } from "@block-wallet/background/controllers/erc-20/Token"
+import { IToken } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { formatUnits } from "@ethersproject/units"
 import classnames from "classnames"
 import { useState } from "react"
 import { formatRounded } from "../../util/formatRounded"
 import { ArrowUpDown } from "../icons/ArrowUpDown"
-import { IBridgeFeeCost } from "@block-wallet/background/utils/bridgeApi"
+import { IBridgeFeeCost } from "@exzo-wallet/background/utils/bridgeApi"
 import ExpandableItem from "./ExpandableItem"
 
 type Unpacked<T> = T extends (infer U)[]

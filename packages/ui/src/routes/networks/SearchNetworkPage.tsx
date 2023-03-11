@@ -1,4 +1,4 @@
-import { ChainListItem } from "@block-wallet/background/utils/chainlist"
+import { ChainListItem } from "@exzo-wallet/background/utils/chainlist"
 import { useRef, useState } from "react"
 import { ButtonWithLoading } from "../../components/button/ButtonWithLoading"
 import ChainDisplay from "../../components/chain/ChainDisplay"

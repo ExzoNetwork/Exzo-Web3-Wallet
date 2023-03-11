@@ -1,11 +1,11 @@
 import {
     Network,
     Networks,
-} from "@block-wallet/background/utils/constants/networks"
+} from "@exzo-wallet/background/utils/constants/networks"
 import {
     createCustomExplorerLink,
     createCustomAccountLink,
-} from "@block-wallet/explorer-link"
+} from "@exzo-wallet/explorer-link"
 import { capitalize } from "./capitalize"
 
 export const getChainIdFromNetwork = (networks: Networks, network?: String) => {

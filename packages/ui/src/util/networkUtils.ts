@@ -1,4 +1,4 @@
-import { Network } from "@block-wallet/background/utils/constants/networks"
+import { Network } from "@exzo-wallet/background/utils/constants/networks"
 const MAINNET_CHAIN_ID = 1
 
 const sortNetworksByOrder = (n1: Network, n2: Network) => {

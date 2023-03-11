@@ -1,8 +1,8 @@
-import { GasPriceLevels } from "@block-wallet/background/controllers/GasPricesController"
+import { GasPriceLevels } from "@exzo-wallet/background/controllers/GasPricesController"
 import {
     TransactionMeta,
     uiTransactionParams,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { TransactionCategories, TransactionStatus } from "../context/commTypes"
 import { BigNumber } from "@ethersproject/bignumber"
 import { DappRequestSigningStatus } from "../context/hooks/useDappRequest"

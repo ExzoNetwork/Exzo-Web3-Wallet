@@ -32,25 +32,25 @@ import {
     SiteMetadata,
     RequestArguments,
     ProviderSetupData,
-} from '@block-wallet/provider/types';
+} from '@exzo-wallet/provider/types';
 
 import {
     AddressBookEntry,
     NetworkAddressBook,
-} from '@block-wallet/background/controllers/AddressBookController';
+} from '@exzo-wallet/background/controllers/AddressBookController';
 import { DappReq, DappRequestConfirmOptions } from './ethereum';
-import { TransactionGasEstimation } from '@block-wallet/background/controllers/transactions/TransactionController';
+import { TransactionGasEstimation } from '@exzo-wallet/background/controllers/transactions/TransactionController';
 import {
     DefaultGasOptions,
     PopupTabs,
     ReleaseNote,
     UserSettings,
-} from '@block-wallet/background/controllers/PreferencesController';
-import { TransactionFeeData } from '@block-wallet/background/controllers/erc-20/transactions/SignedTransaction';
+} from '@exzo-wallet/background/controllers/PreferencesController';
+import { TransactionFeeData } from '@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction';
 import { Currency } from '../currency';
 import { Devices } from './hardware';
 import { OneInchSwapQuoteParams, OneInchSwapRequestParams } from './1inch';
-import { ChainListItem } from '@block-wallet/chains-assets';
+import { ChainListItem } from '@exzo-wallet/chains-assets';
 import { IChain } from './chain';
 import {
     BridgeQuoteRequest,
@@ -58,9 +58,9 @@ import {
     BridgeTransaction,
     GetBridgeAvailableRoutesResponse,
     GetBridgeQuoteResponse,
-} from '@block-wallet/background/controllers/BridgeController';
-import { GasPriceData } from '@block-wallet/background/controllers/GasPricesController';
-import { RemoteConfigsControllerState } from '@block-wallet/background/controllers/RemoteConfigsController';
+} from '@exzo-wallet/background/controllers/BridgeController';
+import { GasPriceData } from '@exzo-wallet/background/controllers/GasPricesController';
+import { RemoteConfigsControllerState } from '@exzo-wallet/background/controllers/RemoteConfigsController';
 
 enum ACCOUNT {
     CREATE = 'CREATE_ACCOUNT',

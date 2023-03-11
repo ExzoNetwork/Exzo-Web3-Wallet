@@ -1,4 +1,4 @@
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { useMemo, useState } from "react"
 import { filterAccounts } from "../../filterAccounts"
 

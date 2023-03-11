@@ -1,6 +1,6 @@
 import { useSelectedNetwork } from "./useSelectedNetwork"
 import { useBlankState } from "../background/backgroundHooks"
-import { NetworkAddressBook } from "@block-wallet/background/controllers/AddressBookController"
+import { NetworkAddressBook } from "@exzo-wallet/background/controllers/AddressBookController"
 
 export const useAddressBook = (): NetworkAddressBook => {
     const { name } = useSelectedNetwork()

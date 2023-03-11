@@ -1,4 +1,4 @@
-import { IToken } from '@block-wallet/background/controllers/erc-20/Token';
+import { IToken } from '@exzo-wallet/background/controllers/erc-20/Token';
 import { BigNumber } from '@ethersproject/bignumber';
 import { BridgeStatus, BridgeSubstatus, IBridgeFeeCost } from '../bridgeApi';
 
@@ -177,7 +177,7 @@ export const lifiBridgeSubstatusToBridgeSubstatus = (
 
 const getFeeName = (fee: LifiFeeCost): string => {
     if (fee.name.match(/integrator fee/i)) {
-        return 'BlockWallet + LI.FI fee';
+        return 'ExzoWallet + LI.FI fee';
     }
     return fee.name;
 };

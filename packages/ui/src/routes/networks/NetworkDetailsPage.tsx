@@ -1,4 +1,4 @@
-import { Network } from "@block-wallet/background/utils/constants/networks"
+import { Network } from "@exzo-wallet/background/utils/constants/networks"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"
 import { canDeleteNetwork, getFirstUrl } from "../../util/networkUtils"
 import NetworkFormPage from "./NetworkFormPage"

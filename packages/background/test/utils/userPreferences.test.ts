@@ -1,4 +1,4 @@
-import { ReleaseNote } from '@block-wallet/background/controllers/PreferencesController';
+import { ReleaseNote } from '@exzo-wallet/background/controllers/PreferencesController';
 import { expect } from 'chai';
 import sinon from 'sinon';
 import * as userPreferences from '../../src/utils/userPreferences';

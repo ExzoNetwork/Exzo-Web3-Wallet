@@ -1,6 +1,6 @@
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
-import { Flatten } from "@block-wallet/background/utils/types/helpers"
-import { BlankAppUIState } from "@block-wallet/background/utils/constants/initialState"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
+import { Flatten } from "@exzo-wallet/background/utils/types/helpers"
+import { BlankAppUIState } from "@exzo-wallet/background/utils/constants/initialState"
 
 export const getCurrentAccount = (state: Flatten<BlankAppUIState>) =>
     state.accounts[

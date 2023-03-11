@@ -1,7 +1,7 @@
 import { isNativeTokenAddress } from "../tokenUtils"
 import { RichedTransactionMeta } from "../transactionUtils"
 import useTransactions from "./useTransactions"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { useBlankState } from "../../context/background/backgroundHooks"
 
 const useTokenTransactions = (token: Token | undefined) => {

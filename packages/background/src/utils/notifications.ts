@@ -6,7 +6,7 @@ import {
 import {
     createCustomAccountLink,
     createCustomExplorerLink,
-} from '@block-wallet/explorer-link';
+} from '@exzo-wallet/explorer-link';
 import { getChainListItem } from './chainlist';
 
 export const showSetUpCompleteNotification = (): void => {

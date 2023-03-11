@@ -5,7 +5,7 @@ import {
 import { useMemo, useEffect, useCallback, useState } from "react"
 import useAsyncInvoke, { Status } from "../../util/hooks/useAsyncInvoke"
 import { BigNumber } from "@ethersproject/bignumber"
-import { GasPriceData } from "@block-wallet/background/controllers/GasPricesController"
+import { GasPriceData } from "@exzo-wallet/background/controllers/GasPricesController"
 import { hasEnoughFundsToPayTheGasInSendTransaction } from "../../util/bridgeUtils"
 import { useBlankState } from "../background/backgroundHooks"
 

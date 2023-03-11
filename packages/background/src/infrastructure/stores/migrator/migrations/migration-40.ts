@@ -1,5 +1,5 @@
 import { AvailableNetworks } from '../../../../controllers/privacy/types';
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { INITIAL_NETWORKS } from '../../../../utils/constants/networks';
 import { IMigration } from '../IMigration';
 /**

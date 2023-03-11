@@ -1,5 +1,5 @@
 import { memoize } from 'lodash';
-import { CHAIN_LIST, ChainListItem } from '@block-wallet/chains-assets';
+import { CHAIN_LIST, ChainListItem } from '@exzo-wallet/chains-assets';
 
 export { ChainListItem }; // to be used for the ui.
 

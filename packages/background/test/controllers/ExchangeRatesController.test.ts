@@ -3,7 +3,7 @@ import {
     mockExchangeRatesController,
     mockExchangeRatesControllerARS,
 } from '../mocks/mock-exchangerates';
-import { ExchangeRatesController } from '@block-wallet/background/controllers/ExchangeRatesController';
+import { ExchangeRatesController } from '@exzo-wallet/background/controllers/ExchangeRatesController';
 import sinon from 'sinon';
 
 describe('Exchange Rates Controller', function () {

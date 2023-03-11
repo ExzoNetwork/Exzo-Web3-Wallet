@@ -1,4 +1,4 @@
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { BigNumber } from '@ethersproject/bignumber';
 import { IMigration } from '../IMigration';
 

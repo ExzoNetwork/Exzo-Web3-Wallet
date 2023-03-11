@@ -1,4 +1,4 @@
-import { JSONRPCResponse } from '@block-wallet/provider/types';
+import { JSONRPCResponse } from '@exzo-wallet/provider/types';
 
 /**
  * It parses the response error from the JSON-RPC server.

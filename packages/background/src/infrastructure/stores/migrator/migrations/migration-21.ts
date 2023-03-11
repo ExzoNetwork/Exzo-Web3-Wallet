@@ -1,4 +1,4 @@
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { IMigration } from '../IMigration';
 /**
  * This migration adds a new flag to the Preferences settings indicating whether the user has dismissed the gas exceeds threshold warning

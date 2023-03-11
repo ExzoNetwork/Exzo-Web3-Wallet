@@ -1,4 +1,4 @@
-import { Network } from "@block-wallet/background/utils/constants/networks"
+import { Network } from "@exzo-wallet/background/utils/constants/networks"
 import { classnames } from "../../styles"
 import { getNetworkColor } from "../../util/getNetworkColor"
 import GenericTooltip from "../label/GenericTooltip"

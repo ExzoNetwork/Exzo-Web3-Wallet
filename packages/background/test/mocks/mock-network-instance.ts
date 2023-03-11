@@ -1,7 +1,7 @@
 import NetworkController, {
     NetworkControllerState,
-} from '@block-wallet/background/controllers/NetworkController';
-import { INITIAL_NETWORKS } from '@block-wallet/background/utils/constants/networks';
+} from '@exzo-wallet/background/controllers/NetworkController';
+import { INITIAL_NETWORKS } from '@exzo-wallet/background/utils/constants/networks';
 
 const initialNetworkControllerState: NetworkControllerState = {
     selectedNetwork: 'goerli',

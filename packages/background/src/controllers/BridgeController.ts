@@ -131,7 +131,7 @@ export type BridgeQuoteRequest = Omit<getBridgeQuoteRequest, 'fromChainId'>;
 /**
  * Bridge Controller
  *
- * This class handles BlockWallet Bridges.
+ * This class handles ExzoWallet Bridges.
  *
  * Provides functionality to fetch chains, tokens and routes to potentially execute bridges transactions,
  * fetch quotes for exchanges, and execute the transactions.

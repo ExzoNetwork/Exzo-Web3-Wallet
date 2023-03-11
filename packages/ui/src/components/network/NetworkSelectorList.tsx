@@ -1,4 +1,4 @@
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 import { Dispatch, FC, SetStateAction } from "react"
 import DropdownNetworkDisplay from "./DropdownNetworkDisplay"
 

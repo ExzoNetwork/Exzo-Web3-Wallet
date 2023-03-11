@@ -19,7 +19,7 @@ import {
 import {
     AccountInfo,
     DeviceAccountInfo,
-} from "@block-wallet/background/controllers/AccountTrackerController"
+} from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"
 import classnames from "classnames"
 import { Classes } from "../../styles"

@@ -1,4 +1,4 @@
-import { ResponseGetState } from "@block-wallet/background/utils/types/communication"
+import { ResponseGetState } from "@exzo-wallet/background/utils/types/communication"
 import { useBlankState } from "../../context/background/backgroundHooks"
 
 /**

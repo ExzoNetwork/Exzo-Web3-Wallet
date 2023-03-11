@@ -11,7 +11,7 @@ import {
     TokenOperationsController,
     TokenTransactionController,
     TokenTransactionProps,
-} from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
+} from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
 import { getNetworkControllerInstance } from 'test/mocks/mock-network-instance';
 
 describe('Transaction', function () {

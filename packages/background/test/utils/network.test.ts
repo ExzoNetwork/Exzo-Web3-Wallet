@@ -1,7 +1,7 @@
-import { addNetworkUsingValuesDefinedByTheUser } from '@block-wallet/background/utils/networks';
-import { INITIAL_NETWORKS } from '@block-wallet/background/utils/constants/networks';
-import initialState from '@block-wallet/background/utils/constants/initialState';
-import NetworkController from '@block-wallet/background/controllers/NetworkController';
+import { addNetworkUsingValuesDefinedByTheUser } from '@exzo-wallet/background/utils/networks';
+import { INITIAL_NETWORKS } from '@exzo-wallet/background/utils/constants/networks';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
+import NetworkController from '@exzo-wallet/background/controllers/NetworkController';
 import { expect } from 'chai';
 
 describe('Add network with previous values', () => {

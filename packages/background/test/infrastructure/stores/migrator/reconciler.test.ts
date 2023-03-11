@@ -2,11 +2,11 @@ import { BlankAppState } from '../../../../src/utils/constants/initialState';
 import { BigNumber } from '@ethersproject/bignumber';
 import reconcileState from '../../../../src/infrastructure/stores/migrator/reconcileState';
 import { expect } from 'chai';
-import { INITIAL_NETWORKS } from '@block-wallet/background/utils/constants/networks';
-import { AddressBook } from '@block-wallet/background/controllers/AddressBookController';
-import { TransactionControllerState } from '@block-wallet/background/controllers/transactions/TransactionController';
-import { TransactionWatcherControllerState } from '@block-wallet/background/controllers/TransactionWatcherController';
-import { SIGN_TRANSACTION_TIMEOUT } from '@block-wallet/background/utils/constants/time';
+import { INITIAL_NETWORKS } from '@exzo-wallet/background/utils/constants/networks';
+import { AddressBook } from '@exzo-wallet/background/controllers/AddressBookController';
+import { TransactionControllerState } from '@exzo-wallet/background/controllers/transactions/TransactionController';
+import { TransactionWatcherControllerState } from '@exzo-wallet/background/controllers/TransactionWatcherController';
+import { SIGN_TRANSACTION_TIMEOUT } from '@exzo-wallet/background/utils/constants/time';
 
 const persistedState = {
     TransactionWatcherControllerState: {},

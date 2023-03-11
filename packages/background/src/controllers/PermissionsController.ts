@@ -4,7 +4,7 @@ import {
     PreferencesController,
     PreferencesControllerState,
 } from './PreferencesController';
-import { SiteMetadata } from '@block-wallet/provider/types';
+import { SiteMetadata } from '@exzo-wallet/provider/types';
 import { v4 as uuid } from 'uuid';
 import { Handlers } from '../utils/types/communication';
 import { ProviderError } from '../utils/types/ethereum';

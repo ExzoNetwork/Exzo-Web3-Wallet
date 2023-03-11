@@ -1,6 +1,6 @@
 import { FunctionComponent, useState } from "react"
 import AccountDisplay from "../account/AccountDisplay"
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { useSelectedAccount } from "../../context/hooks/useSelectedAccount"
 import AccountSearchBar from "./AccountSearchBar"
 import {

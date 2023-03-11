@@ -3,7 +3,7 @@ import {
     CONTENT,
     Origin,
     WindowTransportRequestMessage,
-} from '@block-wallet/background/utils/types/communication';
+} from '@exzo-wallet/background/utils/types/communication';
 import { Mutex } from 'async-mutex';
 import log from 'loglevel';
 import { SignalMessage, Signals } from './types';
@@ -12,7 +12,7 @@ import { checkScriptLoad } from './utils/site';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-ignore
 import blankProvider from '../../../dist/blankProvider.js?raw';
-import { isManifestV3 } from '@block-wallet/background/utils/manifest';
+import { isManifestV3 } from '@exzo-wallet/background/utils/manifest';
 
 let providerOverridden = false;
 
@@ -34,7 +34,7 @@ function injectProvider() {
 
 window.addEventListener('ethereum#initialized', (e: Event) => {
     const customEvent = e as CustomEvent;
-    if (customEvent.detail !== 'isBlockWallet') {
+    if (customEvent.detail !== 'isExzoWallet') {
         providerOverridden = true;
     } else {
         providerOverridden = false;
@@ -92,7 +92,7 @@ chrome.runtime.sendMessage(
             }
             port.disconnect();
             window.removeEventListener('message', windowListener);
-            log.warn('BlockWallet: Provider not injected due to user setting.');
+            log.warn('ExzoWallet: Provider not injected due to user setting.');
         } else if (providerOverridden) {
             injectProvider();
         }

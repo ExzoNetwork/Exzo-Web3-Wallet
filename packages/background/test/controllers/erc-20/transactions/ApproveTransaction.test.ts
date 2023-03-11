@@ -15,20 +15,20 @@ import sinon from 'sinon';
 import {
     ApproveTransaction,
     ApproveTransactionPopulatedTransactionParams,
-} from '@block-wallet/background/controllers/erc-20/transactions/ApproveTransaction';
-import { PreferencesController } from '@block-wallet/background/controllers/PreferencesController';
-import { TransactionController } from '@block-wallet/background/controllers/transactions/TransactionController';
+} from '@exzo-wallet/background/controllers/erc-20/transactions/ApproveTransaction';
+import { PreferencesController } from '@exzo-wallet/background/controllers/PreferencesController';
+import { TransactionController } from '@exzo-wallet/background/controllers/transactions/TransactionController';
 import { BigNumber } from '@ethersproject/bignumber';
-import { TransactionCategories } from '@block-wallet/background/controllers/transactions/utils/types';
+import { TransactionCategories } from '@exzo-wallet/background/controllers/transactions/utils/types';
 import { mockedPermissionsController } from '../../../mocks/mock-permissions';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import { TypedTransaction } from '@ethereumjs/tx';
 import { getNetworkControllerInstance } from '../../../mocks/mock-network-instance';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
 
 describe('ApproveTransaction implementation', function () {
     const daiAddress = '0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60';

@@ -28,7 +28,7 @@ import {
     SwapQuote,
     SwapParameters,
     SwapTransaction,
-} from "@block-wallet/background/controllers/SwapController"
+} from "@exzo-wallet/background/controllers/SwapController"
 import {
     ExchangeType,
     HardwareWalletOpTypes,
@@ -43,8 +43,8 @@ import {
 import { BigNumber } from "@ethersproject/bignumber"
 import { ButtonWithLoading } from "../../components/button/ButtonWithLoading"
 import { GasPriceSelector } from "../../components/transactions/GasPriceSelector"
-import { OneInchSwapRequestParams } from "@block-wallet/background/utils/types/1inch"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { OneInchSwapRequestParams } from "@exzo-wallet/background/utils/types/1inch"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { classnames, Classes } from "../../styles"
 import { formatRounded } from "../../util/formatRounded"
 import { getDeviceFromAccountType } from "../../util/hardwareDevice"
@@ -68,8 +68,8 @@ import {
     AdvancedSettings,
     defaultAdvancedSettings,
 } from "../../components/transactions/AdvancedSettings"
-import { TransactionAdvancedData } from "@block-wallet/background/controllers/transactions/utils/types"
-import { WithRequired } from "@block-wallet/background/utils/types/helpers"
+import { TransactionAdvancedData } from "@exzo-wallet/background/controllers/transactions/utils/types"
+import { WithRequired } from "@exzo-wallet/background/utils/types/helpers"
 import { useBlankState } from "../../context/background/backgroundHooks"
 import { useTransactionById } from "../../context/hooks/useTransactionById"
 import useAwaitAllowanceTransactionDialog from "../../context/hooks/useAwaitAllowanceTransactionDialog"

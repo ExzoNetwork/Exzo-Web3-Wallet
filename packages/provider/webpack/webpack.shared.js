@@ -29,7 +29,7 @@ module.exports = (entry) => ({
     },
     resolve: {
         alias: {
-            ['@block-wallet/background']: path.resolve(
+            ['@exzo-wallet/background']: path.resolve(
                 __dirname,
                 '../../background/src'
             ),

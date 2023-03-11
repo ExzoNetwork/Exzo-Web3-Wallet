@@ -1,4 +1,4 @@
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { useBlankState } from "../background/backgroundHooks"
 
 export const useSelectedAccount = (): AccountInfo => {

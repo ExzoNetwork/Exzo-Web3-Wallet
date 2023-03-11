@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react"
-import { Currency } from "@block-wallet/background/utils/currency"
+import { Currency } from "@exzo-wallet/background/utils/currency"
 import { useHistory } from "react-router-dom"
 import { ButtonWithLoading } from "../../components/button/ButtonWithLoading"
 import SuccessDialog from "../../components/dialog/SuccessDialog"

@@ -1,5 +1,5 @@
-import { TransactionFeeData } from "@block-wallet/background/controllers/erc-20/transactions/SignedTransaction"
-import { Rates } from "@block-wallet/background/controllers/ExchangeRatesController"
+import { TransactionFeeData } from "@exzo-wallet/background/controllers/erc-20/transactions/SignedTransaction"
+import { Rates } from "@exzo-wallet/background/controllers/ExchangeRatesController"
 import { BigNumber } from "@ethersproject/bignumber"
 import { DEFAULT_TRANSACTION_GAS_PERCENTAGE_THRESHOLD } from "./constants"
 import { formatCurrency, toCurrencyAmount } from "./formatCurrency"

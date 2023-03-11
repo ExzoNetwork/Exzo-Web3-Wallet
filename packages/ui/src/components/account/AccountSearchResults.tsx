@@ -1,4 +1,4 @@
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { isValidAddress, toChecksumAddress } from "ethereumjs-util"
 import { useRef, useEffect, useReducer } from "react"
 import { useAddressBookAccounts } from "../../context/hooks/useAddressBookAccounts"

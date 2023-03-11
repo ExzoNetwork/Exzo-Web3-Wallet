@@ -1,8 +1,8 @@
-import { AppStateControllerState } from '@block-wallet/background/controllers/AppStateController';
-import { BlankProviderControllerState } from '@block-wallet/background/controllers/BlankProviderController';
-import { PermissionsControllerState } from '@block-wallet/background/controllers/PermissionsController';
-import { TransactionVolatileControllerState } from '@block-wallet/background/controllers/transactions/TransactionController';
-import { SiteMetadata } from '@block-wallet/provider/types';
+import { AppStateControllerState } from '@exzo-wallet/background/controllers/AppStateController';
+import { BlankProviderControllerState } from '@exzo-wallet/background/controllers/BlankProviderController';
+import { PermissionsControllerState } from '@exzo-wallet/background/controllers/PermissionsController';
+import { TransactionVolatileControllerState } from '@exzo-wallet/background/controllers/transactions/TransactionController';
+import { SiteMetadata } from '@exzo-wallet/provider/types';
 import { TransactionParams } from '../../controllers/transactions/utils/types';
 
 export type TransactionRequest = TransactionParams & { gas?: string | number };

@@ -1,5 +1,5 @@
 import { FunctionComponent, useState } from "react"
-import { NormalizedAddEthereumChainParameter } from "@block-wallet/background/utils/types/ethereum"
+import { NormalizedAddEthereumChainParameter } from "@exzo-wallet/background/utils/types/ethereum"
 
 import { DappReq } from "../../context/hooks/useDappRequest"
 import { confirmDappRequest } from "../../context/commActions"

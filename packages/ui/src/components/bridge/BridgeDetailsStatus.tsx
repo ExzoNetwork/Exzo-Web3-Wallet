@@ -1,4 +1,4 @@
-import { TransactionMeta } from "@block-wallet/background/controllers/transactions/utils/types"
+import { TransactionMeta } from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { FC, ReactNode } from "react"
 import { BridgeStatus, BridgeSubstatus } from "../../context/commTypes"
 import {

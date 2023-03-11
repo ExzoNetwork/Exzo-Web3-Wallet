@@ -1,4 +1,4 @@
-import { DefaultGasOptions } from "@block-wallet/background/controllers/PreferencesController"
+import { DefaultGasOptions } from "@exzo-wallet/background/controllers/PreferencesController"
 import classnames from "classnames"
 import { useCallback, useState } from "react"
 import { useHistory } from "react-router-dom"

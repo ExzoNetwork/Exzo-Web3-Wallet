@@ -1,21 +1,21 @@
 import AppStateController from '../../src/controllers/AppStateController';
 import { mockKeyringController } from '../mocks/mock-keyring-controller';
 import { expect } from 'chai';
-import TransactionController from '@block-wallet/background/controllers/transactions/TransactionController';
+import TransactionController from '@exzo-wallet/background/controllers/transactions/TransactionController';
 import { TypedTransaction } from '@ethereumjs/tx';
 import { getNetworkControllerInstance } from 'test/mocks/mock-network-instance';
 import { mockPreferencesController } from 'test/mocks/mock-preferences';
 import { mockedPermissionsController } from 'test/mocks/mock-permissions';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
 import {
     TokenController,
     TokenControllerProps,
-} from '@block-wallet/background/controllers/erc-20/TokenController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
-import { sleep } from '@block-wallet/background/utils/sleep';
+} from '@exzo-wallet/background/controllers/erc-20/TokenController';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
+import { sleep } from '@exzo-wallet/background/utils/sleep';
 
 describe('AppState Controller', function () {
     let appStateController: AppStateController;

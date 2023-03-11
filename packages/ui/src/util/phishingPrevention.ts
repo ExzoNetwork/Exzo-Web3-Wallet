@@ -1,5 +1,5 @@
 import { v4 as createUuid } from "uuid"
-import { generatePhishingPrevention } from "@block-wallet/phishing-prevention"
+import { generatePhishingPrevention } from "@exzo-wallet/phishing-prevention"
 
 /**
  * generatePhishingPreventionBase64

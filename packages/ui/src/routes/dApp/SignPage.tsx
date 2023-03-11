@@ -31,7 +31,7 @@ import {
     TypedMessage,
     V1TypedData,
     DappRequestParams,
-} from "@block-wallet/background/utils/types/ethereum"
+} from "@exzo-wallet/background/utils/types/ethereum"
 import AccountIcon from "../../components/icons/AccountIcon"
 import { getAccountColor } from "../../util/getAccountColor"
 import { formatNumberLength } from "../../util/formatNumberLength"

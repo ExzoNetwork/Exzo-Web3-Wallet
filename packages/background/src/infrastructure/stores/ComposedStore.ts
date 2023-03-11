@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-types */
-import { Flatten } from '@block-wallet/background/utils/types/helpers';
+import { Flatten } from '@exzo-wallet/background/utils/types/helpers';
 import ObservableStore, { IObservableStore } from './ObservableStore';
 
 type SubStore<T> = Record<keyof T, IObservableStore<T[keyof T]>>;

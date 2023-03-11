@@ -1,4 +1,4 @@
-import ObservableStore from '@block-wallet/background/infrastructure/stores/ObservableStore';
+import ObservableStore from '@exzo-wallet/background/infrastructure/stores/ObservableStore';
 import { expect } from 'chai';
 import sinon from 'sinon';
 

@@ -1,24 +1,24 @@
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
 import SwapController, {
     ExchangeType,
-} from '@block-wallet/background/controllers/SwapController';
+} from '@exzo-wallet/background/controllers/SwapController';
 import NetworkController from '../../src/controllers/NetworkController';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import TransactionController from '@block-wallet/background/controllers/transactions/TransactionController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import TransactionController from '@exzo-wallet/background/controllers/transactions/TransactionController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import sinon from 'sinon';
-import { ApproveTransaction } from '@block-wallet/background/controllers/erc-20/transactions/ApproveTransaction';
+import { ApproveTransaction } from '@exzo-wallet/background/controllers/erc-20/transactions/ApproveTransaction';
 import { BigNumber } from '@ethersproject/bignumber';
-import { ContractSignatureParser } from '@block-wallet/background/controllers/transactions/ContractSignatureParser';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
+import { ContractSignatureParser } from '@exzo-wallet/background/controllers/transactions/ContractSignatureParser';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
 import {
     MetaType,
     TransactionCategories,
     TransactionStatus,
-} from '@block-wallet/background/controllers/transactions/utils/types';
+} from '@exzo-wallet/background/controllers/transactions/utils/types';
 import { PreferencesController } from '../../src/controllers/PreferencesController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
 import { expect } from 'chai';
 import { expectThrowsAsync } from 'test/utils/expectThrowsAsync.test';
 import { getNetworkControllerInstance } from '../mocks/mock-network-instance';
@@ -32,9 +32,9 @@ import {
 import { BASE_SWAP_FEE } from '../../src/utils/types/1inch';
 import httpClient from './../../src/utils/http';
 import { TypedTransaction } from '@ethereumjs/tx';
-import TokenAllowanceController from '@block-wallet/background/controllers/erc-20/transactions/TokenAllowanceController';
+import TokenAllowanceController from '@exzo-wallet/background/controllers/erc-20/transactions/TokenAllowanceController';
 
-const BLANK_TOKEN_ADDRESS = '0x41a3dba3d677e573636ba691a70ff2d606c29666';
+const BLANK_TOKEN_ADDRESS = '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8';
 
 describe('Swap Controller', function () {
     const accounts = {
@@ -160,7 +160,7 @@ describe('Swap Controller', function () {
                         fromTokenAddress:
                             '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
                         toTokenAddress:
-                            '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                            '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                         amount: '10000000000000000',
                     }
                 );
@@ -205,11 +205,11 @@ describe('Swap Controller', function () {
                             tags: ['native'],
                         },
                         toToken: {
-                            symbol: 'BLANK',
-                            name: 'GoBlank Token',
+                            symbol: 'WXZO',
+                            name: 'Wrapped Exzo Token',
                             decimals: 18,
                             address:
-                                '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                             logoURI:
                                 'https://tokens.1inch.io/0xaec7e1f531bb09115103c53ba76829910ec48966.png',
                             tags: ['tokens'],
@@ -225,7 +225,7 @@ describe('Swap Controller', function () {
                                         fromTokenAddress:
                                             '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
                                         toTokenAddress:
-                                            '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                                            '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                     },
                                 ],
                             ],
@@ -238,7 +238,7 @@ describe('Swap Controller', function () {
                             gas: 200000,
                             gasPrice: '20000000000',
                         },
-                        blockWalletFee: BigNumber.from('50000000000000'),
+                        exzoWalletFee: BigNumber.from('50000000000000'),
                     }
                 );
             });
@@ -411,7 +411,7 @@ describe('Swap Controller', function () {
                     fromTokenAddress:
                         '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
                     toTokenAddress:
-                        '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                     amount: '10000000000000000',
                 });
             });
@@ -433,10 +433,10 @@ describe('Swap Controller', function () {
                         tags: ['native'],
                     },
                     toToken: {
-                        symbol: 'BLANK',
-                        name: 'GoBlank Token',
+                        symbol: 'WXZO',
+                        name: 'Wrapped Exzo Token',
                         decimals: 18,
-                        address: '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                        address: '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                         logoURI:
                             'https://tokens.1inch.io/0xaec7e1f531bb09115103c53ba76829910ec48966.png',
                         tags: ['tokens'],
@@ -452,7 +452,7 @@ describe('Swap Controller', function () {
                                     fromTokenAddress:
                                         '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
                                     toTokenAddress:
-                                        '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 },
                             ],
                         ],
@@ -476,12 +476,12 @@ describe('Swap Controller', function () {
                 '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
             );
             expect(res.toToken.address).to.be.equal(
-                '0x41a3dba3d677e573636ba691a70ff2d606c29666'
+                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8'
             );
             expect(res.fromTokenAmount).to.be.equal('10000000000000000');
             expect(res.toTokenAmount).to.be.equal('200000000000000000000');
-            expect(BigNumber.isBigNumber(res.blockWalletFee)).to.be.true;
-            expect(res.blockWalletFee.toString()).to.be.equal(
+            expect(BigNumber.isBigNumber(res.exzoWalletFee)).to.be.true;
+            expect(res.exzoWalletFee.toString()).to.be.equal(
                 BigNumber.from(res.fromTokenAmount)
                     .mul(BASE_SWAP_FEE * 10)
                     .div(1000)
@@ -541,10 +541,10 @@ describe('Swap Controller', function () {
                         tags: ['native'],
                     },
                     toToken: {
-                        symbol: 'BLANK',
-                        name: 'GoBlank Token',
+                        symbol: 'WXZO',
+                        name: 'Wrapped Exzo Token',
                         decimals: 18,
-                        address: '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                        address: '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                         logoURI:
                             'https://tokens.1inch.io/0xaec7e1f531bb09115103c53ba76829910ec48966.png',
                         tags: ['tokens'],
@@ -560,7 +560,7 @@ describe('Swap Controller', function () {
                                     fromTokenAddress:
                                         '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
                                     toTokenAddress:
-                                        '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 },
                             ],
                         ],
@@ -592,7 +592,7 @@ describe('Swap Controller', function () {
                                 type: 'tuple',
                                 value: [
                                     '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-                                    '0x41A3Dba3D677E573636BA691a70ff2D606c29666',
+                                    '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                     '0x220bdA5c8994804Ac96ebe4DF184d25e5c2196D4',
                                     '0x281ae730d284bDA68F4e9Ac747319c8eDC7dF3B1',
                                     {
@@ -636,12 +636,12 @@ describe('Swap Controller', function () {
                 '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
             );
             expect(res.toToken.address).to.be.equal(
-                '0x41a3dba3d677e573636ba691a70ff2d606c29666'
+                '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8'
             );
             expect(res.fromTokenAmount).to.be.equal('10000000000000000');
             expect(res.toTokenAmount).to.be.equal('200000000000000000000');
-            expect(BigNumber.isBigNumber(res.blockWalletFee)).to.be.true;
-            expect(res.blockWalletFee.toString()).to.be.equal(
+            expect(BigNumber.isBigNumber(res.exzoWalletFee)).to.be.true;
+            expect(res.exzoWalletFee.toString()).to.be.equal(
                 BigNumber.from(res.fromTokenAmount)
                     .mul(BASE_SWAP_FEE * 10)
                     .div(1000)
@@ -714,7 +714,7 @@ describe('Swap Controller', function () {
                             submittedTime: 1656527771238,
                             exchangeParams: {
                                 exchangeType: ExchangeType.SWAP_1INCH,
-                                blockWalletFee: BigNumber.from('0x012a05f200'),
+                                exzoWalletFee: BigNumber.from('0x012a05f200'),
                                 fromToken: {
                                     address:
                                         '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
@@ -806,10 +806,10 @@ describe('Swap Controller', function () {
                         tags: ['native'],
                     },
                     toToken: {
-                        symbol: 'BLANK',
-                        name: 'GoBlank Token',
+                        symbol: 'WXZO',
+                        name: 'Wrapped Exzo Token',
                         decimals: 18,
-                        address: '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                        address: '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                         logoURI:
                             'https://tokens.1inch.io/0xaec7e1f531bb09115103c53ba76829910ec48966.png',
                         tags: ['tokens'],
@@ -825,7 +825,7 @@ describe('Swap Controller', function () {
                                     fromTokenAddress:
                                         '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
                                     toTokenAddress:
-                                        '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 },
                             ],
                         ],
@@ -838,7 +838,7 @@ describe('Swap Controller', function () {
                         gas: 200000,
                         gasPrice: '20000000000',
                     },
-                    blockWalletFee: BigNumber.from('50000000000000'),
+                    exzoWalletFee: BigNumber.from('50000000000000'),
                 });
             });
 
@@ -908,7 +908,7 @@ describe('Swap Controller', function () {
                             submittedTime: 1656527771238,
                             exchangeParams: {
                                 exchangeType: ExchangeType.SWAP_1INCH,
-                                blockWalletFee: BigNumber.from('0x012a05f200'),
+                                exzoWalletFee: BigNumber.from('0x012a05f200'),
                                 fromToken: {
                                     address:
                                         '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
@@ -999,10 +999,10 @@ describe('Swap Controller', function () {
                         tags: ['native'],
                     },
                     toToken: {
-                        symbol: 'BLANK',
-                        name: 'GoBlank Token',
+                        symbol: 'WXZO',
+                        name: 'Wrapped Exzo Token',
                         decimals: 18,
-                        address: '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                        address: '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                         logoURI:
                             'https://tokens.1inch.io/0xaec7e1f531bb09115103c53ba76829910ec48966.png',
                         tags: ['tokens'],
@@ -1018,7 +1018,7 @@ describe('Swap Controller', function () {
                                     fromTokenAddress:
                                         '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
                                     toTokenAddress:
-                                        '0x41a3dba3d677e573636ba691a70ff2d606c29666',
+                                        '0x3c28d62f85a3e1404308cf049b286f691f6bd4a8',
                                 },
                             ],
                         ],
@@ -1031,7 +1031,7 @@ describe('Swap Controller', function () {
                         gas: 200000,
                         gasPrice: '20000000000',
                     },
-                    blockWalletFee: BigNumber.from('50000000000000'),
+                    exzoWalletFee: BigNumber.from('50000000000000'),
                 }
             );
 

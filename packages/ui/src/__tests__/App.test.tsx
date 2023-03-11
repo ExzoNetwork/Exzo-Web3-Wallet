@@ -20,8 +20,8 @@ test("Tab renders", () => {
     render(
         <MockTab location="/intro" assignBlankState={{ isOnboarded: false }} />
     )
-    const blockWallet = screen.queryAllByText(/BlockWallet/i).length !== 0
-    expect(blockWallet).toBeTruthy()
+    const exzoWallet = screen.queryAllByText(/ExzoWallet/i).length !== 0
+    expect(exzoWallet).toBeTruthy()
 })
 
 test("PopUp renders", () => {

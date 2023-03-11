@@ -1,10 +1,10 @@
 import {
     GetBridgeQuoteResponse,
     GetBridgeQuoteNotFoundResponse,
-} from "@block-wallet/background/controllers/BridgeController"
-import { GasPriceData } from "@block-wallet/background/controllers/GasPricesController"
-import { IBridgeRoute } from "@block-wallet/background/utils/bridgeApi"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+} from "@exzo-wallet/background/controllers/BridgeController"
+import { GasPriceData } from "@exzo-wallet/background/controllers/GasPricesController"
+import { IBridgeRoute } from "@exzo-wallet/background/utils/bridgeApi"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 import { BigNumber } from "@ethersproject/bignumber"
 import {
     BridgeImplementation,
@@ -18,11 +18,11 @@ import { RichedTransactionMeta } from "./transactionUtils"
 import { SEND_GAS_COST } from "../util/constants"
 import { getTransactionFees } from "../util/gasPrice"
 import { EnoughNativeTokensToSend } from "../context/hooks/useSelectedAccountHasEnoughNativeTokensToSend"
-import { Network } from "@block-wallet/background/utils/constants/networks"
+import { Network } from "@exzo-wallet/background/utils/constants/networks"
 import {
     BridgeTransactionParams,
     TransactionMeta,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { DetailedItem } from "../components/transactions/TransactionDetailsList"
 import { BridgeTransactionsData } from "./hooks/useGetBridgeTransactionsData"
 import isNil from "./isNil"

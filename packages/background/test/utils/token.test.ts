@@ -1,4 +1,4 @@
-import { isNativeTokenAddress } from '@block-wallet/background/utils/token';
+import { isNativeTokenAddress } from '@exzo-wallet/background/utils/token';
 import { expect } from 'chai';
 
 describe('isNativeToken', function () {

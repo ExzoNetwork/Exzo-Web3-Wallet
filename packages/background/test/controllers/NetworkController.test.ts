@@ -5,8 +5,8 @@ import sinon from 'sinon';
 import { BigNumber } from '@ethersproject/bignumber';
 import { Block } from '@ethersproject/abstract-provider';
 import { StaticJsonRpcProvider } from '@ethersproject/providers';
-import { AddNetworkType } from '@block-wallet/background/utils/constants/networks';
-import * as ethereumChain from '@block-wallet/background/utils/ethereumChain';
+import { AddNetworkType } from '@exzo-wallet/background/utils/constants/networks';
+import * as ethereumChain from '@exzo-wallet/background/utils/ethereumChain';
 
 describe('Network controller', function () {
     let networkController: NetworkController;

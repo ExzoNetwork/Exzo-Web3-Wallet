@@ -7,7 +7,7 @@ import { useBlankState } from "../../context/background/backgroundHooks"
 import { changeNetwork } from "../../context/commActions"
 import useIsHovering from "../../util/hooks/useIsHovering"
 
-import { Network } from "@block-wallet/background/utils/constants/networks"
+import { Network } from "@exzo-wallet/background/utils/constants/networks"
 import ConfirmDialog from "../dialog/ConfirmDialog"
 import Icon, { IconName } from "../ui/Icon"
 import WaitingDialog, { useWaitingDialog } from "../dialog/WaitingDialog"

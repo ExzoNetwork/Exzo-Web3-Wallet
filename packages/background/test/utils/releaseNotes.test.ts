@@ -1,6 +1,6 @@
 import { generateReleaseNotesNews } from '../../src/utils/releaseNotes';
 import { expect } from 'chai';
-import { ReleaseNote } from '@block-wallet/background/controllers/PreferencesController';
+import { ReleaseNote } from '@exzo-wallet/background/controllers/PreferencesController';
 
 const RELEASE_NOTES = [
     {

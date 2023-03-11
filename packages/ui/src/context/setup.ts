@@ -2,9 +2,9 @@ import {
     Handlers,
     MessageTypes,
     TransportResponseMessage,
-} from "@block-wallet/background/utils/types/communication"
+} from "@exzo-wallet/background/utils/types/communication"
 import { Origin, BackgroundActions } from "./commTypes"
-import { SiteMetadata } from "@block-wallet/provider/types"
+import { SiteMetadata } from "@exzo-wallet/provider/types"
 import { checkRedraw } from "./util/platform"
 import { isWindow } from "./util/isWindow"
 import log from "loglevel"

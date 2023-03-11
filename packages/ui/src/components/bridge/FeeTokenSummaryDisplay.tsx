@@ -1,4 +1,4 @@
-import { IBridgeFeeCost } from "@block-wallet/background/utils/bridgeApi"
+import { IBridgeFeeCost } from "@exzo-wallet/background/utils/bridgeApi"
 import { formatUnits } from "@ethersproject/units"
 import React from "react"
 import { formatRounded } from "../../util/formatRounded"

@@ -1,10 +1,10 @@
 import { FunctionComponent, useMemo, useState, useEffect } from "react"
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { useAddressBook } from "../../context/hooks/useAddressBook"
 import AccountDisplay from "../account/AccountDisplay"
 import { filterAccounts } from "../../util/filterAccounts"
 import AccountsList from "../account/AccountsList"
-import { NetworkAddressBook } from "@block-wallet/background/controllers/AddressBookController"
+import { NetworkAddressBook } from "@exzo-wallet/background/controllers/AddressBookController"
 
 const AddressBookSelect: FunctionComponent<{
     filter: string

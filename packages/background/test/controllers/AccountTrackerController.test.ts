@@ -20,22 +20,22 @@ import {
     TokenControllerProps,
 } from '../../src/controllers/erc-20/TokenController';
 import { PreferencesController } from '../../src/controllers/PreferencesController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import { getNetworkControllerInstance } from '../mocks/mock-network-instance';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import KeyringControllerDerivated from '@block-wallet/background/controllers/KeyringControllerDerivated';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import { TransactionWatcherController } from '@block-wallet/background/controllers/TransactionWatcherController';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import KeyringControllerDerivated from '@exzo-wallet/background/controllers/KeyringControllerDerivated';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import { TransactionWatcherController } from '@exzo-wallet/background/controllers/TransactionWatcherController';
 import {
     ITokens,
     Token,
-} from '@block-wallet/background/controllers/erc-20/Token';
-import TransactionController from '@block-wallet/background/controllers/transactions/TransactionController';
+} from '@exzo-wallet/background/controllers/erc-20/Token';
+import TransactionController from '@exzo-wallet/background/controllers/transactions/TransactionController';
 import { TypedTransaction } from '@ethereumjs/tx';
 import { mockedPermissionsController } from 'test/mocks/mock-permissions';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
 
 describe('AccountTracker controller implementation', function () {
     const accounts = {

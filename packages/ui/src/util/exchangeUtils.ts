@@ -4,7 +4,7 @@ import {
     TransactionCategories,
     TransactionStatus,
 } from "../context/commTypes"
-import { SwapParameters } from "@block-wallet/background/controllers/SwapController"
+import { SwapParameters } from "@exzo-wallet/background/controllers/SwapController"
 import { BigNumber } from "@ethersproject/bignumber"
 import { formatUnits } from "@ethersproject/units"
 import { RichedTransactionMeta } from "./transactionUtils"
@@ -55,7 +55,7 @@ export const populateExchangeTransaction = (
             toToken: swapParameters.toToken,
             fromTokenAmount: swapParameters.fromTokenAmount,
             toTokenAmount: swapParameters.toTokenAmount,
-            blockWalletFee: swapParameters.blockWalletFee,
+            exzoWalletFee: swapParameters.exzoWalletFee,
         },
     }
 }

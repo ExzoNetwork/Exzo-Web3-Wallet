@@ -1,12 +1,12 @@
-import AppStateController from '@block-wallet/background/controllers/AppStateController';
+import AppStateController from '@exzo-wallet/background/controllers/AppStateController';
 import BlankProviderController, {
     BlankProviderEvents,
-} from '@block-wallet/background/controllers/BlankProviderController';
-import KeyringControllerDerivated from '@block-wallet/background/controllers/KeyringControllerDerivated';
+} from '@exzo-wallet/background/controllers/BlankProviderController';
+import KeyringControllerDerivated from '@exzo-wallet/background/controllers/KeyringControllerDerivated';
 import NetworkController from '../../src/controllers/NetworkController';
-import PermissionsController from '@block-wallet/background/controllers/PermissionsController';
-import TransactionController from '@block-wallet/background/controllers/transactions/TransactionController';
-import initialState from '@block-wallet/background/utils/constants/initialState';
+import PermissionsController from '@exzo-wallet/background/controllers/PermissionsController';
+import TransactionController from '@exzo-wallet/background/controllers/transactions/TransactionController';
+import initialState from '@exzo-wallet/background/utils/constants/initialState';
 import sinon from 'sinon';
 import { AccountTrackerController } from '../../src/controllers/AccountTrackerController';
 import { BigNumber } from '@ethersproject/bignumber';
@@ -15,7 +15,7 @@ import { Wallet } from '@ethersproject/wallet';
 import { keccak256 } from '@ethersproject/keccak256';
 import { toUtf8Bytes } from '@ethersproject/strings';
 import { Contract } from '@ethersproject/contracts';
-import { GasPricesController } from '@block-wallet/background/controllers/GasPricesController';
+import { GasPricesController } from '@exzo-wallet/background/controllers/GasPricesController';
 import {
     JSONRPCMethod,
     SubscriptionType,
@@ -23,10 +23,10 @@ import {
     DappReq,
     DappRequest,
     DappRequestParams,
-} from '@block-wallet/background/utils/types/ethereum';
-import { PreferencesController } from '@block-wallet/background/controllers/PreferencesController';
+} from '@exzo-wallet/background/utils/types/ethereum';
+import { PreferencesController } from '@exzo-wallet/background/controllers/PreferencesController';
 import { TokenController } from '../../src/controllers/erc-20/TokenController';
-import { TokenOperationsController } from '@block-wallet/background/controllers/erc-20/transactions/Transaction';
+import { TokenOperationsController } from '@exzo-wallet/background/controllers/erc-20/transactions/Transaction';
 import { TypedTransaction } from '@ethereumjs/tx';
 import { expect } from 'chai';
 import { getNetworkControllerInstance } from '../mocks/mock-network-instance';
@@ -36,13 +36,13 @@ import { mockPreferencesController } from '../mocks/mock-preferences';
 import { mockedPermissionsController } from '../mocks/mock-permissions';
 import { blockResponseMock } from '../mocks/mock-block-response';
 import { logsResponseMock } from '../mocks/mock-logs-response';
-import { providerInstances } from '@block-wallet/background/infrastructure/connection';
-import BlockUpdatesController from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
-import BlockFetchController from '@block-wallet/background/controllers/block-updates/BlockFetchController';
-import { ExternalEventSubscription } from '@block-wallet/background/utils/types/communication';
-import * as random from '@block-wallet/background/utils/randomBytes';
-import { TransactionWatcherController } from '@block-wallet/background/controllers/TransactionWatcherController';
-import { PrivacyAsyncController } from '@block-wallet/background/controllers/privacy/PrivacyAsyncController';
+import { providerInstances } from '@exzo-wallet/background/infrastructure/connection';
+import BlockUpdatesController from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
+import BlockFetchController from '@exzo-wallet/background/controllers/block-updates/BlockFetchController';
+import { ExternalEventSubscription } from '@exzo-wallet/background/utils/types/communication';
+import * as random from '@exzo-wallet/background/utils/randomBytes';
+import { TransactionWatcherController } from '@exzo-wallet/background/controllers/TransactionWatcherController';
+import { PrivacyAsyncController } from '@exzo-wallet/background/controllers/privacy/PrivacyAsyncController';
 
 const UNI_ORIGIN = 'https://app.uniswap.org';
 const TX_HASH =

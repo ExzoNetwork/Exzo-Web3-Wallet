@@ -1,7 +1,7 @@
 import { BigNumber } from "@ethersproject/bignumber"
 import { Fragment, FunctionComponent, useState } from "react"
 import { useOnMountHistory } from "../context/hooks/useOnMount"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 import { TokenList, useTokensList } from "../context/hooks/useTokensList"
 import { formatUnits } from "@ethersproject/units"
 

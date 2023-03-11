@@ -1,5 +1,5 @@
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
-import { Networks } from '@block-wallet/background/utils/constants/networks';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
+import { Networks } from '@exzo-wallet/background/utils/constants/networks';
 import { IMigration } from '../IMigration';
 
 const explorerNames: { [x: number]: string } = {

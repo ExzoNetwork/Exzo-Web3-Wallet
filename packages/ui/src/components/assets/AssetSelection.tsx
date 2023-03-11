@@ -20,7 +20,7 @@ import { useCustomCompareEffect } from "use-custom-compare"
 import { useSwappedTokenList } from "../../context/hooks/useSwappedTokenList"
 import AssetDropdownDisplay from "./AssetDropdownDisplay"
 import AssetList from "./AssetList"
-import { Token } from "@block-wallet/background/controllers/erc-20/Token"
+import { Token } from "@exzo-wallet/background/controllers/erc-20/Token"
 
 export enum AssetListType {
     ALL = "ALL",

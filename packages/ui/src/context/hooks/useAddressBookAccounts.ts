@@ -1,5 +1,5 @@
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
-import { NetworkAddressBook } from "@block-wallet/background/controllers/AddressBookController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
+import { NetworkAddressBook } from "@exzo-wallet/background/controllers/AddressBookController"
 import { useAddressBook } from "./useAddressBook"
 
 

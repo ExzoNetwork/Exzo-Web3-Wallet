@@ -1,7 +1,7 @@
 import type { BlankAppState } from '../../utils/constants/initialState';
 import { BigNumber } from '@ethersproject/bignumber';
 import BaseStorageStore from './BaseStorageStore';
-import { TransactionTypeEnum } from '@block-wallet/background/controllers/TransactionWatcherController';
+import { TransactionTypeEnum } from '@exzo-wallet/background/controllers/TransactionWatcherController';
 
 export default class BlankStorageStore extends BaseStorageStore<BlankAppState> {
     constructor() {

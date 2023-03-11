@@ -1,6 +1,6 @@
-import { BlankAppState } from '@block-wallet/background/utils/constants/initialState';
+import { BlankAppState } from '@exzo-wallet/background/utils/constants/initialState';
 import { IMigration } from '../IMigration';
-import CACHED_INCOMPATIBLE_SITES from '@block-wallet/remote-configs/provider/incompatible_sites.json';
+import CACHED_INCOMPATIBLE_SITES from '@exzo-wallet/remote-configs/provider/incompatible_sites.json';
 
 const initialConifg = {
     provider: {

@@ -1,6 +1,6 @@
-import BlankProvider from '@block-wallet/provider/provider/BlankProvider';
-import { Handlers } from '@block-wallet/background/utils/types/communication';
-import { JSONRPCMethod } from '@block-wallet/background/utils/types/ethereum';
+import BlankProvider from '@exzo-wallet/provider/provider/BlankProvider';
+import { Handlers } from '@exzo-wallet/background/utils/types/communication';
+import { JSONRPCMethod } from '@exzo-wallet/background/utils/types/ethereum';
 import { expect } from 'chai';
 import LocalStorageMock from './LocalStorageMock';
 

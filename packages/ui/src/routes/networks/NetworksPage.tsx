@@ -14,9 +14,9 @@ import { ActionButton } from "../../components/button/ActionButton"
 import { useBlankState } from "../../context/background/backgroundHooks"
 import { editNetworksOrder } from "../../context/commActions"
 import { sortNetworksByOrder } from "../../util/networkUtils"
-import { Network } from "@block-wallet/background/utils/constants/networks"
+import { Network } from "@exzo-wallet/background/utils/constants/networks"
 import { useOnMountHistory } from "../../context/hooks/useOnMount"
-import { editNetworkOrder } from "@block-wallet/background/utils/types/communication"
+import { editNetworkOrder } from "@exzo-wallet/background/utils/types/communication"
 import { getNetworkColor } from "../../util/getNetworkColor"
 
 interface NetworkInfo extends Network {

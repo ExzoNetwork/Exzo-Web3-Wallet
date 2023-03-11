@@ -24,7 +24,7 @@ import {
     BridgeTransactionParams,
     TransactionMeta,
     TransferType,
-} from "@block-wallet/background/controllers/transactions/utils/types"
+} from "@exzo-wallet/background/controllers/transactions/utils/types"
 import { capitalize } from "../../util/capitalize"
 import { getDisplayTime } from "../../util/getDisplayTime"
 import formatTransactionValue from "../../util/formatTransactionValue"

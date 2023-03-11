@@ -34,7 +34,7 @@ import {
     ChainChangedInfo,
     EthSubscription,
     ProviderConnectInfo,
-} from '@block-wallet/provider/types';
+} from '@exzo-wallet/provider/types';
 import { isEmpty } from 'lodash';
 import AppStateController, {
     AppStateControllerState,

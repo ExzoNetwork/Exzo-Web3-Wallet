@@ -3,7 +3,7 @@ import {
     BridgeStatus,
     BridgeSubstatus,
     IBridgeFeeCost,
-} from '@block-wallet/background/utils/bridgeApi';
+} from '@exzo-wallet/background/utils/bridgeApi';
 import { TransactionReceipt } from '@ethersproject/abstract-provider';
 import { BigNumber } from '@ethersproject/bignumber';
 import { Transaction } from '@ethersproject/transactions';

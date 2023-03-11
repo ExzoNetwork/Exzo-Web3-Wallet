@@ -2,7 +2,7 @@ import NetworkLogo from "./NetworkLogo"
 import checkmarkMiniIcon from "../../assets/images/icons/checkmark_mini.svg"
 import classNames from "classnames"
 import { FunctionComponent } from "react"
-import { IChain } from "@block-wallet/background/utils/types/chain"
+import { IChain } from "@exzo-wallet/background/utils/types/chain"
 
 interface DropdownNetworkDisplayProps {
     network: IChain

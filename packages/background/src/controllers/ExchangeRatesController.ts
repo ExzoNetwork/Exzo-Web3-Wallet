@@ -13,7 +13,7 @@ import {
 import {
     RATES_IDS_LIST,
     ASSET_PLATFORMS_IDS_LIST,
-} from '@block-wallet/chains-assets';
+} from '@exzo-wallet/chains-assets';
 
 import { ActionIntervalController } from './block-updates/ActionIntervalController';
 import BlockUpdatesController, {

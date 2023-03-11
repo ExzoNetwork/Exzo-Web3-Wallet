@@ -21,35 +21,35 @@ import { PermissionsControllerState } from '../../controllers/PermissionsControl
 import {
     AddressBook,
     AddressBookControllerMemState,
-} from '@block-wallet/background/controllers/AddressBookController';
-import { BlankProviderControllerState } from '@block-wallet/background/controllers/BlankProviderController';
+} from '@exzo-wallet/background/controllers/AddressBookController';
+import { BlankProviderControllerState } from '@exzo-wallet/background/controllers/BlankProviderController';
 import {
     IAccountTokens,
     INetworkTokens,
-} from '@block-wallet/background/controllers/erc-20/Token';
+} from '@exzo-wallet/background/controllers/erc-20/Token';
 import { NetworkControllerState } from '../../controllers/NetworkController';
-import { BlockUpdatesControllerState } from '@block-wallet/background/controllers/block-updates/BlockUpdatesController';
+import { BlockUpdatesControllerState } from '@exzo-wallet/background/controllers/block-updates/BlockUpdatesController';
 import {
     TransactionControllerState,
     TransactionVolatileControllerState,
-} from '@block-wallet/background/controllers/transactions/TransactionController';
+} from '@exzo-wallet/background/controllers/transactions/TransactionController';
 import {
     BlockFetchControllerState,
     BLOCKS_TO_WAIT_BEFORE_CHECHKING_FOR_CHAIN_SUPPORT,
 } from '../../controllers/block-updates/BlockFetchController';
 import { SIGN_TRANSACTION_TIMEOUT } from './time';
-import { TransactionWatcherControllerState } from '@block-wallet/background/controllers/TransactionWatcherController';
+import { TransactionWatcherControllerState } from '@exzo-wallet/background/controllers/TransactionWatcherController';
 import {
     PrivacyControllerStoreState,
     PrivacyControllerUIStoreState,
-} from '@block-wallet/background/controllers/privacy/types';
+} from '@exzo-wallet/background/controllers/privacy/types';
 import {
     BridgeControllerMemState,
     BridgeControllerState,
-} from '@block-wallet/background/controllers/BridgeController';
-import { SwapControllerMemState } from '@block-wallet/background/controllers/SwapController';
-import { RemoteConfigsControllerState } from '@block-wallet/background/controllers/RemoteConfigsController';
-import CACHED_INCOMPATIBLE_SITES from '@block-wallet/remote-configs/provider/incompatible_sites.json';
+} from '@exzo-wallet/background/controllers/BridgeController';
+import { SwapControllerMemState } from '@exzo-wallet/background/controllers/SwapController';
+import { RemoteConfigsControllerState } from '@exzo-wallet/background/controllers/RemoteConfigsController';
+import CACHED_INCOMPATIBLE_SITES from '@exzo-wallet/remote-configs/provider/incompatible_sites.json';
 
 export type BlankAppState = {
     AccountTrackerController: AccountTrackerState;

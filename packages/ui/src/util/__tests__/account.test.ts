@@ -1,4 +1,4 @@
-import { Accounts } from "@block-wallet/background/controllers/AccountTrackerController"
+import { Accounts } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { AccountType } from "../../context/commTypes"
 import {
     accountNameExists,

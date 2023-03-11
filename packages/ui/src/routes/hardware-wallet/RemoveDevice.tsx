@@ -14,7 +14,7 @@ import { Classes } from "../../styles"
 
 import HardwareWalletSetupLayout from "./SetupLayout"
 import { useSortedAccounts } from "../../context/hooks/useSortedAccounts"
-import { AccountInfo } from "@block-wallet/background/controllers/AccountTrackerController"
+import { AccountInfo } from "@exzo-wallet/background/controllers/AccountTrackerController"
 import { removeHardwareWallet } from "../../context/commActions"
 
 const HardwareWalletRemoveDevicePage = () => {
