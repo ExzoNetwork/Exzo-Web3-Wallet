@@ -26,7 +26,7 @@ export const SIGN_TRANSACTION_TIMEOUT = 180000
 /**
  * Default swap fee for users without fee discount
  */
-export const BASE_SWAP_FEE = 0.5
+export const BASE_SWAP_FEE = 2.0
 
 /**
  * Default bridge fee for users without fee discount
@@ -39,23 +39,23 @@ export const BASE_BRIDGE_FEE = 0.005
 export const SWAP_QUOTE_REFRESH_TIMEOUT = 1000 * 15
 
 export const LINKS = {
-    WEBSITE: "https://blockwallet.io/",
-    TELEGRAM: "https://t.me/blockwallet",
-    GITHUB: "https://github.com/block-wallet/",
-    TWITTER: "https://twitter.com/GetBlockWallet",
-    WEBSITE_BUG_REPORT: "https://blockwallet.io/bug-report.html",
-    GITHUB_BUG_REPORT:
-        "https://github.com/block-wallet/extension/issues/new?assignees=&labels=&template=bug_report.md&title=",
+    WEBSITE: "https://exzo.network",
+    TELEGRAM: "https://t.me/Exzo_Network",
+    GITHUB: "https://github.com/exzonetwork/",
+    TWITTER: "https://twitter.com/Exzo_Network",
+    WEBSITE_BUG_REPORT: "https://exzo.network/contact",
+    GITHUB_BUG_REPORT: 
+        "https://github.com/ExzoNetwork/Exzo-Web3-Wallet/issues",
     ARTICLES: {
         HD_PATH:
-            "https://help.blockwallet.io/hc/en-us/articles/6670471581841-What-is-an-HD-Path-",
+            "https://exzonetwork.medium.com/what-is-an-hd-path-in-blockchain-wallets-844fb5d1bae8",
         LOCK_TIMEOUT:
-            "https://help.blockwallet.io/hc/en-us/articles/6815376575249",
+            "https://exzonetwork.medium.com/what-is-lock-timeout-d9aed0320214",
         CUSTOM_NETWORK_RISKS:
-            "https://help.blockwallet.io/hc/en-us/articles/7786071253649-How-to-Add-a-Custom-Network-RPC",
+            "https://exzonetwork.medium.com/the-risks-of-adding-a-custom-blockchain-network-to-the-exzo-wallet-web3-chrome-extension-a271d0c96014",
         MALICIOUS_DAPPS:
-            "https://help.blockwallet.io/hc/en-us/articles/10374731466769",
-        BRIDGES: "https://help.blockwallet.io/hc/en-us/articles/10669678195473",
-        CHANGELOG: "https://bit.ly/bw-release",
+            "https://exzonetwork.medium.com/what-is-an-hd-path-in-blockchain-wallets-844fb5d1bae8",
+        BRIDGES: "https://exzonetwork.medium.com/what-is-an-hd-path-in-blockchain-wallets-844fb5d1bae8",
+        CHANGELOG: "https://github.com/ExzoNetwork/Exzo-Web3-Wallet/pulls",
     },
 }

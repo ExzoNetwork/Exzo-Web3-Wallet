@@ -562,7 +562,7 @@ const TransactionItem: React.FC<{
                                 metaType === MetaType.REGULAR && (
                                     <div className="group relative self-start">
                                         <a
-                                            href="https://help.blockwallet.io/hc/en-us/articles/4410031249553"
+                                            href="https://exzonetwork.medium.com/what-is-a-dropped-transaction-in-crypto-and-defi-or-a-dropped-bitcoin-transaction-93ff08e40668"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
