@@ -7,7 +7,7 @@ import { BridgeStatus, BridgeSubstatus, IBridgeFeeCost } from '../bridgeApi';
  */
 export const BASE_BRIDGE_FEE = 0.005;
 export const BRIDGE_REFERRER_ADDRESS =
-    '0x3110a855333bfb922aeCB1B3542ba2fdE28d204F';
+    '0x84120df5525Abf895bfBF817f6fA93860cAB7e0e';
 
 export const LIFI_NATIVE_ADDRESS = '0x0000000000000000000000000000000000000000';
 
