@@ -150,14 +150,14 @@ const PasswordSetupPage = () => {
                             />
                             <label htmlFor="acceptTOU" className="text-xs text-white">
                                 I agree to the{" "}
-                                <a href="https://blockwallet.io/terms-of-use-of-block-wallet.html"
+                                <a href="https://www.exzo.network/disclaimer"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-body-balances-200">
                                     Terms of the Service
                                 </a>
                                 ,
-                                <a href="https://blockwallet.io/terms-of-use-of-block-wallet.html"
+                                <a href="https://www.exzo.network/disclaimer"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-body-balances-200">
@@ -165,7 +165,7 @@ const PasswordSetupPage = () => {
                                 </a><br/>
                                 and{" "}
                                 <a
-                                    href="https://blockwallet.io/terms-of-use-of-block-wallet.html"
+                                    href="https://www.exzo.network/disclaimer"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-body-balances-200"
