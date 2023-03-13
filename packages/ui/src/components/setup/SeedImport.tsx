@@ -310,7 +310,7 @@ const SeedImport: FunctionComponent<{
                         <label htmlFor="acceptTOU" className="text-xs text-white">
                             I have read and agree to the{" "}
                             <a
-                                href="https://blockwallet.io/terms-of-use-of-block-wallet.html"
+                                href="https://www.exzo.network/disclaimer"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-body-balances-200"
